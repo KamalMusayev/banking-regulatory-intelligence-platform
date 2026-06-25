@@ -1,0 +1,19 @@
+[project]
+name = "reguaz"
+version = "0.1.0"
+description = "RAG system for Azerbaijani banking and financial regulations"
+authors = [
+    {name = "Shamil Aliyev"}
+]
+readme = "README.md"
+requires-python = "^3.13"
+dependencies = [
+    "pdfplumber (>=0.11.10,<0.12.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
