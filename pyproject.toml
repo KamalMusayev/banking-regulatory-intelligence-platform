@@ -6,7 +6,7 @@ authors = [
     {name = "Shamil Aliyev"}
 ]
 readme = "README.md"
-requires-python = "^3.13"
+requires-python = ">=3.12,<4.0"
 dependencies = [
     "pdfplumber (>=0.11.10,<0.12.0)"
 ]
