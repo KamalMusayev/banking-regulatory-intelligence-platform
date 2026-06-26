@@ -59,7 +59,6 @@ Qərar №38/2
 | 28 | Azərbaycan Respublikası Mərkəzi Bankının qaynar xətti | 966 (İş günləri 09:00–18:00) |
 | 29 | Formanın əldə edilməsinin təsdiqi | Ad, soyad: ______ İmza: ______ Tarix: ______ |
 
-
 ---
 
 <!-- PAGE: 2 -->
