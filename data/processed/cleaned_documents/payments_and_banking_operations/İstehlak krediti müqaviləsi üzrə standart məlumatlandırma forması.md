@@ -23,196 +23,62 @@ Azərbaycan Respublikasının
 Mərkəzi Bankı
 Qərar №38/2
 26 iyul 2023 il
-İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması
-1. Borcverənin adı
-2. Borcverənin ünvanı
-3. Kreditin növü İstehlak krediti
+Yüklədiyiniz son dörd görsəldə (`image_e5fc8a.png`, `image_e5fca3.png`, `image_e5fca5.png` və `image_e5fca8.png`) əks olunan **“Kredit təşkilatlarında borcalanların kütləvi ofertalar üzrə məlumatlandırılması forması”** cəvəlinin tam, ardıcıl və dəqiq analizinə əsasən hazırlanmış mətni aşağıda **Markdown** formatında təqdim edirəm:
+
+```markdown
+# İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması
+
+| Sıra № | Məlumatın növü / Parametrlər | İzahı / Şərtləri |
+| :---: | :--- | :--- |
+| **1.** | Borcverənin adı | |
+| **2.** | Borcverənin ünvanı | |
+| **3.** | Kreditin növü | İstehlak krediti |
+| **4.** | Kreditin məbləği (kredit xəttinin limiti) və valyutası | \_\_\_\_\_\_\_ manat/dollar/digər xarici valyuta \_\_\_\_\_\_\_ |
+| **5.** | Kreditin qaytarılma müddəti | Siz krediti \_\_\_\_\_\_\_ il/ay/gündən gec olmayaraq qaytarmalısınız. |
+| **6.** | Kreditin ödəniş şərtləri | Kredit ödənişlərini aşağıdakı üsullarla həyata keçirə bilərsiniz:<br>• bank hesabından köçürməklə;<br>• ödəniş terminalları ilə;<br>• nağd qaydada banka ödənilməklə;<br>• sair.<br><br>Qeyd edilən üsullardan hər hansı birinin istifadəsinin mümkün olmaması Sizi digər mümkün üsullardan istifadə etməklə ödənişləri vaxtında həyata keçirmək öhdəliyindən azad etmir. |
+| **7.** | Kredit müəyyən malın alınması və ya xidmətin göstərilməsi ilə əlaqədar olaraq əlaqəli kredit müqaviləsi vasitəsilə verildikdə, həmin mal və ya xidmətin:<br>• Adı<br>• Nağd qiyməti (malın və ya xidmətin alınması zamanı birdəfəlik ödəniş edildikdə) | <br><br>\_\_\_\_\_\_\_<br><br>\_\_\_\_\_\_\_ |
+| **8.** | Kredit üzrə tətbiq edilən faizlərin illik dərəcəsi və (və ya) digər ödənişlərin məbləği və onların tətbiq edilmə şərtləri | • illik faiz dərəcəsi\_\_\_\_\_\_\_%<br>• bu Formanın 6-cı hissəsində göstərilən ödəniş üsullarının (borcverənə məxsus ödəniş şəbəkəsindən istifadə edildikdə) tətbiqi ilə bağlı komisyon haqlar \_\_\_\_\_\_\_<br>• digər ödənişlər \_\_\_\_\_\_\_ |
+| **9.** | Faktiki illik faiz dərəcəsi (FİFD)<br><br>FİFD kreditin əldə edilməsinə çəkilən xərci göstərir. Bu göstərici vasitəsilə Siz digər kredit təşkilatlarının təkliflərini müqayisə edərək qiymətləndirə bilərsiniz. FİFD Mərkəzi Bankın normativ xarakterli aktında müəyyən edilmiş düstur əsasında hesablanmışdır. | Faktiki illik faiz dərəcəsi\_\_\_\_\_\_\_% |
+| **10.** | Tətbiq edildikdə, kredit üzrə faizlərin tutulmadığı müddət barədə aydın və dəqiq məlumat | Məlumat misal üzərindən göstərilir. |
+| **11.** | İstehlakçı tərəfindən ödənilməli olan ödənişlərin məbləği, sayı və dövriliyi | Tərəfinizdən ödəniləcək ümumi məbləğ:<br>• Əsas borc \_\_\_\_\_\_\_<br>• Faiz borcu\_\_\_\_\_\_\_<br>• Kreditlə əlaqəli digər ödənişlər \_\_\_\_\_\_\_<br><br>Ödənişlər aşağıdakı cədvəl üzrə həyata keçirilir: |
+| **12.** | Yeterli miqdarda olmayan və ya artıq miqdarda edilən ödənişlərin öhdəliyin icrasından silinmə ardıcıllığı | Siyahı şəklində yetərli miqdarda olmayan ödənişlərin öhdəliyin icrasından silinmə ardıcıllığı:<br><br>Siyahı şəklində artıq miqdarda edilən ödənişlərin öhdəliyin icrasından silinmə ardıcıllığı: |
+| **13.** | Tətbiq edildikdə, ödəniş və nağdlaşdırma əməliyyatlarının qeydiyyatını aparan bir və ya bir neçə hesabın saxlanma xərcləri, o cümlədən ödəniş və nağdlaşdırma əməliyyatları üçün ödəniş vasitələrindən istifadə xərcləri, kredit müqaviləsindən irəli gələn digər xərclər və bu xərclərin dəyişdirilmə şərtləri | • hesabın saxlanma xərcləri\_\_\_\_\_\_\_<br>• konvertasiya haqqı\_\_\_\_\_\_\_<br>• nağdlaşdırma komissiyası\_\_\_\_\_\_\_<br>• ölkədaxili köçürmələr üzrə komissiyalar\_\_\_\_\_\_\_<br>• ölkəxarici köçürmələr üzrə komissiyalar\_\_\_\_\_\_\_<br>• kredit kartı üzrə xərclər\_\_\_\_\_\_\_<br>• kredit üzrə digər xərclərin adı və məbləği \_\_\_\_\_\_\_<br>• xərclərin dəyişdirilmə şərtləri (yalnız azaldılma istiqamətində) \_\_\_\_\_\_\_ |
+| **14.** | Tətbiq edildikdə, kredit müqaviləsinin bağlanılması ilə bağlı istehlakçı tərəfindən ödənilməli olan notarial xərclərin mövcudluğu | Var/yoxdur |
+| **15.** | Kreditin alınması üçün əlavə xidmət müqaviləsinin, o cümlədən sığorta müqaviləsinin bağlanılması məcburi olduqda belə müqavilənin növü və istehlakçının istehlak krediti müqaviləsi ilə bağlı belə müqaviləni bağlamaq vəzifəsi | Əgər varsa, müqavilənin növü (sığortanın növü) |
+| **16.** | İstehlakçının ödənişlərini vaxtında etməməsinin hüquqi nəticələri | Ödənişlər gecikdirildiyi halda bu Formada nəzərdə tutulan gecikdirmə faizləri və ya dəbbə pulu tətbiq edilə, təminata tutma yönəldilə, kreditin vaxtından əvvəl qaytarılması tələb edilə, habelə qanunda və müqavilədə müəyyən edilmiş digər tədbirlər görülə bilər. |
+| **17.** | Tətbiq edildikdə, gecikdirilmiş ödənişlərlə bağlı gecikdirilmə faizləri<br><br>• Gecikdirilmə faizləri illik faiz dərəcəsinə 5 faiz bəndi əlavə edilməklə hesablanan məbləğdən çox deyildir.<br>• Əlavə olaraq dəbbə pulu (cərimə, penya), komissiya və ya digər formada hər hansı ödəniş tələb edilməyəcək.<br>• Gecikdirilmə faizlərinin hesablanması 180 gündən çox davam etməyəcək. | Sizdən vaxtında ödənilməyən ödənişlər üçün \_\_\_\_% həddində gecikdirilmə faizi tutulacaq. |
+| **18.** | Tətbiq edildikdə, gecikdirilmiş ödənişlərlə bağlı ödənilməli dəbbə pulu (gecikdirilmə faizlərinin tətbiq edildiyi hallar istisna olmaqla) | Sizdən gecikdirilmiş ödənişlər üçün \_\_\_\_\_\_\_ miqdarda dəbbə pulu tələb ediləcək. |
+| **19.** | Tətbiq edildikdə, kreditin verilməsi üçün tələb olunan təminatlar və onlar barədə məlumatlar | • növü<br>• verilməsi/rəsmiləşdirilməsi müddəti<br>• sair |
+| **20.** | İstehlakçının istehlak krediti müqaviləsindən imtina hüququnun həyata keçirildiyi müddət və şərtlər | Sizə kredit verildiyi gündən 30 (otuz) gün ərzində heç bir səbəb göstərmədən istehlak krediti müqaviləsindən imtina edə bilərsiniz.<br>Bu halda, Siz müqavilə üzrə verilmiş pul vəsaitini və vəsaitin verildiyi gündən qaytarıldığı günədək hesablanan faizləri ödəməlisiniz.<br>Bu halda borcverən tərəfindən ödənilən dövlət rüsumu və xidmət haqlarından başqa Sizdən kompensasiya və hər hansı digər ödəniş tələb edilə bilməz.<br>Əgər istehlak krediti müqaviləsi əlaqəli kredit müqaviləsidirsə, Siz Azərbaycan Respublikası Mülki Məcəlləsinin 746-6-cı maddəsində nəzərdə tutulan hüquqlardan istifadə edə bilərsiniz. |
+| **21.** | İstehlakçının istehlak kreditini vaxtından əvvəl ödəmək hüququ | Siz istənilən vaxt xəbərdarlıq etmədən istehlak kreditini vaxtından əvvəl tam və ya qismən geri qaytara bilərsiniz. Bu halda, kreditin qalıq müddətinə görə hesablanmış faizlər və (və ya) digər haqlar vaxtından əvvəl ödənilmiş məbləğə uyğun olaraq azaldılır.<br>Kreditin qismən vaxtından əvvəl ödənilməsi halında, borcverənlə razılaşma əsasında və ödəniş cədvəlində müvafiq dəyişiklik edilməklə:<br>• dövri ödənişlərin məbləği azaldıla;<br>• dövri ödəniş məbləğləri saxlanılmaqla, kredit müddəti azaldıla bilər. |
+| **22.** | Tətbiq edildikdə, istehlak krediti müqaviləsinin vaxtından əvvəl icrası zamanı borcverənin kompensasiya hüququ, kompensasiyanın məbləği və müəyyən edilməsi qaydası | Bu halda borcverən Sizdən müqavilə ilə müəyyənləşdirilmiş kompensasiya məbləğini tələb edə bilər.<br>Bu zaman kompensasiyanın məbləği müqavilə müddətinin bitməsinə:<br>• 1 ildən çox müddət qaldıqda - vaxtından əvvəl ödənilmiş məbləğin 1 faizdən;<br>• 1 il və daha az müddət qaldıqda isə - vaxtından əvvəl ödənilmiş məbləğin 0,5 faizindən çox olmayacaqdır.<br>Əgər tərəfinizdən son 12 ay ərzində kredit üzrə vaxtından əvvəl ödənilmiş məbləğ ölkə üzrə müəyyən edilmiş minimum əməkhaqqı məbləğinin 40 mislindən (cari il üçün göstərici qeyd olunur – məs: 345 × 40 = 13800) çox olarsa, borcverən ona dəymiş zərəri məhkəmə qaydasında və ya zərər baş verdikdən sonra Sizinlə ayrıca razılıq əldə etməklə sübut etmək şərtilə daha yüksək (dəymiş zərərə mütənasib) kompensasiya tələb edə bilər.<br>Kompensasiya məbləği hər bir halda vaxtından əvvəl ödənilmə anı ilə müqavilənin müddətinin başa çatması anı arasındakı müddətdə ödənilməli olan illik faiz dərəcəsi üzrə hesablanmış faiz məbləğlərindən çox ola bilməz. |
+| **23.** | Tətbiq edildikdə, borcverənin borcun vaxtından əvvəl qaytarılmasını tələb edə bildiyi hallar | |
+| **24.** | Kredit bürolarından alınmış məlumatlar əsasında kredit verilməsindən imtina edildikdə, bu barədə istehlakçının ödənişsiz olaraq məlumat almaq hüququ | Siz müraciət etdiyiniz halda, müvafiq məlumat növbəti iş günündən gec olmayaraq Sizə yazılı şəkildə (kağız və ya digər davamlı daşıyıcıda) təqdim ediləcəkdir. |
+| **25.** | İstehlakçının müraciəti əsasında müqavilə layihəsinin surətini borcverəndən ödənişsiz almaq hüququ | Hazırkı məlumatların qüvvədə olduğu müddətdə Siz bu hüquqdan istifadə etmək istədikdə, borcverənə \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br>(hara və hansı qaydada müraciət edilməsi göstərilməklə) müraciət edə bilərsiniz. |
+| **26.** | Bu Formada verilən məlumatların qüvvədə olduğu müddət | Məlumatlar \_\_ \_\_\_\_\_ 20\_\_- \_\_ il tarixinədək qüvvədədir. |
+| **27.** | Bu Formada verilən məlumatların qanuna uyğun olmadığını müəyyən etdikdə istehlakçının öz hüquqlarının müdafiəsi üçün ata biləcəyi addımlar | Aşağıdakılara müraciət edə bilərsiniz:<br>• borcverənə (əlaqə vasitələri göstərilməklə);<br>• Azərbaycan Respublikasının Mərkəzi Bankına;<br>• mediatora (mediasiya təşkilatı) və ya Bank Ombudsmanına;<br>• məhkəməyə. |
+| **28.** | Azərbaycan Respublikası Mərkəzi Bankının qaynar xətti | 966<br>Qaynar xəttə daxil olan zənglər iş günlərində fasiləsiz olaraq saat 09:00-dan 18:00-dək qəbul edilir. |
+| **29.** | İstehlakçının bu Formanı əldə etməsinin təsdiqi | Ad, soyad:\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br>İmza:\_\_\_\_\_\_\_\_\_\_\_<br>Tarix:\_\_\_\_\_\_\_\_\_\_\_ |
+
+```
 
 ---
 
 <!-- PAGE: 2 -->
 
-Kreditin məbləği (kredit xəttinin limiti) və _________ manat/dollar/digər xarici valyuta ______
-4.
-valyutası
-Kreditin qaytarılma müddəti Siz krediti __________ il/ay/gündən gec olmayaraq
-5. qaytarmalısınız.
-Kreditin ödəniş şərtləri Kredit ödənişlərini aşağıdakı üsullarla həyata keçirə bilərsiniz:
-● bank hesabından köçürməklə;
-● ödəniş terminalları ilə;
-● nağd qaydada banka ödənilməklə;
-6.
-● sair.
-Qeyd edilən üsullardan hər hansı birinin istifadəsinin mümkün
-olmaması Sizi digər mümkün üsullardan istifadə etməklə
-ödənişləri vaxtında həyata keçirmək öhdəliyindən azad etmir.
-Kredit müəyyən malın alınması və ya
-xidmətin göstərilməsi ilə əlaqədar olaraq
-əlaqəli kredit müqaviləsi vasitəsilə
-verildikdə, həmin mal və ya xidmətin:
-7. Adı
-Nağd qiyməti (malın və ya xidmətin ____________
-alınması zamanı birdəfəlik ödəniş
-edildikdə) ____________
-Kredit üzrə tətbiq edilən faizlərin illik ● illik faiz dərəcəsi______ %
-dərəcəsi və (və ya) digər ödənişlərin ● bu Formanın 6-cı hissəsində göstərilən ödəniş üsullarının
-8. məbləği və onların tətbiq edilmə şərtləri (borcverənə məxsus ödəniş şəbəkəsindən istifadə edildikdə)
-tətbiqi ilə bağlı komisyon haqlar ______
-● digər ödənişlər ______
-Faktiki illik faiz dərəcəsi (FİFD) Faktiki illik faiz dərəcəsi_______ %
-FİFD kreditin əldə edilməsinə çəkilən
-xərci göstərir. Bu göstərici vasitəsilə Siz
-9. digər kredit təşkilatlarının təkliflərini
-müqayisə edərək qiymətləndirə bilərsiniz.
-FİFD Mərkəzi Bankın normativ xarakterli
-aktında müəyyən edilmiş düstur
-əsasında hesablanmışdır.
-Tətbiq edildikdə, kredit üzrə faizlərin Məlumat misal üzərindən göstərilir.
-10. tutulmadığı müddət barədə aydın və
-dəqiq məlumat
-İstehlakçı tərəfindən edilməli olan Tərəfinizdən ödəniləcək ümumi məbləğ:
-ödənişlərin məbləği, sayı və dövriliyi ● Əsas borc _______
-● Faiz borcu_______
-11. ● Kreditlə əlaqəli digər ödənişlər _______
-Ödənişlər aşağıdakı cədvəl üzrə həyata keçirilir:
-
 ---
 
 <!-- PAGE: 3 -->
 
-Yetərli miqdarda olmayan və ya artıq Siyahı şəklində yetərli miqdarda olmayan ödənişlərin öhdəliyin
-miqdarda edilən ödənişlərin öhdəliyin icrasından silinmə ardıcıllığı:
-12. icrasından silinmə ardıcıllığı
-Siyahı şəklində artıq miqdarda edilən ödənişlərin öhdəliyin
-icrasından silinmə ardıcıllığı:
-Tətbiq edildikdə, ödəniş və nağdlaşdırma ● hesabın saxlanma xərcləri__________
-əməliyyatlarının qeydiyyatını aparan bir ● konvertasiya haqqı__________
-və ya bir neçə hesabın saxlanma xərcləri, ● nağdlaşdırma komissiyası__________
-o cümlədən ödəniş və nağdlaşdırma ● ölkədaxili köçürmələr üzrə komissiyalar__________
-13. əməliyyatları üçün ödəniş vasitələrindən ● ölkəxarici köçürmələr üzrə komissiyalar__________
-istifadə xərcləri, kredit müqaviləsindən ● kredit kartı üzrə xərclər__________
-irəli gələn digər xərclər və bu xərclərin ● kredit üzrə digər xərclərin adı və məbləği __________
-dəyişdirilmə şərtləri ● xərclərin dəyişdirilmə şərtləri (yalnız azaldılma
-istiqamətində) ____________
-Tətbiq edildikdə, kredit müqaviləsinin
-bağlanılması ilə bağlı istehlakçı tərəfindən Var/yoxdur
-14.
-ödənilməli olan notarial xərclərin
-mövcudluğu
-Kreditin alınması üçün əlavə xidmət
-müqaviləsinin, o cümlədən sığorta Əgər varsa, müqavilənin növü (sığortanın növü)
-müqaviləsinin bağlanılması məcburi
-15.
-olduğu hallarda belə müqavilənin növü və
-istehlakçının istehlak krediti müqaviləsi ilə
-bağlı belə müqaviləni bağlamaq vəzifəsi
-İstehlakçının ödənişlərini vaxtında Ödənişlər gecikdirildiyi halda bu Formada nəzərdə tutulan
-etməməsinin hüquqi nəticələri gecikdirmə faizləri və ya dəbbə pulu tətbiq edilə, təminata
-16. tutma yönəldilə, kreditin vaxtından əvvəl qaytarılması tələb
-edilə, habelə qanunda və müqavilədə müəyyən edilmiş digər
-tədbirlər görülə bilər.
-Tətbiq edildikdə, gecikdirilmiş ödənişlərlə Sizdən vaxtında ödənilməyən ödənişlər üçün ____% həddində
-bağlı gecikdirilmə faizləri gecikdirilmə faizi tutulacaq.
-● Gecikdirilmə faizləri illik faiz dərəcəsinə
-5 faiz bəndi əlavə edilməklə hesablanan
-17. məbləğdən çox deyildir.
-● Əlavə olaraq dəbbə pulu (cərimə,
-penya), komissiya və ya digər formada
-hər hansı ödəniş tələb edilməyəcək.
-● Gecikdirilmə faizlərinin hesablanması
-180 gündən çox davam etməyəcək.
-Tətbiq edildikdə, gecikdirilmiş ödənişlərlə Sizdən gecikdirilmiş ödənişlər üçün ________ miqdarda dəbbə
-bağlı ödənilməli dəbbə pulu (gecikdirilmə pulu tələb ediləcək.
-18.
-faizlərinin tətbiq edildiyi hallar istisna
-olmaqla)
-Tətbiq edildikdə, kreditin verilməsi üçün ● növü
-19. tələb olunan təminatlar və onlar barədə ● verilməsi/rəsmiləşdirilməsi müddəti
-məlumatlar ● sair
 
 ---
 
 <!-- PAGE: 4 -->
 
-İstehlakçının istehlak krediti Sizə kredit verildiyi gündən 30 (otuz) gün ərzində heç bir
-müqaviləsindən imtina hüququnun həyata səbəb göstərmədən istehlak krediti müqaviləsindən imtina
-keçirildiyi müddət və şərtlər edə bilərsiniz.
-Bu halda, Siz müqavilə üzrə verilmiş pul vəsaitini və vəsaitin
-verildiyi gündən qaytarıldığı günədək hesablanan faizləri
-ödəməlisiniz.
-20. Bu halda borcverən tərəfindən ödənilən dövlət rüsumu və
-xidmət haqlarından başqa Sizdən kompensasiya və hər hansı
-digər ödənişlər tələb edilə bilməz.
-Əgər istehlak krediti müqaviləsi əlaqəli kredit müqaviləsidirsə,
-Siz Azərbaycan Respublikası Mülki Məcəlləsinin 746-6-cı
-maddəsində nəzərdə tutulan hüquqlardan istifadə edə
-bilərsiniz.
-İstehlakçının istehlak kreditini vaxtından Siz istənilən vaxt xəbərdarlıq etmədən istehlak kreditini
-əvvəl ödəmək hüququ vaxtından əvvəl tam və ya qismən geri qaytara bilərsiniz. Bu
-halda, kreditin qalıq müddətinə görə hesablanmış faizlər və
-(və ya) digər haqlar vaxtından əvvəl ödənilmiş məbləğə
-uyğun olaraq azaldılır.
-Kreditin qismən vaxtından əvvəl ödənilməsi halında,
-21.
-borcverənlə razılaşma əsasında və ödəniş cədvəlində
-müvafiq dəyişiklik edilməklə:
-dövri ödənişlərin məbləği azaldıla;
-dövri ödəniş məbləğləri saxlanılmaqla, kredit müddəti azaldıla
-bilər.
-Tətbiq edildikdə, istehlak krediti Bu halda borcverən Sizdən müqavilə ilə müəyyənləşdirilmiş
-müqaviləsinin vaxtından əvvəl icrası kompensasiya məbləğini tələb edə bilər.
-zamanı borcverənin kompensasiya Bu zaman kompensasiyanın məbləği müqavilə müddətinin
-hüququ, kompensasiyanın məbləği və bitməsinə:
-müəyyən edilməsi qaydası ● 1 ildən çox müddət qaldıqda - vaxtından əvvəl ödənilmiş
-məbləğin 1 faizdən;
-● 1 il və daha az müddət qaldıqda isə - vaxtından əvvəl
-ödənilmiş məbləğin 0,5 faizindən çox olmayacaqdır.
-Əgər tərəfinizdən son 12 ay ərzində kredit üzrə vaxtından
-əvvəl ödənilmiş məbləğ ölkə üzrə müəyyən edilmiş minimum
-22.
-əməkhaqqı məbləğinin 40 mislindən (cari il üçün göstərici
-qeyd olunur – məs: 345 x 40=13800) çox olarsa, borcverən
-ona dəymiş zərəri məhkəmə qaydasında və ya zərər baş
-verdikdən sonra Sizinlə ayrıca razılıq əldə etməklə sübut
-etmək şərtilə daha yüksək (dəymiş zərərə mütənasib)
-kompensasiya tələb edə bilər.
-Kompensasiya məbləği hər bir halda vaxtından əvvəl
-ödənilmə anı ilə müqavilənin müddətinin başa çatması anı
-arasındakı müddətdə ödənilməli olan illik faiz dərəcəsi üzrə
-hesablanmış faiz məbləğlərindən çox ola bilməz.
-23. Tətbiq edildikdə, borcverənin borcun
-vaxtından əvvəl qaytarılmasını tələb edə
-
 ---
 
 <!-- PAGE: 5 -->
 
-bildiyi hallar
-Kredit bürolarından alınmış məlumatlar Siz müraciət etdiyiniz halda, müvafiq məlumat növbəti iş
-əsasında kredit verilməsindən imtina günündən gec olmayaraq Sizə yazılı şəkildə (kağız və ya
-24.
-edildikdə, bu barədə istehlakçının digər davamlı daşıyıcıda) təqdim ediləcəkdir.
-ödənişsiz olaraq məlumat almaq hüququ
-İstehlakçının müraciəti əsasında müqavilə Hazırkı məlumatların qüvvədə olduğu müddətdə Siz bu
-layihəsinin surətini borcverəndən hüquqdan istifadə etmək istədikdə, borcverənə
-ödənişsiz almaq hüququ _________________________________________
-25.
-(hara və hansı qaydada müraciət edilməsi göstərilməklə)
-müraciət edə bilərsiniz.
-Bu Formada verilən məlumatların Məlumatlar __ ____ 20__- __ il tarixinədək qüvvədədir.
-26.
-qüvvədə olduğu müddət
-Bu Formada verilən məlumatların qanuna Aşağıdakılara müraciət edə bilərsiniz:
-uyğun olmadığını müəyyən etdikdə ● borcverənə (əlaqə vasitələri göstərilməklə);
-27. istehlakçının öz hüquqlarının müdafiəsi ● Azərbaycan Respublikasının Mərkəzi Bankına;
-üçün ata biləcəyi addımlar ● mediatora (mediasiya təşkilatı) və ya Bank Ombudsmanına;
-məhkəməyə.
-Azərbaycan Respublikası Mərkəzi 966
-28. Bankının qaynar xətti Qaynar xəttə daxil olan zənglər iş günlərində fasiləsiz olaraq
-saat 09:00-dan 18:00-dək qəbul edilir.
-İstehlakçının bu Formanı əldə etməsinin Ad, soyad:______________
-29. təsdiqi İmza:________
-Tarix:________
 Formanın doldurulmasına dair qeydlər:
 Qeyd 1. Bu Forma aydın şəkildə oxuna bilən ölçülərdə tərtib edilir.
 Qeyd 2. Bu Formanın müddəaları borcverən tərəfindən tətbiq edilmədikdə, Formanın sağ hissəsində

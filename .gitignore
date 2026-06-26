@@ -12,9 +12,6 @@ __pycache__/
 .vscode/
 .idea/
 
-# Data
-data/raw/
-data/processed/
 
 # Jupyter
 .ipynb_checkpoints/
