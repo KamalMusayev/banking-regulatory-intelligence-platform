@@ -1,0 +1,742 @@
+2026-06-25 13:38:48 [INFO] Input  : data/raw
+2026-06-25 13:38:48 [INFO] Output : data/processed/cleaned_documents
+2026-06-25 13:38:48 [INFO] PDFs   : 97 file(s) found
+2026-06-25 13:38:48 [INFO] ============================================================
+2026-06-25 13:38:48 [INFO] → aml_kyc/096312ee-c41c-4c1f-9edd-baf5f3187758.pdf
+2026-06-25 13:38:50 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/096312ee-c41c-4c1f-9edd-baf5f3187758.md  (41118 chars)
+2026-06-25 13:38:50 [INFO] → aml_kyc/AML Sanksiya Dəyişiklikləri.pdf
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/AML Sanksiya Dəyişiklikləri.md  (10568 chars)
+2026-06-25 13:38:50 [INFO] → aml_kyc/Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında.pdf
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında.md  (87542 chars)
+2026-06-25 13:38:53 [INFO] → aml_kyc/Müştəri Uyğunluğu və Risk Qiymətləndirməsi Qaydaları.pdf
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:53 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:54 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:54 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:54 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:54 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:54 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/Müştəri Uyğunluğu və Risk Qiymətləndirməsi Qaydaları.md  (43835 chars)
+2026-06-25 13:38:55 [INFO] → aml_kyc/Məcəllə.pdf
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:56 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:56 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:56 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:56 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:56 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:56 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:57 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:57 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/Məcəllə.md  (87517 chars)
+2026-06-25 13:38:58 [INFO] → aml_kyc/Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər.pdf
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:38:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:00 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər.md  (49628 chars)
+2026-06-25 13:39:00 [INFO] → aml_kyc/Valyuta tənzimi haqqında.pdf
+2026-06-25 13:39:05 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/Valyuta tənzimi haqqında.md  (133783 chars)
+2026-06-25 13:39:05 [INFO] → aml_kyc/ad29955c-5a37-413c-937e-cd1e5988ae62.pdf
+2026-06-25 13:39:06 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/ad29955c-5a37-413c-937e-cd1e5988ae62.md  (35411 chars)
+2026-06-25 13:39:06 [INFO] → aml_kyc/d290a5c47f251d932318feaec.pdf
+2026-06-25 13:39:07 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/d290a5c47f251d932318feaec.md  (22688 chars)
+2026-06-25 13:39:07 [INFO] → aml_kyc/“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:39:08 [INFO]   ✓ Saved → data/processed/cleaned_documents/aml_kyc/“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə.md  (18091 chars)
+2026-06-25 13:39:08 [INFO] → governance_and_compliance/04957d78-5ed1-477c-9d32-2ed4797154e4.pdf
+2026-06-25 13:39:08 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/04957d78-5ed1-477c-9d32-2ed4797154e4.md  (16055 chars)
+2026-06-25 13:39:08 [INFO] → governance_and_compliance/45937180-250a-4b4a-b8e5-153945adb06d.pdf
+2026-06-25 13:39:09 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/45937180-250a-4b4a-b8e5-153945adb06d.md  (26637 chars)
+2026-06-25 13:39:09 [INFO] → governance_and_compliance/50c0f6d30754ffa78df0070e8.pdf
+2026-06-25 13:39:09 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/50c0f6d30754ffa78df0070e8.md  (9943 chars)
+2026-06-25 13:39:09 [INFO] → governance_and_compliance/9018b71b0859bc7a490ea0f22.pdf
+2026-06-25 13:39:13 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/9018b71b0859bc7a490ea0f22.md  (87180 chars)
+2026-06-25 13:39:13 [INFO] → governance_and_compliance/Auditor xidməti haqqında.pdf
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:13 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:14 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/Auditor xidməti haqqında.md  (30708 chars)
+2026-06-25 13:39:14 [INFO] → governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı.pdf
+2026-06-25 13:39:16 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı.md  (61357 chars)
+2026-06-25 13:39:16 [INFO] → governance_and_compliance/Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə institutlarında istehlakçıların şikayətlərinə baxılmasına dair Metodoloji Rəhbərlik.pdf
+2026-06-25 13:39:17 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə institutlarında istehlakçıların şikayətlərinə baxılmasına dair Metodoloji Rəhbərlik.md  (25482 chars)
+2026-06-25 13:39:17 [INFO] → governance_and_compliance/Banklarda korporativ idarəetmə Standartları.pdf
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:17 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:18 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/Banklarda korporativ idarəetmə Standartları.md  (118542 chars)
+2026-06-25 13:39:21 [INFO] → governance_and_compliance/Daxili audit haqqında.pdf
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/Daxili audit haqqında.md  (15358 chars)
+2026-06-25 13:39:22 [INFO] → governance_and_compliance/İstehlakçıların hüquqlarının müdafiəsi haqqında.pdf
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:25 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/İstehlakçıların hüquqlarının müdafiəsi haqqında.md  (87880 chars)
+2026-06-25 13:39:25 [INFO] → governance_and_compliance/Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında.pdf
+2026-06-25 13:39:25 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında.md  (8036 chars)
+2026-06-25 13:39:25 [INFO] → governance_and_compliance/beaf2f3b-d7c9-4377-8d69-d29758699119.pdf
+2026-06-25 13:39:27 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/beaf2f3b-d7c9-4377-8d69-d29758699119.md  (33382 chars)
+2026-06-25 13:39:27 [INFO] → governance_and_compliance/d6a9834a-d9f7-49f3-abff-14cd901c615d.pdf
+2026-06-25 13:39:27 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/d6a9834a-d9f7-49f3-abff-14cd901c615d.md  (24181 chars)
+2026-06-25 13:39:27 [INFO] → governance_and_compliance/“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə.pdf
+2026-06-25 13:39:28 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə.md  (6758 chars)
+2026-06-25 13:39:28 [INFO] → governance_and_compliance/“Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:39:30 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/“Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə.md  (62975 chars)
+2026-06-25 13:39:30 [INFO] → governance_and_compliance/“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:39:31 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə.md  (12699 chars)
+2026-06-25 13:39:31 [INFO] → governance_and_compliance/“Kredit ittifaqına bank əməliyyatının həyata keçirilməsi üçün lisenziya verilməsi Qaydası”nın təsdiq edilməsi haqqında.pdf
+2026-06-25 13:39:32 [INFO]   ✓ Saved → data/processed/cleaned_documents/governance_and_compliance/“Kredit ittifaqına bank əməliyyatının həyata keçirilməsi üçün lisenziya verilməsi Qaydası”nın təsdiq edilməsi haqqında.md  (17670 chars)
+2026-06-25 13:39:32 [INFO] → guidance_and_methodology/Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə xidmətləri sahəsində tənzimləyici çərçivənin hazırlıq səviyyəsinin təhlili.pdf
+2026-06-25 13:39:32 [INFO]   ✓ Saved → data/processed/cleaned_documents/guidance_and_methodology/Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə xidmətləri sahəsində tənzimləyici çərçivənin hazırlıq səviyyəsinin təhlili.md  (1956 chars)
+2026-06-25 13:39:32 [INFO] → guidance_and_methodology/dc1546b51b6aa6b3d92409836.pdf
+2026-06-25 13:39:33 [INFO]   ✓ Saved → data/processed/cleaned_documents/guidance_and_methodology/dc1546b51b6aa6b3d92409836.md  (44158 chars)
+2026-06-25 13:39:33 [INFO] → guidance_and_methodology/feeb62eb12b5c144caa99818e.pdf
+2026-06-25 13:39:34 [INFO]   ✓ Saved → data/processed/cleaned_documents/guidance_and_methodology/feeb62eb12b5c144caa99818e.md  (22435 chars)
+2026-06-25 13:39:34 [INFO] → laws/402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.pdf
+2026-06-25 13:39:34 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.md  (8029 chars)
+2026-06-25 13:39:34 [INFO] → laws/590-IIQ-Banklar haqqında.pdf
+2026-06-25 13:39:43 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/590-IIQ-Banklar haqqında.md  (444507 chars)
+2026-06-25 13:39:43 [INFO] → laws/802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında.pdf
+2026-06-25 13:39:46 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında.md  (169252 chars)
+2026-06-25 13:39:46 [INFO] → laws/933-IIIQ-Bank olmayan kredit təşkilatları haqqında.pdf
+2026-06-25 13:39:48 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/933-IIIQ-Bank olmayan kredit təşkilatları haqqında.md  (90238 chars)
+2026-06-25 13:39:48 [INFO] → laws/AZƏRBAYCAN RESPUBLİKASININ QANUNU.pdf
+2026-06-25 13:39:50 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/AZƏRBAYCAN RESPUBLİKASININ QANUNU.md  (39278 chars)
+2026-06-25 13:39:50 [INFO] → laws/Banklar Haqqında Qanun.pdf
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:50 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:51 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:51 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:51 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:51 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:51 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:52 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:54 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:55 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:58 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:39:59 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:05 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/Banklar Haqqında Qanun.md  (443386 chars)
+2026-06-25 13:40:05 [INFO] → laws/_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.pdf
+2026-06-25 13:40:06 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.md  (17913 chars)
+2026-06-25 13:40:06 [INFO] → laws/Əmanətlərin sığortalanması haqqında.pdf
+2026-06-25 13:40:08 [INFO]   ✓ Saved → data/processed/cleaned_documents/laws/Əmanətlərin sığortalanması haqqında.md  (70710 chars)
+2026-06-25 13:40:08 [INFO] → payments_and_banking_operations/4a6fbf3ba5bf66fda98b121c7.pdf
+2026-06-25 13:40:14 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/4a6fbf3ba5bf66fda98b121c7.md  (156039 chars)
+2026-06-25 13:40:14 [INFO] → payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2.pdf
+2026-06-25 13:40:18 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2.md  (120516 chars)
+2026-06-25 13:40:18 [INFO] → payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd.pdf
+2026-06-25 13:40:18 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd.md  (14720 chars)
+2026-06-25 13:40:18 [INFO] → payments_and_banking_operations/Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə.pdf
+2026-06-25 13:40:19 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə.md  (5071 chars)
+2026-06-25 13:40:19 [INFO] → payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.pdf
+2026-06-25 13:40:20 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.md  (37593 chars)
+2026-06-25 13:40:20 [INFO] → payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.pdf
+2026-06-25 13:40:20 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.md  (11943 chars)
+2026-06-25 13:40:20 [INFO] → payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri.pdf
+2026-06-25 13:40:20 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri.md  (3279 chars)
+2026-06-25 13:40:20 [INFO] → payments_and_banking_operations/Bank Hesabları Qaydası.pdf
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:20 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:21 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/Bank Hesabları Qaydası.md  (118773 chars)
+2026-06-25 13:40:24 [INFO] → payments_and_banking_operations/Bank Şöbələri və Valyuta Qaydası.pdf
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:24 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:25 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:25 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:25 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:25 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/Bank Şöbələri və Valyuta Qaydası.md  (10475 chars)
+2026-06-25 13:40:25 [INFO] → payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.pdf
+2026-06-25 13:40:29 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.md  (148055 chars)
+2026-06-25 13:40:29 [INFO] → payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.pdf
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:29 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:40:30 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.md  (11017 chars)
+2026-06-25 13:40:30 [INFO] → payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.pdf
+2026-06-25 13:40:30 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.md  (11452 chars)
+2026-06-25 13:40:30 [INFO] → payments_and_banking_operations/dd1aa268-4de2-48ab-8953-c87d3f1c74e3.pdf
+2026-06-25 13:40:31 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/dd1aa268-4de2-48ab-8953-c87d3f1c74e3.md  (18023 chars)
+2026-06-25 13:40:31 [INFO] → payments_and_banking_operations/“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:31 [INFO]   ✓ Saved → data/processed/cleaned_documents/payments_and_banking_operations/“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə.md  (5996 chars)
+2026-06-25 13:40:31 [INFO] → prudential_regulations/009aa733c2e8a69d2ccc41bf4.pdf
+2026-06-25 13:40:31 [INFO]   ✓ Saved → data/processed/cleaned_documents/prudential_regulations/009aa733c2e8a69d2ccc41bf4.md  (6684 chars)
+2026-06-25 13:40:31 [INFO] → prudential_regulations/Azərbaycan Respublikasının Mərkəzi Bankı - Bankların əsas vəsaitlərlə (əmlakla) apardıqları əməliyyatların tənzimlənməsi Qaydaları.pdf
+2026-06-25 13:40:31 [INFO]   ✓ Saved → data/processed/cleaned_documents/prudential_regulations/Azərbaycan Respublikasının Mərkəzi Bankı - Bankların əsas vəsaitlərlə (əmlakla) apardıqları əməliyyatların tənzimlənməsi Qaydaları.md  (12937 chars)
+2026-06-25 13:40:31 [INFO] → prudential_regulations/_Dövlət qeydiyyatına alınmışdır_.pdf
+2026-06-25 13:40:33 [INFO]   ✓ Saved → data/processed/cleaned_documents/prudential_regulations/_Dövlət qeydiyyatına alınmışdır_.md  (27160 chars)
+2026-06-25 13:40:33 [INFO] → prudential_regulations/a416bd5767831ef5222712ecd.pdf
+2026-06-25 13:40:34 [INFO]   ✓ Saved → data/processed/cleaned_documents/prudential_regulations/a416bd5767831ef5222712ecd.md  (47456 chars)
+2026-06-25 13:40:34 [INFO] → prudential_regulations/“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:36 [INFO]   ✓ Saved → data/processed/cleaned_documents/prudential_regulations/“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə.md  (37066 chars)
+2026-06-25 13:40:36 [INFO] → prudential_regulations/“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında.pdf
+2026-06-25 13:40:37 [INFO]   ✓ Saved → data/processed/cleaned_documents/prudential_regulations/“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında.md  (19888 chars)
+2026-06-25 13:40:37 [INFO] → prudential_regulations/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:37 [INFO]   ✓ Saved → data/processed/cleaned_documents/prudential_regulations/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə.md  (5644 chars)
+2026-06-25 13:40:37 [INFO] → reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d.pdf
+2026-06-25 13:40:38 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d.md  (10212 chars)
+2026-06-25 13:40:38 [INFO] → reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa.pdf
+2026-06-25 13:40:38 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa.md  (24842 chars)
+2026-06-25 13:40:38 [INFO] → reporting_and_audit/93968292987fc27975a90fcfd.pdf
+2026-06-25 13:40:41 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/93968292987fc27975a90fcfd.md  (73353 chars)
+2026-06-25 13:40:41 [INFO] → reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı.pdf
+2026-06-25 13:40:45 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı.md  (30631 chars)
+2026-06-25 13:40:45 [INFO] → reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.pdf
+2026-06-25 13:40:45 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.md  (3630 chars)
+2026-06-25 13:40:45 [INFO] → reporting_and_audit/_Dövlət qeydiyyatına alınmışdır.pdf
+2026-06-25 13:40:48 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/_Dövlət qeydiyyatına alınmışdır.md  (73859 chars)
+2026-06-25 13:40:48 [INFO] → reporting_and_audit/«Dövlət qeydiyyatına alınmışdır».pdf
+2026-06-25 13:40:48 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/«Dövlət qeydiyyatına alınmışdır».md  (16571 chars)
+2026-06-25 13:40:48 [INFO] → reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:54 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.md  (93373 chars)
+2026-06-25 13:40:54 [INFO] → reporting_and_audit/“Dövlət qeydiyyatına alınmışdır.pdf
+2026-06-25 13:40:56 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır.md  (43092 chars)
+2026-06-25 13:40:56 [INFO] → reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”.pdf
+2026-06-25 13:40:56 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”.md  (5107 chars)
+2026-06-25 13:40:56 [INFO] → reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:56 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.md  (5445 chars)
+2026-06-25 13:40:56 [INFO] → reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:56 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.md  (8799 chars)
+2026-06-25 13:40:56 [INFO] → reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:57 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.md  (8022 chars)
+2026-06-25 13:40:57 [INFO] → reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.pdf
+2026-06-25 13:40:57 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.md  (4600 chars)
+2026-06-25 13:40:57 [INFO] → reporting_and_audit/“QEYDƏ ALINMIŞDIR”.pdf
+2026-06-25 13:40:57 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“QEYDƏ ALINMIŞDIR”.md  (5689 chars)
+2026-06-25 13:40:57 [INFO] → reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.pdf
+2026-06-25 13:40:58 [INFO]   ✓ Saved → data/processed/cleaned_documents/reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.md  (7007 chars)
+2026-06-25 13:40:58 [INFO] → risk_management/09b9304488242be054f8c2eb6.pdf
+2026-06-25 13:41:01 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/09b9304488242be054f8c2eb6.md  (103496 chars)
+2026-06-25 13:41:01 [INFO] → risk_management/1db1173040cd0364af5d7f0d2.pdf
+2026-06-25 13:41:04 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/1db1173040cd0364af5d7f0d2.md  (93585 chars)
+2026-06-25 13:41:04 [INFO] → risk_management/1dfb892e-6204-4404-9166-c861f06996fa.pdf
+2026-06-25 13:41:07 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/1dfb892e-6204-4404-9166-c861f06996fa.md  (70735 chars)
+2026-06-25 13:41:07 [INFO] → risk_management/1e1594e275bb96ef2c75aa1e8.pdf
+2026-06-25 13:41:08 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/1e1594e275bb96ef2c75aa1e8.md  (13195 chars)
+2026-06-25 13:41:08 [INFO] → risk_management/511cdc58f232d5d9395551ae8.pdf
+2026-06-25 13:41:09 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/511cdc58f232d5d9395551ae8.md  (26575 chars)
+2026-06-25 13:41:09 [INFO] → risk_management/58696c0de75462383dba38398.pdf
+2026-06-25 13:41:12 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/58696c0de75462383dba38398.md  (105528 chars)
+2026-06-25 13:41:12 [INFO] → risk_management/5b725bb224d33e2085294c793.pdf
+2026-06-25 13:41:13 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/5b725bb224d33e2085294c793.md  (30556 chars)
+2026-06-25 13:41:13 [INFO] → risk_management/6c51a485-6986-4257-b6e0-25475732f1dc.pdf
+2026-06-25 13:41:14 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/6c51a485-6986-4257-b6e0-25475732f1dc.md  (19992 chars)
+2026-06-25 13:41:14 [INFO] → risk_management/7fd12f0749b180441d54cd4de.pdf
+2026-06-25 13:41:15 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/7fd12f0749b180441d54cd4de.md  (30393 chars)
+2026-06-25 13:41:15 [INFO] → risk_management/8a4d0220-9312-4ef2-88e8-c65b607a186a.pdf
+2026-06-25 13:41:16 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/8a4d0220-9312-4ef2-88e8-c65b607a186a.md  (30309 chars)
+2026-06-25 13:41:16 [INFO] → risk_management/98a6608d0eb4e83b612fde01f.pdf
+2026-06-25 13:41:21 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/98a6608d0eb4e83b612fde01f.md  (139297 chars)
+2026-06-25 13:41:21 [INFO] → risk_management/Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə.pdf
+2026-06-25 13:41:22 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə.md  (9491 chars)
+2026-06-25 13:41:22 [INFO] → risk_management/Banklarda əməliyyat risklərinin idarə edilməsi Qaydası.pdf
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/Banklarda əməliyyat risklərinin idarə edilməsi Qaydası.md  (23182 chars)
+2026-06-25 13:41:22 [INFO] → risk_management/İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları.pdf
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:22 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:23 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları.md  (13289 chars)
+2026-06-25 13:41:23 [INFO] → risk_management/ba0d73daa9275fa1fe1e4694b.pdf
+2026-06-25 13:41:28 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/ba0d73daa9275fa1fe1e4694b.md  (136985 chars)
+2026-06-25 13:41:28 [INFO] → risk_management/baab9bc790127f849f8ac1040.pdf
+2026-06-25 13:41:34 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/baab9bc790127f849f8ac1040.md  (153115 chars)
+2026-06-25 13:41:34 [INFO] → risk_management/dc1546b51b6aa6b3d92409836.pdf
+2026-06-25 13:41:35 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/dc1546b51b6aa6b3d92409836.md  (44158 chars)
+2026-06-25 13:41:35 [INFO] → risk_management/f15fd85d-3c4e-4d87-aa78-8367ca166daf.pdf
+2026-06-25 13:41:36 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/f15fd85d-3c4e-4d87-aa78-8367ca166daf.md  (29580 chars)
+2026-06-25 13:41:36 [INFO] → risk_management/faa09ce5-3d98-48b1-ac48-e81ca3d9d4e7.pdf
+2026-06-25 13:41:38 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/faa09ce5-3d98-48b1-ac48-e81ca3d9d4e7.md  (30309 chars)
+2026-06-25 13:41:38 [INFO] → risk_management/Əməliyyat Risklərinin İdarə Edilməsi Qaydası.pdf
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:38 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:39 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:39 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:39 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:39 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:39 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:39 [WARNING] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-25 13:41:39 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/Əməliyyat Risklərinin İdarə Edilməsi Qaydası.md  (44102 chars)
+2026-06-25 13:41:39 [INFO] → risk_management/“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında.pdf
+2026-06-25 13:41:39 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında.md  (6014 chars)
+2026-06-25 13:41:39 [INFO] → risk_management/“QEYDƏ ALINMIŞDIR”.pdf
+2026-06-25 13:41:40 [INFO]   ✓ Saved → data/processed/cleaned_documents/risk_management/“QEYDƏ ALINMIŞDIR”.md  (6011 chars)
+2026-06-25 13:41:40 [INFO] ============================================================
+2026-06-25 13:41:40 [INFO] Finished.  Success: 97 | Failed/Skipped: 0
+2026-06-25 13:41:40 [INFO] Output folder: data/processed/cleaned_documents
