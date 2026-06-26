@@ -326,193 +326,56 @@ etdikdə bank müvafiq məlumat və sənədləri təyin edilən müddətdə təq
 İstilik xəritəsinə dair nümunə
 “Banklarda əməliyyat risklərinin idarə edilməsi Qaydası”na
 Əlavə 2
-BİZNES SAHƏLƏRİNİN BÖLGÜSÜ
-Təsnifat
-Biznes sahələri İzah
-kodu
-Biznesə uzunmüddətli və strateji fəaliyyət, həmçinin likvidliyinin artırılması istiqamətində
-maliyyə məsləhətlərinin verilməsi, habelə “Qiymətli kağızlar bazarı haqqında” Azərbaycan
-Korporativ maliyyə BS1 Respublikasının Qanununda nəzərdə tutulan həcmdə və qaydada qiymətli kağızlar və törəmə
-maliyyə alətləri ilə investisiya xidmətlərinin (əməliyyatlarının) həyata keçirilməsi xidmətlərinin
-göstərilməsi
+# BİZNES SAHƏLƏRİNİN BÖLGÜSÜ
+
+| Biznes sahələri | Təsnifat kodu | İzah |
+| :--- | :---: | :--- |
+| **Korporativ maliyyə** | BS1 | Biznesə uzunmüddətli və strateji fəaliyyət, həmçinin likvidliyinin artırılması istiqamətində maliyyə məsləhətlərinin verilməsi, habelə “Qiymətli kağızlar bazarı haqqında” Azərbaycan Respublikasının Qanununda nəzərdə tutulan həcmdə və qaydada qiymətli kağızlar və törəmə maliyyə alətləri ilə investisiya xidmətlərinin (əməliyyatlarının) həyata keçirilməsi xidmətlərinin göstərilməsi |
+| **Aktivlərin idarə edilməsi** | BS2 | Fiziki şəxslərə “Qiymətli kağızlar bazarı haqqında” Azərbaycan Respublikasının Qanununda nəzərdə tutulan həcmdə və qaydada qiymətli kağızlar və törəmə maliyyə alətləri ilə investisiya xidmətlərinin (əməliyyatlarının) həyata keçirilməsi xidmətlərinin göstərilməsi |
+| **İstehlak bankçılığı** | BS3 | Sahibkarlıq və ya peşə fəaliyyəti ilə bağlı olmayan məqsədlər üçün fiziki şəxslərə kreditlərin, o cümlədən daşınmaz əmlak kreditlərinin verilməsi, fiziki şəxslərdən əmanətlərin cəlb edilməsi, ödəniş alətlərinin emissiyası və digər xidmətlərin göstərilməsi |
+| **Kommersiya bankçılığı** | BS4 | Biznesin maliyyələşdirilməsi, o cümlədən layihə maliyyələşməsi, ixracın maliyyələşməsi, faktorinq, lizinq, qarantiya və digər biznes sahələrinə aid olmayan xidmətlərin göstərilməsi |
+| **Ödəniş sistemləri və hesablaşmalar** | BS5 | Ödənişlər, pul köçürmələri, klirinq və hesablaşmalar |
+| **Agentlik xidmətləri** | BS6 | Maliyyə agenti xidmətləri |
 
 ---
 
 <!-- PAGE: 7 -->
 
-Fiziki şəxslərə “Qiymətli kağızlar bazarı haqqında” Azərbaycan Respublikasının Qanununda
-Aktivlərin idarə edilməsi BS2 nəzərdə tutulan həcmdə və qaydada qiymətli kağızlar və törəmə maliyyə alətləri ilə
-investisiya xidmətlərinin (əməliyyatlarının) həyata keçirilməsi xidmətlərinin göstərilməsi
-Sahibkarlıq və ya peşə fəaliyyəti ilə bağlı olmayan məqsədlər üçün fiziki şəxslərə kreditlərin,
-İstehlak bankçılığı BS3 o cümlədən daşınmaz əmlak kreditlərinin verilməsi, fiziki şəxslərdən əmanətlərin cəlb
-edilməsi, ödəniş alətlərinin emissiyası və digər xidmətlərin göstərilməsi
-Biznesin maliyyələşdirilməsi, o cümlədən layihə maliyyələşməsi, ixracın maliyyələşməsi,
-Kommersiya bankçılığı BS4
-faktorinq, lizinq, qarantiya və digər biznes sahələrinə aid olmayan xidmətlərin göstərilməsi
-Ödəniş sistemləri və
-BS5 Ödənişlər, pul köçürmələri, klirinq və hesablaşmalar
-hesablaşmalar
-Agentlik xidmətləri BS6 Maliyyə agenti xidmətləri
 “Banklarda əməliyyat risklərinin idarə edilməsi Qaydası”na
 Əlavə 3
-RİSK HADİSƏLƏRİNİN BÖLGÜSÜ
-Əməliyyat Risk hadisəsi Risk hadisəsi Risk hadisəsi
-riskinin kateqoriyası Anlayışı kateqoriyası (3-cü səviyyə)
-növü (1-ci səviyyə) (2-ci səviyyə) (Nümunə) [1]
-Əmək, sağlamlıq və
-İşçilərlə
-ya təhlükəsizliklə
-Müavinət, əmək müqaviləsinin xitamı ilə bağlı məsələlər
-münasibətlər
-bağlı qanunlara və (və
-Əmək kollektivində olan tətillər
-(R1.1)
-ya) qaydalara, habelə
-müqavilələrəzidd
-hərəkətlərdən,
-Əməyin təhlükəsizliyi
-İş münasibətləri
-Təhlükəsiz
-sağlamlığa dəyən
-İşçilərin sağlamlığı və təhlükəsizliyi üzrə hadisələr
-və iş yerinin
-mühit (R1.2)
-zərər üzrə müavinətin
-İşçilərə təzminatlar
-təhlükəsizliyi
-ödənilməsindən və ya
-(R1)
-işçilərə
-qanunvericiliyəzidd qanunvericiliyə
-davranış və ayrı- zidd davranış
-Hər növ ayrı-seçkilik və qanunvericiliyəzidd hərəkət
-Proseslər seçkilik və ayrıseçkilik
-hərəkətlərindən (R1.3)
-yaranan zərər.
-Fidusiar vəzifələrin pozulması / Qaydanın pozulması
-Uyğunluq / məlumatların açıqlanması üzrə məsələlər (“Öz
-Uyğunluq,
-müştərini tanı” prinsipləri və s.)
-məlumatların
-Müştərilərə dair məlumatların açıqlanması üzrə pozuntular
-açıqlanması və
-Məxfiliyin pozulması
-etibarlılıq ilə
-Müəyyən müştərilər Aqressiv satış fəaliyyəti
-bağlı pozuntu
-qarşısında götürülmüş Hesabların şişirdilməsi
-halları (R2.1)
-peşəkar öhdəliklərin Məxfi məlumatlardan sui-istifadə
-(etibarlılıq və Kredit vermə öhdəliklərinin pozulması
-uyğunluq tələbləri Peşəkarlığa Qeyri-qanuni ticarət / bazar münasibətləri
-Müştərilər, daxil olmaqla) qeyri- uyğun olmayan Bazar manipulyasiyası
-məhsullar və ixtiyari və ya biznes və ya İnsayder ticarəti (bankın hesabından aparılan) Lisenziyasız
-biznes səhlənkarlıq bazar fəaliyyət
-münasibətləri nəticəsində yerinə münasibətləri Çirkli pulların yuyulması üzrə fəaliyyət
-(R2) yetirilməməsindən, (R2.2)
-habelə bank Məhsullardakı Məhsullardakı qüsurlar
-məhsulunun qüsurlar (R2.3) Model xətaları
-təbiətindən və Müştəri seçimi,
-tərtibatından yaranan sponsorluq və
-zərər. kredit tələbinin Müştəri araşdırılmasının təlimata uyğun aparılmaması
-həcmi ilə bağlı Müştəri üzrə limitlərin pozulması
-pozuntular
-(R2.4)
-Məsləhət
-Məsləhət xidmətinin yerinə yetirilməsi ilə bağlı mübahisələr
-xidməti (R2.5)
+# RİSK HADİSƏLƏRİNİN BÖLGÜSÜ
+
+| Əməliyyat riskinin növü | Risk hadisəsi kateqoriyası (1-ci səviyyə) | Anlayışı | Risk hadisəsi kateqoriyası (2-ci səviyyə) | Risk hadisəsi (3-cü səviyyə) (Nümunə) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Proseslər** | İş münasibətləri və iş yerinin təhlükəsizliyi (R1) | Əmək, sağlamlıq və ya təhlükəsizliklə bağlı qanunlara və (və ya) qaydalara, habelə müqavilələrə zidd hərəkətlərdən, sağlamlığa dəyən zərər üzrə müavinətin ödənilməsindən və ya işçilərə qanunvericiliyə zidd davranış və ayrı-seçkilik hərəkətlərindən yaranan zərər. | İşçilərlə münasibətlər (R1.1) | Müavinət, əmək müqaviləsinin xitamı ilə bağlı məsələlər<br>Əmək kollektivində olan tətillər |
+| | | | Təhlükəsiz mühit (R1.2) | Əməyin təhlükəsizliyi<br>İşçilərin sağlamlığı və təhlükəsizliyi üzrə hadisələr<br>İşçilərə təzminatlar |
+| | | | qanunvericiliyə zidd davranış və ayrı-seçkilik (R1.3) | Hər növ ayrı-seçkilik və qanunvericiliyə zidd hərəkət |
+| | Müştərilər, məhsullar və biznes münasibətləri (R2) | Müəyyən müştərilər qarşısında götürülmüş peşəkar öhdəliklərin (etibarlılıq və uyğunluq tələbləri daxil olmaqla) qeyri-ixtiyari və ya səhlənkarlıq nəticəsində yerinə yetirilməməsindən, habelə bank məhsulunun təbiətindən və tərtibatından yaranan zərər. | Uyğunluq, məlumatların açıqlanması və etibarlılıq ilə bağlı pozuntu halları (R2.1) | Fidusiar vəzifələrin pozulması / Qaydanın pozulması<br>Uyğunluq / məlumatların açıqlanması üzrə məsələlər ("Öz müştərini tanı" prinsipləri və s.)<br>Müştərilərə dair məlumatların açıqlanması üzrə pozuntular<br>Məxfililiyin pozulması<br>Aqressiv satış fəaliyyəti<br>Hesabların şişirdilməsi<br>Məxfi məlumatlardan sui-istifadə<br>Kredit vermə öhdəliklərinin pozulması |
+| | | | Peşəkarlığa uyğun olmayan biznes və ya bazar münasibətləri (R2.2) | Qeyri-qanuni ticarət / bazar münasibətləri<br>Bazar manipulyasiyası<br>İnsayder ticarəti (bankın hesabından aparılan) Lisenziyasız fəaliyyət<br>Çirkli pulların yuyulması üzrə fəaliyyət |
+| | | | Məhsullardakı qüsurlar (R2.3) | Məhsullardakı qüsurlar<br>Model xətaları |
+| | | | Müştəri seçimi, sponsorluq və kredit tələbinin həcmi ilə bağlı pozuntular (R2.4) | Müştəri araşdırılmasının təlimata uyğun aparılmaması<br>Müştəri üzrə limitlərin pozulması |
+| | | | Məsləhət xidməti (R2.5) | Məsləhət xidmətinin yerinə yetirilməsi ilə bağlı mübahisələr |
+| | İcra, çatdırılma və proseslərin idarə edilməsi (R3) | Əməliyyatların səhv həyata keçirilməsindən və ya proseslərin idarə edilməsinin qeyri-adekvatlığından və ya ticarət tərəfdaşları və satıcılarla münasibətlərdən yaranan zərər | İş, icra və davamiyyət (R3.1) | Məlumat asimmetriyası<br>Məlumatların daxil edilməsi, tətbiqi və ya yüklənməsində səhvlər<br>Son icra tarixinin ötürülməsi və ya öhdəliyin yerinə yetirilməməsi<br>Modelin / sistemin səhv idarə olunması<br>Mühasibat uçotu xətası / müəssisənin rekvizitləri üzrə xəta<br>Çatdırılma xətası<br>Təminatın idarə edilməsi üzrə xəta<br>Digər vəzifə pozuntuları |
+| | | | Monitorinq və hesabat (R3.2) | Qanunvericiliklə müəyyən edilmiş hesabatlığın yerinə yetirilməməsi<br>Uyğun olmayan kənar hesabatlıq (maliyyə itkisi ilə nəticələnən) |
+| | | | Müştəri qəbulu və sənədləşdirmə (R3.3) | Müştəri icazə / imtina sənədlərində çatışmazlıq<br>Hüquqi sənədlərin natamam olması / çatışmazlığı |
+| | | | Müştəri hesablarının idarə edilməsi (R3.4) | Hesablara təsdiqsiz / icazəsiz giriş<br>Yanlış müştəri qeydiyyatı (maliyyə itkisi ilə nəticələnən)<br>Müştərinin aktivlərinin səhlənkarlıq nəticəsində itkisi və ya zədələnməsi |
+| | | | Ticarət tərəfdaşları (R3.5) | Müştəri olmayan qarşı tərəflərin öhdəliklərini düzgün icra etməməsi<br>Müştəri olmayan qarşı tərəflər ilə yaranan mübahisələr |
+| | | | Satıcılar və təminatçılar (R3.6) | Kənar xidmətlər<br>Satıcılarla mübahisələr |
+| **İnsan** | Daxili dələduzluq (R4) | Bankın azı bir əməkdaşının iştirak etdiyi dələduzluq, bank əmlakının mənimsənilməsi və ya qanunvericiliyə, habelə bankın daxili siyasət və qaydalarının pozulması ilə yaranan zərər | Səlahiyyət olmadan aparılan əməliyyatlar (R4.1) | Səlahiyyət olmadan aparılan əməliyyatlar (maliyyə itkisi ilə nəticələnən)<br>Bəyan etmədən və bildirmədən aparılan əməliyyatlar (bilərəkdən)<br>Maliyyə göstəricilərinin səhv bəyan edilməsi (bilərəkdən) |
+| | | | Talama və dələduzluq (R4.2) | Dələduzluq / kredit dələduzluğu / dəyərsiz (saxta) əmanətlər<br>Oğurluq / quldurluq / pul vəsaitinin mənimsənilməsi / soyğunçuluq<br>Aktivlərin mənimsənilməsi<br>Aktivlərin qəsdən korlanması<br>Saxtakarlıq<br>Qarşılığı olmayan çekin yazılması<br>Müştəri hesablarının ələ keçirilməsi / özünü başqa şəxs kimi göstərərək əməliyyatların aparılması<br>Vergi qanunvericiliyinə zidd əməliyyatlar / vergidən yayınma (bilərəkdən)<br>Rüşvət / qanunsuz ödəniş<br>İnsayder ticarəti (bankın hesabından aparılmayan) |
+| | Kənar dələduzluq (R5) | Kənar şəxs tərəfindən törədilmiş dələduzluq, bank əmlakının mənimsənilməsi və ya digər hüquqazidd əməl nəticəsində yaranan zərər | Talama və dələduzluq (R5.1) | Oğurluq / soyğunçuluq / mənimsəmə və ya israf etmə / quldurluq<br>Saxtakarlıq<br>Qarşılığı olmayan çekin yazılması |
+| | | | Sistem təhlükəsizliyi (R5.2) | Kiberhücum<br>Məlumatların oğurlanması |
+| **Sistem** | Fəaliyyətin pozulması və sistem xətaları (R6) | Fəaliyyətin pozulması və ya sistemdəki xətalar nəticəsində yaranan zərər | Sistemlər (R6.1) | Avadanlıq<br>Proqram təminatı<br>Rabitə<br>Kommunal kəsintilər / pozuntular |
+| **Kənar hadisələr** | Fiziki aktivlərə dəyən zərər (R7) | Təbii fəlakət və ya digər hadisələr nəticəsində fiziki aktivlərin itirilməsi və ya zədələnməsi nəticəsində yaranan zərər | Təbii fəlakətlər və digər hadisələr (R7.1) | Təbii fəlakət nəticəsində yaranan zərərlər<br>Xarici faktorlardan (vandalizm, terrorizm) yaranan itkilər |
 
 ---
 
 <!-- PAGE: 8 -->
 
-Məlumat assimmetriyası
-Məlumatların daxil edilməsi, tətbiqi və ya yüklənməsində
-Proseslər səhvlər
-Son icra tarixinin ötürülməsi və ya öhdəliyin yerinə
-İş, icra və
-yetirilməməsi
-davamiyyət
-Modelin / sistemin səhv idarə olunması
-(R3.1)
-Mühasibat uçotu xətası / müəssisənin rekvizitləri üzrə xəta
-Çatdırılma xətası
-Təminatın idarə edilməsi üzrə xəta
-Əməliyyatların səhv Digər vəzifə pozuntuları
-həyata Qanunvericiliklə müəyyən edilmiş hesabatlılığın yerinə
-keçirilməsindən və ya Monitorinq və yetirilməməsi
-İcra, çatdırılma proseslərin idarə hesabat (R3.2) Uyğun olmayan kənar hesabatlılıq (maliyyə itkisi ilə
-və proseslərin edilməsinin qeyri- nəticələnən)
-idarə edilməsi adekvatlığından və ya Müştəri qəbulu
-(R3) ticarət tərəfdaşları və və Müştəri icazə / imtina sənədlərində çatışmazlıq
-satıcılarla sənədləşdirmə Hüquqi səndlərin natamam olması / çatışmazlığı
-münasibətlərdən (R3.3)
-yaranan zərər Müştəri Hesablara təsdiqsiz / icazəsiz giriş
-hesablarının Yanlış müştəri qeydiyyatı (maliyyə itkisi ilə nəticələnən)
-idarə edilməsi Müştərinin aktivlərinin səhlənkarlıq nəticəsində itkisi və ya
-(R3.4) zədələnməsi
-Ticarət Müştəri olmayan qarşı tərəflərin öhdəliklərini düzgün icra
-tərəfdaşları etməməsi
-(R3.5) Müştəri olmayan qarşı tərəflər ilə yaranan mübahisələr
-Satıcılar və
-Kənar xidmətlər
-təminatçılar
-Satıcılarla mübahisələr
-(R3.6)
-Səlahiyyət Səlahiyyət olmadan aparılan əməliyyatlar (maliyyə itkisi ilə
-olmadan nəticələnən)
-aparılan Bəyan etmədən və bildirmədən aparılan əməliyyatlar
-əməliyyatlar (bilərəkdən)
-Bankın azı bir (R4.1) Maliyyə göstəricilərinin səhv bəyan edilməsi (bilərəkdən)
-əməkdaşının iştirak Dələduzluq / kredit dələduzluğu / dəyərsiz (saxta)
-etdiyi dələduzluq, əmanətlər
-bank əmlakının Oğurluq / quldurluq / pul vəsaitinin mənimsənilməsi /
-mənimsənilməsi və ya soyğunçuluq
-Daxili
-qanunverciliyin, Aktivlərin mənimsənilməsi
-dələduzluq (R4)
-habelə bankın daxili Aktivlərin qəsdən korlanması
-Talama və
-siyasət və Saxtakarlıq
-dələduzluq
-qaydalarının Qarşılığı olmayan çekin yazılması
-İnsan (R4.2)
-pozulması ilə yaranan Müştəri hesablarının ələ keçirilməsi / özünü başqa şəxs
-zərər kimi göstərərək əməliyyatların aparılması
-Vergi qanunvericiliyinə zidd əməliyyatlar / vergidən
-yayınma (bilərəkdən)
-Rüşvət / qanunsuz ödəniş
-İnsayder ticarəti (bankın hesabından aparılmayan)
-Kənar şəxs tərəfindən Oğurluq / soyğunçuluq/ mənimsəmə və ya israf etmə/
-Talama və
-törədilmiş dələduzluq, quldurluq
-dələduzluq
-bank əmlakının Saxtakarlıq
-Kənar (R5.1)
-mənimsənilməsi və ya Qarşılığı olmayan çekin yazılması
-dələduzluq (R5)
-digər hüquqazidd Sistem
-Kiberhücum
-əməl nəticəsində təhlükəsizliyi
-Məlumatların oğurlanması
-yaranan zərər (R5.2)
-Fəaliyyətin Fəaliyyətin pozulması Avadanlıq
-pozulması və və ya sistemdəki Proqram təminatı
-Sistem Sistemlər (R6.1)
-sistem xətaları xətalar nəticəsində Rabitə
-(R6) yaranan zərər Kommunal kəsintilər / pozuntular
-Kənar Fiziki aktivlərə Təbii fəlakət və ya Təbii fəlakətlər Təbii fəlakət nəticəsində yaranan zərərlər
-hadisələr dəyən zərər digər hadisələr və digər Xarici faktorlardan (vandalizm, terrorizm) yaranan itkilər
-(R7) nəticəsində fiziki hadisələr (R7.1)
-aktivlərin itirilməsi və
-ya zədələnməsi
-
 ---
 
 <!-- PAGE: 9 -->
 
-nəticəsində yaranan
-zərər
 “Banklarda əməliyyat risklərinin idarə edilməsi Qaydası”na
 Əlavə 4
 ƏMƏLİYYAT RİSKİ HADİSƏLƏRİ BARƏDƏ MƏLUMAT BAZASI
@@ -627,60 +490,19 @@ Xalis zərər (ümumi zərər-bərpa olunan məbləğ)
 Potensial zərər məbləği
 “Banklarda əməliyyat risklərinin idarə edilməsi Qaydası”na
 Əlavə 6
-Zərərlərin təsir kateqoriyaları üzrə nümunə
-Kateqoriya İzah Əhatə dairəsi
 
 ---
 
 <!-- PAGE: 11 -->
 
-Hüquqi məsuliyyət Mediasiya və mübahisənin • Məhkəmə və ya mediasiya prosesi ilə əlaqədar
-məhkəməyəqədərki digər həlli üsulları, çəkilən xərclər (o cümlədən vəkillərin xidmət
-məhkəmə qərarları ilə bağlı yaranan, habelə haqları, məhkəmə qərarlarının icrası və s.)
-digər hüquqi xərclər • Hadisə ilə birbaşa əlaqəli olan kənar hüquqi
-xərclər
-Nəzarət tədbirləri Cərimələr və ya digər maliyyə sanksiyaları, • Nəzarət pozuntusuna görə ödənilən cərimə
-maliyyə zərəri ilə nəticələnən təsir tədbirləri, • Nəzarət pozuntusu ilə bağlı çəkilən digər
-lisenziyanın ləğvi xərclər
-Aktivlərə dəyən zərər Aktivin dəyərinin birbaşa azalması ilə • Təbii fəlakətlər nəticəsində aktivlərin dəyərdən
-nəticələnən hadisələr (məsələn, ehtiyatsız düşməsi/silinməsi
-hərəkət, qəza, yanğın, zəlzələ) və əlaqəli • Qeyri-maddi əmlakın (məsələn, məlumat)
-zərərlər itirilməsi/məhv edilməsi
-• Təbii fəlakətdən və ya digər hadisələrdən
-sonra sahələrin biznes üçün uyğunlaşdırılması ilə
-bağlı xərclər
-• Biznesin davamlılığı üçün müvəqqəti
-yerdəyişmə xərcləri
-• Biznesin davamlılığı üçün kənar xidmət
-təminatçısından istifadə
-Dəymiş zərərin ödənilməsi Bankın məsul olduğu hallar üzrə əməliyyat • İşin dayandırılması ilə bağlı müştərilərə dəyən
-zərərləri ilə bağlı üçüncü tərəflərə ödənişlər zərərlə bağlı iddialar (bank məsuliyyət daşıdığı
-hallar üzrə)
-•Öhdəliklərin icrasındakı gecikmələrə görə
-ödənişlər
-• Müştərinin məxfi məlumatlarının oğurlanması
-və itkiyə məruz qalması ilə bağlı banka qarşı
-iddiası
-• Bərpası mümkün olmayan yanlış və ya təkrar
-edilən ödənişlər, səhvən köçürülmüş vəsaitlər,
-əsassız silinmələr
-Resursların itirilməsi Bankın məsul olduğu hallar üzrə baş vermiş • Kreditlə bağlı əməliyyat itkisi: məsələn, kredit
-əməliyyat riski nəticəsində üçüncü tərəfin sənədlərində səhvlər
-bank qarşısında öhdəliklərini yerinə • Üçüncü tərəflərin eyniləşdirilə bilməməsi və ya
-yetirməməsi ilə əlaqədar baş vermiş itkilər sənədlərdəki səhvlər və ya natamam məlumatlar
-nəticəsində müqavilələrin icrasının
-mümkünsüzlüyü
-Aktivlərin dəyərdən düşməsi Oğurluq, dələduzluq, icazəsiz fəaliyyət və ya •Aktivin vaxtında təhvil verilməməsi/əldə
-əməliyyat riski hadisələri nəticəsində yaranan edilməməsi və bazar qiymətinin dəyişməsi
-bazar və ya kredit zərərləri nəticəsində • Daxili dələduzluq nəticəsində aktivin tam
-aktivlərin dəyərinin birbaşa azalması həcmdə zərər kimi tanınması
-• Kənar dələduzluğun və ya oğurluğun bank
-aktivlərinin/gəlirlərinin itirilməsi ilə nəticələnməsi
-• Kənar təhlükəsizliyin pozulması probleminin
-səbəbini müəyyən etmək və onu aradan
-qaldırmaq üçün məsləhətçi/ekspertə çəkilən xərc
-Əlavə mülahizələr • Məsləhətçilər/üçüncü tərəflər üzrə çəkilmiş xərclər (müxtəlif kateqoriyalar da ola bilər)
-(xüsusi kateqoriya olmadan) • Kənar xidmətin uğursuz fəaliyyəti nəticəsində yaranan xərclər (müxtəlif kateqoriyalar da ola
-bilər)
-[1]Risk hadisəsinin 3-cü səviyyəsi üzrə nümunələr bank tərəfindən artırıla bilər.
-2 Məsələn, ödəniş sistemləri və hesablaşmalar biznes sahəsi üzrə xarici fırıldaqçılıq halında qeydiyyat kod - BS5R5.1
+# Zərərlərin təsir kateqoriyaları üzrə nümunə
+
+| Kateqoriya | İzah | Əhatə dairəsi |
+| :--- | :--- | :--- |
+| **Hüquqi məsuliyyət** | Mediasiya və mübahisənin məhkəməyədəkdi digər həlli üsulları, məhkəmə qərarları ilə bağlı yaranan, habelə digər hüquqi xərclər | • Məhkəmə və ya mediasiya prosesi ilə əlaqədar çəkilən xərclər (o cümlədən vəkillərin xidmət haqları, məhkəmə qərarlarının icrası və s.)<br>• Hadisə ilə birbaşa əlaqəli olan kənar hüquqi xərclər |
+| **Nəzarət tədbirləri** | Cərimələr və ya digər maliyyə sanksiyaları, maliyyə zərəri ilə nəticələnən təsir tədbirləri, lisenziyanın ləğvi | • Nəzarət pozuntusuna görə ödənilən cərimə<br>• Nəzarət pozuntusu ilə bağlı çəkilən digər xərclər |
+| **Aktivlərə dəyən zərər** | Aktivin dəyərinin birbaşa azalması ilə nəticələnən hadisələr (məsələn, ehtiyatsız hərəkət, qəza, yanğın, zəlzələ) və əlaqəli zərərlər | • Təbii fəlakətlər nəticəsində aktivlərin dəyərdən düşməsi/silinməsi<br>• Qeyri-maddi əmlakın (məsələn, məlumat) itirilməsi/məhv edilməsi<br>• Təbii fəlakətdən və ya digər hadisələrdən sonra sahələrin biznes üçün uyğunlaşdırılması ilə bağlı xərclər<br>• Biznesin davamlılığı üçün müvəqqəti yerdəyişmə xərcləri<br>• Biznesin davamlılığı üçün kənar xidmət təminatçısından istifadə |
+| **Dəymiş zərərin ödenilməsi** | Bankın məsul olduğu hallar üzrə əməliyyat zərərləri ilə bağlı üçüncü tərəflərə ödənişlər | • İşin dayandırılması ilə bağlı müştərilərə dəyən zərərlə bağlı iddialar (bank məsuliyyət daşıdığı hallar üzrə)<br>• Öhdəliklərin icrasındakı gecikmələrə görə ödənişlər<br>• Müştərinin məxfi məlumatlarının oğurlanması və itkiyə məruz qalması ilə bağlı banka qarşı iddia<br>• Bərpası mümkün olmayan yanlış və ya təkrar edilən ödənişlər, səhvən köçürülmüş vəsaitlər, əsassız silinmələr |
+| **Resursların itirilməsi** | Bankın məsul olduğu hallar üzrə baş vermiş əməliyyat riski nəticəsində üçüncü tərəfin bank qarşısında öhdəliklərini yerinə yetirməməsi ilə əlaqədar baş vermiş itkilər | • Kreditlə bağlı əməliyyat itkisi: məsələn, kredit sənədlərində səhvlər<br>• Üçüncü tərəflərin eyniləşdirilə bilməməsi və ya sənədlərdəki səhvlər və ya natamam məlumatlar nəticəsində müqavilələrin icrasının mümkünsüzlüyü |
+| **Aktivlərin dəyərdən düşməsi** | Oğurluq, dələduzluq, icazəsiz fəaliyyət və ya əməliyyat riski hadisələri nəticəsində yaranan bazar və və ya kredit zərərləri nəticəsində aktivlərin dəyərinin birbaşa azalması | • Aktivin vaxtında təhvil verilməməsi/əldə edilməməsi və bazar qiymətinin dəyişməsi<br>• Daxili dələduzluq nəticəsində aktivin tam həcmdə zərər kimi tanınması<br>• Kənar dələduzluğun və ya oğurluğun bank aktivlərinin/gəlirlərinin itirilməsi ilə nəticələnməsi<br>• Kənar təhlükəsizliyin pozulması probleminin səbəbini müəyyən etmək və onu aradan qaldırmaq üçün məsləhətçi/ekspertə çəkilən xərc |
+| **Əlavə mülahizələr<br>(xüsusi kateqoriya olmadan)** | | • Məsləhətçilər/üçüncü tərəflər üzrə çəkilmiş xərclər (müxtəlif kateqoriyalarda da ola bilər)<br>• Kənar xidmətin uğursuz fəaliyyəti nəticəsində yaranan xərclər (müxtəlif kateqoriyalarda da ola bilər) |
