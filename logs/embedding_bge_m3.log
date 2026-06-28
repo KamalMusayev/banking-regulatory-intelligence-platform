@@ -1,0 +1,530 @@
+2026-06-28 20:05:40,982 | INFO | ================================================================================
+2026-06-28 20:05:40,982 | INFO | Embedding pipeline started
+2026-06-28 20:05:40,982 | INFO | Embedding model : bge_m3
+2026-06-28 20:05:40,982 | INFO | Chunks directory: data/processed/chunks
+2026-06-28 20:05:40,982 | INFO | Output directory: data/processed/embeddings
+2026-06-28 20:05:40,982 | INFO | ================================================================================
+2026-06-28 20:05:49,563 | INFO | Discovered 96 JSONL files.
+2026-06-28 20:05:49,563 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:05:49,564 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:05:49,564 | WARNING | Skipping empty file: data/processed/chunks/reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:05:49,564 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:05:49,564 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR”.jsonl
+2026-06-28 20:05:49,565 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“QEYDƏ ALINMIŞDIR”_embeddings.jsonl
+2026-06-28 20:05:49,565 | INFO | Batch 1/1 | Size: 7
+2026-06-28 20:05:52,567 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR”.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:05:52,568 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:05:52,568 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+2026-06-28 20:05:52,569 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”_embeddings.jsonl
+2026-06-28 20:05:52,569 | INFO | Batch 1/1 | Size: 7
+2026-06-28 20:05:54,016 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:05:54,017 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:05:54,017 | INFO | Processing file: data/processed/chunks/reporting_and_audit/93968292987fc27975a90fcfd.jsonl
+2026-06-28 20:05:54,021 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/93968292987fc27975a90fcfd_embeddings.jsonl
+2026-06-28 20:05:54,021 | INFO | Batch 1/1 | Size: 67
+2026-06-28 20:06:29,563 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/93968292987fc27975a90fcfd.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:06:29,567 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:06:29,567 | INFO | Processing file: data/processed/chunks/reporting_and_audit/«Dövlət qeydiyyatına alınmışdır».jsonl
+2026-06-28 20:06:29,570 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/«Dövlət qeydiyyatına alınmışdır»_embeddings.jsonl
+2026-06-28 20:06:29,570 | INFO | Batch 1/1 | Size: 9
+2026-06-28 20:06:32,923 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/«Dövlət qeydiyyatına alınmışdır».jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:06:32,924 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:06:32,924 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:06:32,930 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:06:32,930 | INFO | Batch 1/5 | Size: 100
+2026-06-28 20:06:45,525 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:06:45,526 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:06:45,526 | INFO | Processing file: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.jsonl
+2026-06-28 20:06:45,527 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_embeddings.jsonl
+2026-06-28 20:06:45,527 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:06:46,115 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:06:46,115 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:06:46,115 | INFO | Processing file: data/processed/chunks/reporting_and_audit/_Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 20:06:46,118 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/_Dövlət qeydiyyatına alınmışdır_embeddings.jsonl
+2026-06-28 20:06:46,118 | INFO | Batch 1/1 | Size: 28
+2026-06-28 20:06:57,335 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/_Dövlət qeydiyyatına alınmışdır.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:06:57,336 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:06:57,336 | INFO | Processing file: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+2026-06-28 20:06:57,338 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl
+2026-06-28 20:06:57,338 | INFO | Batch 1/1 | Size: 15
+2026-06-28 20:07:09,610 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:09,624 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:09,624 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 20:07:09,628 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır_embeddings.jsonl
+2026-06-28 20:07:09,629 | INFO | Batch 1/1 | Size: 27
+2026-06-28 20:07:23,981 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:23,985 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:23,985 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”.jsonl
+2026-06-28 20:07:23,989 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”_embeddings.jsonl
+2026-06-28 20:07:23,989 | INFO | Batch 1/1 | Size: 5
+2026-06-28 20:07:25,972 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:25,973 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:25,973 | INFO | Processing file: data/processed/chunks/reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d.jsonl
+2026-06-28 20:07:25,974 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d_embeddings.jsonl
+2026-06-28 20:07:25,974 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:07:28,482 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:28,483 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:28,483 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:07:28,488 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:07:28,488 | INFO | Batch 1/1 | Size: 9
+2026-06-28 20:07:31,723 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:31,723 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:31,723 | INFO | Processing file: data/processed/chunks/reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa.jsonl
+2026-06-28 20:07:31,725 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa_embeddings.jsonl
+2026-06-28 20:07:31,725 | INFO | Batch 1/1 | Size: 20
+2026-06-28 20:07:39,927 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:39,928 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:39,928 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:07:39,929 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:07:39,929 | INFO | Batch 1/1 | Size: 6
+2026-06-28 20:07:42,244 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:42,245 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:42,245 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:07:42,247 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:07:42,247 | INFO | Batch 1/1 | Size: 9
+2026-06-28 20:07:43,967 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:43,968 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:43,968 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.jsonl
+2026-06-28 20:07:43,972 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik_embeddings.jsonl
+2026-06-28 20:07:43,972 | INFO | Batch 1/1 | Size: 15
+2026-06-28 20:07:49,960 | ERROR | Failed while processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:07:49,961 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:07:49,961 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.jsonl
+2026-06-28 20:07:49,964 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında_embeddings.jsonl
+2026-06-28 20:07:49,964 | INFO | Batch 1/1 | Size: 79
+2026-06-28 20:08:08,513 | ERROR | Failed while processing file: data/processed/chunks/payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:08:08,514 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:08:08,514 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd.jsonl
+2026-06-28 20:08:08,516 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd_embeddings.jsonl
+2026-06-28 20:08:08,516 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:08:12,149 | ERROR | Failed while processing file: data/processed/chunks/payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:08:12,150 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:08:12,151 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.jsonl
+2026-06-28 20:08:12,152 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması_embeddings.jsonl
+2026-06-28 20:08:12,152 | INFO | Batch 1/1 | Size: 5
+2026-06-28 20:08:14,870 | ERROR | Failed while processing file: data/processed/chunks/payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:08:14,871 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:08:14,871 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2.jsonl
+2026-06-28 20:08:14,878 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2_embeddings.jsonl
+2026-06-28 20:08:14,878 | INFO | Batch 1/2 | Size: 100
+2026-06-28 20:08:58,293 | ERROR | Failed while processing file: data/processed/chunks/payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:08:58,295 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:08:58,295 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.jsonl
+2026-06-28 20:08:58,297 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları_embeddings.jsonl
+2026-06-28 20:08:58,298 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:09:01,537 | ERROR | Failed while processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:09:01,538 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:09:01,538 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.jsonl
+2026-06-28 20:09:01,540 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e_embeddings.jsonl
+2026-06-28 20:09:01,541 | INFO | Batch 1/1 | Size: 6
+2026-06-28 20:09:03,489 | ERROR | Failed while processing file: data/processed/chunks/payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:09:03,489 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:09:03,489 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/4a6fbf3ba5bf66fda98b121c7.jsonl
+2026-06-28 20:09:03,492 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/4a6fbf3ba5bf66fda98b121c7_embeddings.jsonl
+2026-06-28 20:09:03,492 | INFO | Batch 1/1 | Size: 54
+
+
+==================================================================================================2026-06-28 20:16:20,133 | INFO | ================================================================================
+2026-06-28 20:16:20,133 | INFO | Embedding pipeline started
+2026-06-28 20:16:20,133 | INFO | Embedding model : bge_m3
+2026-06-28 20:16:20,133 | INFO | Chunks directory: data/processed/chunks
+2026-06-28 20:16:20,133 | INFO | Output directory: data/processed/embeddings
+2026-06-28 20:16:20,133 | INFO | ================================================================================
+2026-06-28 20:16:31,323 | INFO | Discovered 96 JSONL files.
+2026-06-28 20:16:31,323 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:16:31,323 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:16:31,323 | WARNING | Skipping empty file: data/processed/chunks/reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:16:31,323 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:16:31,323 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR”.jsonl
+2026-06-28 20:16:31,324 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“QEYDƏ ALINMIŞDIR”_embeddings.jsonl
+2026-06-28 20:16:31,324 | INFO | Batch 1/1 | Size: 7
+2026-06-28 20:16:32,285 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR”.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:16:32,286 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:16:32,286 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+2026-06-28 20:16:32,288 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”_embeddings.jsonl
+2026-06-28 20:16:32,288 | INFO | Batch 1/1 | Size: 7
+2026-06-28 20:16:33,532 | ERROR | Failed while processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_embedding_pipeline.py", line 265, in main
+    EmbeddingWriter.append_batch(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EmbeddingWriter' has no attribute 'append_batch'
+2026-06-28 20:16:33,532 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:16:33,532 | INFO | Processing file: data/processed/chunks/reporting_and_audit/93968292987fc27975a90fcfd.jsonl
+2026-06-28 20:16:33,535 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/93968292987fc27975a90fcfd_embeddings.jsonl
+2026-06-28 20:16:33,535 | INFO | Batch 1/1 | Size: 67
+
+
+===========================================================================================================================================================================================2026-06-28 20:21:15,272 | INFO | ================================================================================
+2026-06-28 20:21:15,272 | INFO | Embedding pipeline started
+2026-06-28 20:21:15,272 | INFO | Embedding model : bge_m3
+2026-06-28 20:21:15,272 | INFO | Chunks directory: data/processed/chunks
+2026-06-28 20:21:15,272 | INFO | Output directory: data/processed/embeddings
+2026-06-28 20:21:15,272 | INFO | ================================================================================
+2026-06-28 20:21:24,679 | INFO | Discovered 96 JSONL files.
+2026-06-28 20:21:24,679 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:21:24,679 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:21:24,679 | WARNING | Skipping empty file: data/processed/chunks/reporting_and_audit/“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:21:24,679 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:21:24,679 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR”.jsonl
+2026-06-28 20:21:24,679 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“QEYDƏ ALINMIŞDIR”_embeddings.jsonl
+2026-06-28 20:21:24,679 | INFO | Batch 1/1 | Size: 7
+2026-06-28 20:21:25,634 | INFO | Batch completed in 0.96 sec.
+2026-06-28 20:21:25,635 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR”.jsonl
+2026-06-28 20:21:25,635 | INFO | Processing time: 0.96 sec.
+2026-06-28 20:21:25,635 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:21:25,635 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+2026-06-28 20:21:25,635 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”_embeddings.jsonl
+2026-06-28 20:21:25,635 | INFO | Batch 1/1 | Size: 7
+2026-06-28 20:21:26,864 | INFO | Batch completed in 1.23 sec.
+2026-06-28 20:21:26,864 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+2026-06-28 20:21:26,864 | INFO | Processing time: 1.23 sec.
+2026-06-28 20:21:26,864 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:21:26,864 | INFO | Processing file: data/processed/chunks/reporting_and_audit/93968292987fc27975a90fcfd.jsonl
+2026-06-28 20:21:26,866 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/93968292987fc27975a90fcfd_embeddings.jsonl
+2026-06-28 20:21:26,866 | INFO | Batch 1/1 | Size: 67
+2026-06-28 20:21:55,840 | INFO | Batch completed in 28.97 sec.
+2026-06-28 20:21:55,844 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/93968292987fc27975a90fcfd.jsonl
+2026-06-28 20:21:55,844 | INFO | Processing time: 28.98 sec.
+2026-06-28 20:21:55,844 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:21:55,844 | INFO | Processing file: data/processed/chunks/reporting_and_audit/«Dövlət qeydiyyatına alınmışdır».jsonl
+2026-06-28 20:21:55,848 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/«Dövlət qeydiyyatına alınmışdır»_embeddings.jsonl
+2026-06-28 20:21:55,848 | INFO | Batch 1/1 | Size: 9
+2026-06-28 20:21:59,054 | INFO | Batch completed in 3.21 sec.
+2026-06-28 20:21:59,054 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/«Dövlət qeydiyyatına alınmışdır».jsonl
+2026-06-28 20:21:59,054 | INFO | Processing time: 3.21 sec.
+2026-06-28 20:21:59,054 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:21:59,054 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:21:59,061 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:21:59,061 | INFO | Batch 1/5 | Size: 100
+2026-06-28 20:22:11,420 | INFO | Batch completed in 12.36 sec.
+2026-06-28 20:22:11,421 | INFO | Batch 2/5 | Size: 100
+2026-06-28 20:22:12,875 | INFO | Batch completed in 1.45 sec.
+2026-06-28 20:22:12,875 | INFO | Batch 3/5 | Size: 100
+2026-06-28 20:22:14,281 | INFO | Batch completed in 1.41 sec.
+2026-06-28 20:22:14,281 | INFO | Batch 4/5 | Size: 100
+2026-06-28 20:22:29,829 | INFO | Batch completed in 15.55 sec.
+2026-06-28 20:22:29,831 | INFO | Batch 5/5 | Size: 85
+2026-06-28 20:22:49,198 | INFO | Batch completed in 19.37 sec.
+2026-06-28 20:22:49,199 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:22:49,199 | INFO | Processing time: 50.14 sec.
+2026-06-28 20:22:49,199 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:22:49,199 | INFO | Processing file: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.jsonl
+2026-06-28 20:22:49,208 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_embeddings.jsonl
+2026-06-28 20:22:49,208 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:22:49,757 | INFO | Batch completed in 0.55 sec.
+2026-06-28 20:22:49,757 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.jsonl
+2026-06-28 20:22:49,757 | INFO | Processing time: 0.56 sec.
+2026-06-28 20:22:49,757 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:22:49,757 | INFO | Processing file: data/processed/chunks/reporting_and_audit/_Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 20:22:49,760 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/_Dövlət qeydiyyatına alınmışdır_embeddings.jsonl
+2026-06-28 20:22:49,760 | INFO | Batch 1/1 | Size: 28
+2026-06-28 20:23:01,552 | INFO | Batch completed in 11.79 sec.
+2026-06-28 20:23:01,552 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/_Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 20:23:01,552 | INFO | Processing time: 11.79 sec.
+2026-06-28 20:23:01,552 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:01,552 | INFO | Processing file: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+2026-06-28 20:23:01,554 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl
+2026-06-28 20:23:01,554 | INFO | Batch 1/1 | Size: 15
+2026-06-28 20:23:17,665 | INFO | Batch completed in 16.11 sec.
+2026-06-28 20:23:17,667 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+2026-06-28 20:23:17,667 | INFO | Processing time: 16.11 sec.
+2026-06-28 20:23:17,667 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:17,667 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 20:23:17,674 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır_embeddings.jsonl
+2026-06-28 20:23:17,674 | INFO | Batch 1/1 | Size: 27
+2026-06-28 20:23:33,558 | INFO | Batch completed in 15.88 sec.
+2026-06-28 20:23:33,559 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 20:23:33,559 | INFO | Processing time: 15.89 sec.
+2026-06-28 20:23:33,559 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:33,559 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”.jsonl
+2026-06-28 20:23:33,561 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”_embeddings.jsonl
+2026-06-28 20:23:33,561 | INFO | Batch 1/1 | Size: 5
+2026-06-28 20:23:36,135 | INFO | Batch completed in 2.57 sec.
+2026-06-28 20:23:36,136 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“Dövlət qeydiyyatına alınmışdır”.jsonl
+2026-06-28 20:23:36,136 | INFO | Processing time: 2.58 sec.
+2026-06-28 20:23:36,136 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:36,136 | INFO | Processing file: data/processed/chunks/reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d.jsonl
+2026-06-28 20:23:36,137 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d_embeddings.jsonl
+2026-06-28 20:23:36,137 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:23:39,041 | INFO | Batch completed in 2.90 sec.
+2026-06-28 20:23:39,041 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/05dc79d9-43f7-4a71-aa62-709a43c03f7d.jsonl
+2026-06-28 20:23:39,041 | INFO | Processing time: 2.91 sec.
+2026-06-28 20:23:39,041 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:39,041 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:23:39,042 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:23:39,042 | INFO | Batch 1/1 | Size: 9
+2026-06-28 20:23:43,114 | INFO | Batch completed in 4.07 sec.
+2026-06-28 20:23:43,114 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:23:43,114 | INFO | Processing time: 4.07 sec.
+2026-06-28 20:23:43,114 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:43,114 | INFO | Processing file: data/processed/chunks/reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa.jsonl
+2026-06-28 20:23:43,116 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa_embeddings.jsonl
+2026-06-28 20:23:43,116 | INFO | Batch 1/1 | Size: 20
+2026-06-28 20:23:53,070 | INFO | Batch completed in 9.95 sec.
+2026-06-28 20:23:53,071 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/3df76b8c-0902-46c3-86d9-7274e5a85bfa.jsonl
+2026-06-28 20:23:53,071 | INFO | Processing time: 9.96 sec.
+2026-06-28 20:23:53,071 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:53,071 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:23:53,072 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:23:53,072 | INFO | Batch 1/1 | Size: 6
+2026-06-28 20:23:56,059 | INFO | Batch completed in 2.99 sec.
+2026-06-28 20:23:56,059 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:23:56,059 | INFO | Processing time: 2.99 sec.
+2026-06-28 20:23:56,059 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:56,059 | INFO | Processing file: data/processed/chunks/reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:23:56,060 | INFO | Output file: data/processed/embeddings/bge_m3/reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:23:56,060 | INFO | Batch 1/1 | Size: 9
+2026-06-28 20:23:58,220 | INFO | Batch completed in 2.16 sec.
+2026-06-28 20:23:58,220 | INFO | Finished processing: data/processed/chunks/reporting_and_audit/“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:23:58,220 | INFO | Processing time: 2.16 sec.
+2026-06-28 20:23:58,220 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:23:58,220 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.jsonl
+2026-06-28 20:23:58,222 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik_embeddings.jsonl
+2026-06-28 20:23:58,222 | INFO | Batch 1/1 | Size: 15
+2026-06-28 20:24:07,271 | INFO | Batch completed in 9.05 sec.
+2026-06-28 20:24:07,271 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.jsonl
+2026-06-28 20:24:07,271 | INFO | Processing time: 9.05 sec.
+2026-06-28 20:24:07,271 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:24:07,271 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.jsonl
+2026-06-28 20:24:07,275 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında_embeddings.jsonl
+2026-06-28 20:24:07,275 | INFO | Batch 1/1 | Size: 79
+2026-06-28 20:24:38,070 | INFO | Batch completed in 30.81 sec.
+2026-06-28 20:24:38,071 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.jsonl
+2026-06-28 20:24:38,071 | INFO | Processing time: 30.82 sec.
+2026-06-28 20:24:38,071 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:24:38,071 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd.jsonl
+2026-06-28 20:24:38,075 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd_embeddings.jsonl
+2026-06-28 20:24:38,075 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:24:43,233 | INFO | Batch completed in 5.16 sec.
+2026-06-28 20:24:43,233 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/9abef96e-dec9-4c51-b763-8ccf4e23afdd.jsonl
+2026-06-28 20:24:43,233 | INFO | Processing time: 5.16 sec.
+2026-06-28 20:24:43,233 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:24:43,233 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.jsonl
+2026-06-28 20:24:43,234 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması_embeddings.jsonl
+2026-06-28 20:24:43,234 | INFO | Batch 1/1 | Size: 5
+2026-06-28 20:24:47,040 | INFO | Batch completed in 3.81 sec.
+2026-06-28 20:24:47,040 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.jsonl
+2026-06-28 20:24:47,040 | INFO | Processing time: 3.81 sec.
+2026-06-28 20:24:47,040 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:24:47,040 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2.jsonl
+2026-06-28 20:24:47,043 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2_embeddings.jsonl
+2026-06-28 20:24:47,043 | INFO | Batch 1/2 | Size: 100
+2026-06-28 20:25:31,739 | INFO | Batch completed in 44.70 sec.
+2026-06-28 20:25:31,742 | INFO | Batch 2/2 | Size: 23
+2026-06-28 20:25:48,505 | INFO | Batch completed in 16.76 sec.
+2026-06-28 20:25:48,506 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/64b6f05f-196b-4894-9374-9e5c1c4df7a2.jsonl
+2026-06-28 20:25:48,506 | INFO | Processing time: 61.47 sec.
+2026-06-28 20:25:48,506 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:25:48,506 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.jsonl
+2026-06-28 20:25:48,511 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları_embeddings.jsonl
+2026-06-28 20:25:48,511 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:25:54,620 | INFO | Batch completed in 6.11 sec.
+2026-06-28 20:25:54,620 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.jsonl
+2026-06-28 20:25:54,620 | INFO | Processing time: 6.11 sec.
+2026-06-28 20:25:54,620 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:25:54,620 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.jsonl
+2026-06-28 20:25:54,622 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e_embeddings.jsonl
+2026-06-28 20:25:54,622 | INFO | Batch 1/1 | Size: 6
+2026-06-28 20:25:57,434 | INFO | Batch completed in 2.81 sec.
+2026-06-28 20:25:57,434 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.jsonl
+2026-06-28 20:25:57,434 | INFO | Processing time: 2.81 sec.
+2026-06-28 20:25:57,434 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:25:57,434 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/4a6fbf3ba5bf66fda98b121c7.jsonl
+2026-06-28 20:25:57,438 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/4a6fbf3ba5bf66fda98b121c7_embeddings.jsonl
+2026-06-28 20:25:57,438 | INFO | Batch 1/1 | Size: 54
+2026-06-28 20:35:25,891 | INFO | Batch completed in 568.45 sec.
+2026-06-28 20:35:25,893 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/4a6fbf3ba5bf66fda98b121c7.jsonl
+2026-06-28 20:35:25,893 | INFO | Processing time: 568.46 sec.
+2026-06-28 20:35:25,893 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:35:25,893 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/dd1aa268-4de2-48ab-8953-c87d3f1c74e3.jsonl
+2026-06-28 20:35:25,896 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/dd1aa268-4de2-48ab-8953-c87d3f1c74e3_embeddings.jsonl
+2026-06-28 20:35:25,896 | INFO | Batch 1/1 | Size: 23
+2026-06-28 20:35:33,787 | INFO | Batch completed in 7.89 sec.
+2026-06-28 20:35:33,788 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/dd1aa268-4de2-48ab-8953-c87d3f1c74e3.jsonl
+2026-06-28 20:35:33,788 | INFO | Processing time: 7.89 sec.
+2026-06-28 20:35:33,788 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:35:33,788 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Bank Şöbələri və Valyuta Qaydası.jsonl
+2026-06-28 20:35:33,790 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Bank Şöbələri və Valyuta Qaydası_embeddings.jsonl
+2026-06-28 20:35:33,790 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:35:36,279 | INFO | Batch completed in 2.49 sec.
+2026-06-28 20:35:36,279 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/Bank Şöbələri və Valyuta Qaydası.jsonl
+2026-06-28 20:35:36,279 | INFO | Processing time: 2.49 sec.
+2026-06-28 20:35:36,279 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:35:36,279 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə.jsonl
+2026-06-28 20:35:36,281 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə_embeddings.jsonl
+2026-06-28 20:35:36,281 | INFO | Batch 1/1 | Size: 3
+2026-06-28 20:35:36,987 | INFO | Batch completed in 0.71 sec.
+2026-06-28 20:35:36,987 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə.jsonl
+2026-06-28 20:35:36,987 | INFO | Processing time: 0.71 sec.
+2026-06-28 20:35:36,987 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:35:36,987 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri.jsonl
+2026-06-28 20:35:36,989 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri_embeddings.jsonl
+2026-06-28 20:35:36,989 | INFO | Batch 1/1 | Size: 7
+2026-06-28 20:35:37,756 | INFO | Batch completed in 0.77 sec.
+2026-06-28 20:35:37,756 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri.jsonl
+2026-06-28 20:35:37,756 | INFO | Processing time: 0.77 sec.
+2026-06-28 20:35:37,756 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:35:37,756 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:35:37,758 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:35:37,758 | INFO | Batch 1/1 | Size: 10
+2026-06-28 20:35:39,059 | INFO | Batch completed in 1.30 sec.
+2026-06-28 20:35:39,059 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 20:35:39,059 | INFO | Processing time: 1.30 sec.
+2026-06-28 20:35:39,059 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:35:39,059 | INFO | Processing file: data/processed/chunks/payments_and_banking_operations/Bank Hesabları Qaydası.jsonl
+2026-06-28 20:35:39,063 | INFO | Output file: data/processed/embeddings/bge_m3/payments_and_banking_operations/Bank Hesabları Qaydası_embeddings.jsonl
+2026-06-28 20:35:39,064 | INFO | Batch 1/2 | Size: 100
+2026-06-28 20:35:54,698 | INFO | Batch completed in 15.63 sec.
+2026-06-28 20:35:54,699 | INFO | Batch 2/2 | Size: 23
+2026-06-28 20:36:04,999 | INFO | Batch completed in 10.30 sec.
+2026-06-28 20:36:04,999 | INFO | Finished processing: data/processed/chunks/payments_and_banking_operations/Bank Hesabları Qaydası.jsonl
+2026-06-28 20:36:04,999 | INFO | Processing time: 25.94 sec.
+2026-06-28 20:36:04,999 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:36:04,999 | INFO | Processing file: data/processed/chunks/laws/_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 20:36:05,002 | INFO | Output file: data/processed/embeddings/bge_m3/laws/_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:36:05,002 | INFO | Batch 1/1 | Size: 8
+2026-06-28 20:36:09,263 | INFO | Batch completed in 4.26 sec.
+2026-06-28 20:36:09,263 | INFO | Finished processing: data/processed/chunks/laws/_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 20:36:09,263 | INFO | Processing time: 4.26 sec.
+2026-06-28 20:36:09,263 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:36:09,263 | INFO | Processing file: data/processed/chunks/laws/402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 20:36:09,264 | INFO | Output file: data/processed/embeddings/bge_m3/laws/402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_embeddings.jsonl
+2026-06-28 20:36:09,264 | INFO | Batch 1/1 | Size: 6
+2026-06-28 20:36:12,132 | INFO | Batch completed in 2.87 sec.
+2026-06-28 20:36:12,132 | INFO | Finished processing: data/processed/chunks/laws/402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 20:36:12,132 | INFO | Processing time: 2.87 sec.
+2026-06-28 20:36:12,132 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:36:12,132 | INFO | Processing file: data/processed/chunks/laws/AZƏRBAYCAN RESPUBLİKASININ QANUNU.jsonl
+2026-06-28 20:36:12,135 | INFO | Output file: data/processed/embeddings/bge_m3/laws/AZƏRBAYCAN RESPUBLİKASININ QANUNU_embeddings.jsonl
+2026-06-28 20:36:12,135 | INFO | Batch 1/2 | Size: 100
+2026-06-28 20:36:16,501 | INFO | Batch completed in 4.37 sec.
+2026-06-28 20:36:16,501 | INFO | Batch 2/2 | Size: 14
+2026-06-28 20:36:24,191 | INFO | Batch completed in 7.69 sec.
+2026-06-28 20:36:24,192 | INFO | Finished processing: data/processed/chunks/laws/AZƏRBAYCAN RESPUBLİKASININ QANUNU.jsonl
+2026-06-28 20:36:24,192 | INFO | Processing time: 12.06 sec.
+2026-06-28 20:36:24,192 | INFO | --------------------------------------------------------------------------------
+2026-06-28 20:36:24,192 | INFO | Processing file: data/processed/chunks/laws/Əmanətlərin sığortalanması haqqında.jsonl
+2026-06-28 20:36:24,194 | INFO | Output file: data/processed/embeddings/bge_m3/laws/Əmanətlərin sığortalanması haqqında_embeddings.jsonl
+2026-06-28 20:36:24,194 | INFO | Batch 1/1 | Size: 45
+
+
+
+
+Yeniden cehd ===>> 
+
