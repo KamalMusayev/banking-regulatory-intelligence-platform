@@ -29,7 +29,7 @@
 # def main():
 #     parser = argparse.ArgumentParser(description="Run embedding pipeline and ingest into ChromaDB.")
 #     parser.add_argument("--model", type=str, required=True, 
-#                         help="Embedding model to use (e.g., bge_m3, e5, jina_v3)")
+#                         help="Embedding model (bge_m3, e5, jina_v3, qwen)")
 #     parser.add_argument("--chunks-dir", type=str, default="data/processed/chunks", 
 #                         help="Directory containing JSONL chunk files")
 #     parser.add_argument("--chroma-dir", type=str, default="data/chroma", 
@@ -152,7 +152,7 @@ def main():
         "--model",
         required=True,
         type=str,
-        help="Embedding model (bge_m3, e5, jina_v3)"
+        help="Embedding model (bge_m3, e5, jina_v3, qwen)"
     )
 
     parser.add_argument(

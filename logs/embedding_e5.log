@@ -1,0 +1,710 @@
+2026-06-28 22:56:12,484 | INFO | ================================================================================
+2026-06-28 22:56:12,484 | INFO | Embedding pipeline started
+2026-06-28 22:56:12,484 | INFO | Embedding model : e5
+2026-06-28 22:56:12,484 | INFO | Chunks directory: data/processed/chunks
+2026-06-28 22:56:12,484 | INFO | Output directory: data/processed/embeddings
+2026-06-28 22:56:12,484 | INFO | ================================================================================
+2026-06-28 22:58:41,699 | INFO | Discovered 96 JSONL files.
+2026-06-28 22:58:41,699 | INFO | --------------------------------------------------------------------------------
+2026-06-28 22:58:41,699 | INFO | Processing file: data/processed/chunks\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758.jsonl
+2026-06-28 22:58:41,702 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758_embeddings.jsonl
+2026-06-28 22:58:41,702 | INFO | Batch 1/1 | Size: 58
+2026-06-28 22:59:22,071 | INFO | Batch completed in 40.37 sec.
+2026-06-28 22:59:22,071 | INFO | Finished processing: data/processed/chunks\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758.jsonl
+2026-06-28 22:59:22,071 | INFO | Processing time: 40.37 sec.
+2026-06-28 22:59:22,071 | INFO | --------------------------------------------------------------------------------
+2026-06-28 22:59:22,071 | INFO | Processing file: data/processed/chunks\aml_kyc\ad29955c-5a37-413c-937e-cd1e5988ae62.jsonl
+2026-06-28 22:59:22,074 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\ad29955c-5a37-413c-937e-cd1e5988ae62_embeddings.jsonl
+2026-06-28 22:59:22,074 | INFO | Batch 1/1 | Size: 16
+2026-06-28 22:59:41,366 | INFO | Batch completed in 19.29 sec.
+2026-06-28 22:59:41,366 | INFO | Finished processing: data/processed/chunks\aml_kyc\ad29955c-5a37-413c-937e-cd1e5988ae62.jsonl
+2026-06-28 22:59:41,366 | INFO | Processing time: 19.30 sec.
+2026-06-28 22:59:41,366 | INFO | --------------------------------------------------------------------------------
+2026-06-28 22:59:41,366 | INFO | Processing file: data/processed/chunks\aml_kyc\AML Sanksiya Dəyişiklikləri.jsonl
+2026-06-28 22:59:41,369 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\AML Sanksiya Dəyişiklikləri_embeddings.jsonl
+2026-06-28 22:59:41,369 | INFO | Batch 1/1 | Size: 6
+2026-06-28 22:59:49,342 | INFO | Batch completed in 7.98 sec.
+2026-06-28 22:59:49,342 | INFO | Finished processing: data/processed/chunks\aml_kyc\AML Sanksiya Dəyişiklikləri.jsonl
+2026-06-28 22:59:49,342 | INFO | Processing time: 7.98 sec.
+2026-06-28 22:59:49,342 | INFO | --------------------------------------------------------------------------------
+2026-06-28 22:59:49,342 | INFO | Processing file: data/processed/chunks\aml_kyc\Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında.jsonl
+2026-06-28 22:59:49,353 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_embeddings.jsonl
+2026-06-28 22:59:49,353 | INFO | Batch 1/1 | Size: 37
+2026-06-28 23:00:28,454 | INFO | Batch completed in 39.11 sec.
+2026-06-28 23:00:28,454 | INFO | Finished processing: data/processed/chunks\aml_kyc\Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında.jsonl
+2026-06-28 23:00:28,454 | INFO | Processing time: 39.12 sec.
+2026-06-28 23:00:28,454 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:00:28,454 | INFO | Processing file: data/processed/chunks\aml_kyc\d290a5c47f251d932318feaec.jsonl
+2026-06-28 23:00:28,469 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\d290a5c47f251d932318feaec_embeddings.jsonl
+2026-06-28 23:00:28,469 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:00:38,965 | INFO | Batch completed in 10.50 sec.
+2026-06-28 23:00:38,965 | INFO | Finished processing: data/processed/chunks\aml_kyc\d290a5c47f251d932318feaec.jsonl
+2026-06-28 23:00:38,965 | INFO | Processing time: 10.50 sec.
+2026-06-28 23:00:38,965 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:00:38,965 | INFO | Processing file: data/processed/chunks\aml_kyc\Müştəri Uyğunluğu və Risk Qiymətləndirməsi Qaydaları.jsonl
+2026-06-28 23:00:38,965 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\Müştəri Uyğunluğu və Risk Qiymətləndirməsi Qaydaları_embeddings.jsonl
+2026-06-28 23:00:38,965 | INFO | Batch 1/1 | Size: 24
+2026-06-28 23:01:09,566 | INFO | Batch completed in 30.59 sec.
+2026-06-28 23:01:09,566 | INFO | Finished processing: data/processed/chunks\aml_kyc\Müştəri Uyğunluğu və Risk Qiymətləndirməsi Qaydaları.jsonl
+2026-06-28 23:01:09,567 | INFO | Processing time: 30.59 sec.
+2026-06-28 23:01:09,567 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:01:09,567 | INFO | Processing file: data/processed/chunks\aml_kyc\Məcəllə.jsonl
+2026-06-28 23:01:09,571 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\Məcəllə_embeddings.jsonl
+2026-06-28 23:01:09,571 | INFO | Batch 1/1 | Size: 37
+2026-06-28 23:01:53,365 | INFO | Batch completed in 43.79 sec.
+2026-06-28 23:01:53,365 | INFO | Finished processing: data/processed/chunks\aml_kyc\Məcəllə.jsonl
+2026-06-28 23:01:53,365 | INFO | Processing time: 43.80 sec.
+2026-06-28 23:01:53,365 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:01:53,365 | INFO | Processing file: data/processed/chunks\aml_kyc\Valyuta tənzimi haqqında.jsonl
+2026-06-28 23:01:53,371 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\Valyuta tənzimi haqqında_embeddings.jsonl
+2026-06-28 23:01:53,371 | INFO | Batch 1/2 | Size: 100
+2026-06-28 23:02:46,328 | INFO | Batch completed in 52.96 sec.
+2026-06-28 23:02:46,328 | INFO | Batch 2/2 | Size: 43
+2026-06-28 23:03:25,685 | INFO | Batch completed in 39.36 sec.
+2026-06-28 23:03:25,685 | INFO | Finished processing: data/processed/chunks\aml_kyc\Valyuta tənzimi haqqında.jsonl
+2026-06-28 23:03:25,685 | INFO | Processing time: 92.33 sec.
+2026-06-28 23:03:25,685 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:03:25,685 | INFO | Processing file: data/processed/chunks\aml_kyc\Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər.jsonl
+2026-06-28 23:03:25,685 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər_embeddings.jsonl
+2026-06-28 23:03:25,685 | INFO | Batch 1/1 | Size: 18
+2026-06-28 23:03:47,670 | INFO | Batch completed in 21.97 sec.
+2026-06-28 23:03:47,670 | INFO | Finished processing: data/processed/chunks\aml_kyc\Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər.jsonl
+2026-06-28 23:03:47,670 | INFO | Processing time: 21.97 sec.
+2026-06-28 23:03:47,670 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:03:47,670 | INFO | Processing file: data/processed/chunks\aml_kyc\“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:03:47,670 | INFO | Output file: data\processed\embeddings\e5\aml_kyc\“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:03:47,670 | INFO | Batch 1/1 | Size: 27
+2026-06-28 23:04:19,889 | INFO | Batch completed in 32.22 sec.
+2026-06-28 23:04:19,889 | INFO | Finished processing: data/processed/chunks\aml_kyc\“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:04:19,889 | INFO | Processing time: 32.23 sec.
+2026-06-28 23:04:19,889 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:04:19,889 | INFO | Processing file: data/processed/chunks\governance_and_compliance\04957d78-5ed1-477c-9d32-2ed4797154e4.jsonl
+2026-06-28 23:04:19,889 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\04957d78-5ed1-477c-9d32-2ed4797154e4_embeddings.jsonl
+2026-06-28 23:04:19,889 | INFO | Batch 1/1 | Size: 11
+2026-06-28 23:04:32,392 | INFO | Batch completed in 12.50 sec.
+2026-06-28 23:04:32,392 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\04957d78-5ed1-477c-9d32-2ed4797154e4.jsonl
+2026-06-28 23:04:32,392 | INFO | Processing time: 12.50 sec.
+2026-06-28 23:04:32,392 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:04:32,392 | INFO | Processing file: data/processed/chunks\governance_and_compliance\45937180-250a-4b4a-b8e5-153945adb06d.jsonl
+2026-06-28 23:04:32,399 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\45937180-250a-4b4a-b8e5-153945adb06d_embeddings.jsonl
+2026-06-28 23:04:32,399 | INFO | Batch 1/1 | Size: 30
+2026-06-28 23:04:57,864 | INFO | Batch completed in 25.47 sec.
+2026-06-28 23:04:57,864 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\45937180-250a-4b4a-b8e5-153945adb06d.jsonl
+2026-06-28 23:04:57,864 | INFO | Processing time: 25.47 sec.
+2026-06-28 23:04:57,864 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:04:57,864 | INFO | Processing file: data/processed/chunks\governance_and_compliance\50c0f6d30754ffa78df0070e8.jsonl
+2026-06-28 23:04:57,867 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\50c0f6d30754ffa78df0070e8_embeddings.jsonl
+2026-06-28 23:04:57,867 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:05:05,015 | INFO | Batch completed in 7.16 sec.
+2026-06-28 23:05:05,015 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\50c0f6d30754ffa78df0070e8.jsonl
+2026-06-28 23:05:05,015 | INFO | Processing time: 7.16 sec.
+2026-06-28 23:05:05,015 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:05:05,015 | INFO | Processing file: data/processed/chunks\governance_and_compliance\9018b71b0859bc7a490ea0f22.jsonl
+2026-06-28 23:05:05,015 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\9018b71b0859bc7a490ea0f22_embeddings.jsonl
+2026-06-28 23:05:05,015 | INFO | Batch 1/1 | Size: 83
+2026-06-28 23:05:36,417 | INFO | Batch completed in 31.39 sec.
+2026-06-28 23:05:36,417 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\9018b71b0859bc7a490ea0f22.jsonl
+2026-06-28 23:05:36,417 | INFO | Processing time: 31.39 sec.
+2026-06-28 23:05:36,417 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:05:36,417 | INFO | Processing file: data/processed/chunks\governance_and_compliance\Auditor xidməti haqqında.jsonl
+2026-06-28 23:05:36,419 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\Auditor xidməti haqqında_embeddings.jsonl
+2026-06-28 23:05:36,419 | INFO | Batch 1/1 | Size: 25
+2026-06-28 23:05:58,062 | INFO | Batch completed in 21.64 sec.
+2026-06-28 23:05:58,062 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\Auditor xidməti haqqında.jsonl
+2026-06-28 23:05:58,062 | INFO | Processing time: 21.65 sec.
+2026-06-28 23:05:58,062 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:05:58,062 | INFO | Processing file: data/processed/chunks\governance_and_compliance\Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+2026-06-28 23:05:58,062 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl
+2026-06-28 23:05:58,062 | INFO | Batch 1/1 | Size: 27
+2026-06-28 23:06:21,977 | INFO | Batch completed in 23.92 sec.
+2026-06-28 23:06:21,977 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+2026-06-28 23:06:21,977 | INFO | Processing time: 23.92 sec.
+2026-06-28 23:06:21,977 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:06:21,977 | INFO | Processing file: data/processed/chunks\governance_and_compliance\Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə institutlarında istehlakçıların şikayətlərinə baxılmasına dair Metodoloji Rəhbərlik.jsonl
+2026-06-28 23:06:21,977 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə institutlarında istehlakçıların şikayətlərinə baxılmasına dair Metodoloji Rəhbərlik_embeddings.jsonl
+2026-06-28 23:06:21,977 | INFO | Batch 1/1 | Size: 21
+2026-06-28 23:06:39,430 | INFO | Batch completed in 17.44 sec.
+2026-06-28 23:06:39,430 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə institutlarında istehlakçıların şikayətlərinə baxılmasına dair Metodoloji Rəhbərlik.jsonl
+2026-06-28 23:06:39,430 | INFO | Processing time: 17.45 sec.
+2026-06-28 23:06:39,430 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:06:39,430 | INFO | Processing file: data/processed/chunks\governance_and_compliance\Banklarda korporativ idarəetmə Standartları.jsonl
+2026-06-28 23:06:39,438 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\Banklarda korporativ idarəetmə Standartları_embeddings.jsonl
+2026-06-28 23:06:39,438 | INFO | Batch 1/1 | Size: 48
+2026-06-28 23:07:15,725 | INFO | Batch completed in 36.29 sec.
+2026-06-28 23:07:15,725 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\Banklarda korporativ idarəetmə Standartları.jsonl
+2026-06-28 23:07:15,725 | INFO | Processing time: 36.29 sec.
+2026-06-28 23:07:15,725 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:07:15,726 | INFO | Processing file: data/processed/chunks\governance_and_compliance\beaf2f3b-d7c9-4377-8d69-d29758699119.jsonl
+2026-06-28 23:07:15,728 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\beaf2f3b-d7c9-4377-8d69-d29758699119_embeddings.jsonl
+2026-06-28 23:07:15,728 | INFO | Batch 1/1 | Size: 37
+2026-06-28 23:07:43,107 | INFO | Batch completed in 27.38 sec.
+2026-06-28 23:07:43,107 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\beaf2f3b-d7c9-4377-8d69-d29758699119.jsonl
+2026-06-28 23:07:43,107 | INFO | Processing time: 27.38 sec.
+2026-06-28 23:07:43,107 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:07:43,107 | INFO | Processing file: data/processed/chunks\governance_and_compliance\d6a9834a-d9f7-49f3-abff-14cd901c615d.jsonl
+2026-06-28 23:07:43,107 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\d6a9834a-d9f7-49f3-abff-14cd901c615d_embeddings.jsonl
+2026-06-28 23:07:43,107 | INFO | Batch 1/1 | Size: 14
+2026-06-28 23:07:55,129 | INFO | Batch completed in 12.02 sec.
+2026-06-28 23:07:55,129 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\d6a9834a-d9f7-49f3-abff-14cd901c615d.jsonl
+2026-06-28 23:07:55,129 | INFO | Processing time: 12.02 sec.
+2026-06-28 23:07:55,129 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:07:55,129 | INFO | Processing file: data/processed/chunks\governance_and_compliance\Daxili audit haqqında.jsonl
+2026-06-28 23:07:55,131 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\Daxili audit haqqında_embeddings.jsonl
+2026-06-28 23:07:55,132 | INFO | Batch 1/1 | Size: 21
+2026-06-28 23:08:13,009 | INFO | Batch completed in 17.89 sec.
+2026-06-28 23:08:13,009 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\Daxili audit haqqında.jsonl
+2026-06-28 23:08:13,009 | INFO | Processing time: 17.89 sec.
+2026-06-28 23:08:13,009 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:08:13,009 | INFO | Processing file: data/processed/chunks\governance_and_compliance\Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında.jsonl
+2026-06-28 23:08:13,009 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_embeddings.jsonl
+2026-06-28 23:08:13,009 | INFO | Batch 1/1 | Size: 4
+2026-06-28 23:08:16,801 | INFO | Batch completed in 3.78 sec.
+2026-06-28 23:08:16,801 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında.jsonl
+2026-06-28 23:08:16,802 | INFO | Processing time: 3.78 sec.
+2026-06-28 23:08:16,802 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:08:16,802 | INFO | Processing file: data/processed/chunks\governance_and_compliance\İstehlakçıların hüquqlarının müdafiəsi haqqında.jsonl
+2026-06-28 23:08:16,805 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\İstehlakçıların hüquqlarının müdafiəsi haqqında_embeddings.jsonl
+2026-06-28 23:08:16,805 | INFO | Batch 1/2 | Size: 100
+2026-06-28 23:08:56,556 | INFO | Batch completed in 39.75 sec.
+2026-06-28 23:08:56,556 | INFO | Batch 2/2 | Size: 11
+2026-06-28 23:09:07,141 | INFO | Batch completed in 10.59 sec.
+2026-06-28 23:09:07,141 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\İstehlakçıların hüquqlarının müdafiəsi haqqında.jsonl
+2026-06-28 23:09:07,141 | INFO | Processing time: 50.34 sec.
+2026-06-28 23:09:07,141 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:09:07,141 | INFO | Processing file: data/processed/chunks\governance_and_compliance\“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:09:07,147 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:09:07,147 | INFO | Batch 1/1 | Size: 7
+2026-06-28 23:09:12,484 | INFO | Batch completed in 5.35 sec.
+2026-06-28 23:09:12,484 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:09:12,484 | INFO | Processing time: 5.35 sec.
+2026-06-28 23:09:12,484 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:09:12,484 | INFO | Processing file: data/processed/chunks\governance_and_compliance\“Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:09:12,499 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\“Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:09:12,499 | INFO | Batch 1/3 | Size: 100
+2026-06-28 23:09:42,797 | INFO | Batch completed in 30.30 sec.
+2026-06-28 23:09:42,797 | INFO | Batch 2/3 | Size: 100
+2026-06-28 23:09:56,286 | INFO | Batch completed in 13.49 sec.
+2026-06-28 23:09:56,286 | INFO | Batch 3/3 | Size: 83
+2026-06-28 23:10:26,658 | INFO | Batch completed in 30.37 sec.
+2026-06-28 23:10:26,658 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\“Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:10:26,658 | INFO | Processing time: 74.17 sec.
+2026-06-28 23:10:26,658 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:10:26,658 | INFO | Processing file: data/processed/chunks\governance_and_compliance\“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:10:26,658 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:10:26,658 | INFO | Batch 1/1 | Size: 11
+2026-06-28 23:10:36,564 | INFO | Batch completed in 9.90 sec.
+2026-06-28 23:10:36,564 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:10:36,564 | INFO | Processing time: 9.90 sec.
+2026-06-28 23:10:36,564 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:10:36,564 | INFO | Processing file: data/processed/chunks\governance_and_compliance\“Kredit ittifaqına bank əməliyyatının həyata keçirilməsi üçün lisenziya verilməsi Qaydası”nın təsdiq edilməsi haqqında.jsonl
+2026-06-28 23:10:36,568 | INFO | Output file: data\processed\embeddings\e5\governance_and_compliance\“Kredit ittifaqına bank əməliyyatının həyata keçirilməsi üçün lisenziya verilməsi Qaydası”nın təsdiq edilməsi haqqında_embeddings.jsonl
+2026-06-28 23:10:36,568 | INFO | Batch 1/1 | Size: 10
+2026-06-28 23:10:45,510 | INFO | Batch completed in 8.94 sec.
+2026-06-28 23:10:45,510 | INFO | Finished processing: data/processed/chunks\governance_and_compliance\“Kredit ittifaqına bank əməliyyatının həyata keçirilməsi üçün lisenziya verilməsi Qaydası”nın təsdiq edilməsi haqqında.jsonl
+2026-06-28 23:10:45,511 | INFO | Processing time: 8.94 sec.
+2026-06-28 23:10:45,511 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:10:45,511 | INFO | Processing file: data/processed/chunks\guidance_and_methodology\Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə xidmətləri sahəsində tənzimləyici çərçivənin hazırlıq səviyyəsinin təhlili.jsonl
+2026-06-28 23:10:45,512 | INFO | Output file: data\processed\embeddings\e5\guidance_and_methodology\Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə xidmətləri sahəsində tənzimləyici çərçivənin hazırlıq səviyyəsinin təhlili_embeddings.jsonl
+2026-06-28 23:10:45,512 | INFO | Batch 1/1 | Size: 1
+2026-06-28 23:10:46,492 | INFO | Batch completed in 0.98 sec.
+2026-06-28 23:10:46,492 | INFO | Finished processing: data/processed/chunks\guidance_and_methodology\Azərbaycan Respublikasının Mərkəzi Bankı - Maliyyə xidmətləri sahəsində tənzimləyici çərçivənin hazırlıq səviyyəsinin təhlili.jsonl
+2026-06-28 23:10:46,492 | INFO | Processing time: 0.98 sec.
+2026-06-28 23:10:46,492 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:10:46,492 | INFO | Processing file: data/processed/chunks\guidance_and_methodology\dc1546b51b6aa6b3d92409836.jsonl
+2026-06-28 23:10:46,493 | INFO | Output file: data\processed\embeddings\e5\guidance_and_methodology\dc1546b51b6aa6b3d92409836_embeddings.jsonl
+2026-06-28 23:10:46,493 | INFO | Batch 1/1 | Size: 18
+2026-06-28 23:11:03,854 | INFO | Batch completed in 17.36 sec.
+2026-06-28 23:11:03,854 | INFO | Finished processing: data/processed/chunks\guidance_and_methodology\dc1546b51b6aa6b3d92409836.jsonl
+2026-06-28 23:11:03,854 | INFO | Processing time: 17.36 sec.
+2026-06-28 23:11:03,854 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:11:03,854 | INFO | Processing file: data/processed/chunks\guidance_and_methodology\feeb62eb12b5c144caa99818e.jsonl
+2026-06-28 23:11:03,857 | INFO | Output file: data\processed\embeddings\e5\guidance_and_methodology\feeb62eb12b5c144caa99818e_embeddings.jsonl
+2026-06-28 23:11:03,857 | INFO | Batch 1/1 | Size: 13
+2026-06-28 23:11:15,588 | INFO | Batch completed in 11.73 sec.
+2026-06-28 23:11:15,588 | INFO | Finished processing: data/processed/chunks\guidance_and_methodology\feeb62eb12b5c144caa99818e.jsonl
+2026-06-28 23:11:15,588 | INFO | Processing time: 11.74 sec.
+2026-06-28 23:11:15,588 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:11:15,588 | INFO | Processing file: data/processed/chunks\laws\402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 23:11:15,588 | INFO | Output file: data\processed\embeddings\e5\laws\402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:11:15,594 | INFO | Batch 1/1 | Size: 6
+2026-06-28 23:11:21,060 | INFO | Batch completed in 5.47 sec.
+2026-06-28 23:11:21,060 | INFO | Finished processing: data/processed/chunks\laws\402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 23:11:21,060 | INFO | Processing time: 5.47 sec.
+2026-06-28 23:11:21,060 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:11:21,060 | INFO | Processing file: data/processed/chunks\laws\590-IIQ-Banklar haqqında.jsonl
+2026-06-28 23:11:21,060 | INFO | Output file: data\processed\embeddings\e5\laws\590-IIQ-Banklar haqqında_embeddings.jsonl
+2026-06-28 23:11:21,060 | INFO | Batch 1/3 | Size: 100
+2026-06-28 23:12:37,038 | INFO | Batch completed in 75.97 sec.
+2026-06-28 23:12:37,038 | INFO | Batch 2/3 | Size: 100
+2026-06-28 23:14:10,215 | INFO | Batch completed in 93.17 sec.
+2026-06-28 23:14:10,215 | INFO | Batch 3/3 | Size: 4
+2026-06-28 23:14:14,285 | INFO | Batch completed in 4.07 sec.
+2026-06-28 23:14:14,285 | INFO | Finished processing: data/processed/chunks\laws\590-IIQ-Banklar haqqında.jsonl
+2026-06-28 23:14:14,285 | INFO | Processing time: 173.22 sec.
+2026-06-28 23:14:14,285 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:14:14,285 | INFO | Processing file: data/processed/chunks\laws\802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında.jsonl
+2026-06-28 23:14:14,285 | INFO | Output file: data\processed\embeddings\e5\laws\802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_embeddings.jsonl
+2026-06-28 23:14:14,285 | INFO | Batch 1/2 | Size: 100
+2026-06-28 23:15:11,530 | INFO | Batch completed in 57.25 sec.
+2026-06-28 23:15:11,530 | INFO | Batch 2/2 | Size: 23
+2026-06-28 23:15:40,063 | INFO | Batch completed in 28.53 sec.
+2026-06-28 23:15:40,063 | INFO | Finished processing: data/processed/chunks\laws\802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında.jsonl
+2026-06-28 23:15:40,063 | INFO | Processing time: 85.78 sec.
+2026-06-28 23:15:40,063 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:15:40,063 | INFO | Processing file: data/processed/chunks\laws\933-IIIQ-Bank olmayan kredit təşkilatları haqqında.jsonl
+2026-06-28 23:15:40,063 | INFO | Output file: data\processed\embeddings\e5\laws\933-IIIQ-Bank olmayan kredit təşkilatları haqqında_embeddings.jsonl
+2026-06-28 23:15:40,063 | INFO | Batch 1/1 | Size: 50
+2026-06-28 23:16:23,460 | INFO | Batch completed in 43.39 sec.
+2026-06-28 23:16:23,460 | INFO | Finished processing: data/processed/chunks\laws\933-IIIQ-Bank olmayan kredit təşkilatları haqqında.jsonl
+2026-06-28 23:16:23,460 | INFO | Processing time: 43.39 sec.
+2026-06-28 23:16:23,460 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:16:23,460 | INFO | Processing file: data/processed/chunks\laws\AZƏRBAYCAN RESPUBLİKASININ QANUNU.jsonl
+2026-06-28 23:16:23,464 | INFO | Output file: data\processed\embeddings\e5\laws\AZƏRBAYCAN RESPUBLİKASININ QANUNU_embeddings.jsonl
+2026-06-28 23:16:23,464 | INFO | Batch 1/2 | Size: 100
+2026-06-28 23:16:41,454 | INFO | Batch completed in 17.99 sec.
+2026-06-28 23:16:41,454 | INFO | Batch 2/2 | Size: 14
+2026-06-28 23:16:53,317 | INFO | Batch completed in 11.87 sec.
+2026-06-28 23:16:53,317 | INFO | Finished processing: data/processed/chunks\laws\AZƏRBAYCAN RESPUBLİKASININ QANUNU.jsonl
+2026-06-28 23:16:53,317 | INFO | Processing time: 29.87 sec.
+2026-06-28 23:16:53,317 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:16:53,317 | INFO | Processing file: data/processed/chunks\laws\Banklar Haqqında Qanun.jsonl
+2026-06-28 23:16:53,334 | INFO | Output file: data\processed\embeddings\e5\laws\Banklar Haqqında Qanun_embeddings.jsonl
+2026-06-28 23:16:53,334 | INFO | Batch 1/2 | Size: 100
+2026-06-28 23:18:02,383 | INFO | Batch completed in 69.04 sec.
+2026-06-28 23:18:02,383 | INFO | Batch 2/2 | Size: 98
+2026-06-28 23:19:35,621 | INFO | Batch completed in 93.24 sec.
+2026-06-28 23:19:35,622 | INFO | Finished processing: data/processed/chunks\laws\Banklar Haqqında Qanun.jsonl
+2026-06-28 23:19:35,622 | INFO | Processing time: 162.29 sec.
+2026-06-28 23:19:35,622 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:19:35,622 | INFO | Processing file: data/processed/chunks\laws\_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 23:19:35,631 | INFO | Output file: data\processed\embeddings\e5\laws\_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:19:35,631 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:19:45,841 | INFO | Batch completed in 10.21 sec.
+2026-06-28 23:19:45,841 | INFO | Finished processing: data/processed/chunks\laws\_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə.jsonl
+2026-06-28 23:19:45,841 | INFO | Processing time: 10.22 sec.
+2026-06-28 23:19:45,842 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:19:45,842 | INFO | Processing file: data/processed/chunks\laws\Əmanətlərin sığortalanması haqqında.jsonl
+2026-06-28 23:19:45,848 | INFO | Output file: data\processed\embeddings\e5\laws\Əmanətlərin sığortalanması haqqında_embeddings.jsonl
+2026-06-28 23:19:45,848 | INFO | Batch 1/1 | Size: 45
+2026-06-28 23:20:31,229 | INFO | Batch completed in 45.38 sec.
+2026-06-28 23:20:31,229 | INFO | Finished processing: data/processed/chunks\laws\Əmanətlərin sığortalanması haqqında.jsonl
+2026-06-28 23:20:31,231 | INFO | Processing time: 45.39 sec.
+2026-06-28 23:20:31,231 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:20:31,231 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\4a6fbf3ba5bf66fda98b121c7.jsonl
+2026-06-28 23:20:31,237 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\4a6fbf3ba5bf66fda98b121c7_embeddings.jsonl
+2026-06-28 23:20:31,237 | INFO | Batch 1/1 | Size: 54
+2026-06-28 23:21:37,364 | INFO | Batch completed in 66.13 sec.
+2026-06-28 23:21:37,364 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\4a6fbf3ba5bf66fda98b121c7.jsonl
+2026-06-28 23:21:37,365 | INFO | Processing time: 66.13 sec.
+2026-06-28 23:21:37,365 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:21:37,365 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\64b6f05f-196b-4894-9374-9e5c1c4df7a2.jsonl
+2026-06-28 23:21:37,379 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\64b6f05f-196b-4894-9374-9e5c1c4df7a2_embeddings.jsonl
+2026-06-28 23:21:37,379 | INFO | Batch 1/2 | Size: 100
+2026-06-28 23:22:30,173 | INFO | Batch completed in 52.80 sec.
+2026-06-28 23:22:30,173 | INFO | Batch 2/2 | Size: 23
+2026-06-28 23:22:58,578 | INFO | Batch completed in 28.41 sec.
+2026-06-28 23:22:58,578 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\64b6f05f-196b-4894-9374-9e5c1c4df7a2.jsonl
+2026-06-28 23:22:58,578 | INFO | Processing time: 81.23 sec.
+2026-06-28 23:22:58,578 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:22:58,578 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\9abef96e-dec9-4c51-b763-8ccf4e23afdd.jsonl
+2026-06-28 23:22:58,578 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\9abef96e-dec9-4c51-b763-8ccf4e23afdd_embeddings.jsonl
+2026-06-28 23:22:58,578 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:23:09,361 | INFO | Batch completed in 10.77 sec.
+2026-06-28 23:23:09,361 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\9abef96e-dec9-4c51-b763-8ccf4e23afdd.jsonl
+2026-06-28 23:23:09,361 | INFO | Processing time: 10.77 sec.
+2026-06-28 23:23:09,361 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:23:09,361 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə.jsonl
+2026-06-28 23:23:09,363 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə_embeddings.jsonl
+2026-06-28 23:23:09,363 | INFO | Batch 1/1 | Size: 3
+2026-06-28 23:23:13,533 | INFO | Batch completed in 4.17 sec.
+2026-06-28 23:23:13,533 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının 1999-cu il 22 iyun tarixli 689-IQ nömrəli Qanunu ilə təsdiq edilmiş «Ədalət mühakiməsinin rəsmi embleminin təsviri»ndə dəyişiklik edilməsi barədə.jsonl
+2026-06-28 23:23:13,533 | INFO | Processing time: 4.17 sec.
+2026-06-28 23:23:13,533 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:23:13,533 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.jsonl
+2026-06-28 23:23:13,533 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik_embeddings.jsonl
+2026-06-28 23:23:13,533 | INFO | Batch 1/1 | Size: 15
+2026-06-28 23:23:32,625 | INFO | Batch completed in 19.10 sec.
+2026-06-28 23:23:32,625 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasında elektron bankçılıq xidmətlərinin göstərilməsinə və bu xidmətlər üzrə təhlükəsizliyin təmin olunmasına dair Metodoloji Rəhbərlik.jsonl
+2026-06-28 23:23:32,625 | INFO | Processing time: 19.10 sec.
+2026-06-28 23:23:32,625 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:23:32,625 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.jsonl
+2026-06-28 23:23:32,640 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları_embeddings.jsonl
+2026-06-28 23:23:32,640 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:23:43,189 | INFO | Batch completed in 10.55 sec.
+2026-06-28 23:23:43,189 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının bank sistemində ödəniş vasitələrinin maliyyə hesabatlarında uçotu Qaydaları.jsonl
+2026-06-28 23:23:43,189 | INFO | Processing time: 10.55 sec.
+2026-06-28 23:23:43,189 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:23:43,189 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri.jsonl
+2026-06-28 23:23:43,189 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri_embeddings.jsonl
+2026-06-28 23:23:43,189 | INFO | Batch 1/1 | Size: 7
+2026-06-28 23:23:48,829 | INFO | Batch completed in 5.64 sec.
+2026-06-28 23:23:48,829 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri.jsonl
+2026-06-28 23:23:48,829 | INFO | Processing time: 5.64 sec.
+2026-06-28 23:23:48,829 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:23:48,829 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\Bank Hesabları Qaydası.jsonl
+2026-06-28 23:23:48,829 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\Bank Hesabları Qaydası_embeddings.jsonl
+2026-06-28 23:23:48,829 | INFO | Batch 1/2 | Size: 100
+2026-06-28 23:24:40,647 | INFO | Batch completed in 51.81 sec.
+2026-06-28 23:24:40,647 | INFO | Batch 2/2 | Size: 23
+2026-06-28 23:25:09,391 | INFO | Batch completed in 28.75 sec.
+2026-06-28 23:25:09,391 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\Bank Hesabları Qaydası.jsonl
+2026-06-28 23:25:09,391 | INFO | Processing time: 80.56 sec.
+2026-06-28 23:25:09,391 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:25:09,395 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\Bank Şöbələri və Valyuta Qaydası.jsonl
+2026-06-28 23:25:09,396 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\Bank Şöbələri və Valyuta Qaydası_embeddings.jsonl
+2026-06-28 23:25:09,396 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:25:19,885 | INFO | Batch completed in 10.50 sec.
+2026-06-28 23:25:19,885 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\Bank Şöbələri və Valyuta Qaydası.jsonl
+2026-06-28 23:25:19,885 | INFO | Processing time: 10.51 sec.
+2026-06-28 23:25:19,885 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:25:19,885 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.jsonl
+2026-06-28 23:25:19,901 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e_embeddings.jsonl
+2026-06-28 23:25:19,901 | INFO | Batch 1/1 | Size: 6
+2026-06-28 23:25:28,113 | INFO | Batch completed in 8.22 sec.
+2026-06-28 23:25:28,113 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\c8ef8b99-7b1c-442c-bf14-1f015ec0cc8e.jsonl
+2026-06-28 23:25:28,113 | INFO | Processing time: 8.22 sec.
+2026-06-28 23:25:28,113 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:25:28,113 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\dd1aa268-4de2-48ab-8953-c87d3f1c74e3.jsonl
+2026-06-28 23:25:28,113 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\dd1aa268-4de2-48ab-8953-c87d3f1c74e3_embeddings.jsonl
+2026-06-28 23:25:28,113 | INFO | Batch 1/1 | Size: 23
+2026-06-28 23:25:57,194 | INFO | Batch completed in 29.08 sec.
+2026-06-28 23:25:57,194 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\dd1aa268-4de2-48ab-8953-c87d3f1c74e3.jsonl
+2026-06-28 23:25:57,194 | INFO | Processing time: 29.08 sec.
+2026-06-28 23:25:57,194 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:25:57,194 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.jsonl
+2026-06-28 23:25:57,206 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında_embeddings.jsonl
+2026-06-28 23:25:57,206 | INFO | Batch 1/1 | Size: 79
+2026-06-28 23:27:15,407 | INFO | Batch completed in 78.21 sec.
+2026-06-28 23:27:15,407 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında.jsonl
+2026-06-28 23:27:15,407 | INFO | Processing time: 78.21 sec.
+2026-06-28 23:27:15,407 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:27:15,407 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.jsonl
+2026-06-28 23:27:15,416 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması_embeddings.jsonl
+2026-06-28 23:27:15,416 | INFO | Batch 1/1 | Size: 5
+2026-06-28 23:27:21,859 | INFO | Batch completed in 6.44 sec.
+2026-06-28 23:27:21,859 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\İstehlak krediti müqaviləsi üzrə standart məlumatlandırma forması.jsonl
+2026-06-28 23:27:21,859 | INFO | Processing time: 6.45 sec.
+2026-06-28 23:27:21,859 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:27:21,859 | INFO | Processing file: data/processed/chunks\payments_and_banking_operations\“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:27:21,860 | INFO | Output file: data\processed\embeddings\e5\payments_and_banking_operations\“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:27:21,860 | INFO | Batch 1/1 | Size: 10
+2026-06-28 23:27:29,531 | INFO | Batch completed in 7.67 sec.
+2026-06-28 23:27:29,531 | INFO | Finished processing: data/processed/chunks\payments_and_banking_operations\“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:27:29,531 | INFO | Processing time: 7.67 sec.
+2026-06-28 23:27:29,531 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:27:29,531 | INFO | Processing file: data/processed/chunks\prudential_regulations\009aa733c2e8a69d2ccc41bf4.jsonl
+2026-06-28 23:27:29,531 | INFO | Output file: data\processed\embeddings\e5\prudential_regulations\009aa733c2e8a69d2ccc41bf4_embeddings.jsonl
+2026-06-28 23:27:29,531 | INFO | Batch 1/1 | Size: 7
+2026-06-28 23:27:34,725 | INFO | Batch completed in 5.19 sec.
+2026-06-28 23:27:34,725 | INFO | Finished processing: data/processed/chunks\prudential_regulations\009aa733c2e8a69d2ccc41bf4.jsonl
+2026-06-28 23:27:34,725 | INFO | Processing time: 5.19 sec.
+2026-06-28 23:27:34,725 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:27:34,725 | INFO | Processing file: data/processed/chunks\prudential_regulations\a416bd5767831ef5222712ecd.jsonl
+2026-06-28 23:27:34,728 | INFO | Output file: data\processed\embeddings\e5\prudential_regulations\a416bd5767831ef5222712ecd_embeddings.jsonl
+2026-06-28 23:27:34,728 | INFO | Batch 1/1 | Size: 28
+2026-06-28 23:27:59,251 | INFO | Batch completed in 24.54 sec.
+2026-06-28 23:27:59,251 | INFO | Finished processing: data/processed/chunks\prudential_regulations\a416bd5767831ef5222712ecd.jsonl
+2026-06-28 23:27:59,251 | INFO | Processing time: 24.54 sec.
+2026-06-28 23:27:59,251 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:27:59,251 | INFO | Processing file: data/processed/chunks\prudential_regulations\Azərbaycan Respublikasının Mərkəzi Bankı - Bankların əsas vəsaitlərlə (əmlakla) apardıqları əməliyyatların tənzimlənməsi Qaydaları.jsonl
+2026-06-28 23:27:59,267 | INFO | Output file: data\processed\embeddings\e5\prudential_regulations\Azərbaycan Respublikasının Mərkəzi Bankı - Bankların əsas vəsaitlərlə (əmlakla) apardıqları əməliyyatların tənzimlənməsi Qaydaları_embeddings.jsonl
+2026-06-28 23:27:59,267 | INFO | Batch 1/1 | Size: 9
+2026-06-28 23:28:10,984 | INFO | Batch completed in 11.72 sec.
+2026-06-28 23:28:10,984 | INFO | Finished processing: data/processed/chunks\prudential_regulations\Azərbaycan Respublikasının Mərkəzi Bankı - Bankların əsas vəsaitlərlə (əmlakla) apardıqları əməliyyatların tənzimlənməsi Qaydaları.jsonl
+2026-06-28 23:28:10,985 | INFO | Processing time: 11.72 sec.
+2026-06-28 23:28:10,985 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:28:10,985 | INFO | Processing file: data/processed/chunks\prudential_regulations\_Dövlət qeydiyyatına alınmışdır_.jsonl
+2026-06-28 23:28:10,986 | INFO | Output file: data\processed\embeddings\e5\prudential_regulations\_Dövlət qeydiyyatına alınmışdır__embeddings.jsonl
+2026-06-28 23:28:10,986 | INFO | Batch 1/1 | Size: 19
+2026-06-28 23:28:34,894 | INFO | Batch completed in 23.91 sec.
+2026-06-28 23:28:34,894 | INFO | Finished processing: data/processed/chunks\prudential_regulations\_Dövlət qeydiyyatına alınmışdır_.jsonl
+2026-06-28 23:28:34,894 | INFO | Processing time: 23.91 sec.
+2026-06-28 23:28:34,894 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:28:34,894 | INFO | Processing file: data/processed/chunks\prudential_regulations\“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında.jsonl
+2026-06-28 23:28:34,894 | INFO | Output file: data\processed\embeddings\e5\prudential_regulations\“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında_embeddings.jsonl
+2026-06-28 23:28:34,894 | INFO | Batch 1/1 | Size: 48
+2026-06-28 23:29:14,910 | INFO | Batch completed in 40.01 sec.
+2026-06-28 23:29:14,910 | INFO | Finished processing: data/processed/chunks\prudential_regulations\“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında.jsonl
+2026-06-28 23:29:14,910 | INFO | Processing time: 40.01 sec.
+2026-06-28 23:29:14,910 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:29:14,910 | INFO | Processing file: data/processed/chunks\prudential_regulations\“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:29:14,913 | INFO | Output file: data\processed\embeddings\e5\prudential_regulations\“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:29:14,913 | INFO | Batch 1/1 | Size: 5
+2026-06-28 23:29:21,832 | INFO | Batch completed in 6.93 sec.
+2026-06-28 23:29:21,832 | INFO | Finished processing: data/processed/chunks\prudential_regulations\“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:29:21,832 | INFO | Processing time: 6.93 sec.
+2026-06-28 23:29:21,832 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:29:21,832 | INFO | Processing file: data/processed/chunks\prudential_regulations\“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:29:21,845 | INFO | Output file: data\processed\embeddings\e5\prudential_regulations\“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:29:21,845 | INFO | Batch 1/1 | Size: 21
+2026-06-28 23:29:47,940 | INFO | Batch completed in 26.11 sec.
+2026-06-28 23:29:47,940 | INFO | Finished processing: data/processed/chunks\prudential_regulations\“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:29:47,940 | INFO | Processing time: 26.11 sec.
+2026-06-28 23:29:47,940 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:29:47,940 | INFO | Processing file: data/processed/chunks\reporting_and_audit\05dc79d9-43f7-4a71-aa62-709a43c03f7d.jsonl
+2026-06-28 23:29:47,940 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\05dc79d9-43f7-4a71-aa62-709a43c03f7d_embeddings.jsonl
+2026-06-28 23:29:47,940 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:29:58,347 | INFO | Batch completed in 10.40 sec.
+2026-06-28 23:29:58,347 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\05dc79d9-43f7-4a71-aa62-709a43c03f7d.jsonl
+2026-06-28 23:29:58,347 | INFO | Processing time: 10.40 sec.
+2026-06-28 23:29:58,347 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:29:58,347 | INFO | Processing file: data/processed/chunks\reporting_and_audit\3df76b8c-0902-46c3-86d9-7274e5a85bfa.jsonl
+2026-06-28 23:29:58,347 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\3df76b8c-0902-46c3-86d9-7274e5a85bfa_embeddings.jsonl
+2026-06-28 23:29:58,347 | INFO | Batch 1/1 | Size: 20
+2026-06-28 23:30:21,697 | INFO | Batch completed in 23.35 sec.
+2026-06-28 23:30:21,697 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\3df76b8c-0902-46c3-86d9-7274e5a85bfa.jsonl
+2026-06-28 23:30:21,697 | INFO | Processing time: 23.35 sec.
+2026-06-28 23:30:21,697 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:30:21,697 | INFO | Processing file: data/processed/chunks\reporting_and_audit\93968292987fc27975a90fcfd.jsonl
+2026-06-28 23:30:21,705 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\93968292987fc27975a90fcfd_embeddings.jsonl
+2026-06-28 23:30:21,705 | INFO | Batch 1/1 | Size: 67
+2026-06-28 23:31:09,223 | INFO | Batch completed in 47.52 sec.
+2026-06-28 23:31:09,223 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\93968292987fc27975a90fcfd.jsonl
+2026-06-28 23:31:09,223 | INFO | Processing time: 47.53 sec.
+2026-06-28 23:31:09,223 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:31:09,223 | INFO | Processing file: data/processed/chunks\reporting_and_audit\Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+2026-06-28 23:31:09,233 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl
+2026-06-28 23:31:09,233 | INFO | Batch 1/1 | Size: 15
+2026-06-28 23:31:28,189 | INFO | Batch completed in 18.96 sec.
+2026-06-28 23:31:28,189 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl
+2026-06-28 23:31:28,189 | INFO | Processing time: 18.97 sec.
+2026-06-28 23:31:28,189 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:31:28,189 | INFO | Processing file: data/processed/chunks\reporting_and_audit\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.jsonl
+2026-06-28 23:31:28,189 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_embeddings.jsonl
+2026-06-28 23:31:28,189 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:31:32,220 | INFO | Batch completed in 4.03 sec.
+2026-06-28 23:31:32,220 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları.jsonl
+2026-06-28 23:31:32,220 | INFO | Processing time: 4.03 sec.
+2026-06-28 23:31:32,220 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:31:32,220 | INFO | Processing file: data/processed/chunks\reporting_and_audit\_Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 23:31:32,220 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\_Dövlət qeydiyyatına alınmışdır_embeddings.jsonl
+2026-06-28 23:31:32,220 | INFO | Batch 1/1 | Size: 28
+2026-06-28 23:32:04,414 | INFO | Batch completed in 32.18 sec.
+2026-06-28 23:32:04,414 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\_Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 23:32:04,414 | INFO | Processing time: 32.19 sec.
+2026-06-28 23:32:04,414 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:32:04,414 | INFO | Processing file: data/processed/chunks\reporting_and_audit\«Dövlət qeydiyyatına alınmışdır».jsonl
+2026-06-28 23:32:04,415 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\«Dövlət qeydiyyatına alınmışdır»_embeddings.jsonl
+2026-06-28 23:32:04,415 | INFO | Batch 1/1 | Size: 9
+2026-06-28 23:32:13,172 | INFO | Batch completed in 8.76 sec.
+2026-06-28 23:32:13,172 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\«Dövlət qeydiyyatına alınmışdır».jsonl
+2026-06-28 23:32:13,172 | INFO | Processing time: 8.76 sec.
+2026-06-28 23:32:13,172 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:32:13,172 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:32:13,184 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:32:13,184 | INFO | Batch 1/5 | Size: 100
+2026-06-28 23:32:42,407 | INFO | Batch completed in 29.22 sec.
+2026-06-28 23:32:42,407 | INFO | Batch 2/5 | Size: 100
+2026-06-28 23:32:48,410 | INFO | Batch completed in 6.01 sec.
+2026-06-28 23:32:48,410 | INFO | Batch 3/5 | Size: 100
+2026-06-28 23:32:55,925 | INFO | Batch completed in 7.51 sec.
+2026-06-28 23:32:55,925 | INFO | Batch 4/5 | Size: 100
+2026-06-28 23:33:28,394 | INFO | Batch completed in 32.47 sec.
+2026-06-28 23:33:28,394 | INFO | Batch 5/5 | Size: 85
+2026-06-28 23:34:04,673 | INFO | Batch completed in 36.29 sec.
+2026-06-28 23:34:04,673 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:34:04,673 | INFO | Processing time: 111.51 sec.
+2026-06-28 23:34:04,673 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:34:04,673 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 23:34:04,689 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“Dövlət qeydiyyatına alınmışdır_embeddings.jsonl
+2026-06-28 23:34:04,691 | INFO | Batch 1/1 | Size: 27
+2026-06-28 23:34:33,626 | INFO | Batch completed in 28.94 sec.
+2026-06-28 23:34:33,626 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“Dövlət qeydiyyatına alınmışdır.jsonl
+2026-06-28 23:34:33,626 | INFO | Processing time: 28.95 sec.
+2026-06-28 23:34:33,626 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:34:33,626 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“Dövlət qeydiyyatına alınmışdır”.jsonl
+2026-06-28 23:34:33,633 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“Dövlət qeydiyyatına alınmışdır”_embeddings.jsonl
+2026-06-28 23:34:33,633 | INFO | Batch 1/1 | Size: 5
+2026-06-28 23:34:39,237 | INFO | Batch completed in 5.61 sec.
+2026-06-28 23:34:39,237 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“Dövlət qeydiyyatına alınmışdır”.jsonl
+2026-06-28 23:34:39,237 | INFO | Processing time: 5.61 sec.
+2026-06-28 23:34:39,237 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:34:39,237 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:34:39,237 | WARNING | Skipping empty file: data/processed/chunks\reporting_and_audit\“Emitentin istiqraz buraxılışının maksimum həcminə dair tələblər haqqında Qayda”nın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:34:39,237 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:34:39,237 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:34:39,237 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:34:39,237 | INFO | Batch 1/1 | Size: 6
+2026-06-28 23:34:45,986 | INFO | Batch completed in 6.75 sec.
+2026-06-28 23:34:45,986 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“Fiziki şəxslərin bank hesablarından Azərbaycan Respublikasından kənara köçürülən xarici valyuta haqqında statistik hesabatın tərtibi və təqdim edilməsinə dair Təlimat”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:34:45,986 | INFO | Processing time: 6.75 sec.
+2026-06-28 23:34:45,986 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:34:45,986 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+2026-06-28 23:34:45,986 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”_embeddings.jsonl
+2026-06-28 23:34:45,986 | INFO | Batch 1/1 | Size: 7
+2026-06-28 23:34:53,549 | INFO | Batch completed in 7.57 sec.
+2026-06-28 23:34:53,549 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“QEYDƏ ALINMIŞDIR” “TƏSDİQ EDİRƏM”.jsonl
+2026-06-28 23:34:53,549 | INFO | Processing time: 7.57 sec.
+2026-06-28 23:34:53,549 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:34:53,549 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“QEYDƏ ALINMIŞDIR”.jsonl
+2026-06-28 23:34:53,564 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“QEYDƏ ALINMIŞDIR”_embeddings.jsonl
+2026-06-28 23:34:53,564 | INFO | Batch 1/1 | Size: 7
+2026-06-28 23:34:58,773 | INFO | Batch completed in 5.21 sec.
+2026-06-28 23:34:58,773 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“QEYDƏ ALINMIŞDIR”.jsonl
+2026-06-28 23:34:58,773 | INFO | Processing time: 5.21 sec.
+2026-06-28 23:34:58,773 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:34:58,773 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:34:58,775 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:34:58,775 | INFO | Batch 1/1 | Size: 9
+2026-06-28 23:35:08,300 | INFO | Batch completed in 9.54 sec.
+2026-06-28 23:35:08,300 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:35:08,300 | INFO | Processing time: 9.54 sec.
+2026-06-28 23:35:08,300 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:35:08,300 | INFO | Processing file: data/processed/chunks\reporting_and_audit\“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:35:08,314 | INFO | Output file: data\processed\embeddings\e5\reporting_and_audit\“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_embeddings.jsonl
+2026-06-28 23:35:08,314 | INFO | Batch 1/1 | Size: 9
+2026-06-28 23:35:18,241 | INFO | Batch completed in 9.93 sec.
+2026-06-28 23:35:18,241 | INFO | Finished processing: data/processed/chunks\reporting_and_audit\“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə.jsonl
+2026-06-28 23:35:18,241 | INFO | Processing time: 9.94 sec.
+2026-06-28 23:35:18,241 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:35:18,241 | INFO | Processing file: data/processed/chunks\risk_management\09b9304488242be054f8c2eb6.jsonl
+2026-06-28 23:35:18,241 | INFO | Output file: data\processed\embeddings\e5\risk_management\09b9304488242be054f8c2eb6_embeddings.jsonl
+2026-06-28 23:35:18,241 | INFO | Batch 1/1 | Size: 30
+2026-06-28 23:35:50,079 | INFO | Batch completed in 31.84 sec.
+2026-06-28 23:35:50,079 | INFO | Finished processing: data/processed/chunks\risk_management\09b9304488242be054f8c2eb6.jsonl
+2026-06-28 23:35:50,079 | INFO | Processing time: 31.84 sec.
+2026-06-28 23:35:50,079 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:35:50,079 | INFO | Processing file: data/processed/chunks\risk_management\1db1173040cd0364af5d7f0d2.jsonl
+2026-06-28 23:35:50,095 | INFO | Output file: data\processed\embeddings\e5\risk_management\1db1173040cd0364af5d7f0d2_embeddings.jsonl
+2026-06-28 23:35:50,095 | INFO | Batch 1/1 | Size: 27
+2026-06-28 23:36:18,988 | INFO | Batch completed in 28.90 sec.
+2026-06-28 23:36:18,988 | INFO | Finished processing: data/processed/chunks\risk_management\1db1173040cd0364af5d7f0d2.jsonl
+2026-06-28 23:36:18,988 | INFO | Processing time: 28.90 sec.
+2026-06-28 23:36:18,988 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:36:18,988 | INFO | Processing file: data/processed/chunks\risk_management\1dfb892e-6204-4404-9166-c861f06996fa.jsonl
+2026-06-28 23:36:18,994 | INFO | Output file: data\processed\embeddings\e5\risk_management\1dfb892e-6204-4404-9166-c861f06996fa_embeddings.jsonl
+2026-06-28 23:36:18,994 | INFO | Batch 1/1 | Size: 79
+2026-06-28 23:37:00,551 | INFO | Batch completed in 41.56 sec.
+2026-06-28 23:37:00,557 | INFO | Finished processing: data/processed/chunks\risk_management\1dfb892e-6204-4404-9166-c861f06996fa.jsonl
+2026-06-28 23:37:00,557 | INFO | Processing time: 41.56 sec.
+2026-06-28 23:37:00,557 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:37:00,557 | INFO | Processing file: data/processed/chunks\risk_management\1e1594e275bb96ef2c75aa1e8.jsonl
+2026-06-28 23:37:00,557 | INFO | Output file: data\processed\embeddings\e5\risk_management\1e1594e275bb96ef2c75aa1e8_embeddings.jsonl
+2026-06-28 23:37:00,557 | INFO | Batch 1/1 | Size: 11
+2026-06-28 23:37:11,674 | INFO | Batch completed in 11.13 sec.
+2026-06-28 23:37:11,674 | INFO | Finished processing: data/processed/chunks\risk_management\1e1594e275bb96ef2c75aa1e8.jsonl
+2026-06-28 23:37:11,674 | INFO | Processing time: 11.13 sec.
+2026-06-28 23:37:11,674 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:37:11,674 | INFO | Processing file: data/processed/chunks\risk_management\511cdc58f232d5d9395551ae8.jsonl
+2026-06-28 23:37:11,690 | INFO | Output file: data\processed\embeddings\e5\risk_management\511cdc58f232d5d9395551ae8_embeddings.jsonl
+2026-06-28 23:37:11,690 | INFO | Batch 1/1 | Size: 24
+2026-06-28 23:37:37,443 | INFO | Batch completed in 25.75 sec.
+2026-06-28 23:37:37,443 | INFO | Finished processing: data/processed/chunks\risk_management\511cdc58f232d5d9395551ae8.jsonl
+2026-06-28 23:37:37,444 | INFO | Processing time: 25.76 sec.
+2026-06-28 23:37:37,444 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:37:37,444 | INFO | Processing file: data/processed/chunks\risk_management\58696c0de75462383dba38398.jsonl
+2026-06-28 23:37:37,448 | INFO | Output file: data\processed\embeddings\e5\risk_management\58696c0de75462383dba38398_embeddings.jsonl
+2026-06-28 23:37:37,448 | INFO | Batch 1/1 | Size: 33
+2026-06-28 23:38:07,284 | INFO | Batch completed in 29.84 sec.
+2026-06-28 23:38:07,284 | INFO | Finished processing: data/processed/chunks\risk_management\58696c0de75462383dba38398.jsonl
+2026-06-28 23:38:07,284 | INFO | Processing time: 29.84 sec.
+2026-06-28 23:38:07,284 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:38:07,284 | INFO | Processing file: data/processed/chunks\risk_management\5b725bb224d33e2085294c793.jsonl
+2026-06-28 23:38:07,289 | INFO | Output file: data\processed\embeddings\e5\risk_management\5b725bb224d33e2085294c793_embeddings.jsonl
+2026-06-28 23:38:07,289 | INFO | Batch 1/1 | Size: 33
+2026-06-28 23:38:33,345 | INFO | Batch completed in 26.06 sec.
+2026-06-28 23:38:33,345 | INFO | Finished processing: data/processed/chunks\risk_management\5b725bb224d33e2085294c793.jsonl
+2026-06-28 23:38:33,345 | INFO | Processing time: 26.07 sec.
+2026-06-28 23:38:33,345 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:38:33,345 | INFO | Processing file: data/processed/chunks\risk_management\6c51a485-6986-4257-b6e0-25475732f1dc.jsonl
+2026-06-28 23:38:33,345 | INFO | Output file: data\processed\embeddings\e5\risk_management\6c51a485-6986-4257-b6e0-25475732f1dc_embeddings.jsonl
+2026-06-28 23:38:33,345 | INFO | Batch 1/1 | Size: 18
+2026-06-28 23:38:48,362 | INFO | Batch completed in 15.02 sec.
+2026-06-28 23:38:48,362 | INFO | Finished processing: data/processed/chunks\risk_management\6c51a485-6986-4257-b6e0-25475732f1dc.jsonl
+2026-06-28 23:38:48,362 | INFO | Processing time: 15.02 sec.
+2026-06-28 23:38:48,362 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:38:48,362 | INFO | Processing file: data/processed/chunks\risk_management\7fd12f0749b180441d54cd4de.jsonl
+2026-06-28 23:38:48,377 | INFO | Output file: data\processed\embeddings\e5\risk_management\7fd12f0749b180441d54cd4de_embeddings.jsonl
+2026-06-28 23:38:48,377 | INFO | Batch 1/1 | Size: 17
+2026-06-28 23:39:02,954 | INFO | Batch completed in 14.59 sec.
+2026-06-28 23:39:02,954 | INFO | Finished processing: data/processed/chunks\risk_management\7fd12f0749b180441d54cd4de.jsonl
+2026-06-28 23:39:02,954 | INFO | Processing time: 14.59 sec.
+2026-06-28 23:39:02,954 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:39:02,954 | INFO | Processing file: data/processed/chunks\risk_management\8a4d0220-9312-4ef2-88e8-c65b607a186a.jsonl
+2026-06-28 23:39:02,954 | INFO | Output file: data\processed\embeddings\e5\risk_management\8a4d0220-9312-4ef2-88e8-c65b607a186a_embeddings.jsonl
+2026-06-28 23:39:02,954 | INFO | Batch 1/1 | Size: 20
+2026-06-28 23:39:19,648 | INFO | Batch completed in 16.69 sec.
+2026-06-28 23:39:19,648 | INFO | Finished processing: data/processed/chunks\risk_management\8a4d0220-9312-4ef2-88e8-c65b607a186a.jsonl
+2026-06-28 23:39:19,648 | INFO | Processing time: 16.69 sec.
+2026-06-28 23:39:19,648 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:39:19,648 | INFO | Processing file: data/processed/chunks\risk_management\98a6608d0eb4e83b612fde01f.jsonl
+2026-06-28 23:39:19,660 | INFO | Output file: data\processed\embeddings\e5\risk_management\98a6608d0eb4e83b612fde01f_embeddings.jsonl
+2026-06-28 23:39:19,660 | INFO | Batch 1/1 | Size: 46
+2026-06-28 23:39:58,169 | INFO | Batch completed in 38.51 sec.
+2026-06-28 23:39:58,169 | INFO | Finished processing: data/processed/chunks\risk_management\98a6608d0eb4e83b612fde01f.jsonl
+2026-06-28 23:39:58,169 | INFO | Processing time: 38.51 sec.
+2026-06-28 23:39:58,169 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:39:58,169 | INFO | Processing file: data/processed/chunks\risk_management\Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə.jsonl
+2026-06-28 23:39:58,171 | INFO | Output file: data\processed\embeddings\e5\risk_management\Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_embeddings.jsonl
+2026-06-28 23:39:58,171 | INFO | Batch 1/1 | Size: 12
+2026-06-28 23:40:08,534 | INFO | Batch completed in 10.37 sec.
+2026-06-28 23:40:08,534 | INFO | Finished processing: data/processed/chunks\risk_management\Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə.jsonl
+2026-06-28 23:40:08,534 | INFO | Processing time: 10.37 sec.
+2026-06-28 23:40:08,534 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:40:08,534 | INFO | Processing file: data/processed/chunks\risk_management\ba0d73daa9275fa1fe1e4694b.jsonl
+2026-06-28 23:40:08,544 | INFO | Output file: data\processed\embeddings\e5\risk_management\ba0d73daa9275fa1fe1e4694b_embeddings.jsonl
+2026-06-28 23:40:08,544 | INFO | Batch 1/1 | Size: 64
+2026-06-28 23:41:01,158 | INFO | Batch completed in 52.62 sec.
+2026-06-28 23:41:01,158 | INFO | Finished processing: data/processed/chunks\risk_management\ba0d73daa9275fa1fe1e4694b.jsonl
+2026-06-28 23:41:01,158 | INFO | Processing time: 52.63 sec.
+2026-06-28 23:41:01,158 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:41:01,158 | INFO | Processing file: data/processed/chunks\risk_management\baab9bc790127f849f8ac1040.jsonl
+2026-06-28 23:41:01,173 | INFO | Output file: data\processed\embeddings\e5\risk_management\baab9bc790127f849f8ac1040_embeddings.jsonl
+2026-06-28 23:41:01,173 | INFO | Batch 1/1 | Size: 52
+2026-06-28 23:41:44,174 | INFO | Batch completed in 43.01 sec.
+2026-06-28 23:41:44,174 | INFO | Finished processing: data/processed/chunks\risk_management\baab9bc790127f849f8ac1040.jsonl
+2026-06-28 23:41:44,174 | INFO | Processing time: 43.02 sec.
+2026-06-28 23:41:44,174 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:41:44,174 | INFO | Processing file: data/processed/chunks\risk_management\Banklarda əməliyyat risklərinin idarə edilməsi Qaydası.jsonl
+2026-06-28 23:41:44,174 | INFO | Output file: data\processed\embeddings\e5\risk_management\Banklarda əməliyyat risklərinin idarə edilməsi Qaydası_embeddings.jsonl
+2026-06-28 23:41:44,174 | INFO | Batch 1/1 | Size: 13
+2026-06-28 23:41:55,297 | INFO | Batch completed in 11.11 sec.
+2026-06-28 23:41:55,297 | INFO | Finished processing: data/processed/chunks\risk_management\Banklarda əməliyyat risklərinin idarə edilməsi Qaydası.jsonl
+2026-06-28 23:41:55,297 | INFO | Processing time: 11.11 sec.
+2026-06-28 23:41:55,297 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:41:55,297 | INFO | Processing file: data/processed/chunks\risk_management\dc1546b51b6aa6b3d92409836.jsonl
+2026-06-28 23:41:55,300 | INFO | Output file: data\processed\embeddings\e5\risk_management\dc1546b51b6aa6b3d92409836_embeddings.jsonl
+2026-06-28 23:41:55,300 | INFO | Batch 1/1 | Size: 17
+2026-06-28 23:42:09,773 | INFO | Batch completed in 14.47 sec.
+2026-06-28 23:42:09,773 | INFO | Finished processing: data/processed/chunks\risk_management\dc1546b51b6aa6b3d92409836.jsonl
+2026-06-28 23:42:09,773 | INFO | Processing time: 14.48 sec.
+2026-06-28 23:42:09,773 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:42:09,773 | INFO | Processing file: data/processed/chunks\risk_management\f15fd85d-3c4e-4d87-aa78-8367ca166daf.jsonl
+2026-06-28 23:42:09,775 | INFO | Output file: data\processed\embeddings\e5\risk_management\f15fd85d-3c4e-4d87-aa78-8367ca166daf_embeddings.jsonl
+2026-06-28 23:42:09,775 | INFO | Batch 1/1 | Size: 15
+2026-06-28 23:42:22,722 | INFO | Batch completed in 12.96 sec.
+2026-06-28 23:42:22,722 | INFO | Finished processing: data/processed/chunks\risk_management\f15fd85d-3c4e-4d87-aa78-8367ca166daf.jsonl
+2026-06-28 23:42:22,722 | INFO | Processing time: 12.96 sec.
+2026-06-28 23:42:22,722 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:42:22,722 | INFO | Processing file: data/processed/chunks\risk_management\faa09ce5-3d98-48b1-ac48-e81ca3d9d4e7.jsonl
+2026-06-28 23:42:22,736 | INFO | Output file: data\processed\embeddings\e5\risk_management\faa09ce5-3d98-48b1-ac48-e81ca3d9d4e7_embeddings.jsonl
+2026-06-28 23:42:22,736 | INFO | Batch 1/1 | Size: 20
+2026-06-28 23:42:39,502 | INFO | Batch completed in 16.78 sec.
+2026-06-28 23:42:39,502 | INFO | Finished processing: data/processed/chunks\risk_management\faa09ce5-3d98-48b1-ac48-e81ca3d9d4e7.jsonl
+2026-06-28 23:42:39,502 | INFO | Processing time: 16.78 sec.
+2026-06-28 23:42:39,502 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:42:39,502 | INFO | Processing file: data/processed/chunks\risk_management\İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları.jsonl
+2026-06-28 23:42:39,502 | INFO | Output file: data\processed\embeddings\e5\risk_management\İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları_embeddings.jsonl
+2026-06-28 23:42:39,502 | INFO | Batch 1/1 | Size: 13
+2026-06-28 23:42:50,688 | INFO | Batch completed in 11.17 sec.
+2026-06-28 23:42:50,688 | INFO | Finished processing: data/processed/chunks\risk_management\İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları.jsonl
+2026-06-28 23:42:50,688 | INFO | Processing time: 11.17 sec.
+2026-06-28 23:42:50,688 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:42:50,688 | INFO | Processing file: data/processed/chunks\risk_management\Əməliyyat Risklərinin İdarə Edilməsi Qaydası.jsonl
+2026-06-28 23:42:50,689 | INFO | Output file: data\processed\embeddings\e5\risk_management\Əməliyyat Risklərinin İdarə Edilməsi Qaydası_embeddings.jsonl
+2026-06-28 23:42:50,689 | INFO | Batch 1/1 | Size: 47
+2026-06-28 23:43:17,627 | INFO | Batch completed in 26.94 sec.
+2026-06-28 23:43:17,627 | INFO | Finished processing: data/processed/chunks\risk_management\Əməliyyat Risklərinin İdarə Edilməsi Qaydası.jsonl
+2026-06-28 23:43:17,627 | INFO | Processing time: 26.95 sec.
+2026-06-28 23:43:17,627 | INFO | --------------------------------------------------------------------------------
+2026-06-28 23:43:17,627 | INFO | Processing file: data/processed/chunks\risk_management\“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında.jsonl
+2026-06-28 23:43:17,638 | INFO | Output file: data\processed\embeddings\e5\risk_management\“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_embeddings.jsonl
+2026-06-28 23:43:17,638 | INFO | Batch 1/1 | Size: 8
+2026-06-28 23:43:24,518 | INFO | Batch completed in 6.89 sec.
+2026-06-28 23:43:24,518 | INFO | Finished processing: data/processed/chunks\risk_management\“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında.jsonl
+2026-06-28 23:43:24,518 | INFO | Processing time: 6.89 sec.
+2026-06-28 23:43:24,518 | INFO | ================================================================================
+2026-06-28 23:43:24,518 | INFO | Embedding pipeline completed successfully.
+2026-06-28 23:43:24,518 | INFO | Total processed chunks : 3823
+2026-06-28 23:43:24,518 | INFO | Total processing time : 2832.04 sec.
+2026-06-28 23:43:24,518 | INFO | ================================================================================
