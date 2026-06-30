@@ -1,0 +1,29 @@
+2026-06-29 20:06:28,654 | INFO | ================================================================================
+2026-06-29 20:06:28,654 | INFO | Embedding pipeline started
+2026-06-29 20:06:28,654 | INFO | Embedding model : qwen
+2026-06-29 20:06:28,654 | INFO | Chunks directory: data/processed/chunks
+2026-06-29 20:06:28,654 | INFO | Output directory: data/processed/embeddings
+2026-06-29 20:06:28,654 | INFO | ================================================================================
+2026-06-29 20:06:37,132 | INFO | Discovered 96 JSONL files.
+2026-06-29 20:06:37,132 | INFO | --------------------------------------------------------------------------------
+2026-06-29 20:06:37,132 | INFO | Processing file: data/processed/chunks\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758.jsonl
+2026-06-29 20:06:37,147 | INFO | Output file: data\processed\embeddings\qwen\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758_embeddings.jsonl
+2026-06-29 20:06:37,147 | INFO | Batch 1/1 | Size: 58
+2026-06-29 20:23:05,356 | INFO | ================================================================================
+2026-06-29 20:23:05,356 | INFO | Embedding pipeline started
+2026-06-29 20:23:05,356 | INFO | Embedding model : qwen
+2026-06-29 20:23:05,356 | INFO | Chunks directory: data/processed/chunks
+2026-06-29 20:23:05,356 | INFO | Output directory: data/processed/embeddings
+2026-06-29 20:23:05,356 | INFO | ================================================================================
+2026-06-29 20:23:11,982 | INFO | Discovered 96 JSONL files.
+2026-06-29 20:23:11,982 | INFO | --------------------------------------------------------------------------------
+2026-06-29 20:23:11,982 | INFO | Processing file: data/processed/chunks\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758.jsonl
+2026-06-29 20:23:11,982 | INFO | Output file: data\processed\embeddings\qwen\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758_embeddings.jsonl
+2026-06-29 20:23:11,982 | INFO | Batch 1/1 | Size: 58
+2026-06-29 20:50:59,643 | INFO | Batch completed in 1667.65 sec.
+2026-06-29 20:50:59,643 | INFO | Finished processing: data/processed/chunks\aml_kyc\096312ee-c41c-4c1f-9edd-baf5f3187758.jsonl
+2026-06-29 20:50:59,643 | INFO | Processing time: 1667.66 sec.
+2026-06-29 20:50:59,643 | INFO | --------------------------------------------------------------------------------
+2026-06-29 20:50:59,643 | INFO | Processing file: data/processed/chunks\aml_kyc\ad29955c-5a37-413c-937e-cd1e5988ae62.jsonl
+2026-06-29 20:50:59,659 | INFO | Output file: data\processed\embeddings\qwen\aml_kyc\ad29955c-5a37-413c-937e-cd1e5988ae62_embeddings.jsonl
+2026-06-29 20:50:59,675 | INFO | Batch 1/1 | Size: 16
