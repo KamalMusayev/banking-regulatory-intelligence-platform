@@ -1,0 +1,60 @@
+2026-06-28 23:50:14,692 | INFO | ================================================================================
+2026-06-28 23:50:14,693 | INFO | Embedding pipeline started
+2026-06-28 23:50:14,693 | INFO | Embedding model : jina_v3
+2026-06-28 23:50:14,693 | INFO | Chunks directory: data/processed/chunks
+2026-06-28 23:50:14,693 | INFO | Output directory: data/processed/embeddings
+2026-06-28 23:50:14,693 | INFO | ================================================================================
+2026-06-28 23:52:30,116 | ERROR | Failed to initialize embedding model.
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\banking-regulatory-intelligence-platform\scripts\run_embedding_pipeline.py", line 194, in main
+    embedding_service = EmbeddingFactory.get_service(args.model)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\banking-regulatory-intelligence-platform\backend\reguaz\services\embeddings\embedding_factory.py", line 29, in get_service
+    return JinaV3EmbeddingService()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\banking-regulatory-intelligence-platform\backend\reguaz\services\embeddings\jina_v3.py", line 18, in __init__
+    self.model = SentenceTransformer(model_name, trust_remote_code=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\sentence_transformers\util\decorators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\sentence_transformers\sentence_transformer\model.py", line 188, in __init__
+    super().__init__(
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\sentence_transformers\base\model.py", line 216, in __init__
+    modules, self.module_kwargs = self._load_modules(
+                                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\sentence_transformers\base\model.py", line 1002, in _load_modules
+    return self._load_config_modules(model_name_or_path, **load_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\sentence_transformers\base\model.py", line 1189, in _load_config_modules
+    module = module_class(model_name_or_path, **init_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\.cache\huggingface\modules\transformers_modules\jinaai\jina_hyphen_embeddings_hyphen_v3\ab036b023d30b4d1138c4c3bfa9f0c445ab455d6\custom_st.py", line 87, in __init__
+    self.auto_model = AutoModel.from_pretrained(model_name_or_path, config=self.config, **model_args)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\transformers\models\auto\auto_factory.py", line 391, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\.cache\huggingface\modules\transformers_modules\jinaai\xlm_hyphen_roberta_hyphen_flash_hyphen_implementation\845308d0fd72a8406a3e378450e1a09522790419\modeling_lora.py", line 338, in from_pretrained
+    return super().from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\.cache\huggingface\modules\transformers_modules\jinaai\xlm_hyphen_roberta_hyphen_flash_hyphen_implementation\845308d0fd72a8406a3e378450e1a09522790419\modeling_xlm_roberta.py", line 442, in from_pretrained
+    return super().from_pretrained(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\transformers\modeling_utils.py", line 4328, in from_pretrained
+    loading_info = cls._finalize_model_loading(model, load_config, loading_info)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\transformers\modeling_utils.py", line 4484, in _finalize_model_loading
+    model._move_missing_keys_from_meta_to_device(
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\transformers\modeling_utils.py", line 4774, in _move_missing_keys_from_meta_to_device
+    for key in missing_keys - self.all_tied_weights_keys.keys():
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\reguaz-Z-qHrrnM-py3.12\Lib\site-packages\torch\nn\modules\module.py", line 1967, in __getattr__
+    raise AttributeError(
+AttributeError: 'XLMRobertaLoRA' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?
+2026-06-28 23:54:24,926 | INFO | ================================================================================
+2026-06-28 23:54:24,926 | INFO | Embedding pipeline started
+2026-06-28 23:54:24,926 | INFO | Embedding model : jina_v3
+2026-06-28 23:54:24,926 | INFO | Chunks directory: data/processed/chunks
+2026-06-28 23:54:24,926 | INFO | Output directory: data/processed/embeddings
+2026-06-28 23:54:24,926 | INFO | ================================================================================

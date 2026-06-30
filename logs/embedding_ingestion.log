@@ -1,0 +1,62 @@
+2026-06-30 13:27:44,846 | INFO | ================================================================================
+2026-06-30 13:27:44,846 | INFO | ChromaDB Ingestion Pipeline Started
+2026-06-30 13:27:44,846 | INFO | Target model(s) : all
+2026-06-30 13:27:44,846 | INFO | Reset collection: True
+2026-06-30 13:27:44,846 | INFO | ================================================================================
+2026-06-30 13:27:44,846 | INFO | Building chunk metadata lookup...
+2026-06-30 13:27:45,803 | INFO | Loaded 3815 chunks into lookup.
+2026-06-30 13:27:45,803 | INFO | --- Starting ingestion for model: e5 ---
+2026-06-30 13:27:46,357 | INFO | Detected embedding dimension: 1024 for model e5
+2026-06-30 13:27:46,357 | INFO | Reset flag is set. Resetting collection: reguaz_e5
+2026-06-30 13:53:26,669 | INFO | ================================================================================
+2026-06-30 13:53:26,669 | INFO | ChromaDB Ingestion Pipeline Started
+2026-06-30 13:53:26,669 | INFO | Target model(s) : all
+2026-06-30 13:53:26,669 | INFO | Reset collection: True
+2026-06-30 13:53:26,669 | INFO | ================================================================================
+2026-06-30 13:53:26,669 | INFO | Building chunk metadata lookup...
+2026-06-30 13:53:26,805 | INFO | Loaded 3815 chunks into lookup.
+2026-06-30 13:53:26,805 | INFO | --- Starting ingestion for model: e5 ---
+2026-06-30 13:53:26,922 | INFO | Detected embedding dimension: 1024 for model e5
+2026-06-30 13:53:26,922 | INFO | Reset flag is set. Resetting collection: reguaz_e5
+2026-06-30 13:53:26,922 | INFO | Reading embeddings for e5...
+2026-06-30 13:53:31,917 | WARNING | Duplicate chunk_id encountered: Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1. Skipping.
+2026-06-30 13:53:31,919 | WARNING | Duplicate chunk_id encountered: Azərbaycan Respublikası Prezidentinin Fərmanı_art_1_2. Skipping.
+2026-06-30 13:53:34,036 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part1. Skipping.
+2026-06-30 13:53:34,036 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part2. Skipping.
+2026-06-30 13:53:34,036 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part3. Skipping.
+2026-06-30 13:53:34,036 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part4. Skipping.
+2026-06-30 13:53:34,036 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part5. Skipping.
+2026-06-30 13:53:34,036 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part6. Skipping.
+2026-06-30 13:53:34,632 | INFO | --- Finished ingestion for e5 ---
+2026-06-30 13:53:34,632 | INFO | --- Starting ingestion for model: bge_m3 ---
+2026-06-30 13:53:34,649 | INFO | Detected embedding dimension: 1024 for model bge_m3
+2026-06-30 13:53:34,649 | INFO | Reset flag is set. Resetting collection: reguaz_bge_m3
+2026-06-30 13:53:35,197 | INFO | Reading embeddings for bge_m3...
+2026-06-30 13:53:40,620 | WARNING | Duplicate chunk_id encountered: Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1. Skipping.
+2026-06-30 13:53:40,620 | WARNING | Duplicate chunk_id encountered: Azərbaycan Respublikası Prezidentinin Fərmanı_art_1_2. Skipping.
+2026-06-30 13:53:42,464 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part1. Skipping.
+2026-06-30 13:53:42,464 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part2. Skipping.
+2026-06-30 13:53:42,464 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part3. Skipping.
+2026-06-30 13:53:42,464 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part4. Skipping.
+2026-06-30 13:53:42,464 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part5. Skipping.
+2026-06-30 13:53:42,476 | WARNING | Duplicate chunk_id encountered: dc1546b51b6aa6b3d92409836_intro_1_part6. Skipping.
+2026-06-30 13:53:43,155 | INFO | --- Finished ingestion for bge_m3 ---
+2026-06-30 13:53:43,156 | INFO | ================================================================================
+2026-06-30 13:53:43,156 | INFO | POST-INGESTION VERIFICATION
+2026-06-30 13:53:43,156 | INFO | ================================================================================
+2026-06-30 13:53:43,156 | INFO | [e5] Vector Count Check: Tracked 3815 vs Actual 3815
+2026-06-30 13:53:43,156 | INFO | [e5] Vector Count: PASS
+2026-06-30 13:53:43,156 | WARNING | [e5] Duplicate Check: WARN (8 duplicates found)
+2026-06-30 13:53:43,156 | INFO | [e5] Orphan Check: PASS (0 orphans)
+2026-06-30 13:53:43,156 | INFO | [e5] Dimension Consistency: PASS (All 1024)
+2026-06-30 13:53:43,156 | INFO | [bge_m3] Vector Count Check: Tracked 3815 vs Actual 3815
+2026-06-30 13:53:43,156 | INFO | [bge_m3] Vector Count: PASS
+2026-06-30 13:53:43,156 | WARNING | [bge_m3] Duplicate Check: WARN (8 duplicates found)
+2026-06-30 13:53:43,156 | INFO | [bge_m3] Orphan Check: PASS (0 orphans)
+2026-06-30 13:53:43,156 | INFO | [bge_m3] Dimension Consistency: PASS (All 1024)
+2026-06-30 13:53:43,156 | INFO | [Cross-Collection] Checking parity across models...
+2026-06-30 13:53:43,156 | INFO | [Cross-Collection] Parity Check: PASS (Identical chunk_ids across collections)
+2026-06-30 13:53:43,156 | INFO | ================================================================================
+2026-06-30 13:53:43,156 | INFO | PIPELINE COMPLETED SUCCESSFULLY
+2026-06-30 13:53:43,156 | INFO | Total processing time: 16.49 sec
+2026-06-30 13:53:43,156 | INFO | ================================================================================
