@@ -15,3 +15,6 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+
+
+data/chroma/chroma.sqlite3
