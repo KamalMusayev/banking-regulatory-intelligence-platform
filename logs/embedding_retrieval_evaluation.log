@@ -1,0 +1,222 @@
+2026-07-01 17:24:32,334 | INFO | ================================================================================
+2026-07-01 17:24:32,335 | INFO | ReguAZ Retrieval Evaluation Pipeline
+2026-07-01 17:24:32,335 | INFO | top_k        : 10
+2026-07-01 17:24:32,335 | INFO | dataset      : data\evaluation\gold_dataset_for_embedding_excel.xlsx
+2026-07-01 17:24:32,335 | INFO | chroma_dir   : data/chroma
+2026-07-01 17:24:32,335 | INFO | results_dir  : results
+2026-07-01 17:24:32,335 | INFO | ================================================================================
+2026-07-01 17:24:32,335 | INFO | Loading evaluation dataset from: data\evaluation\gold_dataset_for_embedding_excel.xlsx
+2026-07-01 17:24:32,688 | INFO | Loaded 128 evaluation questions.
+2026-07-01 17:24:32,688 | INFO | ============================================================
+2026-07-01 17:24:32,688 | INFO | Evaluating model: e5  |  collection: reguaz_e5
+2026-07-01 17:24:32,688 | INFO | ============================================================
+2026-07-01 17:24:32,688 | INFO | Loading embedding service for model 'e5'…
+2026-07-01 17:25:06,261 | INFO | Saved per-question results → results\e5_results.csv
+2026-07-01 17:25:06,261 | INFO | ============================================================
+2026-07-01 17:25:06,261 | INFO | Evaluating model: bge_m3  |  collection: reguaz_bge_m3
+2026-07-01 17:25:06,261 | INFO | ============================================================
+2026-07-01 17:25:06,261 | INFO | Loading embedding service for model 'bge_m3'…
+2026-07-01 17:25:34,360 | INFO | Saved per-question results → results\bge_m3_results.csv
+2026-07-01 17:25:34,360 | INFO | Saved comparison summary  → results\comparison.csv
+2026-07-01 17:25:34,360 | INFO | Evaluation complete.
+2026-07-01 17:37:45,054 | INFO | ================================================================================
+2026-07-01 17:37:45,054 | INFO | ReguAZ Retrieval Evaluation Pipeline
+2026-07-01 17:37:45,054 | INFO | top_k        : 10
+2026-07-01 17:37:45,054 | INFO | dataset      : data\evaluation\gold_dataset_for_embedding_excel.xlsx
+2026-07-01 17:37:45,054 | INFO | chroma_dir   : data/chroma
+2026-07-01 17:37:45,054 | INFO | results_dir  : results
+2026-07-01 17:37:45,054 | INFO | ================================================================================
+2026-07-01 17:37:45,054 | INFO | Loading evaluation dataset from: data\evaluation\gold_dataset_for_embedding_excel.xlsx
+2026-07-01 17:37:45,261 | INFO | Loaded 128 evaluation questions.
+2026-07-01 17:37:45,261 | INFO | ============================================================
+2026-07-01 17:37:45,261 | INFO | Evaluating model: e5  |  collection: reguaz_e5
+2026-07-01 17:37:45,261 | INFO | ============================================================
+2026-07-01 17:37:45,261 | INFO | Loading embedding service for model 'e5'…
+2026-07-01 17:37:54,962 | INFO | ================================================================================
+2026-07-01 17:37:54,962 | INFO | QUESTION 1
+2026-07-01 17:37:54,962 | INFO | Question: Kredit təşkilatı anlayışına hansı maliyyə institutları daxildir?
+2026-07-01 17:37:54,962 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.17']
+2026-07-01 17:37:54,962 | INFO | Retrieved ids:
+2026-07-01 17:37:54,962 | INFO |    1. 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_110
+2026-07-01 17:37:54,962 | INFO |    2. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_3
+2026-07-01 17:37:54,962 | INFO |    3. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_IV_art_1_81
+2026-07-01 17:37:54,962 | INFO |    4. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_3_9
+2026-07-01 17:37:54,962 | INFO |    5. “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_87_340
+2026-07-01 17:37:54,962 | INFO |    6. “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_89_342
+2026-07-01 17:37:54,962 | INFO |    7. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_IV_79
+2026-07-01 17:37:54,962 | INFO |    8. “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_45_298
+2026-07-01 17:37:54,962 | INFO |    9. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_III_art_2_75
+2026-07-01 17:37:54,962 | INFO |   10. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_5_15
+2026-07-01 17:37:54,962 | INFO | Overlap: NONE
+2026-07-01 17:37:54,962 | INFO | ================================================================================
+2026-07-01 17:37:54,962 | INFO | Overlap: NONE
+2026-07-01 17:37:55,293 | INFO | ================================================================================
+2026-07-01 17:37:55,293 | INFO | QUESTION 2
+2026-07-01 17:37:55,293 | INFO | Question: Məqbul və lazımi keyfiyyətlərə malik şəxs hansı xüsusiyyətlərə sahib olmalıdır?
+2026-07-01 17:37:55,309 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.18']
+2026-07-01 17:37:55,309 | INFO | Retrieved ids:
+2026-07-01 17:37:55,309 | INFO |    1. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_II_art_5_8
+2026-07-01 17:37:55,309 | INFO |    2. 98a6608d0eb4e83b612fde01f_art_1_36
+2026-07-01 17:37:55,309 | INFO |    3. Azərbaycan Respublikasının Mərkəzi Bankı - Sənədləşdirilmiş emissiya qiymətli kağızların sertifikatlarının məcburi rekvizitləri_art_6_7
+2026-07-01 17:37:55,309 | INFO |    4. 5b725bb224d33e2085294c793_art_3_20
+2026-07-01 17:37:55,309 | INFO |    5. 45937180-250a-4b4a-b8e5-153945adb06d_art_3_28
+2026-07-01 17:37:55,309 | INFO |    6. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_II_art_15_69
+2026-07-01 17:37:55,309 | INFO |    7. Valyuta tənzimi haqqında_art_17_102
+2026-07-01 17:37:55,309 | INFO |    8. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_II_art_3_65
+2026-07-01 17:37:55,309 | INFO |    9. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_V_art_19_107
+2026-07-01 17:37:55,309 | INFO |   10. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_1_14
+2026-07-01 17:37:55,309 | INFO | Overlap: NONE
+2026-07-01 17:37:55,309 | INFO | ================================================================================
+2026-07-01 17:37:55,309 | INFO | Overlap: NONE
+2026-07-01 17:37:55,498 | INFO | ================================================================================
+2026-07-01 17:37:55,498 | INFO | QUESTION 3
+2026-07-01 17:37:55,498 | INFO | Question: Vətəndaş qüsursuzluğu anlayışına hansı hüquqi və etik tələblər daxildir?
+2026-07-01 17:37:55,498 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.19']
+2026-07-01 17:37:55,498 | INFO | Retrieved ids:
+2026-07-01 17:37:55,498 | INFO |    1. Valyuta tənzimi haqqında_art_17_102
+2026-07-01 17:37:55,498 | INFO |    2. 98a6608d0eb4e83b612fde01f_art_1_36
+2026-07-01 17:37:55,498 | INFO |    3. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_4_17
+2026-07-01 17:37:55,498 | INFO |    4. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_II_art_9_30
+2026-07-01 17:37:55,498 | INFO |    5. baab9bc790127f849f8ac1040_art_1_27
+2026-07-01 17:37:55,498 | INFO |    6. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_IV_art_27_88
+2026-07-01 17:37:55,498 | INFO |    7. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_2_11
+2026-07-01 17:37:55,498 | INFO |    8. 096312ee-c41c-4c1f-9edd-baf5f3187758_art_4_51
+2026-07-01 17:37:55,498 | INFO |    9. 096312ee-c41c-4c1f-9edd-baf5f3187758_art_11_44
+2026-07-01 17:37:55,498 | INFO |   10. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_III_art_21_78
+2026-07-01 17:37:55,498 | INFO | Overlap: NONE
+2026-07-01 17:37:55,498 | INFO | ================================================================================
+2026-07-01 17:37:55,498 | INFO | Overlap: NONE
+2026-07-01 17:37:55,686 | INFO | ================================================================================
+2026-07-01 17:37:55,686 | INFO | QUESTION 4
+2026-07-01 17:37:55,686 | INFO | Question: Bankın məcmu kapitalı hansı kapital növlərinin əsasında formalaşdırılır?
+2026-07-01 17:37:55,686 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.21']
+2026-07-01 17:37:55,686 | INFO | Retrieved ids:
+2026-07-01 17:37:55,686 | INFO |    1. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_IV_art_1_81
+2026-07-01 17:37:55,686 | INFO |    2. 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_II_12
+2026-07-01 17:37:55,686 | INFO |    3. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_IV_79
+2026-07-01 17:37:55,686 | INFO |    4. “Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə_art_2_246
+2026-07-01 17:37:55,686 | INFO |    5. baab9bc790127f849f8ac1040_art_2_28
+2026-07-01 17:37:55,686 | INFO |    6. ba0d73daa9275fa1fe1e4694b_art_1_33
+2026-07-01 17:37:55,686 | INFO |    7. 590-IIQ-Banklar haqqında_ch_III_31
+2026-07-01 17:37:55,686 | INFO |    8. Banklar Haqqında Qanun_ch_III_31
+2026-07-01 17:37:55,686 | INFO |    9. Valyuta tənzimi haqqında_art_2_49
+2026-07-01 17:37:55,686 | INFO |   10. 590-IIQ-Banklar haqqında_ch_X_104
+2026-07-01 17:37:55,686 | INFO | Overlap: NONE
+2026-07-01 17:37:55,686 | INFO | ================================================================================
+2026-07-01 17:37:55,686 | INFO | Overlap: NONE
+2026-07-01 17:37:55,876 | INFO | ================================================================================
+2026-07-01 17:37:55,876 | INFO | QUESTION 5
+2026-07-01 17:37:55,876 | INFO | Question: Maliyyə bazarları sahəsi dedikdə hansı fəaliyyət sahələri nəzərdə tutulur?
+2026-07-01 17:37:55,876 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.22']
+2026-07-01 17:37:55,876 | INFO | Retrieved ids:
+2026-07-01 17:37:55,876 | INFO |    1. 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_57
+2026-07-01 17:37:55,876 | INFO |    2. 5b725bb224d33e2085294c793_art_3_20
+2026-07-01 17:37:55,876 | INFO |    3. 511cdc58f232d5d9395551ae8_art_1_20
+2026-07-01 17:37:55,876 | INFO |    4. 590-IIQ-Banklar haqqında_ch_IV_49
+2026-07-01 17:37:55,876 | INFO |    5. Banklar Haqqında Qanun_ch_IV_49
+2026-07-01 17:37:55,876 | INFO |    6. 9018b71b0859bc7a490ea0f22_art_7_8
+2026-07-01 17:37:55,876 | INFO |    7. 511cdc58f232d5d9395551ae8_art_2_21
+2026-07-01 17:37:55,876 | INFO |    8. 590-IIQ-Banklar haqqında_ch_V_63
+2026-07-01 17:37:55,876 | INFO |    9. Banklar Haqqında Qanun_ch_V_63
+2026-07-01 17:37:55,876 | INFO |   10. 7fd12f0749b180441d54cd4de_art_1_11
+2026-07-01 17:37:55,876 | INFO | Overlap: NONE
+2026-07-01 17:37:55,876 | INFO | ================================================================================
+2026-07-01 17:37:55,876 | INFO | Overlap: NONE
+2026-07-01 17:38:17,432 | INFO | Saved per-question results → results\e5_results.csv
+2026-07-01 17:38:17,432 | INFO | ============================================================
+2026-07-01 17:38:17,445 | INFO | Evaluating model: bge_m3  |  collection: reguaz_bge_m3
+2026-07-01 17:38:17,445 | INFO | ============================================================
+2026-07-01 17:38:17,445 | INFO | Loading embedding service for model 'bge_m3'…
+2026-07-01 17:38:29,184 | INFO | ================================================================================
+2026-07-01 17:38:29,184 | INFO | QUESTION 1
+2026-07-01 17:38:29,184 | INFO | Question: Kredit təşkilatı anlayışına hansı maliyyə institutları daxildir?
+2026-07-01 17:38:29,184 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.17']
+2026-07-01 17:38:29,184 | INFO | Retrieved ids:
+2026-07-01 17:38:29,184 | INFO |    1. ad29955c-5a37-413c-937e-cd1e5988ae62_art_2_6
+2026-07-01 17:38:29,184 | INFO |    2. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4
+2026-07-01 17:38:29,184 | INFO |    3. 933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3
+2026-07-01 17:38:29,184 | INFO |    4. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_3
+2026-07-01 17:38:29,184 | INFO |    5. Banklar Haqqında Qanun_ch_I_art_2_6
+2026-07-01 17:38:29,184 | INFO |    6. Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2
+2026-07-01 17:38:29,184 | INFO |    7. 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_V_art_33_40
+2026-07-01 17:38:29,184 | INFO |    8. 590-IIQ-Banklar haqqında_ch_I_art_2_6
+2026-07-01 17:38:29,184 | INFO |    9. f15fd85d-3c4e-4d87-aa78-8367ca166daf_art_2_6
+2026-07-01 17:38:29,184 | INFO |   10. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_10
+2026-07-01 17:38:29,184 | INFO | Overlap: NONE
+2026-07-01 17:38:29,184 | INFO | ================================================================================
+2026-07-01 17:38:29,184 | INFO | Overlap: NONE
+2026-07-01 17:38:29,342 | INFO | ================================================================================
+2026-07-01 17:38:29,342 | INFO | QUESTION 2
+2026-07-01 17:38:29,342 | INFO | Question: Məqbul və lazımi keyfiyyətlərə malik şəxs hansı xüsusiyyətlərə sahib olmalıdır?
+2026-07-01 17:38:29,342 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.18']
+2026-07-01 17:38:29,342 | INFO | Retrieved ids:
+2026-07-01 17:38:29,342 | INFO |    1. Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər_art_4_15_part1
+2026-07-01 17:38:29,342 | INFO |    2. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_I_art_1_3
+2026-07-01 17:38:29,342 | INFO |    3. Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər_art_3_13_part1
+2026-07-01 17:38:29,342 | INFO |    4. Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_art_17_26
+2026-07-01 17:38:29,342 | INFO |    5. Məcəllə_art_17_26
+2026-07-01 17:38:29,342 | INFO |    6. 45937180-250a-4b4a-b8e5-153945adb06d_art_2_6_part2
+2026-07-01 17:38:29,342 | INFO |    7. Banklar Haqqında Qanun_ch_I_art_1_3_part2
+2026-07-01 17:38:29,342 | INFO |    8. Banklar Haqqında Qanun_ch_II_art_10_18_part1
+2026-07-01 17:38:29,342 | INFO |    9. “Dövlət qeydiyyatına alınmışdır_art_3_4_part2
+2026-07-01 17:38:29,342 | INFO |   10. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_II_art_3_11
+2026-07-01 17:38:29,342 | INFO | Overlap: NONE
+2026-07-01 17:38:29,342 | INFO | ================================================================================
+2026-07-01 17:38:29,342 | INFO | Overlap: NONE
+2026-07-01 17:38:29,504 | INFO | ================================================================================
+2026-07-01 17:38:29,504 | INFO | QUESTION 3
+2026-07-01 17:38:29,504 | INFO | Question: Vətəndaş qüsursuzluğu anlayışına hansı hüquqi və etik tələblər daxildir?
+2026-07-01 17:38:29,504 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.19']
+2026-07-01 17:38:29,504 | INFO | Retrieved ids:
+2026-07-01 17:38:29,504 | INFO |    1. Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_art_17_26
+2026-07-01 17:38:29,504 | INFO |    2. Məcəllə_art_17_26
+2026-07-01 17:38:29,504 | INFO |    3. 45937180-250a-4b4a-b8e5-153945adb06d_art_15_23
+2026-07-01 17:38:29,504 | INFO |    4. Valyuta tənzimi haqqında_art_14_16
+2026-07-01 17:38:29,504 | INFO |    5. İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_I_art_1_3
+2026-07-01 17:38:29,504 | INFO |    6. Banklar Haqqında Qanun_ch_I_art_1_3_part2
+2026-07-01 17:38:29,504 | INFO |    7. Banklar Haqqında Qanun_ch_XI_art_15_160_part5
+2026-07-01 17:38:29,504 | INFO |    8. 590-IIQ-Banklar haqqında_ch_I_art_1_3_part2
+2026-07-01 17:38:29,504 | INFO |    9. Dənizkənarı Bulvar İdarəsinin fəaliyyətinin təmin edilməsi haqqında_art_48_54_part2
+2026-07-01 17:38:29,504 | INFO |   10. 590-IIQ-Banklar haqqında_ch_X_art_15_166_part10
+2026-07-01 17:38:29,504 | INFO | Overlap: NONE
+2026-07-01 17:38:29,504 | INFO | ================================================================================
+2026-07-01 17:38:29,504 | INFO | Overlap: NONE
+2026-07-01 17:38:29,644 | INFO | ================================================================================
+2026-07-01 17:38:29,644 | INFO | QUESTION 4
+2026-07-01 17:38:29,644 | INFO | Question: Bankın məcmu kapitalı hansı kapital növlərinin əsasında formalaşdırılır?
+2026-07-01 17:38:29,644 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.21']
+2026-07-01 17:38:29,644 | INFO | Retrieved ids:
+2026-07-01 17:38:29,644 | INFO |    1. 590-IIQ-Banklar haqqında_ch_III_art_2_34
+2026-07-01 17:38:29,644 | INFO |    2. Banklar Haqqında Qanun_ch_III_art_2_34
+2026-07-01 17:38:29,645 | INFO |    3. Banklarda korporativ idarəetmə Standartları_art_3_40
+2026-07-01 17:38:29,645 | INFO |    4. 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_II_art_10_13
+2026-07-01 17:38:29,645 | INFO |    5. “Dövlət qeydiyyatına alınmışdır_art_4_6_part2
+2026-07-01 17:38:29,645 | INFO |    6. 590-IIQ-Banklar haqqında_ch_I_art_1_3_part3
+2026-07-01 17:38:29,645 | INFO |    7. 09b9304488242be054f8c2eb6_intro_1_part19
+2026-07-01 17:38:29,645 | INFO |    8. 1db1173040cd0364af5d7f0d2_intro_1_part18
+2026-07-01 17:38:29,645 | INFO |    9. Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2
+2026-07-01 17:38:29,645 | INFO |   10. Banklarda korporativ idarəetmə Standartları_art_1_37_part2
+2026-07-01 17:38:29,645 | INFO | Overlap: NONE
+2026-07-01 17:38:29,645 | INFO | ================================================================================
+2026-07-01 17:38:29,645 | INFO | Overlap: NONE
+2026-07-01 17:38:29,789 | INFO | ================================================================================
+2026-07-01 17:38:29,790 | INFO | QUESTION 5
+2026-07-01 17:38:29,790 | INFO | Question: Maliyyə bazarları sahəsi dedikdə hansı fəaliyyət sahələri nəzərdə tutulur?
+2026-07-01 17:38:29,790 | INFO | Expected chunk ids: ['Banklar_Haqqinda_Qanun_chunk_1.0.22']
+2026-07-01 17:38:29,790 | INFO | Retrieved ids:
+2026-07-01 17:38:29,790 | INFO |    1. 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_46_58
+2026-07-01 17:38:29,790 | INFO |    2. Banklar Haqqında Qanun_ch_IV_art_32_51
+2026-07-01 17:38:29,790 | INFO |    3. 590-IIQ-Banklar haqqında_ch_IV_art_32_51
+2026-07-01 17:38:29,790 | INFO |    4. 9018b71b0859bc7a490ea0f22_art_5_20_part1
+2026-07-01 17:38:29,790 | INFO |    5. ba0d73daa9275fa1fe1e4694b_intro_1_part2
+2026-07-01 17:38:29,790 | INFO |    6. a416bd5767831ef5222712ecd_art_4_27_part1
+2026-07-01 17:38:29,790 | INFO |    7. 9018b71b0859bc7a490ea0f22_art_6_79
+2026-07-01 17:38:29,790 | INFO |    8. a416bd5767831ef5222712ecd_art_4_5_part1
+2026-07-01 17:38:29,790 | INFO |    9. 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_48_60_part1
+2026-07-01 17:38:29,790 | INFO |   10. Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_art_1_2_part4
+2026-07-01 17:38:29,790 | INFO | Overlap: NONE
+2026-07-01 17:38:29,790 | INFO | ================================================================================
+2026-07-01 17:38:29,790 | INFO | Overlap: NONE
+2026-07-01 17:38:47,013 | INFO | Saved per-question results → results\bge_m3_results.csv
+2026-07-01 17:38:47,013 | INFO | Saved comparison summary  → results\comparison.csv
+2026-07-01 17:38:47,013 | INFO | Evaluation complete.
