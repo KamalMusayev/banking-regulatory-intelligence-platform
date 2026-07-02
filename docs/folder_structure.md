@@ -148,7 +148,7 @@ banking-compliance-assistant/
 │   │
 │   ├── manual_review/
 │   │   ├── citation_check.csv
-│   │   └── human_scores.csv
+│   │   └── human_scores.csvs
 │   │
 │   └── evaluation_runner.py
 │
