@@ -3541,6 +3541,24 @@ files = [
 ]
 
 [[package]]
+name = "rank-bm25"
+version = "0.2.2"
+description = "Various BM25 algorithms for document ranking"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "rank_bm25-0.2.2-py3-none-any.whl", hash = "sha256:7bd4a95571adadfc271746fa146a4bcfd89c0cf731e49c3d1ad863290adbe8ae"},
+    {file = "rank_bm25-0.2.2.tar.gz", hash = "sha256:096ccef76f8188563419aaf384a02f0ea459503fdf77901378d4fd9d87e5e51d"},
+]
+
+[package.dependencies]
+numpy = "*"
+
+[package.extras]
+dev = ["pytest"]
+
+[[package]]
 name = "referencing"
 version = "0.37.0"
 description = "JSON Referencing + Python"
@@ -4859,4 +4877,4 @@ propcache = ">=0.2.1"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.15"
-content-hash = "d2b3db5c3a0f01fe4e4d7fa9c39b6ea056cc0e7b394e0cae02bfe83dc3ff89bf"
+content-hash = "104eaaffe7a907f22549c712c03bec74319bda39718a7685efaf1c185a4dd0bb"
