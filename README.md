@@ -280,3 +280,23 @@ poetry lock
 # License
 
 This project is licensed under the MIT License.
+
+
+
+
+| Phase                             | Status         | Completed Work                                                                                       | Next Step                                                                                    |
+| --------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **1. Data Collection**            | ✅ Completed    | Collected Azerbaijani banking laws, regulations, and related documents.                              | —                                                                                            |
+| **2. Parsing & Chunking**         | ✅ Completed    | Parsed PDFs and implemented a document chunking pipeline with a new chunk ID format.                 | Improve chunking strategy based on evaluation results.                                       |
+| **3. Embedding Pipeline**         | ✅ Completed    | Generated embeddings using **E5** and **BGE-M3** models.                                             | Select the best-performing embedding model.                                                  |
+| **4. Vector Database**            | ✅ Completed    | Created separate **ChromaDB** collections for each embedding model.                                  | Continue development using the selected embedding model.                                     |
+| **5. Retrieval Pipeline**         | ✅ Completed    | Implemented semantic retrieval over ChromaDB.                                                        | Extend to Hybrid Retrieval.                                                                  |
+| **6. Evaluation Pipeline**        | ✅ Completed    | Built an evaluation framework (Recall@K, MRR, etc.).                                                 | Re-evaluate after fixing the gold dataset.                                                   |
+| **7. Gold Evaluation Dataset**    | 🔄 In Progress | Identified that the current dataset contains **outdated chunk IDs** from an older chunking pipeline. | Rebuild the `relevant_chunk_ids` manually using the current chunk IDs.                       |
+| **8. Embedding Model Comparison** | ⏳ Pending      | Waiting for the corrected gold dataset.                                                              | Compare **E5** and **BGE-M3**, then select the best model.                                   |
+| **9. Chunking Optimization**      | ⏳ Planned      | —                                                                                                    | Improve chunk size, overlap, and document splitting strategy based on retrieval errors.      |
+| **10. BM25 Integration**          | ⏳ Planned      | Add BM25 lexical retrieval (`rank-bm25`).                                                            | Build the lexical retrieval component.                                                       |
+| **11. Hybrid Retrieval**          | ⏳ Planned      | —                                                                                                    | Combine semantic retrieval with BM25 using a fusion strategy (e.g., Reciprocal Rank Fusion). |
+| **12. Reranking**                 | ⏳ Planned      | —                                                                                                    | Add a CrossEncoder reranker to improve the ranking of retrieved chunks.                      |
+| **13. LLM Integration**           | ⏳ Planned      | —                                                                                                    | Integrate **LlamaIndex** and an LLM to complete the RAG pipeline.                            |
+| **14. Final Evaluation**          | ⏳ Planned      | —                                                                                                    | Evaluate the complete pipeline (Hybrid Retrieval + Reranker + LLM).                          |
