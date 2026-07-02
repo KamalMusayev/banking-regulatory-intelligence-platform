@@ -220,3 +220,204 @@
 2026-07-01 17:38:47,013 | INFO | Saved per-question results → results\bge_m3_results.csv
 2026-07-01 17:38:47,013 | INFO | Saved comparison summary  → results\comparison.csv
 2026-07-01 17:38:47,013 | INFO | Evaluation complete.
+2026-07-02 13:21:08,877 | INFO | ================================================================================
+2026-07-02 13:21:08,877 | INFO | ReguAZ Retrieval Evaluation Pipeline
+2026-07-02 13:21:08,877 | INFO | top_k        : 10
+2026-07-02 13:21:08,877 | INFO | dataset      : data\evaluation\gold_dataset_for_embedding_excel.xlsx
+2026-07-02 13:21:08,877 | INFO | chroma_dir   : data/chroma
+2026-07-02 13:21:08,877 | INFO | results_dir  : results
+2026-07-02 13:21:08,877 | INFO | ================================================================================
+2026-07-02 13:21:08,877 | INFO | Loading evaluation dataset from: data\evaluation\gold_dataset_for_embedding_excel.xlsx
+2026-07-02 13:21:09,336 | INFO | Loaded 121 evaluation questions.
+2026-07-02 13:21:09,336 | INFO | ============================================================
+2026-07-02 13:21:09,336 | INFO | Evaluating model: e5  |  collection: reguaz_e5
+2026-07-02 13:21:09,336 | INFO | ============================================================
+2026-07-02 13:21:09,336 | INFO | Loading embedding service for model 'e5'…
+2026-07-02 13:21:19,822 | INFO | ================================================================================
+2026-07-02 13:21:19,822 | INFO | QUESTION 1
+2026-07-02 13:21:19,822 | INFO | Question: "Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar"ın təsdiq edilməsi barədə Qərar hansı tarixdə qəbul edilib və qüvvəyə minmə tarixi nədir?
+2026-07-02 13:21:19,822 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1']
+2026-07-02 13:21:19,822 | INFO | Retrieved ids:
+2026-07-02 13:21:19,822 | INFO |    1. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6
+2026-07-02 13:21:19,822 | INFO |    2. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6
+2026-07-02 13:21:19,822 | INFO |    3. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_2
+2026-07-02 13:21:19,822 | INFO |    4. 8a4d0220-9312-4ef2-88e8-c65b607a186a_art_3_4
+2026-07-02 13:21:19,822 | INFO |    5. faa09ce5-3d98-48b1-ac48-e81ca3d9d4e7_art_3_4
+2026-07-02 13:21:19,822 | INFO |    6. Azərbaycan Respublikasının Mərkəzi Bankı - Bankların əsas vəsaitlərlə (əmlakla) apardıqları əməliyyatların tənzimlənməsi Qaydaları_art_8_9
+2026-07-02 13:21:19,822 | INFO |    7. «Dövlət qeydiyyatına alınmışdır»_art_9_9
+2026-07-02 13:21:19,822 | INFO |    8. ba0d73daa9275fa1fe1e4694b_art_1_54
+2026-07-02 13:21:19,822 | INFO |    9. _Dövlət qeydiyyatına alınmışdır_art_16_28
+2026-07-02 13:21:19,822 | INFO |   10. Əməliyyat Risklərinin İdarə Edilməsi Qaydası_art_2_3
+2026-07-02 13:21:19,822 | INFO | Overlap: NONE
+2026-07-02 13:21:19,822 | INFO | ================================================================================
+2026-07-02 13:21:19,822 | INFO | Overlap: NONE
+2026-07-02 13:21:20,016 | INFO | ================================================================================
+2026-07-02 13:21:20,016 | INFO | QUESTION 2
+2026-07-02 13:21:20,016 | INFO | Question: Qərarın Hüquqi Aktların Dövlət Reyestrinə daxil edilməsi üçün Ədliyyə Nazirliyinə təqdim edilməsi neçə gün müddətində və hansı şöbə tərəfindən təmin edilməlidir?
+2026-07-02 13:21:20,016 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3']
+2026-07-02 13:21:20,016 | INFO | Retrieved ids:
+2026-07-02 13:21:20,020 | INFO |    1. “Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:20,020 | INFO |    2. “Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında_art_2_3
+2026-07-02 13:21:20,020 | INFO |    3. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:20,020 | INFO |    4. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:20,020 | INFO |    5. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:20,020 | INFO |    6. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:20,020 | INFO |    7. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:20,020 | INFO |    8. “Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:20,020 | INFO |    9. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_2_3
+2026-07-02 13:21:20,020 | INFO |   10. “Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə_art_252_280
+2026-07-02 13:21:20,020 | INFO | Overlap: NONE
+2026-07-02 13:21:20,020 | INFO | ================================================================================
+2026-07-02 13:21:20,020 | INFO | Overlap: NONE
+2026-07-02 13:21:20,169 | INFO | ================================================================================
+2026-07-02 13:21:20,169 | INFO | QUESTION 3
+2026-07-02 13:21:20,169 | INFO | Question: Bu Qərardan irəli gələn məsələlərin həll edilməsi hansı şöbəyə tapşırılıb?
+2026-07-02 13:21:20,169 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4']
+2026-07-02 13:21:20,169 | INFO | Retrieved ids:
+2026-07-02 13:21:20,169 | INFO |    1. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,169 | INFO |    2. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4
+2026-07-02 13:21:20,169 | INFO |    3. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,169 | INFO |    4. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,170 | INFO |    5. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,170 | INFO |    6. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,170 | INFO |    7. “Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_art_3_4
+2026-07-02 13:21:20,170 | INFO |    8. Əməliyyat Risklərinin İdarə Edilməsi Qaydası_art_25_44
+2026-07-02 13:21:20,170 | INFO |    9. Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_11_12
+2026-07-02 13:21:20,170 | INFO |   10. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_V_art_2_96
+2026-07-02 13:21:20,170 | INFO | Overlap: NONE
+2026-07-02 13:21:20,170 | INFO | ================================================================================
+2026-07-02 13:21:20,170 | INFO | Overlap: NONE
+2026-07-02 13:21:20,321 | INFO | ================================================================================
+2026-07-02 13:21:20,321 | INFO | QUESTION 4
+2026-07-02 13:21:20,321 | INFO | Question: QKDK-nın aparatının və Naxçıvan Muxtar Respublikası üzrə İdarəsinin bu Qərarla tanış olmasını təmin etmək hansı şöbəyə həvalə edilib?
+2026-07-02 13:21:20,321 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5']
+2026-07-02 13:21:20,321 | INFO | Retrieved ids:
+2026-07-02 13:21:20,321 | INFO |    1. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:20,321 | INFO |    2. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_4_5
+2026-07-02 13:21:20,321 | INFO |    3. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:20,321 | INFO |    4. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:20,321 | INFO |    5. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:20,321 | INFO |    6. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:20,321 | INFO |    7. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,321 | INFO |    8. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,321 | INFO |    9. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4
+2026-07-02 13:21:20,321 | INFO |   10. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,321 | INFO | Overlap: NONE
+2026-07-02 13:21:20,321 | INFO | ================================================================================
+2026-07-02 13:21:20,321 | INFO | Overlap: NONE
+2026-07-02 13:21:20,519 | INFO | ================================================================================
+2026-07-02 13:21:20,519 | INFO | QUESTION 5
+2026-07-02 13:21:20,519 | INFO | Question: "AML Sanksiya Dəyişiklikləri" adlı Qərar hansı iki qanunun icrası ilə əlaqədar qəbul edilib və bu Qərarla Nazirlər Kabinetinin hansı əvvəlki qərarı ləğv edilir?
+2026-07-02 13:21:20,519 | INFO | Expected chunk ids: ['AML Sanksiya Dəyişiklikləri_intro_1']
+2026-07-02 13:21:20,519 | INFO | Retrieved ids:
+2026-07-02 13:21:20,519 | INFO |    1. AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_V_art_2_96
+2026-07-02 13:21:20,520 | INFO |    2. Əmanətlərin sığortalanması haqqında_ch_II_art_24_28
+2026-07-02 13:21:20,520 | INFO |    3. Valyuta tənzimi haqqında_art_3_120
+2026-07-02 13:21:20,520 | INFO |    4. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6
+2026-07-02 13:21:20,520 | INFO |    5. _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_intro_1
+2026-07-02 13:21:20,520 | INFO |    6. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,520 | INFO |    7. “Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə_art_249_277
+2026-07-02 13:21:20,520 | INFO |    8. ba0d73daa9275fa1fe1e4694b_art_3_50
+2026-07-02 13:21:20,520 | INFO |    9. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,520 | INFO |   10. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:20,520 | INFO | Overlap: NONE
+2026-07-02 13:21:20,520 | INFO | ================================================================================
+2026-07-02 13:21:20,520 | INFO | Overlap: NONE
+2026-07-02 13:21:39,631 | INFO | Saved per-question results → results\e5_results.csv
+2026-07-02 13:21:39,632 | INFO | ============================================================
+2026-07-02 13:21:39,632 | INFO | Evaluating model: bge_m3  |  collection: reguaz_bge_m3
+2026-07-02 13:21:39,632 | INFO | ============================================================
+2026-07-02 13:21:39,632 | INFO | Loading embedding service for model 'bge_m3'…
+2026-07-02 13:21:49,493 | INFO | ================================================================================
+2026-07-02 13:21:49,493 | INFO | QUESTION 1
+2026-07-02 13:21:49,493 | INFO | Question: "Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar"ın təsdiq edilməsi barədə Qərar hansı tarixdə qəbul edilib və qüvvəyə minmə tarixi nədir?
+2026-07-02 13:21:49,493 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1']
+2026-07-02 13:21:49,494 | INFO | Retrieved ids:
+2026-07-02 13:21:49,494 | INFO |    1. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1
+2026-07-02 13:21:49,494 | INFO |    2. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_2
+2026-07-02 13:21:49,494 | INFO |    3. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7
+2026-07-02 13:21:49,494 | INFO |    4. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6
+2026-07-02 13:21:49,494 | INFO |    5. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_7_14_part1
+2026-07-02 13:21:49,494 | INFO |    6. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8
+2026-07-02 13:21:49,494 | INFO |    7. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1
+2026-07-02 13:21:49,494 | INFO |    8. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1
+2026-07-02 13:21:49,494 | INFO |    9. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1
+2026-07-02 13:21:49,494 | INFO |   10. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1
+2026-07-02 13:21:49,494 | INFO | Overlap: NONE
+2026-07-02 13:21:49,494 | INFO | ================================================================================
+2026-07-02 13:21:49,494 | INFO | Overlap: NONE
+2026-07-02 13:21:49,633 | INFO | ================================================================================
+2026-07-02 13:21:49,633 | INFO | QUESTION 2
+2026-07-02 13:21:49,633 | INFO | Question: Qərarın Hüquqi Aktların Dövlət Reyestrinə daxil edilməsi üçün Ədliyyə Nazirliyinə təqdim edilməsi neçə gün müddətində və hansı şöbə tərəfindən təmin edilməlidir?
+2026-07-02 13:21:49,633 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3']
+2026-07-02 13:21:49,648 | INFO | Retrieved ids:
+2026-07-02 13:21:49,648 | INFO |    1. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,648 | INFO |    2. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,648 | INFO |    3. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,648 | INFO |    4. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,648 | INFO |    5. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,648 | INFO |    6. “Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,648 | INFO |    7. “Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında_art_2_3
+2026-07-02 13:21:49,648 | INFO |    8. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_2_3
+2026-07-02 13:21:49,648 | INFO |    9. “Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,648 | INFO |   10. “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,648 | INFO | Overlap: NONE
+2026-07-02 13:21:49,648 | INFO | ================================================================================
+2026-07-02 13:21:49,648 | INFO | Overlap: NONE
+2026-07-02 13:21:49,757 | INFO | ================================================================================
+2026-07-02 13:21:49,757 | INFO | QUESTION 3
+2026-07-02 13:21:49,773 | INFO | Question: Bu Qərardan irəli gələn məsələlərin həll edilməsi hansı şöbəyə tapşırılıb?
+2026-07-02 13:21:49,773 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4']
+2026-07-02 13:21:49,773 | INFO | Retrieved ids:
+2026-07-02 13:21:49,773 | INFO |    1. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4
+2026-07-02 13:21:49,773 | INFO |    2. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,773 | INFO |    3. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,773 | INFO |    4. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,773 | INFO |    5. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,773 | INFO |    6. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,773 | INFO |    7. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,773 | INFO |    8. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,773 | INFO |    9. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,773 | INFO |   10. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,773 | INFO | Overlap: NONE
+2026-07-02 13:21:49,773 | INFO | ================================================================================
+2026-07-02 13:21:49,773 | INFO | Overlap: NONE
+2026-07-02 13:21:49,937 | INFO | ================================================================================
+2026-07-02 13:21:49,937 | INFO | QUESTION 4
+2026-07-02 13:21:49,937 | INFO | Question: QKDK-nın aparatının və Naxçıvan Muxtar Respublikası üzrə İdarəsinin bu Qərarla tanış olmasını təmin etmək hansı şöbəyə həvalə edilib?
+2026-07-02 13:21:49,937 | INFO | Expected chunk ids: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5']
+2026-07-02 13:21:49,937 | INFO | Retrieved ids:
+2026-07-02 13:21:49,937 | INFO |    1. “Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:49,937 | INFO |    2. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_4_5
+2026-07-02 13:21:49,937 | INFO |    3. “İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:49,937 | INFO |    4. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:49,938 | INFO |    5. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:49,938 | INFO |    6. “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5
+2026-07-02 13:21:49,938 | INFO |    7. “İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,938 | INFO |    8. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4
+2026-07-02 13:21:49,938 | INFO |    9. dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4
+2026-07-02 13:21:49,938 | INFO |   10. “Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3
+2026-07-02 13:21:49,938 | INFO | Overlap: NONE
+2026-07-02 13:21:49,938 | INFO | ================================================================================
+2026-07-02 13:21:49,938 | INFO | Overlap: NONE
+2026-07-02 13:21:50,086 | INFO | ================================================================================
+2026-07-02 13:21:50,086 | INFO | QUESTION 5
+2026-07-02 13:21:50,086 | INFO | Question: "AML Sanksiya Dəyişiklikləri" adlı Qərar hansı iki qanunun icrası ilə əlaqədar qəbul edilib və bu Qərarla Nazirlər Kabinetinin hansı əvvəlki qərarı ləğv edilir?
+2026-07-02 13:21:50,086 | INFO | Expected chunk ids: ['AML Sanksiya Dəyişiklikləri_intro_1']
+2026-07-02 13:21:50,086 | INFO | Retrieved ids:
+2026-07-02 13:21:50,086 | INFO |    1. Bank Şöbələri və Valyuta Qaydası_art_2_3
+2026-07-02 13:21:50,086 | INFO |    2. AML Sanksiya Dəyişiklikləri_intro_1
+2026-07-02 13:21:50,086 | INFO |    3. Bank Hesabları Qaydası_art_3_107_part6
+2026-07-02 13:21:50,086 | INFO |    4. İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları_ch_il_12_part2
+2026-07-02 13:21:50,086 | INFO |    5. 45937180-250a-4b4a-b8e5-153945adb06d_art_2_3
+2026-07-02 13:21:50,086 | INFO |    6. 402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part1
+2026-07-02 13:21:50,086 | INFO |    7. _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part4
+2026-07-02 13:21:50,086 | INFO |    8. 64b6f05f-196b-4894-9374-9e5c1c4df7a2_art_3_107_part6
+2026-07-02 13:21:50,086 | INFO |    9. AML Sanksiya Dəyişiklikləri_art_4_6
+2026-07-02 13:21:50,086 | INFO |   10. 6c51a485-6986-4257-b6e0-25475732f1dc_art_2_3
+2026-07-02 13:21:50,086 | INFO | Overlap: NONE
+2026-07-02 13:21:50,086 | INFO | ================================================================================
+2026-07-02 13:21:50,086 | INFO | Overlap: NONE
+2026-07-02 13:22:07,057 | INFO | Saved per-question results → results\bge_m3_results.csv
+2026-07-02 13:22:07,057 | INFO | Saved comparison summary  → results\comparison.csv
+2026-07-02 13:22:07,057 | INFO | Evaluation complete.
