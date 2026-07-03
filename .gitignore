@@ -18,3 +18,4 @@ __pycache__/
 
 
 data/chroma/chroma.sqlite3
+data/qdrant/
