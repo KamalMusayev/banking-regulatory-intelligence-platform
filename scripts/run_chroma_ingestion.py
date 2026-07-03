@@ -2,7 +2,9 @@ import os
 import sys
 import argparse
 import time
+import logging
 import itertools
+from pathlib import Path
 from typing import List, Dict, Any, Set
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -10,7 +12,38 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 from backend.reguaz.database.chroma import ChromaDBManager
 from backend.reguaz.services.embeddings.embedding_reader import EmbeddingReader
 from backend.reguaz.services.ingestion.chunk_reader import ChunkReader
-from backend.reguaz.utils.logger import setup_logger
+
+
+def setup_ingestion_logger() -> logging.Logger:
+    """
+    Standalone logger for the ChromaDB ingestion pipeline.
+    Writes to console and to logs/chroma_ingestion_logs.log.
+    """
+    logs_dir = Path("logs")
+    logs_dir.mkdir(parents=True, exist_ok=True)
+
+    log_file = logs_dir / "chroma_ingestion_logs.log"
+
+    logger = logging.getLogger("chroma_ingestion")
+    logger.setLevel(logging.INFO)
+
+    # Avoid duplicate handlers if main() is ever called twice
+    if logger.handlers:
+        return logger
+
+    formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
+
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+
+    file_handler = logging.FileHandler(log_file, encoding="utf-8", mode="a")
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+
+    return logger
+
 
 def ingest_model(
     model_name: str,
@@ -170,7 +203,7 @@ def main():
     
     args = parser.parse_args()
     
-    logger = setup_logger("ingestion")
+    logger = setup_ingestion_logger()
     
     logger.info("=" * 80)
     logger.info("ChromaDB Ingestion Pipeline Started")

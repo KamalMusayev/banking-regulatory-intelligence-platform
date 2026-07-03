@@ -1,0 +1,305 @@
+2026-07-02 20:13:06 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-02 20:13:06
+2026-07-02 20:13:06 | INFO     | ================================================================================
+2026-07-02 20:13:06 | INFO     | HYBRID EVALUATION  |  model: BGE_M3
+2026-07-02 20:13:06 | INFO     |   top_k            : 10
+2026-07-02 20:13:06 | INFO     |   top_k_candidates : 20
+2026-07-02 20:13:06 | INFO     |   rrf_k            : 60
+2026-07-02 20:13:06 | INFO     |   chroma_dir       : data/chroma
+2026-07-02 20:13:06 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-02 20:13:06 | INFO     | ================================================================================
+2026-07-02 20:13:06 | INFO     | Initialising HybridRetriever for model 'bge_m3' …
+2026-07-02 20:13:15 | INFO     | HybridRetriever ready in 9.41 s.
+2026-07-02 20:13:15 | INFO     | Starting evaluation over 121 question(s) …
+2026-07-02 20:13:15 | INFO     | [Q000/120] Retrieving for: '"Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haq…'
+2026-07-02 20:13:15 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_2', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_7_14_part1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_7_14_part2', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8'] | Overlap: NONE
+2026-07-02 20:13:15 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-02 20:13:15 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_2 | rrf=0.03200 | sem_rank=2 | bm25_rank=3
+2026-07-02 20:13:15 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7 | rrf=0.03150 | sem_rank=3 | bm25_rank=4
+2026-07-02 20:13:15 | INFO     | [Q000]   Rank 4 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_7_14_part1 | rrf=0.03077 | sem_rank=5 | bm25_rank=5
+2026-07-02 20:13:15 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-02 20:13:15 | INFO     | [Q000] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.26 s
+2026-07-02 20:13:15 | INFO     | [Q001/120] Retrieving for: 'Qərarın Hüquqi Aktların Dövlət Reyestrinə daxil edilməsi üçün Ədliyyə …'
+2026-07-02 20:13:15 | INFO     | [Q001] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3'] | Retrieved top-10: ['“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında_art_2_3', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_3_4', 'Azərbaycan Respublikası Prezidentinin Fərmanı_art_2_3', 'beaf2f3b-d7c9-4377-8d69-d29758699119_art_2_3'] | Overlap: NONE
+2026-07-02 20:13:15 | INFO     | [Q001]   Rank 1 | id=“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rrf=0.03150 | sem_rank=3 | bm25_rank=4
+2026-07-02 20:13:15 | INFO     | [Q001]   Rank 2 | id=“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rrf=0.03132 | sem_rank=7 | bm25_rank=1
+2026-07-02 20:13:15 | INFO     | [Q001]   Rank 3 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rrf=0.03132 | sem_rank=1 | bm25_rank=7
+2026-07-02 20:13:15 | INFO     | [Q001]   Rank 4 | id=“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rrf=0.03128 | sem_rank=2 | bm25_rank=6
+2026-07-02 20:13:15 | INFO     | [Q001]   Rank 5 | id=“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında_art_2_3 | rrf=0.03128 | sem_rank=6 | bm25_rank=2
+2026-07-02 20:13:15 | INFO     | [Q001] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.09 s
+2026-07-02 20:13:15 | INFO     | [Q002/120] Retrieving for: 'Bu Qərardan irəli gələn məsələlərin həll edilməsi hansı şöbəyə tapşırı…'
+2026-07-02 20:13:15 | INFO     | [Q002] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4'] | Retrieved top-10: ['dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_art_3_4', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3'] | Overlap: NONE
+2026-07-02 20:13:15 | INFO     | [Q002]   Rank 1 | id=dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-02 20:13:15 | INFO     | [Q002]   Rank 2 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rrf=0.03202 | sem_rank=4 | bm25_rank=1
+2026-07-02 20:13:15 | INFO     | [Q002]   Rank 3 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rrf=0.03175 | sem_rank=2 | bm25_rank=4
+2026-07-02 20:13:15 | INFO     | [Q002]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rrf=0.03175 | sem_rank=3 | bm25_rank=3
+2026-07-02 20:13:15 | INFO     | [Q002]   Rank 5 | id=“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rrf=0.03054 | sem_rank=6 | bm25_rank=5
+2026-07-02 20:13:15 | INFO     | [Q002] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:15 | INFO     | [Q003/120] Retrieving for: 'QKDK-nın aparatının və Naxçıvan Muxtar Respublikası üzrə İdarəsinin bu…'
+2026-07-02 20:13:16 | INFO     | [Q003] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5'] | Retrieved top-10: ['dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_4_5', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Azərbaycan Respublikasının bank sistemində arxiv işinin aparılması haqqında Təlimat”ın təsdiq edilməsi barədə_art_162_185', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4'] | Overlap: NONE
+2026-07-02 20:13:16 | INFO     | [Q003]   Rank 1 | id=dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_4_5 | rrf=0.03175 | sem_rank=4 | bm25_rank=2
+2026-07-02 20:13:16 | INFO     | [Q003]   Rank 2 | id=“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rrf=0.03175 | sem_rank=3 | bm25_rank=3
+2026-07-02 20:13:16 | INFO     | [Q003]   Rank 3 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rrf=0.03154 | sem_rank=1 | bm25_rank=6
+2026-07-02 20:13:16 | INFO     | [Q003]   Rank 4 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rrf=0.03154 | sem_rank=6 | bm25_rank=1
+2026-07-02 20:13:16 | INFO     | [Q003]   Rank 5 | id=“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rrf=0.03151 | sem_rank=2 | bm25_rank=5
+2026-07-02 20:13:16 | INFO     | [Q003] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q004/120] Retrieving for: '"AML Sanksiya Dəyişiklikləri" adlı Qərar hansı iki qanunun icrası ilə …'
+2026-07-02 20:13:16 | INFO     | [Q004] Expected: ['AML Sanksiya Dəyişiklikləri_intro_1'] | Retrieved top-10: ['AML Sanksiya Dəyişiklikləri_intro_1', 'AML Sanksiya Dəyişiklikləri_art_4_6', 'Bank Şöbələri və Valyuta Qaydası_art_2_3', 'Banklar Haqqında Qanun_ch_X_art_62_102', '590-IIQ-Banklar haqqında_ch_X_art_62_107', 'Bank Hesabları Qaydası_art_3_107_part6', 'İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları_ch_il_12_part2', '“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə_art_2_3', '45937180-250a-4b4a-b8e5-153945adb06d_art_2_3', '“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə_art_4_7'] | Overlap: NONE
+2026-07-02 20:13:16 | INFO     | [Q004]   Rank 1 | id=AML Sanksiya Dəyişiklikləri_intro_1     | rrf=0.03252 | sem_rank=2 | bm25_rank=1
+2026-07-02 20:13:16 | INFO     | [Q004]   Rank 2 | id=AML Sanksiya Dəyişiklikləri_art_4_6     | rrf=0.02964 | sem_rank=9 | bm25_rank=6
+2026-07-02 20:13:16 | INFO     | [Q004]   Rank 3 | id=Bank Şöbələri və Valyuta Qaydası_art_2_3 | rrf=0.01639 | sem_rank=1 | bm25_rank=None
+2026-07-02 20:13:16 | INFO     | [Q004]   Rank 4 | id=Banklar Haqqında Qanun_ch_X_art_62_102   | rrf=0.01613 | sem_rank=None | bm25_rank=2
+2026-07-02 20:13:16 | INFO     | [Q004]   Rank 5 | id=590-IIQ-Banklar haqqında_ch_X_art_62_107 | rrf=0.01587 | sem_rank=None | bm25_rank=3
+2026-07-02 20:13:16 | INFO     | [Q004] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.08 s
+2026-07-02 20:13:16 | INFO     | [Q005/120] Retrieving for: 'Nazirlər Kabinetinin 2015-ci il 21 oktyabr tarixli 336 nömrəli Qərarı …'
+2026-07-02 20:13:16 | INFO     | [Q005] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.08 s
+2026-07-02 20:13:16 | INFO     | [Q006/120] Retrieving for: '337 nömrəli Qərarla təsdiq edilmiş Qaydanın 3.1.5-ci yarımbəndinə hans…'
+2026-07-02 20:13:16 | INFO     | [Q006] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q007/120] Retrieving for: '"Kommersiya hüquqi şəxslərin təsisçiləri (iştirakçıları)... barədə məl…'
+2026-07-02 20:13:16 | INFO     | [Q007] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.09 s
+2026-07-02 20:13:16 | INFO     | [Q008/120] Retrieving for: '"AML Sanksiya Dəyişiklikləri" Qərarı hansı tarixdə və hansı nömrə ilə …'
+2026-07-02 20:13:16 | INFO     | [Q008] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q009/120] Retrieving for: '"Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçu…'
+2026-07-02 20:13:16 | INFO     | [Q009] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.08 s
+2026-07-02 20:13:16 | INFO     | [Q010/120] Retrieving for: 'Qanuna görə "öhdəlik daşıyan şəxslər" kimlərdir və bu anlayış "maliyyə…'
+2026-07-02 20:13:16 | INFO     | [Q010] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q011/120] Retrieving for: 'Qanunun 1.1.8-ci yarımbəndinə əsasən hansı subyektlər "maliyyə institu…'
+2026-07-02 20:13:16 | INFO     | [Q011] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q012/120] Retrieving for: 'Qanuna görə "virtual aktiv" anlayışı necə müəyyən edilir və hansı alət…'
+2026-07-02 20:13:16 | INFO     | [Q012] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q013/120] Retrieving for: 'Qanuna görə "benefisiar mülkiyyətçi" kim hesab edilir?…'
+2026-07-02 20:13:16 | INFO     | [Q013] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q014/120] Retrieving for: 'Qanunda "mühüm iştirak payı" hansı faiz həddi ilə müəyyən edilir?…'
+2026-07-02 20:13:16 | INFO     | [Q014] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q015/120] Retrieving for: '"Siyasi nüfuzlu şəxslərin yaxın qohumları" anlayışına hansı şəxslər da…'
+2026-07-02 20:13:16 | INFO     | [Q015] recall@10=1.000 | precision@10=0.100 | mrr@10=0.200 | ndcg@10=0.387 | time=0.06 s
+2026-07-02 20:13:16 | INFO     | [Q016/120] Retrieving for: 'Qanuna əsasən "siyasi nüfuzlu şəxs" statusuna hansı vəzifə sahibləri a…'
+2026-07-02 20:13:16 | INFO     | [Q016] recall@10=1.000 | precision@10=0.100 | mrr@10=0.200 | ndcg@10=0.387 | time=0.07 s
+2026-07-02 20:13:16 | INFO     | [Q017/120] Retrieving for: 'FATF nədir və hansı məqsədlə fəaliyyət göstərir?…'
+2026-07-02 20:13:17 | INFO     | [Q017] recall@10=0.500 | precision@10=0.100 | mrr@10=0.250 | ndcg@10=0.264 | time=0.07 s
+2026-07-02 20:13:17 | INFO     | [Q018/120] Retrieving for: 'Qanuna görə "yüksək riskli zonalar" hansı əlamətlərə görə müəyyən edil…'
+2026-07-02 20:13:17 | INFO     | [Q018] recall@10=1.000 | precision@10=0.100 | mrr@10=0.100 | ndcg@10=0.289 | time=0.05 s
+2026-07-02 20:13:17 | INFO     | [Q019/120] Retrieving for: 'Qanunun tətbiq dairəsinə görə bu Qanun kimlər arasındakı münasibətləri…'
+2026-07-02 20:13:17 | INFO     | [Q019] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.06 s
+2026-07-02 20:13:17 | INFO     | [Q020/120] Retrieving for: 'Qanunun tələbləri qeyri-maliyyə institutları və peşə sahiblərinə hansı…'
+2026-07-02 20:13:17 | INFO     | [Q020] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.05 s
+2026-07-02 20:13:17 | INFO     | [Q021/120] Retrieving for: '"Anbarların açılması, bağlanması və möhürlənməsi jurnalı" üçün müəyyən…'
+2026-07-02 20:13:17 | INFO     | [Q021] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:17 | INFO     | [Q022/120] Retrieving for: '"Nəzarət kitabı"nın saxlanma müddəti neçə ildir?…'
+2026-07-02 20:13:17 | INFO     | [Q022] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:17 | INFO     | [Q023/120] Retrieving for: '"Xəzinə departamentinin ehtiyat fondunda olan nağd pulun küpürlər üzrə…'
+2026-07-02 20:13:17 | INFO     | [Q023] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:17 | INFO     | [Q024/120] Retrieving for: '"Silahların alınması, verilməsi, saxlanması və uçotu məsələləri barədə…'
+2026-07-02 20:13:17 | INFO     | [Q024] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:17 | INFO     | [Q025/120] Retrieving for: '"Qiymətlilərin inkassasiyası ilə bağlı müqavilələr" üçün saxlanma müdd…'
+2026-07-02 20:13:17 | INFO     | [Q025] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:17 | INFO     | [Q026/120] Retrieving for: '"Saxlanca qoyulmuş sənədlər və qiymətlilər üzrə uçot kitabı"nın saxlan…'
+2026-07-02 20:13:17 | INFO     | [Q026] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:17 | INFO     | [Q027/120] Retrieving for: '"Ciddi hesabat blankları üzrə uçot kitabı"nın saxlanma müddəti nədir?…'
+2026-07-02 20:13:17 | INFO     | [Q027] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.08 s
+2026-07-02 20:13:17 | INFO     | [Q028/120] Retrieving for: '"Digər memorandum hesablar üzrə uçot kitabı" hansı qurumlarda hansı sa…'
+2026-07-02 20:13:17 | INFO     | [Q028] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:17 | INFO     | [Q029/120] Retrieving for: 'Təlimatın müvafiq bölməsində "Qiymətlilərin inkassasiyası" hansı bölmə…'
+2026-07-02 20:13:17 | INFO     | [Q029] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:17 | INFO     | [Q030/120] Retrieving for: '"Qiymətlilərin inkassasiyası ilə bağlı yazışma"nın saxlanma müddəti ne…'
+2026-07-02 20:13:17 | INFO     | [Q030] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:17 | INFO     | [Q031/120] Retrieving for: 'Təlimatda saxlanma müddətləri cədvəlinin hansı bölməsi "1. Beynəlxalq …'
+2026-07-02 20:13:17 | INFO     | [Q031] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:17 | INFO     | [Q032/120] Retrieving for: '"Sənədli akkreditiv, yol çekləri və digər ödəniş vasitələrinə dair sən…'
+2026-07-02 20:13:17 | INFO     | [Q032] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:17 | INFO     | [Q033/120] Retrieving for: 'Təlimatda saxlanma müddətləri cədvəlində "2. Xarici valyuta əməliyyatl…'
+2026-07-02 20:13:18 | INFO     | [Q033] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:18 | INFO     | [Q034/120] Retrieving for: '"Rezident və qeyri-rezidentlərin xarici valyuta hesabları üzrə aparıla…'
+2026-07-02 20:13:18 | INFO     | [Q034] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:18 | INFO     | [Q035/120] Retrieving for: 'Hesabat-tədiyə balansının illik və rüblük hesabatları üçün saxlanma mü…'
+2026-07-02 20:13:18 | INFO     | [Q035] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:18 | INFO     | [Q036/120] Retrieving for: '"Xarici valyutalara sifarişlər"in saxlanma müddəti neçə ildir?…'
+2026-07-02 20:13:18 | INFO     | [Q036] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:18 | INFO     | [Q037/120] Retrieving for: '"Açılmış hesabların analitik uçotu üzrə qeydiyyatı kitabları" hansı sa…'
+2026-07-02 20:13:18 | INFO     | [Q037] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:18 | INFO     | [Q038/120] Retrieving for: 'Milli və xarici valyutada memorial və kassa sənədləri, habelə müştəril…'
+2026-07-02 20:13:18 | INFO     | [Q038] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.08 s
+2026-07-02 20:13:18 | INFO     | [Q039/120] Retrieving for: '"Müştərilərin hesabları üzrə bank çıxarışları"nın saxlanma müddəti neç…'
+2026-07-02 20:13:18 | INFO     | [Q039] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:18 | INFO     | [Q040/120] Retrieving for: '"Banklar haqqında" Azərbaycan Respublikası Qanununun tətbiq edilməsi b…'
+2026-07-02 20:13:18 | INFO     | [Q040] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:18 | INFO     | [Q041/120] Retrieving for: '"Banklar haqqında" Qanunun 49.2-ci maddəsində nəzərdə tutulmuş sanksiy…'
+2026-07-02 20:13:18 | INFO     | [Q041] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:18 | INFO     | [Q042/120] Retrieving for: '12 aprel 2017-ci il tarixli 1336 nömrəli Prezident Fərmanı ilə Fərmanı…'
+2026-07-02 20:13:18 | INFO     | [Q042] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:18 | INFO     | [Q043/120] Retrieving for: 'Fərmanın 3.1-1-ci bəndinə hansı Fərmanlarla və hansı tarixlərdə əlavəl…'
+2026-07-02 20:13:18 | INFO     | [Q043] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:18 | INFO     | [Q044/120] Retrieving for: 'Azərbaycan Respublikasının Mərkəzi Bankı haqqında Qanuna əsasən Mərkəz…'
+2026-07-02 20:13:18 | INFO     | [Q044] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:18 | INFO     | [Q045/120] Retrieving for: 'Mərkəzi Bank dövlətin öhdəlikləri üçün, dövlət isə Mərkəzi Bankın öhdə…'
+2026-07-02 20:13:18 | INFO     | [Q045] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.07 s
+2026-07-02 20:13:18 | INFO     | [Q046/120] Retrieving for: 'Mərkəzi Bank beynəlxalq əməkdaşlıq çərçivəsində hansı qurumlarla müqav…'
+2026-07-02 20:13:18 | INFO     | [Q046] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:18 | INFO     | [Q047/120] Retrieving for: 'Mərkəzi Bankın mənfəəti necə hesablanır və gəlirləri hansı mənbələr he…'
+2026-07-02 20:13:18 | INFO     | [Q047] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:18 | INFO     | [Q048/120] Retrieving for: '"Azərbaycan Respublikasının Mərkəzi Bankı haqqında" Qanunun III fəsli …'
+2026-07-02 20:13:18 | INFO     | [Q048] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.07 s
+2026-07-02 20:13:18 | INFO     | [Q049/120] Retrieving for: 'Kredit İttifaqının fəaliyyətinin əsas prinsipləri hansılardır?…'
+2026-07-02 20:13:19 | INFO     | [Q049] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q050/120] Retrieving for: 'Kredit ittifaqları Azərbaycan Respublikasının hansı sahədə nəzərdə tut…'
+2026-07-02 20:13:19 | INFO     | [Q050] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:19 | INFO     | [Q051/120] Retrieving for: '"Əmanətlərin sığortalanması haqqında" Qanunun II fəsli hansı mövzuya h…'
+2026-07-02 20:13:19 | INFO     | [Q051] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:19 | INFO     | [Q052/120] Retrieving for: 'Əmanətlərin Sığortalanması Fondu sığorta hadisəsi baş verdikdə hansı f…'
+2026-07-02 20:13:19 | INFO     | [Q052] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q053/120] Retrieving for: 'Fond öhdəliklərini yerinə yetirmək üçün vəsaiti çatışmadıqda haradan b…'
+2026-07-02 20:13:19 | INFO     | [Q053] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:19 | INFO     | [Q054/120] Retrieving for: 'Fondun Himayəçilik Şurası hansı halda Fondun uzunmüddətli borc qiymətl…'
+2026-07-02 20:13:19 | INFO     | [Q054] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:19 | INFO     | [Q055/120] Retrieving for: 'Fondun icraçı direktoru necə təyin edilir, səlahiyyət müddəti neçə ild…'
+2026-07-02 20:13:19 | INFO     | [Q055] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q056/120] Retrieving for: 'Fondun sığorta ehtiyatları hansı mənbələr hesabına formalaşır?…'
+2026-07-02 20:13:19 | INFO     | [Q056] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:19 | INFO     | [Q057/120] Retrieving for: 'Sığorta haqlarını vaxtında ödəməyən iştirakçı banka tətbiq edilən dəbb…'
+2026-07-02 20:13:19 | INFO     | [Q057] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q058/120] Retrieving for: 'Fond risklərin bölüşdürülməsi məqsədilə sərbəst pul vəsaitlərini hansı…'
+2026-07-02 20:13:19 | INFO     | [Q058] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q059/120] Retrieving for: 'Fond öz funksiyalarını yerinə yetirərkən maliyyə bazarlarına nəzarət o…'
+2026-07-02 20:13:19 | INFO     | [Q059] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q060/120] Retrieving for: 'Mərkəzi Bank banklarla bağlı hansı qərarlar qəbul edildikdə bu barədə …'
+2026-07-02 20:13:19 | INFO     | [Q060] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q061/120] Retrieving for: 'Mərkəzi Bank iştirakçı bankın Fond qarşısında öhdəliklərini yerinə yet…'
+2026-07-02 20:13:19 | INFO     | [Q061] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q062/120] Retrieving for: 'Bankın çevrilmə formasında yenidən təşkilinə qabaqcadan razılıq alınma…'
+2026-07-02 20:13:19 | INFO     | [Q062] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:19 | INFO     | [Q063/120] Retrieving for: 'BOKT-yə çevrilən bank əmanətçilər qarşısında olan öhdəliklərinin icras…'
+2026-07-02 20:13:19 | INFO     | [Q063] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:19 | INFO     | [Q064/120] Retrieving for: 'Palata hansı hallarda bankın yenidən təşkilinə qabaqcadan verdiyi razı…'
+2026-07-02 20:13:19 | INFO     | [Q064] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:19 | INFO     | [Q065/120] Retrieving for: '"Bankların yenidən təşkili haqqında Qaydalar"a görə "birləşmə" və "qoş…'
+2026-07-02 20:13:20 | INFO     | [Q065] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q066/120] Retrieving for: '"Bankların yenidən təşkili haqqında Qaydalar"ın təsdiq edilməsi barədə…'
+2026-07-02 20:13:20 | INFO     | [Q066] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q067/120] Retrieving for: '"Maliyyə bazarlarında fəaliyyətinə nəzarət edilən subyektlərdə informa…'
+2026-07-02 20:13:20 | INFO     | [Q067] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.07 s
+2026-07-02 20:13:20 | INFO     | [Q068/120] Retrieving for: 'Bu Təlimat hansı beynəlxalq standarta uyğun hazırlanıb və hansı nəzarə…'
+2026-07-02 20:13:20 | INFO     | [Q068] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q069/120] Retrieving for: 'Sənədin 4-cü bölməsində bençmark ölkələrin qabaqcıl təcrübələri hansı …'
+2026-07-02 20:13:20 | INFO     | [Q069] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q070/120] Retrieving for: 'Maliyyə bazarları üzrə kibertəhlükəsizlik strategiyasının neçə stratej…'
+2026-07-02 20:13:20 | INFO     | [Q070] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q071/120] Retrieving for: 'Kassir məxaric sənədini qəbul edərkən hansı məlumatları və elementləri…'
+2026-07-02 20:13:20 | INFO     | [Q071] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q072/120] Retrieving for: 'Hesab üzərində sərəncam hüququ olan bir neçə şəxs olduqda, imza hüququ…'
+2026-07-02 20:13:20 | INFO     | [Q072] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q073/120] Retrieving for: 'Valyuta mübadiləsi aparılmayan forvard əməliyyatları zamanı tərəflər a…'
+2026-07-02 20:13:20 | INFO     | [Q073] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q074/120] Retrieving for: 'Fiziki şəxslər hansı məbləğdən yuxarı olan nağd milli valyutanı gömrük…'
+2026-07-02 20:13:20 | INFO     | [Q074] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q075/120] Retrieving for: 'Şəbəkəni aldadaraq səlahiyyətsiz sistemin özünü səlahiyyətli kompyuter…'
+2026-07-02 20:13:20 | INFO     | [Q075] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q076/120] Retrieving for: 'Bankomatdan istifadə edən kart sahibi digər bankın müştərisi olduqda h…'
+2026-07-02 20:13:20 | INFO     | [Q076] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q077/120] Retrieving for: 'Đstiqraz vərəqəsinin sertifikatında əks olunmalı rekvizitlərin göstəri…'
+2026-07-02 20:13:20 | INFO     | [Q077] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q078/120] Retrieving for: 'Müvəqqəti cari hesab üzrə hansı əməliyyatların aparılmasına icazə veri…'
+2026-07-02 20:13:20 | INFO     | [Q078] recall@10=1.000 | precision@10=0.100 | mrr@10=0.333 | ndcg@10=0.500 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q079/120] Retrieving for: 'Bank şöbəsi əsasnaməsinə uyğun olaraq hansı fəaliyyət növlərini həyata…'
+2026-07-02 20:13:20 | INFO     | [Q079] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q080/120] Retrieving for: 'Ödəniş sisteminə daxil edilmiş ödəniş sərəncamı hansı andan etibarən g…'
+2026-07-02 20:13:20 | INFO     | [Q080] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q081/120] Retrieving for: 'Ödəniş əməliyyatının aşağı riskli hesab edilməsi üçün hansı şərtlərin …'
+2026-07-02 20:13:20 | INFO     | [Q081] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:20 | INFO     | [Q082/120] Retrieving for: 'Hüquqi şəxs kimi dövlət qeydiyyatına alınması haqqında şəhadətnamədə h…'
+2026-07-02 20:13:21 | INFO     | [Q082] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.07 s
+2026-07-02 20:13:21 | INFO     | [Q083/120] Retrieving for: 'İstehlakçı istehlak krediti müqaviləsindən neçə gün ərzində səbəb göst…'
+2026-07-02 20:13:21 | INFO     | [Q083] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q084/120] Retrieving for: 'Qiymətli kağızların satın alınmasının başlanılmasından neçə iş günü əv…'
+2026-07-02 20:13:21 | INFO     | [Q084] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q085/120] Retrieving for: 'Sistem əhəmiyyətli banklarda komplayens funksiyası ilə bağlı hansı str…'
+2026-07-02 20:13:21 | INFO     | [Q085] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q086/120] Retrieving for: 'Daşınmaz əsas vəsaitin hissə-hissə ödənilməsi yolu ilə satışına yalnız…'
+2026-07-02 20:13:21 | INFO     | [Q086] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q087/120] Retrieving for: 'Ləğvedici kreditordan asılı səbəblərdən öhdəliyi yerinə yetirə bilmədi…'
+2026-07-02 20:13:21 | INFO     | [Q087] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q088/120] Retrieving for: 'Makroprudensial alətlərin seçilməsi mərhələsində hansı amillərə uyğun …'
+2026-07-02 20:13:21 | INFO     | [Q088] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q089/120] Retrieving for: 'İnvestisiya şirkətinin nizamnamə kapitalının formalaşdırılması zamanı …'
+2026-07-02 20:13:21 | INFO     | [Q089] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q090/120] Retrieving for: 'Pərakəndə risklər üzrə risk çəkisinin 75% olaraq müəyyən edilməsi üçün…'
+2026-07-02 20:13:21 | INFO     | [Q090] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q091/120] Retrieving for: 'Kredit ittifaqının üzvlərinə verdiyi təminatsız kreditlərin maksimum m…'
+2026-07-02 20:13:21 | INFO     | [Q091] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q092/120] Retrieving for: 'İcarəyə verən tərəfindən maliyyə hesabatlarında maliyyə icarəsi üzrə h…'
+2026-07-02 20:13:21 | INFO     | [Q092] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q093/120] Retrieving for: 'İnformasiya sisteminə valyuta mübadiləsi əməliyyatlarına dair hansı mə…'
+2026-07-02 20:13:21 | INFO     | [Q093] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.07 s
+2026-07-02 20:13:21 | INFO     | [Q094/120] Retrieving for: 'Mənfəət və ya zərər hesablarında ədalətli dəyərlə ölçülmüş kredit port…'
+2026-07-02 20:13:21 | INFO     | [Q094] recall@10=1.000 | precision@10=0.100 | mrr@10=0.333 | ndcg@10=0.500 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q095/120] Retrieving for: 'Statistik vahid nağd xarici valyuta əməliyyatları hesabatını Mərkəzi B…'
+2026-07-02 20:13:21 | INFO     | [Q095] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q096/120] Retrieving for: 'Əmanətlər üzrə hesablanmış faizlərin ödənilməsi zamanı hansı mühasibat…'
+2026-07-02 20:13:21 | INFO     | [Q096] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:21 | INFO     | [Q097/120] Retrieving for: 'Baş kitabın bankın idarə olunmasında hansı əsas funksiyaları var və o …'
+2026-07-02 20:13:21 | INFO     | [Q097] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:21 | INFO     | [Q098/120] Retrieving for: 'Banklar maliyyə hesabatlarının surətini "Audit hesabatı" ilə birlikdə …'
+2026-07-02 20:13:22 | INFO     | [Q098] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q099/120] Retrieving for: 'Texniki və təmir xidmətləri üzrə daxilolmalar və ödənişlər hansı kodla…'
+2026-07-02 20:13:22 | INFO     | [Q099] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q100/120] Retrieving for: 'Mənfəət və zərər haqqında hesabatda gəlir və xərc maddələri hansı hall…'
+2026-07-02 20:13:22 | INFO     | [Q100] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q101/120] Retrieving for: 'Təxirə salınmış xərclər hesabında hansı xərclərin uçotu aparılır və bu…'
+2026-07-02 20:13:22 | INFO     | [Q101] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q102/120] Retrieving for: 'Fiziki şəxslərin bank hesablarından hansı minimum məbləğdən başlayaraq…'
+2026-07-02 20:13:22 | INFO     | [Q102] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q103/120] Retrieving for: 'Balansdankənar əməliyyatlar bank riskinin mövcudluğuna görə hansı iki …'
+2026-07-02 20:13:22 | INFO     | [Q103] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q104/120] Retrieving for: 'Bu Qaydaların qüvvəyə minməsi ilə əlaqədar hansı əvvəlki sənəd öz qüvv…'
+2026-07-02 20:13:22 | INFO     | [Q104] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q105/120] Retrieving for: 'Bu Qaydalarda "kənar auditor" anlayışı hansı mənanı ifadə edir?…'
+2026-07-02 20:13:22 | INFO     | [Q105] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:22 | INFO     | [Q106/120] Retrieving for: 'Bu Qərardan irəli gələn məsələlərin həlli hansı struktur bölmə üzərinə…'
+2026-07-02 20:13:22 | INFO     | [Q106] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.05 s
+2026-07-02 20:13:22 | INFO     | [Q107/120] Retrieving for: '2023-cü ilin ilk yarımilinə görə bank sistemi üzrə ani likvidlik əmsal…'
+2026-07-02 20:13:22 | INFO     | [Q107] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.08 s
+2026-07-02 20:13:22 | INFO     | [Q108/120] Retrieving for: 'Likvidliyin örtülmə əmsalı (LCR) hansı düsturla hesablanır və onun əsa…'
+2026-07-02 20:13:22 | INFO     | [Q108] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q109/120] Retrieving for: '2-ci qrup B aktivlərin nəzərə alınan hissəsi yüksək keyfiyyətli likvid…'
+2026-07-02 20:13:22 | INFO     | [Q109] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q110/120] Retrieving for: 'Stres ssenariləri hazırlanarkən nəzərə alınmalı olan əlverişsiz şərtlə…'
+2026-07-02 20:13:22 | INFO     | [Q110] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q111/120] Retrieving for: 'Ekoloji risklər üzrə hazırlanan ssenarilərdə hansı ikili risk növü əha…'
+2026-07-02 20:13:22 | INFO     | [Q111] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q112/120] Retrieving for: '"Sığortaçılarda korporativ idarəetmə standartları"na əsasən yaradılmış…'
+2026-07-02 20:13:22 | INFO     | [Q112] recall@10=1.000 | precision@10=0.100 | mrr@10=0.250 | ndcg@10=0.431 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q113/120] Retrieving for: 'Əmlakın ekoloji və "dayanıqlılıq" göstəricilərini dəstəkləyən təkmillə…'
+2026-07-02 20:13:22 | INFO     | [Q113] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.05 s
+2026-07-02 20:13:22 | INFO     | [Q114/120] Retrieving for: 'BOKT-nin əvvəlki rübdə milli valyutada verdiyi istehlak krediti növü ü…'
+2026-07-02 20:13:22 | INFO     | [Q114] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:22 | INFO     | [Q115/120] Retrieving for: 'Mərkəzi Bank tərəfindən nəzarət subyektlərində tətbiq ediləcək risk əs…'
+2026-07-02 20:13:23 | INFO     | [Q115] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:23 | INFO     | [Q116/120] Retrieving for: 'Kredit xətləri üzrə açıq valyuta mövqeyinin hesablanmasında müddəti bi…'
+2026-07-02 20:13:23 | INFO     | [Q116] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:23 | INFO     | [Q117/120] Retrieving for: '2024-cü il hesabat ilində repo/əks-repo əməliyyatlarının həcmi nə qədə…'
+2026-07-02 20:13:23 | INFO     | [Q117] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.07 s
+2026-07-02 20:13:23 | INFO     | [Q118/120] Retrieving for: 'Bu Fərmanın məqsədləri üçün "vaxtı keçmiş kredit borcu" hansı gecikdir…'
+2026-07-02 20:13:23 | INFO     | [Q118] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=0.06 s
+2026-07-02 20:13:23 | INFO     | [Q119/120] Retrieving for: 'Bankın aktivlərinin 5 faizindən çox hissəsini təşkil edən aidiyyəti şə…'
+2026-07-02 20:13:23 | INFO     | [Q119] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=0.06 s
+2026-07-02 20:13:23 | INFO     | [Q120/120] Retrieving for: 'Reqressiya nəticələrinə əsasən, məcmu LCR əmsalında 1 faiz bəndi azalm…'
+2026-07-02 20:13:23 | INFO     | [Q120] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=0.06 s
+2026-07-02 20:13:23 | INFO     | Evaluation loop finished in 7.82 s | evaluated=121 | skipped=0 | errors=0
+2026-07-02 20:13:23 | INFO     | ------------------------------------------------------------
+2026-07-02 20:13:23 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-02 20:13:23 | INFO     |   recall@1                       : 0.2066
+2026-07-02 20:13:23 | INFO     |   recall@3                       : 0.3223
+2026-07-02 20:13:23 | INFO     |   recall@5                       : 0.3512
+2026-07-02 20:13:23 | INFO     |   recall@10                      : 0.3595
+2026-07-02 20:13:23 | INFO     |   precision@1                    : 0.2066
+2026-07-02 20:13:23 | INFO     |   precision@3                    : 0.1074
+2026-07-02 20:13:23 | INFO     |   precision@5                    : 0.0711
+2026-07-02 20:13:23 | INFO     |   precision@10                   : 0.0364
+2026-07-02 20:13:23 | INFO     |   mrr@10                         : 0.2700
+2026-07-02 20:13:23 | INFO     |   ndcg@3                         : 0.2774
+2026-07-02 20:13:23 | INFO     |   ndcg@5                         : 0.2896
+2026-07-02 20:13:23 | INFO     |   ndcg@10                        : 0.2920
+2026-07-02 20:13:23 | INFO     |   num_questions_evaluated        : 121
+2026-07-02 20:13:23 | INFO     | ------------------------------------------------------------
+2026-07-02 20:13:23 | INFO     | Saved metrics         → results/hybrid_retrieval/bge_m3/metrics.json
+2026-07-02 20:13:23 | INFO     | Saved per_question    → results/hybrid_retrieval/bge_m3/per_question.csv
+2026-07-02 20:13:23 | INFO     | Saved retrieval_results → results/hybrid_retrieval/bge_m3/retrieval_results.csv
+2026-07-02 20:13:23 | INFO     | Pipeline finished for model 'bge_m3' in 17.25 s.

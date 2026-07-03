@@ -105,7 +105,7 @@ def parse_chunk_ids(raw_value: Any) -> list[str]:
         return []
 
     raw_str = str(raw_value)
-    parts = [part.strip() for part in raw_str.split(",")]
+    parts = [part.strip() for part in raw_str.split("|")]
     # Deduplicate while preserving order
     seen: set[str] = set()
     unique: list[str] = []
