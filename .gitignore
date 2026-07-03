@@ -17,4 +17,5 @@ __pycache__/
 .ipynb_checkpoints/
 
 
-data/chroma/chroma.sqlite3
+data/chroma/*
+data/qdrant/*
