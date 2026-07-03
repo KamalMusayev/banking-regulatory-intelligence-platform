@@ -111,6 +111,11 @@ class BM25Retriever:
         tokenised_corpus = [_tokenize(text) for text in self._chunk_texts]
         self._index = BM25Okapi(tokenised_corpus)
 
+        # Build in-memory lookup map for direct O(1) text retrieval.
+        self._chunk_id_to_text = {
+            cid: text for cid, text in zip(self._chunk_ids, self._chunk_texts)
+        }
+
         elapsed = time.perf_counter() - t0
         logger.info(
             "BM25Retriever: index built in %.2f s  (%d chunks).",
@@ -198,6 +203,22 @@ class BM25Retriever:
     def corpus_size(self) -> int:
         """Number of indexed chunks."""
         return len(self._chunk_ids)
+
+    def get_text(self, chunk_id: str) -> str:
+        """
+        Retrieve the raw text content of a chunk by its ID from the in-memory corpus.
+
+        Parameters
+        ----------
+        chunk_id : str
+            The chunk ID to look up.
+
+        Returns
+        -------
+        str
+            The raw text content of the chunk, or empty string if not found.
+        """
+        return self._chunk_id_to_text.get(chunk_id, "")
 
     def search(
         self,
