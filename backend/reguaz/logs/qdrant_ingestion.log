@@ -1,0 +1,191 @@
+2026-07-03 14:46:30 | INFO     | __main__ | Starting Qdrant ingestion pipeline for model 'bge_m3'.
+2026-07-03 14:46:30 | INFO     | __main__ | Configuration: embeddings_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3' chunks_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks' qdrant_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' batch_size=256 collection='reguaz_bge_m3'.
+2026-07-03 14:46:30 | INFO     | __main__ | Building chunk lookup from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks'.
+2026-07-03 14:46:30 | ERROR    | __main__ | Qdrant ingestion pipeline failed.
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 526, in main
+    pipeline.run()
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 198, in run
+    chunk_lookup = self._build_chunk_lookup()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 241, in _build_chunk_lookup
+    lookup = self._chunk_reader.build_lookup(self._settings.chunks_dir)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/chunks/chunk_reader.py", line 129, in build_lookup
+    self._merge_file_into_lookup(file_path, lookup)
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/chunks/chunk_reader.py", line 158, in _merge_file_into_lookup
+    self._assert_unique(chunk_id, lookup, file_path)
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/chunks/chunk_reader.py", line 212, in _assert_unique
+    raise ValueError(message)
+ValueError: Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1' encountered in file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks/reporting_and_audit/Azərbaycan Respublikası Prezidentinin Fərmanı.jsonl'.
+2026-07-03 15:12:19 | INFO     | __main__ | Starting Qdrant ingestion pipeline for model 'bge_m3'.
+2026-07-03 15:12:19 | INFO     | __main__ | Configuration: embeddings_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3' chunks_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks' qdrant_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' batch_size=256 collection='reguaz_bge_m3'.
+2026-07-03 15:12:19 | INFO     | __main__ | Building chunk lookup from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks'.
+2026-07-03 15:12:19 | INFO     | __main__ | Chunk lookup built with 3815 chunk(s).
+2026-07-03 15:12:19 | INFO     | __main__ | Discovering embedding files under '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3'.
+2026-07-03 15:12:19 | ERROR    | __main__ | Qdrant ingestion pipeline failed.
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 538, in main
+    pipeline.run()
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 204, in run
+    embedding_files = self._discover_embedding_files()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 259, in _discover_embedding_files
+    files = self._embedding_reader.discover_files(self._settings.embeddings_dir)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: EmbeddingReader.discover_files() missing 1 required positional argument: 'model_name'
+2026-07-03 15:15:30 | INFO     | __main__ | Starting Qdrant ingestion pipeline for model 'bge_m3'.
+2026-07-03 15:15:30 | INFO     | __main__ | Configuration: embeddings_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3' chunks_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks' qdrant_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' batch_size=256 collection='reguaz_bge_m3'.
+2026-07-03 15:15:30 | INFO     | __main__ | Building chunk lookup from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks'.
+2026-07-03 15:15:30 | INFO     | __main__ | Chunk lookup built with 3815 chunk(s).
+2026-07-03 15:15:30 | INFO     | __main__ | Discovering embedding files under '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3'.
+2026-07-03 15:15:30 | ERROR    | __main__ | Qdrant ingestion pipeline failed.
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 538, in main
+    pipeline.run()
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 204, in run
+    embedding_files = self._discover_embedding_files()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 259, in _discover_embedding_files
+    files = self._embedding_reader.discover_files(self._settings.embeddings_dir)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: EmbeddingReader.discover_files() missing 1 required positional argument: 'model_name'
+2026-07-03 15:25:31 | INFO     | __main__ | Starting Qdrant ingestion pipeline for model 'bge_m3'.
+2026-07-03 15:25:31 | INFO     | __main__ | Configuration: embeddings_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings' chunks_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks' qdrant_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' batch_size=256 collection='reguaz_bge_m3'.
+2026-07-03 15:25:31 | INFO     | __main__ | Building chunk lookup from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks'.
+2026-07-03 15:25:31 | INFO     | __main__ | Chunk lookup built with 3815 chunk(s).
+2026-07-03 15:25:31 | INFO     | __main__ | Discovering embedding files under '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3'.
+2026-07-03 15:25:31 | INFO     | __main__ | Discovered 95 embedding file(s).
+2026-07-03 15:25:32 | ERROR    | __main__ | Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'.
+2026-07-03 15:25:32 | ERROR    | __main__ | Qdrant ingestion pipeline failed.
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 543, in main
+    pipeline.run()
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 206, in run
+    ids, vectors, payloads = self._collect_points(embedding_files, chunk_lookup)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 297, in _collect_points
+    self._assert_no_duplicate(chunk_id, seen_chunk_ids, file_path)
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/scripts/run_qdrant_ingestion.py", line 414, in _assert_no_duplicate
+    raise ValueError(message)
+ValueError: Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'.
+2026-07-03 15:34:34 | INFO     | __main__ | Starting Qdrant ingestion pipeline for model 'bge_m3'.
+2026-07-03 15:34:34 | INFO     | __main__ | Configuration: embeddings_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings' chunks_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks' qdrant_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' batch_size=100 collection='reguaz_bge_m3'.
+2026-07-03 15:34:34 | INFO     | __main__ | Building chunk lookup from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks'.
+2026-07-03 15:34:34 | INFO     | __main__ | Chunk lookup built with 3815 chunk(s).
+2026-07-03 15:34:34 | INFO     | __main__ | Discovering embedding files under '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3'.
+2026-07-03 15:34:34 | INFO     | __main__ | Discovered 95 embedding file(s).
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_art_1_2' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part1' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part2' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part3' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part4' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part5' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part6' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:34:35 | WARNING  | __main__ | Skipped 8 duplicate embedding record(s) across 95 file(s). Consider deduplicating the source data.
+2026-07-03 15:34:35 | INFO     | backend.reguaz.database.qdrant | Initialized local Qdrant client at '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' (embedding_dim=1024).
+2026-07-03 15:34:35 | INFO     | backend.reguaz.database.qdrant | Created collection 'reguaz_bge_m3' (dim=1024, distance=COSINE).
+2026-07-03 15:34:35 | INFO     | backend.reguaz.database.qdrant | Upserting 3815 points into collection 'reguaz_bge_m3' (batch_size=100).
+2026-07-03 15:34:35 | INFO     | backend.reguaz.database.qdrant | Upserted batch [0:100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [100:200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [200:300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [300:400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [400:500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [500:600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [600:700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [700:800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [800:900] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [900:1000] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1000:1100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1100:1200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:36 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1200:1300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1300:1400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1400:1500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1500:1600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1600:1700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1700:1800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1800:1900] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1900:2000] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2000:2100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2100:2200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2200:2300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2300:2400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2400:2500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2500:2600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:37 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2600:2700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2700:2800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2800:2900] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2900:3000] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3000:3100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3100:3200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3200:3300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3300:3400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3400:3500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3500:3600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3600:3700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3700:3800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3800:3815] (15 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Successfully upserted 3815 points into collection 'reguaz_bge_m3'.
+2026-07-03 15:34:38 | INFO     | backend.reguaz.database.qdrant | Closed Qdrant client at '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant'.
+2026-07-03 15:34:38 | INFO     | __main__ | Ingestion completed: 3815 vector(s) inserted into collection 'reguaz_bge_m3' in 3.92s.
+2026-07-03 15:38:47 | INFO     | __main__ | Starting Qdrant ingestion pipeline for model 'bge_m3'.
+2026-07-03 15:38:47 | INFO     | __main__ | Configuration: embeddings_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings' chunks_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks' qdrant_dir='/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' batch_size=100 collection='reguaz_bge_m3'.
+2026-07-03 15:38:47 | INFO     | __main__ | Building chunk lookup from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/chunks'.
+2026-07-03 15:38:47 | INFO     | __main__ | Chunk lookup built with 3815 chunk(s).
+2026-07-03 15:38:47 | INFO     | __main__ | Discovering embedding files under '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3'.
+2026-07-03 15:38:47 | INFO     | __main__ | Discovered 95 embedding file(s).
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_art_1_2' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/governance_and_compliance/Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part1' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part2' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part3' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part4' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part5' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part6' encountered in embedding file '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/processed/embeddings/bge_m3/guidance_and_methodology/dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 15:38:47 | WARNING  | __main__ | Skipped 8 duplicate embedding record(s) across 95 file(s). Consider deduplicating the source data.
+2026-07-03 15:38:47 | INFO     | backend.reguaz.database.qdrant | Initialized local Qdrant client at '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant' (embedding_dim=1024).
+2026-07-03 15:38:47 | INFO     | backend.reguaz.database.qdrant | Created collection 'reguaz_bge_m3' (dim=1024, distance=COSINE).
+2026-07-03 15:38:47 | INFO     | backend.reguaz.database.qdrant | Upserting 3815 points into collection 'reguaz_bge_m3' (batch_size=100).
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [0:100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [100:200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [200:300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [300:400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [400:500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [500:600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [600:700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [700:800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [800:900] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [900:1000] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1000:1100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:48 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1100:1200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1200:1300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1300:1400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1400:1500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1500:1600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1600:1700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1700:1800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1800:1900] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1900:2000] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2000:2100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2100:2200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2200:2300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2300:2400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2400:2500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2500:2600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2600:2700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2700:2800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2800:2900] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2900:3000] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3000:3100] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3100:3200] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3200:3300] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3300:3400] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3400:3500] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3500:3600] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3600:3700] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3700:3800] (100 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3800:3815] (15 points) into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Successfully upserted 3815 points into collection 'reguaz_bge_m3'.
+2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Closed Qdrant client at '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant'.
+2026-07-03 15:38:50 | INFO     | __main__ | Ingestion completed: 3815 vector(s) inserted into collection 'reguaz_bge_m3' in 3.77s.
