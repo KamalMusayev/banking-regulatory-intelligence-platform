@@ -5,6 +5,7 @@ from backend.reguaz.retrieval.fusion import reciprocal_rank_fusion, compute_rrf_
 from backend.reguaz.retrieval.hybrid_retriever import HybridRetriever
 from backend.reguaz.retrieval.qdrant_retriever import QdrantRetriever
 from backend.reguaz.retrieval.hybrid_qdrant import HybridQdrantRetriever
+from backend.reguaz.retrieval.reranker import CrossEncoderReranker
 
 __all__ = [
     "ChromaRetriever",
@@ -14,4 +15,5 @@ __all__ = [
     "HybridRetriever",
     "QdrantRetriever",
     "HybridQdrantRetriever",
+    "CrossEncoderReranker",
 ]
