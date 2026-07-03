@@ -1,4 +1,3 @@
-````markdown
 # ReguAZ
 
 > **AI-powered Regulatory Intelligence Platform for Azerbaijani Banking Regulations**
@@ -479,4 +478,3 @@ poetry run python script.py
 # License
 
 This project is licensed under the MIT License.
-````
