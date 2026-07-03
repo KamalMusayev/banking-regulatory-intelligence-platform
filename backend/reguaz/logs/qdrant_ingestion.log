@@ -189,3 +189,39 @@ ValueError: Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərman�
 2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Successfully upserted 3815 points into collection 'reguaz_bge_m3'.
 2026-07-03 15:38:50 | INFO     | backend.reguaz.database.qdrant | Closed Qdrant client at '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/qdrant'.
 2026-07-03 15:38:50 | INFO     | __main__ | Ingestion completed: 3815 vector(s) inserted into collection 'reguaz_bge_m3' in 3.77s.
+2026-07-03 16:50:37 | INFO     | __main__ | Starting Qdrant ingestion pipeline for model 'bge_m3'.
+2026-07-03 16:50:37 | INFO     | __main__ | Configuration: embeddings_dir='C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings' chunks_dir='C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\chunks' qdrant_dir='C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\qdrant' batch_size=256 collection='reguaz_bge_m3'.
+2026-07-03 16:50:37 | INFO     | __main__ | Building chunk lookup from 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\chunks'.
+2026-07-03 16:50:39 | INFO     | __main__ | Chunk lookup built with 3815 chunk(s).
+2026-07-03 16:50:39 | INFO     | __main__ | Discovering embedding files under 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings/bge_m3'.
+2026-07-03 16:50:39 | INFO     | __main__ | Discovered 95 embedding file(s).
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_intro_1' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\reporting_and_audit\Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'Azərbaycan Respublikası Prezidentinin Fərmanı_art_1_2' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\reporting_and_audit\Azərbaycan Respublikası Prezidentinin Fərmanı_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part1' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\risk_management\dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part2' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\risk_management\dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part3' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\risk_management\dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part4' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\risk_management\dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part5' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\risk_management\dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:41 | WARNING  | __main__ | Duplicate chunk_id 'dc1546b51b6aa6b3d92409836_intro_1_part6' encountered in embedding file 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\processed\embeddings\bge_m3\risk_management\dc1546b51b6aa6b3d92409836_embeddings.jsonl'; keeping the first occurrence and skipping this one.
+2026-07-03 16:50:42 | WARNING  | __main__ | Skipped 8 duplicate embedding record(s) across 95 file(s). Consider deduplicating the source data.
+2026-07-03 16:50:42 | INFO     | backend.reguaz.database.qdrant | Initialized local Qdrant client at 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\qdrant' (embedding_dim=1024).
+2026-07-03 16:50:42 | INFO     | backend.reguaz.database.qdrant | Created collection 'reguaz_bge_m3' (dim=1024, distance=COSINE).
+2026-07-03 16:50:42 | INFO     | backend.reguaz.database.qdrant | Upserting 3815 points into collection 'reguaz_bge_m3' (batch_size=256).
+2026-07-03 16:50:43 | INFO     | backend.reguaz.database.qdrant | Upserted batch [0:256] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:44 | INFO     | backend.reguaz.database.qdrant | Upserted batch [256:512] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:46 | INFO     | backend.reguaz.database.qdrant | Upserted batch [512:768] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:47 | INFO     | backend.reguaz.database.qdrant | Upserted batch [768:1024] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:49 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1024:1280] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:50 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1280:1536] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:52 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1536:1792] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:54 | INFO     | backend.reguaz.database.qdrant | Upserted batch [1792:2048] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:55 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2048:2304] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:58 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2304:2560] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:50:59 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2560:2816] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:51:01 | INFO     | backend.reguaz.database.qdrant | Upserted batch [2816:3072] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:51:03 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3072:3328] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:51:05 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3328:3584] (256 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:51:06 | INFO     | backend.reguaz.database.qdrant | Upserted batch [3584:3815] (231 points) into collection 'reguaz_bge_m3'.
+2026-07-03 16:51:06 | INFO     | backend.reguaz.database.qdrant | Successfully upserted 3815 points into collection 'reguaz_bge_m3'.
+2026-07-03 16:51:06 | INFO     | backend.reguaz.database.qdrant | Closed Qdrant client at 'C:\Users\user\Documents\banking-regulatory-intelligence-platform\data\qdrant'.
+2026-07-03 16:51:06 | INFO     | __main__ | Ingestion completed: 3815 vector(s) inserted into collection 'reguaz_bge_m3' in 28.81s.
