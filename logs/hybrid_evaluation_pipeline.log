@@ -1,0 +1,17 @@
+2026-07-02 20:13:06 | INFO     | ================================================================================
+2026-07-02 20:13:06 | INFO     | ReguAZ  Hybrid Retrieval Evaluation Pipeline
+2026-07-02 20:13:06 | INFO     |   model(s)         : all
+2026-07-02 20:13:06 | INFO     |   top_k            : 10
+2026-07-02 20:13:06 | INFO     |   top_k_candidates : 20
+2026-07-02 20:13:06 | INFO     |   rrf_k            : 60
+2026-07-02 20:13:06 | INFO     |   dataset          : data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-02 20:13:06 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-02 20:13:06 | INFO     |   chroma_dir       : data/chroma
+2026-07-02 20:13:06 | INFO     |   results_dir      : results/hybrid_retrieval
+2026-07-02 20:13:06 | INFO     | ================================================================================
+2026-07-02 20:13:06 | INFO     | Loading gold evaluation dataset from: data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-02 20:13:06 | INFO     | Loaded 121 evaluation question(s).
+2026-07-02 20:13:38 | INFO     | Saved comparison CSV  → results/hybrid_retrieval/comparison.csv
+2026-07-02 20:13:38 | INFO     | ================================================================================
+2026-07-02 20:13:38 | INFO     | ALL EVALUATIONS COMPLETE  |  total time: 31.96 s
+2026-07-02 20:13:38 | INFO     | ================================================================================
