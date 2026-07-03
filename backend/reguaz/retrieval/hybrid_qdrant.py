@@ -40,6 +40,7 @@ from typing import Any
 from backend.reguaz.retrieval.bm25_retriever import BM25Retriever
 from backend.reguaz.retrieval.fusion import compute_rrf_scores, reciprocal_rank_fusion
 from backend.reguaz.retrieval.qdrant_retriever import QdrantRetriever
+from backend.reguaz.retrieval.reranker import CrossEncoderReranker
 from backend.reguaz.services.embeddings.embedding_factory import EmbeddingFactory
 
 logger = logging.getLogger(__name__)
@@ -66,11 +67,10 @@ _QUERY_PREFIX: dict[str, str] = {
 
 class HybridQdrantRetriever:
     """
-    Orchestrates Qdrant semantic search + BM25 search + Reciprocal Rank Fusion.
+    Orchestrates Qdrant semantic search + BM25 search + RRF + Cross-Encoder reranking.
 
-    This class is the Qdrant equivalent of HybridRetriever.  The pipeline
-    structure, public API, and result format are identical; only the semantic
-    retrieval backend has changed from ChromaDB to Qdrant.
+    This class is the Qdrant equivalent of HybridRetriever, extended with a
+    Cross-Encoder reranking stage using BAAI/bge-reranker-v2-m3.
 
     Parameters
     ----------
@@ -83,14 +83,21 @@ class HybridQdrantRetriever:
         ``"data/processed/chunks"``).
     top_k_semantic : int
         Number of candidate results to fetch from Qdrant before fusion.
-        Should be ≥ the final *top_k* passed to :meth:`retrieve`.
-        Default: 20.
+        Default: 30.
     top_k_bm25 : int
         Number of candidate results to fetch from BM25 before fusion.
-        Should be ≥ the final *top_k* passed to :meth:`retrieve`.
-        Default: 20.
+        Default: 30.
+    rerank_top_k : int
+        Number of candidates to keep after RRF fusion for the reranker.
+        Default: 30.
+    final_top_k : int
+        Number of candidates to return after reranking.
+        Default: 10.
     rrf_k : int
         The RRF smoothing constant.  Canonical value is 60.
+    reranker_model : str
+        Name/path of the Cross-Encoder model to load.
+        Default: ``"BAAI/bge-reranker-v2-m3"``.
 
     Raises
     ------
@@ -100,7 +107,7 @@ class HybridQdrantRetriever:
         If *chunks_dir* does not exist.
     Exception
         If the Qdrant collection cannot be opened (collection not found
-        or empty collection).
+        or empty collection) or the reranker fails to load.
     """
 
     def __init__(
@@ -108,9 +115,12 @@ class HybridQdrantRetriever:
         model_name: str,
         qdrant_dir: str,
         chunks_dir: str,
-        top_k_semantic: int = 20,
-        top_k_bm25: int = 20,
+        top_k_semantic: int = 30,
+        top_k_bm25: int = 30,
+        rerank_top_k: int = 30,
+        final_top_k: int = 10,
         rrf_k: int = 60,
+        reranker_model: str = "BAAI/bge-reranker-v2-m3",
     ) -> None:
         # Normalise model name the same way the factory does.
         self._model_name = model_name.lower().replace("-", "_")
@@ -123,18 +133,25 @@ class HybridQdrantRetriever:
 
         self._top_k_semantic = top_k_semantic
         self._top_k_bm25 = top_k_bm25
+        self._rerank_top_k = rerank_top_k
+        self._final_top_k = final_top_k
         self._rrf_k = rrf_k
+        self._reranker_model = reranker_model
         self._query_prefix: str = _QUERY_PREFIX[self._model_name]
         self._collection_name: str = _COLLECTION_MAP[self._model_name]
 
         logger.info(
             "HybridQdrantRetriever: initialising for model='%s' | collection='%s' | "
-            "top_k_semantic=%d | top_k_bm25=%d | rrf_k=%d",
+            "top_k_semantic=%d | top_k_bm25=%d | rerank_top_k=%d | final_top_k=%d | "
+            "rrf_k=%d | reranker_model='%s'",
             self._model_name,
             self._collection_name,
             self._top_k_semantic,
             self._top_k_bm25,
+            self._rerank_top_k,
+            self._final_top_k,
             self._rrf_k,
+            self._reranker_model,
         )
 
         # --- Component 1: Embedding service ---
@@ -167,6 +184,16 @@ class HybridQdrantRetriever:
             self._bm25_retriever.corpus_size,
         )
 
+        # --- Component 4: Cross-Encoder Reranker ---
+        logger.info(
+            "HybridQdrantRetriever: loading Cross-Encoder reranker model '%s' …",
+            self._reranker_model,
+        )
+        self._reranker = CrossEncoderReranker(
+            model_name=self._reranker_model
+        )
+        logger.info("HybridQdrantRetriever: Cross-Encoder reranker ready.")
+
         logger.info(
             "HybridQdrantRetriever: all components initialised for model '%s'.",
             self._model_name,
@@ -189,10 +216,10 @@ class HybridQdrantRetriever:
     def retrieve(
         self,
         query: str,
-        top_k: int = 10,
+        top_k: int | None = None,
     ) -> list[dict[str, Any]]:
         """
-        Run the full hybrid retrieval pipeline for a single *query*.
+        Run the full hybrid retrieval pipeline with Cross-Encoder reranking.
 
         Steps
         -----
@@ -201,26 +228,31 @@ class HybridQdrantRetriever:
         3. Retrieve ``top_k_semantic`` results from Qdrant.
         4. Retrieve ``top_k_bm25`` results from BM25.
         5. Merge both ranked lists with RRF.
-        6. Return the top *top_k* fused results.
+        6. Keep the top ``rerank_top_k`` fused results as candidates.
+        7. Retrieve candidate document texts (in-memory) and rerank with Cross-Encoder.
+        8. Sort candidates by rerank score descending and return the top ``top_k``.
 
         Parameters
         ----------
         query : str
             Raw query string (no prefix required; the retriever applies it).
-        top_k : int
-            Maximum number of final results to return.
+        top_k : int | None
+            Maximum number of final results to return. If None, defaults to the
+            constructed ``final_top_k``.
 
         Returns
         -------
         list[dict]
-            Ordered list (rank 1 first) of result dicts, each containing:
+            Ordered list (rank 1 first) of reranked result dicts, each containing:
 
             ``id``
                 The matched chunk ID.
-            ``rrf_score``
-                The raw RRF score (higher = more relevant).
+            ``rerank_score``
+                The score assigned by the Cross-Encoder reranker.
             ``rank``
-                1-indexed position in the fused ranking.
+                1-indexed position in the final reranked ranking.
+            ``rrf_score``
+                The RRF score prior to reranking.
             ``semantic_rank``
                 1-indexed position in the semantic-only ranking
                 (``None`` if not in semantic results).
@@ -229,6 +261,9 @@ class HybridQdrantRetriever:
                 (``None`` if not in BM25 results).
         """
         t_total = time.perf_counter()
+
+        if top_k is None:
+            top_k = self._final_top_k
 
         # Step 1 – Apply query prefix
         prefixed_query = self._query_prefix + query
@@ -290,10 +325,25 @@ class HybridQdrantRetriever:
         )
         logger.debug(
             "HybridQdrantRetriever.retrieve: RRF fusion completed in %.3f s "
-            "(%d unique candidates → top %d returned).",
+            "(%d unique candidates).",
             time.perf_counter() - t0,
             len(fused_ids),
-            top_k,
+        )
+
+        # Step 6 – Keep top rerank_top_k candidates
+        fused_candidates = fused_ids[:self._rerank_top_k]
+
+        # Step 7 – Retrieve candidate document texts (in-memory) and rerank
+        t0 = time.perf_counter()
+        texts_to_rerank = [
+            self._bm25_retriever.get_text(cid) for cid in fused_candidates
+        ]
+
+        rerank_scores = self._reranker.rerank(query, texts_to_rerank)
+        logger.debug(
+            "HybridQdrantRetriever.retrieve: Cross-Encoder reranked %d candidates in %.3f s.",
+            len(fused_candidates),
+            time.perf_counter() - t0,
         )
 
         # Build rank-lookup dictionaries for transparency.
@@ -304,16 +354,30 @@ class HybridQdrantRetriever:
             cid: rank for rank, cid in enumerate(bm25_ids, start=1)
         }
 
-        # Step 6 – Assemble final results
+        # Pair candidate IDs with their scores and rank metadata.
+        scored_candidates = []
+        for cid, score in zip(fused_candidates, rerank_scores):
+            scored_candidates.append({
+                "id": cid,
+                "rerank_score": score,
+                "rrf_score": rrf_scores.get(cid, 0.0),
+                "semantic_rank": semantic_rank_map.get(cid),
+                "bm25_rank": bm25_rank_map.get(cid),
+            })
+
+        # Step 8 – Sort candidates by rerank score descending (break ties lexicographically)
+        scored_candidates.sort(key=lambda x: (-x["rerank_score"], x["id"]))
+
         results: list[dict[str, Any]] = []
-        for rank, chunk_id in enumerate(fused_ids[:top_k], start=1):
+        for rank, cand in enumerate(scored_candidates[:top_k], start=1):
             results.append(
                 {
-                    "id": chunk_id,
-                    "rrf_score": rrf_scores.get(chunk_id, 0.0),
+                    "id": cand["id"],
+                    "rerank_score": cand["rerank_score"],
                     "rank": rank,
-                    "semantic_rank": semantic_rank_map.get(chunk_id),
-                    "bm25_rank": bm25_rank_map.get(chunk_id),
+                    "rrf_score": cand["rrf_score"],
+                    "semantic_rank": cand["semantic_rank"],
+                    "bm25_rank": cand["bm25_rank"],
                 }
             )
 
