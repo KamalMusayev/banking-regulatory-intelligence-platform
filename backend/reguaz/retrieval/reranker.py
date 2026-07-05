@@ -8,6 +8,10 @@ Performs semantic reranking of candidate documents using a Cross-Encoder model.
 from __future__ import annotations
 
 import logging
+import time
+
+# pyrefly: ignore [missing-import]
+import torch
 
 # pyrefly: ignore [missing-import]
 from sentence_transformers import CrossEncoder
@@ -41,12 +45,33 @@ class CrossEncoderReranker:
             model_name,
             device or "auto",
         )
+
         try:
-            self._model = CrossEncoder(model_name, device=device)
+            if device is None:
+                device = "cuda" if torch.cuda.is_available() else "cpu"
+
+            logger.info(
+                "CrossEncoderReranker: loading Cross-Encoder model '%s' on device '%s' ...",
+                model_name,
+                device,
+            )
+
+            self._model = CrossEncoder(
+                model_name,
+                device=device,
+                max_length=1024,
+            )
+
+            logger.info(
+                "CrossEncoderReranker: actual model device = %s",
+                self._model.model.device,
+            )
+
             logger.info(
                 "CrossEncoderReranker: model '%s' loaded successfully.",
                 model_name,
             )
+
         except Exception as exc:
             logger.error(
                 "CrossEncoderReranker: failed to load model '%s': %s",
@@ -79,17 +104,32 @@ class CrossEncoderReranker:
         if not documents:
             return []
 
+        logger.info(
+            "CrossEncoderReranker: reranking %d documents.",
+            len(documents),
+        )
+
         # Prepare (query, document) pairs for the cross-encoder.
         pairs = [[query, doc] for doc in documents]
+
+        start = time.perf_counter()
 
         # Compute raw scores.
         raw_scores = self._model.predict(
             pairs,
             batch_size=32,
-            show_progress_bar=False,
+            show_progress_bar=True,
+        )
+
+        elapsed = time.perf_counter() - start
+
+        logger.info(
+            "CrossEncoderReranker: predict() finished in %.3f s.",
+            elapsed,
         )
 
         # Ensure we return Python float type.
         if isinstance(raw_scores, list):
             return [float(score) for score in raw_scores]
+
         return [float(score) for score in raw_scores.tolist()]
