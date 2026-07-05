@@ -109,6 +109,13 @@ def get_logger(
     Raises:
         OSError: If the logs directory cannot be created.
     """
+    # Reconfigure sys.stdout to support UTF-8 on Windows consoles (e.g. Git Bash)
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+
     logs_dir = Path(logs_dir)
     _ensure_logs_dir(logs_dir)
 
@@ -132,3 +139,7 @@ def get_logger(
         logger.addHandler(console_handler)
 
     return logger
+
+
+# Alias for backward compatibility with scripts referencing setup_logger
+setup_logger = get_logger

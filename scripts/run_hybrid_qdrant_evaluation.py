@@ -1,50 +1,45 @@
 """
-scripts/run_hybrid_evaluation.py
+scripts/run_hybrid_qdrant_evaluation.py
 
-Production-quality Hybrid Retrieval Evaluation pipeline for ReguAZ.
+Production-quality Hybrid Qdrant Retrieval Evaluation pipeline for ReguAZ.
 
-For each embedding model (BGE-M3, E5) this script:
-  1. Builds a HybridRetriever (ChromaDB semantic + BM25 + RRF fusion).
+This script evaluates the HybridQdrantRetriever (Qdrant semantic search +
+BM25 + Cross-Encoder reranking + RRF fusion).
+
+For the production embedding model (BGE-M3) this script:
+  1. Builds a HybridQdrantRetriever.
   2. Iterates over every question in the gold evaluation dataset.
   3. Computes Recall@K, Precision@K, MRR@K, and nDCG@K.
   4. Writes per-question CSV, retrieval-results CSV, aggregate metrics JSON,
-     and a cross-model comparison CSV.
+     and a comparison CSV.
 
 Usage
 -----
-    # Evaluate both models (default)
-    python scripts/run_hybrid_evaluation.py
-
-    # Evaluate a single model
-    python scripts/run_hybrid_evaluation.py --model bge_m3
+    # Evaluate the production model (default)
+    python scripts/run_hybrid_qdrant_evaluation.py
 
     # Custom settings
-    python scripts/run_hybrid_evaluation.py \\
-        --model all \\
+    python scripts/run_hybrid_qdrant_evaluation.py \\
         --top-k 10 \\
-        --top-k-candidates 20 \\
+        --top-k-candidates 30 \\
+        --rerank-top-k 30 \\
         --rrf-k 60 \\
         --dataset data/evaluation/gold_dataset_for_embedding_excel.xlsx \\
         --chunks-dir data/processed/chunks \\
-        --chroma-dir data/chroma \\
-        --results-dir results/hybrid_retrieval
+        --qdrant-dir data/qdrant \\
+        --results-dir results/hybrid_qdrant_retrieval
 
 Output
 ------
-    results/hybrid_retrieval/
+    results/hybrid_qdrant_retrieval/
         bge_m3/
-            metrics.json
-            per_question.csv
-            retrieval_results.csv
-        e5/
             metrics.json
             per_question.csv
             retrieval_results.csv
         comparison.csv
 
     logs/
-        hybrid_evaluation_bge_m3.log
-        hybrid_evaluation_e5.log
+        hybrid_qdrant_evaluation_bge_m3.log
 """
 
 from __future__ import annotations
@@ -66,16 +61,16 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from backend.reguaz.retrieval.hybrid_retriever import HybridRetriever
+from backend.reguaz.retrieval.hybrid_qdrant import HybridQdrantRetriever
 
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
 
-MODELS: list[str] = ["bge_m3", "e5"]
+MODELS: list[str] = ["bge_m3"]
 
 # Log file name template.
-LOG_FILE_TEMPLATE = "hybrid_evaluation_{model_name}.log"
+LOG_FILE_TEMPLATE = "hybrid_qdrant_evaluation_{model_name}.log"
 
 # Column names written to result CSVs — declared once to avoid typos.
 _METRIC_COLUMNS: list[str] = [
@@ -87,10 +82,11 @@ _METRIC_COLUMNS: list[str] = [
 
 DEFAULT_DATASET_PATH = Path("data/evaluation/gold_dataset_for_embedding_excel.xlsx")
 DEFAULT_CHUNKS_DIR = "data/processed/chunks"
-DEFAULT_CHROMA_DIR = "data/chroma"
-DEFAULT_RESULTS_DIR = Path("results/hybrid_retrieval")
+DEFAULT_QDRANT_DIR = "data/qdrant"
+DEFAULT_RESULTS_DIR = Path("results/hybrid_qdrant_retrieval")
 DEFAULT_TOP_K = 10
-DEFAULT_TOP_K_CANDIDATES = 20
+DEFAULT_TOP_K_CANDIDATES = 30
+DEFAULT_RERANK_TOP_K = 30
 DEFAULT_RRF_K = 60
 
 
@@ -102,7 +98,7 @@ def setup_hybrid_logger(model_name: str) -> logging.Logger:
     """
     Create a model-specific logger that writes simultaneously to:
       - the console (stdout)
-      - ``logs/hybrid_evaluation_{model_name}.log`` (append mode)
+      - ``logs/hybrid_qdrant_evaluation_{model_name}.log`` (append mode)
 
     A duplicate-handler guard ensures the function is safe to call multiple
     times within the same process.
@@ -110,7 +106,7 @@ def setup_hybrid_logger(model_name: str) -> logging.Logger:
     Parameters
     ----------
     model_name : str
-        Normalised model name (e.g. ``"bge_m3"`` or ``"e5"``).
+        Normalised model name (e.g. ``"bge_m3"``).
 
     Returns
     -------
@@ -128,7 +124,7 @@ def setup_hybrid_logger(model_name: str) -> logging.Logger:
     logs_dir.mkdir(parents=True, exist_ok=True)
 
     log_file = logs_dir / LOG_FILE_TEMPLATE.format(model_name=model_name)
-    logger_name = f"hybrid_evaluation_{model_name}"
+    logger_name = f"hybrid_qdrant_evaluation_{model_name}"
 
     logger = logging.getLogger(logger_name)
     logger.setLevel(logging.INFO)
@@ -150,6 +146,14 @@ def setup_hybrid_logger(model_name: str) -> logging.Logger:
 
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
+
+    # Configure backend logger to reuse the same handlers and log level
+    backend_logger = logging.getLogger("backend")
+    backend_logger.setLevel(logging.INFO)
+    backend_logger.propagate = False
+    backend_logger.handlers.clear()
+    backend_logger.addHandler(console_handler)
+    backend_logger.addHandler(file_handler)
 
     return logger
 
@@ -370,14 +374,14 @@ def evaluate_model(
     Run the hybrid retrieval evaluation pipeline for one embedding model.
 
     For each question in *df*:
-    - Calls ``HybridRetriever.retrieve()``
+    - Calls ``HybridQdrantRetriever.retrieve()``
     - Computes all metrics via ``compute_metrics()``
     - Accumulates per-question rows for two output DataFrames
 
     Parameters
     ----------
     model_name : str
-        Normalised model identifier (``"e5"`` or ``"bge_m3"``).
+        Normalised model identifier (``"bge_m3"``).
     df : pd.DataFrame
         Gold evaluation dataset (output of ``load_gold_dataset()``).
     args : argparse.Namespace
@@ -390,37 +394,40 @@ def evaluate_model(
     per_question_df : pd.DataFrame
         One row per evaluated question with all metric columns.
     retrieval_df : pd.DataFrame
-        One row per question showing the retrieved IDs and RRF scores.
+        One row per question showing the retrieved IDs and scores.
     aggregate : dict[str, Any]
         Mean of every metric column across all evaluated questions.
     """
     logger.info("=" * 80)
-    logger.info("HYBRID EVALUATION  |  model: %s", model_name.upper())
+    logger.info("HYBRID QDRANT EVALUATION  |  model: %s", model_name.upper())
     logger.info("  top_k            : %d", args.top_k)
     logger.info("  top_k_candidates : %d", args.top_k_candidates)
+    logger.info("  rerank_top_k     : %d", args.rerank_top_k)
     logger.info("  rrf_k            : %d", args.rrf_k)
-    logger.info("  chroma_dir       : %s", args.chroma_dir)
+    logger.info("  qdrant_dir       : %s", args.qdrant_dir)
     logger.info("  chunks_dir       : %s", args.chunks_dir)
     logger.info("=" * 80)
 
     # ------------------------------------------------------------------
-    # Initialise the HybridRetriever
+    # Initialise the HybridQdrantRetriever
     # ------------------------------------------------------------------
-    logger.info("Initialising HybridRetriever for model '%s' …", model_name)
+    logger.info("Initialising HybridQdrantRetriever for model '%s' …", model_name)
     t_init = time.perf_counter()
 
     try:
-        retriever = HybridRetriever(
+        retriever = HybridQdrantRetriever(
             model_name=model_name,
-            chroma_dir=args.chroma_dir,
+            qdrant_dir=args.qdrant_dir,
             chunks_dir=args.chunks_dir,
             top_k_semantic=args.top_k_candidates,
             top_k_bm25=args.top_k_candidates,
+            rerank_top_k=args.rerank_top_k,
+            final_top_k=args.top_k,
             rrf_k=args.rrf_k,
         )
     except Exception:
         logger.error(
-            "Failed to initialise HybridRetriever for model '%s':\n%s",
+            "Failed to initialise HybridQdrantRetriever for model '%s':\n%s",
             model_name,
             traceback.format_exc(),
         )
@@ -430,7 +437,7 @@ def evaluate_model(
         return empty_df, empty_df, empty_aggregate
 
     logger.info(
-        "HybridRetriever ready in %.2f s.", time.perf_counter() - t_init
+        "HybridQdrantRetriever ready in %.2f s.", time.perf_counter() - t_init
     )
 
     # ------------------------------------------------------------------
@@ -458,20 +465,15 @@ def evaluate_model(
             num_skipped += 1
             continue
 
-        logger.info(
-            "[Q%03d/%03d] Retrieving for: '%s…'",
-            idx,
-            total_questions - 1,
-            question[:70],
-        )
+        logger.info("[Q%03d/%03d] Retrieving...", idx, total_questions)
 
-        # Hybrid retrieval
+        # Hybrid Qdrant retrieval (returns top_k results sliced by final_top_k internally)
         t_q = time.perf_counter()
         try:
             results = retriever.retrieve(query=question, top_k=args.top_k)
         except Exception:
             logger.error(
-                "[Q%03d] HybridRetriever.retrieve failed:\n%s",
+                "[Q%03d] HybridQdrantRetriever.retrieve failed:\n%s",
                 idx,
                 traceback.format_exc(),
             )
@@ -488,7 +490,7 @@ def evaluate_model(
             top_k=args.top_k,
         )
 
-        # Log BM25 and semantic rank details for the first few questions.
+        # Log BM25, semantic rank, and rerank details for the first few questions.
         if idx < 5:
             overlap = set(relevant_ids) & set(retrieved_ids)
             logger.info(
@@ -501,10 +503,11 @@ def evaluate_model(
             )
             for r in results[:5]:
                 logger.info(
-                    "[Q%03d]   Rank %d | id=%-40s | rrf=%.5f | sem_rank=%s | bm25_rank=%s",
+                    "[Q%03d]   Rank %d | id=%-40s | rerank=%.5f | rrf=%.5f | sem_rank=%s | bm25_rank=%s",
                     idx,
                     r["rank"],
                     r["id"],
+                    r["rerank_score"],
                     r["rrf_score"],
                     r.get("semantic_rank", "-"),
                     r.get("bm25_rank", "-"),
@@ -535,6 +538,9 @@ def evaluate_model(
         )
 
         # --- Accumulate retrieval row ---
+        rerank_scores_str = "|".join(
+            f"{r['id']}:{r['rerank_score']:.6f}" for r in results
+        )
         rrf_scores_str = "|".join(
             f"{r['id']}:{r['rrf_score']:.6f}" for r in results
         )
@@ -550,6 +556,7 @@ def evaluate_model(
                 "question": question,
                 "expected_chunk_ids": "|".join(relevant_ids),
                 f"retrieved_top{args.top_k}_ids": "|".join(retrieved_ids),
+                "rerank_scores": rerank_scores_str,
                 "rrf_scores": rrf_scores_str,
                 "semantic_ranks": sem_ranks_str,
                 "bm25_ranks": bm25_ranks_str,
@@ -630,7 +637,7 @@ def save_model_outputs(
     aggregate : dict[str, Any]
         Aggregate metrics dictionary.
     results_dir : Path
-        Root results directory (e.g. ``results/hybrid_retrieval``).
+        Root results directory (e.g. ``results/hybrid_qdrant_retrieval``).
     logger : logging.Logger
     """
     model_dir = results_dir / model_name
@@ -687,7 +694,7 @@ def build_comparison_csv(
 
     # Print a readable summary to the console.
     print("\n" + "=" * 70)
-    print("HYBRID RETRIEVAL — MODEL COMPARISON")
+    print("HYBRID QDRANT RETRIEVAL — MODEL COMPARISON")
     print("=" * 70)
     for col in comparison_df.columns:
         if col == "model":
@@ -708,8 +715,8 @@ def build_comparison_csv(
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "ReguAZ Hybrid Retrieval Evaluation Pipeline — "
-            "evaluates ChromaDB semantic search + BM25 + RRF fusion."
+            "ReguAZ Hybrid Qdrant Retrieval Evaluation Pipeline — "
+            "evaluates Qdrant semantic search + BM25 + Cross-Encoder Reranker + RRF fusion."
         ),
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
@@ -724,7 +731,7 @@ def _parse_args() -> argparse.Namespace:
         "--top-k",
         type=int,
         default=DEFAULT_TOP_K,
-        help="Number of final fused results to return per query.",
+        help="Number of final fused/reranked results to return per query.",
     )
     parser.add_argument(
         "--top-k-candidates",
@@ -732,8 +739,14 @@ def _parse_args() -> argparse.Namespace:
         default=DEFAULT_TOP_K_CANDIDATES,
         help=(
             "Number of candidates to retrieve from each source (semantic & BM25) "
-            "before RRF fusion.  Must be >= --top-k."
+            "before RRF fusion."
         ),
+    )
+    parser.add_argument(
+        "--rerank-top-k",
+        type=int,
+        default=DEFAULT_RERANK_TOP_K,
+        help="Number of candidates to keep after RRF fusion for the CrossEncoder reranker.",
     )
     parser.add_argument(
         "--rrf-k",
@@ -754,10 +767,10 @@ def _parse_args() -> argparse.Namespace:
         help="Root directory containing chunk JSONL files.",
     )
     parser.add_argument(
-        "--chroma-dir",
+        "--qdrant-dir",
         type=str,
-        default=DEFAULT_CHROMA_DIR,
-        help="Path to the ChromaDB persistence directory.",
+        default=DEFAULT_QDRANT_DIR,
+        help="Path to the Qdrant DB persistence directory.",
     )
     parser.add_argument(
         "--results-dir",
@@ -771,28 +784,8 @@ def _parse_args() -> argparse.Namespace:
 def main() -> None:
     """
     Main entry point.  Orchestrates the full hybrid evaluation pipeline.
-
-    Flow
-    ----
-    1. Parse CLI arguments.
-    2. Set up a minimal root logger for pre-model bootstrap messages.
-    3. Load the gold evaluation dataset once (shared across all models).
-    4. For each selected model:
-       a. Set up a model-specific logger (console + file).
-       b. Run ``evaluate_model()``.
-       c. Save outputs via ``save_model_outputs()``.
-    5. Build and save the cross-model ``comparison.csv``.
     """
     args = _parse_args()
-
-    # Validate --top-k-candidates >= --top-k
-    if args.top_k_candidates < args.top_k:
-        print(
-            f"WARNING: --top-k-candidates ({args.top_k_candidates}) is less than "
-            f"--top-k ({args.top_k}).  Overriding --top-k-candidates to {args.top_k}.",
-            file=sys.stderr,
-        )
-        args.top_k_candidates = args.top_k
 
     # Resolve paths
     dataset_path = Path(args.dataset)
@@ -803,14 +796,15 @@ def main() -> None:
     bootstrap_logger = setup_hybrid_logger("pipeline")
 
     bootstrap_logger.info("=" * 80)
-    bootstrap_logger.info("ReguAZ  Hybrid Retrieval Evaluation Pipeline")
+    bootstrap_logger.info("ReguAZ  Hybrid Qdrant Retrieval Evaluation Pipeline")
     bootstrap_logger.info("  model(s)         : %s", args.model)
     bootstrap_logger.info("  top_k            : %d", args.top_k)
     bootstrap_logger.info("  top_k_candidates : %d", args.top_k_candidates)
+    bootstrap_logger.info("  rerank_top_k     : %d", args.rerank_top_k)
     bootstrap_logger.info("  rrf_k            : %d", args.rrf_k)
     bootstrap_logger.info("  dataset          : %s", dataset_path)
     bootstrap_logger.info("  chunks_dir       : %s", args.chunks_dir)
-    bootstrap_logger.info("  chroma_dir       : %s", args.chroma_dir)
+    bootstrap_logger.info("  qdrant_dir       : %s", args.qdrant_dir)
     bootstrap_logger.info("  results_dir      : %s", results_dir)
     bootstrap_logger.info("=" * 80)
 
@@ -819,6 +813,8 @@ def main() -> None:
     # Load gold dataset once — shared across all models.
     try:
         df = load_gold_dataset(dataset_path, bootstrap_logger)
+        # Temporarily limit evaluation to a single question for profiling/debugging
+        df = df.head(1)
     except (FileNotFoundError, ValueError) as exc:
         bootstrap_logger.error("Cannot load evaluation dataset: %s", exc)
         sys.exit(1)

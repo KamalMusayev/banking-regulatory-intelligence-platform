@@ -1,0 +1,625 @@
+2026-07-03 20:41:19 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-03 20:41:19
+2026-07-03 20:41:19 | INFO     | ================================================================================
+2026-07-03 20:41:19 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-03 20:41:19 | INFO     |   top_k            : 10
+2026-07-03 20:41:19 | INFO     |   top_k_candidates : 30
+2026-07-03 20:41:19 | INFO     |   rerank_top_k     : 30
+2026-07-03 20:41:19 | INFO     |   rrf_k            : 60
+2026-07-03 20:41:19 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-03 20:41:19 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-03 20:41:19 | INFO     | ================================================================================
+2026-07-03 20:41:19 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-03 20:42:51 | INFO     | HybridQdrantRetriever ready in 92.20 s.
+2026-07-03 20:42:51 | INFO     | Starting evaluation over 121 question(s) …
+2026-07-03 20:42:51 | INFO     | [Q000/120] Retrieving for: '"Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haq…'
+2026-07-03 20:44:27 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-03 20:44:27 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-03 20:44:27 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-03 20:44:27 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-03 20:44:27 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-03 20:44:27 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-03 20:44:27 | INFO     | [Q000] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=95.72 s
+2026-07-03 20:44:27 | INFO     | [Q001/120] Retrieving for: 'Qərarın Hüquqi Aktların Dövlət Reyestrinə daxil edilməsi üçün Ədliyyə …'
+2026-07-03 20:44:40 | INFO     | [Q001] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3'] | Retrieved top-10: ['“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Bankların yenidən təşkili haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3', '“Kredit ittifaqlarının prudensial tənzimlənməsi Qaydaları”nın təsdiq edilməsi haqqında_art_2_3', '“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_3_4', 'dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_2_3', '8a4d0220-9312-4ef2-88e8-c65b607a186a_art_5_6'] | Overlap: NONE
+2026-07-03 20:44:40 | INFO     | [Q001]   Rank 1 | id=“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rerank=0.99957 | rrf=0.03202 | sem_rank=1 | bm25_rank=4
+2026-07-03 20:44:40 | INFO     | [Q001]   Rank 2 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rerank=0.99957 | rrf=0.03126 | sem_rank=3 | bm25_rank=5
+2026-07-03 20:44:40 | INFO     | [Q001]   Rank 3 | id=“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rerank=0.99957 | rrf=0.03078 | sem_rank=4 | bm25_rank=6
+2026-07-03 20:44:40 | INFO     | [Q001]   Rank 4 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rerank=0.99957 | rrf=0.03031 | sem_rank=5 | bm25_rank=7
+2026-07-03 20:44:40 | INFO     | [Q001]   Rank 5 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3 | rerank=0.99957 | rrf=0.03200 | sem_rank=2 | bm25_rank=3
+2026-07-03 20:44:40 | INFO     | [Q001] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=13.59 s
+2026-07-03 20:44:40 | INFO     | [Q002/120] Retrieving for: 'Bu Qərardan irəli gələn məsələlərin həll edilməsi hansı şöbəyə tapşırı…'
+2026-07-03 20:45:31 | INFO     | [Q002] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4'] | Retrieved top-10: ['“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', 'dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_art_3_4', 'Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_11_12', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_2_3'] | Overlap: NONE
+2026-07-03 20:45:31 | INFO     | [Q002]   Rank 1 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rerank=0.99934 | rrf=0.03175 | sem_rank=3 | bm25_rank=3
+2026-07-03 20:45:31 | INFO     | [Q002]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rerank=0.99934 | rrf=0.03175 | sem_rank=2 | bm25_rank=4
+2026-07-03 20:45:31 | INFO     | [Q002]   Rank 3 | id=dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_3_4 | rerank=0.99934 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-03 20:45:31 | INFO     | [Q002]   Rank 4 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rerank=0.99912 | rrf=0.03202 | sem_rank=4 | bm25_rank=1
+2026-07-03 20:45:31 | INFO     | [Q002]   Rank 5 | id=“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4 | rerank=0.99831 | rrf=0.03054 | sem_rank=6 | bm25_rank=5
+2026-07-03 20:45:31 | INFO     | [Q002] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=51.28 s
+2026-07-03 20:45:32 | INFO     | [Q003/120] Retrieving for: 'QKDK-nın aparatının və Naxçıvan Muxtar Respublikası üzrə İdarəsinin bu…'
+2026-07-03 20:46:48 | INFO     | [Q003] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5'] | Retrieved top-10: ['dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_4_5', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_4'] | Overlap: NONE
+2026-07-03 20:46:48 | INFO     | [Q003]   Rank 1 | id=dd1aa268-4de2-48ab-8953-c87d3f1c74e3_art_4_5 | rerank=0.99996 | rrf=0.03200 | sem_rank=3 | bm25_rank=2
+2026-07-03 20:46:48 | INFO     | [Q003]   Rank 2 | id=“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rerank=0.99996 | rrf=0.03227 | sem_rank=1 | bm25_rank=3
+2026-07-03 20:46:48 | INFO     | [Q003]   Rank 3 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rerank=0.99996 | rrf=0.03175 | sem_rank=2 | bm25_rank=4
+2026-07-03 20:46:48 | INFO     | [Q003]   Rank 4 | id=“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rerank=0.99996 | rrf=0.03077 | sem_rank=5 | bm25_rank=5
+2026-07-03 20:46:48 | INFO     | [Q003]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_4_5 | rerank=0.99996 | rrf=0.03030 | sem_rank=6 | bm25_rank=6
+2026-07-03 20:46:48 | INFO     | [Q003] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=76.13 s
+2026-07-03 20:46:48 | INFO     | [Q004/120] Retrieving for: '"AML Sanksiya Dəyişiklikləri" adlı Qərar hansı iki qanunun icrası ilə …'
+2026-07-03 20:48:03 | INFO     | [Q004] Expected: ['AML Sanksiya Dəyişiklikləri_intro_1'] | Retrieved top-10: ['AML Sanksiya Dəyişiklikləri_intro_1', 'AML Sanksiya Dəyişiklikləri_art_4_6', '“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə_art_4_7', 'Bank Hesabları Qaydası_art_3_107_part6', '64b6f05f-196b-4894-9374-9e5c1c4df7a2_art_3_107_part6', 'Bank Şöbələri və Valyuta Qaydası_art_2_3', 'Banklarda əməliyyat risklərinin idarə edilməsi Qaydası_art_2_3', 'Banklar Haqqında Qanun_ch_II_art_16_27_part2', 'f15fd85d-3c4e-4d87-aa78-8367ca166daf_art_2_3', 'İnformasiya Sistemlərinin Təhlükəsizliyi Qaydaları_ch_il_12_part2'] | Overlap: NONE
+2026-07-03 20:48:03 | INFO     | [Q004]   Rank 1 | id=AML Sanksiya Dəyişiklikləri_intro_1     | rerank=0.96142 | rrf=0.03252 | sem_rank=2 | bm25_rank=1
+2026-07-03 20:48:03 | INFO     | [Q004]   Rank 2 | id=AML Sanksiya Dəyişiklikləri_art_4_6     | rerank=0.45094 | rrf=0.02964 | sem_rank=9 | bm25_rank=6
+2026-07-03 20:48:03 | INFO     | [Q004]   Rank 3 | id=“Azərbaycan Respublikası Mərkəzi Bankının normativ xarakterli aktlarının hazırlanması və qəbul edilməsi Qaydası”nın təsdiq edilməsi barədə_art_4_7 | rerank=0.18479 | rrf=0.01538 | sem_rank=None | bm25_rank=5
+2026-07-03 20:48:03 | INFO     | [Q004]   Rank 4 | id=Bank Hesabları Qaydası_art_3_107_part6   | rerank=0.09139 | rrf=0.01587 | sem_rank=3 | bm25_rank=None
+2026-07-03 20:48:03 | INFO     | [Q004]   Rank 5 | id=64b6f05f-196b-4894-9374-9e5c1c4df7a2_art_3_107_part6 | rerank=0.08807 | rrf=0.01471 | sem_rank=8 | bm25_rank=None
+2026-07-03 20:48:03 | INFO     | [Q004] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=75.71 s
+2026-07-03 20:48:03 | INFO     | [Q005/120] Retrieving for: 'Nazirlər Kabinetinin 2015-ci il 21 oktyabr tarixli 336 nömrəli Qərarı …'
+2026-07-03 20:49:18 | INFO     | [Q005] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=74.69 s
+2026-07-03 20:49:18 | INFO     | [Q006/120] Retrieving for: '337 nömrəli Qərarla təsdiq edilmiş Qaydanın 3.1.5-ci yarımbəndinə hans…'
+2026-07-03 20:50:30 | INFO     | [Q006] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=72.02 s
+2026-07-03 20:50:30 | INFO     | [Q007/120] Retrieving for: '"Kommersiya hüquqi şəxslərin təsisçiləri (iştirakçıları)... barədə məl…'
+2026-07-03 20:51:45 | INFO     | [Q007] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=74.97 s
+2026-07-03 20:51:45 | INFO     | [Q008/120] Retrieving for: '"AML Sanksiya Dəyişiklikləri" Qərarı hansı tarixdə və hansı nömrə ilə …'
+2026-07-03 20:53:01 | INFO     | [Q008] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=76.21 s
+2026-07-03 20:53:01 | INFO     | [Q009/120] Retrieving for: '"Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçu…'
+2026-07-03 20:54:30 | INFO     | [Q009] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=89.00 s
+2026-07-03 20:54:30 | INFO     | [Q010/120] Retrieving for: 'Qanuna görə "öhdəlik daşıyan şəxslər" kimlərdir və bu anlayış "maliyyə…'
+2026-07-03 20:55:48 | INFO     | [Q010] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=77.58 s
+2026-07-03 20:55:48 | INFO     | [Q011/120] Retrieving for: 'Qanunun 1.1.8-ci yarımbəndinə əsasən hansı subyektlər "maliyyə institu…'
+2026-07-03 20:57:06 | INFO     | [Q011] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=78.37 s
+2026-07-03 20:57:06 | INFO     | [Q012/120] Retrieving for: 'Qanuna görə "virtual aktiv" anlayışı necə müəyyən edilir və hansı alət…'
+2026-07-03 20:58:45 | INFO     | [Q012] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=99.19 s
+2026-07-03 20:58:45 | INFO     | [Q013/120] Retrieving for: 'Qanuna görə "benefisiar mülkiyyətçi" kim hesab edilir?…'
+2026-07-03 21:00:08 | INFO     | [Q013] recall@10=1.000 | precision@10=0.100 | mrr@10=0.500 | ndcg@10=0.631 | time=83.09 s
+2026-07-03 21:00:08 | INFO     | [Q014/120] Retrieving for: 'Qanunda "mühüm iştirak payı" hansı faiz həddi ilə müəyyən edilir?…'
+2026-07-04 01:51:42 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-04 01:51:42
+2026-07-04 01:51:42 | INFO     | ================================================================================
+2026-07-04 01:51:42 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-04 01:51:42 | INFO     |   top_k            : 10
+2026-07-04 01:51:42 | INFO     |   top_k_candidates : 30
+2026-07-04 01:51:42 | INFO     |   rerank_top_k     : 30
+2026-07-04 01:51:42 | INFO     |   rrf_k            : 60
+2026-07-04 01:51:42 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-04 01:51:42 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-04 01:51:42 | INFO     | ================================================================================
+2026-07-04 01:51:42 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-04 01:51:58 | INFO     | HybridQdrantRetriever ready in 16.19 s.
+2026-07-04 01:51:58 | INFO     | Starting evaluation over 121 question(s) …
+2026-07-04 01:51:58 | INFO     | [Q000/120] Retrieving for: '"Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haq…'
+2026-07-04 20:34:25 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-04 20:34:25
+2026-07-04 20:34:25 | INFO     | ================================================================================
+2026-07-04 20:34:25 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-04 20:34:25 | INFO     |   top_k            : 10
+2026-07-04 20:34:25 | INFO     |   top_k_candidates : 30
+2026-07-04 20:34:25 | INFO     |   rerank_top_k     : 30
+2026-07-04 20:34:25 | INFO     |   rrf_k            : 60
+2026-07-04 20:34:25 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-04 20:34:25 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-04 20:34:25 | INFO     | ================================================================================
+2026-07-04 20:34:25 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-04 20:34:41 | INFO     | HybridQdrantRetriever ready in 15.71 s.
+2026-07-04 20:34:41 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-04 20:34:41 | INFO     | [Q000/001] Retrieving...
+2026-07-04 20:35:53 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-04 20:35:53 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-04 20:35:53 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-04 20:35:53 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-04 20:35:53 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-04 20:35:53 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-04 20:35:53 | INFO     | [Q000] recall@10=0.000 | precision@10=0.000 | mrr@10=0.000 | ndcg@10=0.000 | time=72.28 s
+2026-07-04 20:35:53 | INFO     | Evaluation loop finished in 72.43 s | evaluated=1 | skipped=0 | errors=0
+2026-07-04 20:35:53 | INFO     | ------------------------------------------------------------
+2026-07-04 20:35:53 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-04 20:35:53 | INFO     |   recall@1                       : 0.0000
+2026-07-04 20:35:53 | INFO     |   recall@3                       : 0.0000
+2026-07-04 20:35:53 | INFO     |   recall@5                       : 0.0000
+2026-07-04 20:35:53 | INFO     |   recall@10                      : 0.0000
+2026-07-04 20:35:53 | INFO     |   precision@1                    : 0.0000
+2026-07-04 20:35:53 | INFO     |   precision@3                    : 0.0000
+2026-07-04 20:35:53 | INFO     |   precision@5                    : 0.0000
+2026-07-04 20:35:53 | INFO     |   precision@10                   : 0.0000
+2026-07-04 20:35:53 | INFO     |   mrr@10                         : 0.0000
+2026-07-04 20:35:53 | INFO     |   ndcg@3                         : 0.0000
+2026-07-04 20:35:53 | INFO     |   ndcg@5                         : 0.0000
+2026-07-04 20:35:53 | INFO     |   ndcg@10                        : 0.0000
+2026-07-04 20:35:53 | INFO     |   num_questions_evaluated        : 1
+2026-07-04 20:35:53 | INFO     | ------------------------------------------------------------
+2026-07-04 20:35:53 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-04 20:35:53 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-04 20:35:53 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-04 20:35:53 | INFO     | Pipeline finished for model 'bge_m3' in 88.21 s.
+2026-07-05 17:55:36 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 17:55:36
+2026-07-05 17:55:36 | INFO     | ================================================================================
+2026-07-05 17:55:36 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 17:55:36 | INFO     |   top_k            : 10
+2026-07-05 17:55:36 | INFO     |   top_k_candidates : 30
+2026-07-05 17:55:36 | INFO     |   rerank_top_k     : 30
+2026-07-05 17:55:36 | INFO     |   rrf_k            : 60
+2026-07-05 17:55:36 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 17:55:36 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 17:55:36 | INFO     | ================================================================================
+2026-07-05 17:55:36 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 17:55:52 | INFO     | HybridQdrantRetriever ready in 16.61 s.
+2026-07-05 17:55:52 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 17:55:52 | INFO     | [Q000/001] Retrieving...
+2026-07-05 17:57:40 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-05 17:57:40 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-05 17:57:40 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-05 17:57:40 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-05 17:57:40 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-05 17:57:40 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-05 17:57:40 | INFO     | [Q000] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=107.56 s
+2026-07-05 17:57:40 | INFO     | Evaluation loop finished in 107.67 s | evaluated=1 | skipped=0 | errors=0
+2026-07-05 17:57:40 | INFO     | ------------------------------------------------------------
+2026-07-05 17:57:40 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-05 17:57:40 | INFO     |   recall@1                       : 1.0000
+2026-07-05 17:57:40 | INFO     |   recall@3                       : 1.0000
+2026-07-05 17:57:40 | INFO     |   recall@5                       : 1.0000
+2026-07-05 17:57:40 | INFO     |   recall@10                      : 1.0000
+2026-07-05 17:57:40 | INFO     |   precision@1                    : 1.0000
+2026-07-05 17:57:40 | INFO     |   precision@3                    : 0.3333
+2026-07-05 17:57:40 | INFO     |   precision@5                    : 0.2000
+2026-07-05 17:57:40 | INFO     |   precision@10                   : 0.1000
+2026-07-05 17:57:40 | INFO     |   mrr@10                         : 1.0000
+2026-07-05 17:57:40 | INFO     |   ndcg@3                         : 1.0000
+2026-07-05 17:57:40 | INFO     |   ndcg@5                         : 1.0000
+2026-07-05 17:57:40 | INFO     |   ndcg@10                        : 1.0000
+2026-07-05 17:57:40 | INFO     |   num_questions_evaluated        : 1
+2026-07-05 17:57:40 | INFO     | ------------------------------------------------------------
+2026-07-05 17:57:40 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-05 17:57:40 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-05 17:57:40 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-05 17:57:40 | INFO     | Pipeline finished for model 'bge_m3' in 124.71 s.
+2026-07-05 18:24:37 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 18:24:37
+2026-07-05 18:24:37 | INFO     | ================================================================================
+2026-07-05 18:24:37 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 18:24:37 | INFO     |   top_k            : 10
+2026-07-05 18:24:37 | INFO     |   top_k_candidates : 30
+2026-07-05 18:24:37 | INFO     |   rerank_top_k     : 30
+2026-07-05 18:24:37 | INFO     |   rrf_k            : 60
+2026-07-05 18:24:37 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 18:24:37 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 18:24:37 | INFO     | ================================================================================
+2026-07-05 18:24:37 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 18:24:37 | INFO     | HybridQdrantRetriever: initialising for model='bge_m3' | collection='reguaz_bge_m3' | top_k_semantic=30 | top_k_bm25=30 | rerank_top_k=30 | final_top_k=10 | rrf_k=60 | reranker_model='BAAI/bge-reranker-v2-m3'
+2026-07-05 18:24:37 | INFO     | HybridQdrantRetriever: loading embedding service for model 'bge_m3' …
+2026-07-05 18:24:37 | INFO     | Loading BGE-M3 model: BAAI/bge-m3
+2026-07-05 18:24:46 | INFO     | HybridQdrantRetriever: embedding service ready.
+2026-07-05 18:24:46 | INFO     | HybridQdrantRetriever: opening Qdrant collection 'reguaz_bge_m3' from 'data/qdrant' …
+2026-07-05 18:24:46 | INFO     | QdrantRetriever: opening collection 'reguaz_bge_m3' from 'data/qdrant'
+2026-07-05 18:24:47 | INFO     | QdrantRetriever: collection 'reguaz_bge_m3' has 3815 vectors.
+2026-07-05 18:24:47 | INFO     | QdrantRetriever: collection config — dimension=1024, distance=Cosine.
+2026-07-05 18:24:47 | INFO     | HybridQdrantRetriever: Qdrant collection ready.
+2026-07-05 18:24:47 | INFO     | HybridQdrantRetriever: building BM25 index from 'data/processed/chunks' …
+2026-07-05 18:24:47 | INFO     | BM25Retriever: loading corpus from 'data\processed\chunks' …
+2026-07-05 18:24:47 | INFO     | BM25Retriever: discovered 96 JSONL file(s).
+2026-07-05 18:24:47 | INFO     | BM25Retriever: indexing 3823 chunks with BM25Okapi …
+2026-07-05 18:24:47 | INFO     | BM25Retriever: index built in 0.46 s  (3823 chunks).
+2026-07-05 18:24:47 | INFO     | HybridQdrantRetriever: BM25 index ready (3823 chunks).
+2026-07-05 18:24:47 | INFO     | HybridQdrantRetriever: loading Cross-Encoder reranker model 'BAAI/bge-reranker-v2-m3' …
+2026-07-05 18:24:47 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device auto ...
+2026-07-05 18:24:53 | INFO     | CrossEncoderReranker: model 'BAAI/bge-reranker-v2-m3' loaded successfully.
+2026-07-05 18:24:53 | INFO     | HybridQdrantRetriever: Cross-Encoder reranker ready.
+2026-07-05 18:24:53 | INFO     | HybridQdrantRetriever: all components initialised for model 'bge_m3'.
+2026-07-05 18:24:53 | INFO     | HybridQdrantRetriever ready in 15.37 s.
+2026-07-05 18:24:53 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 18:24:53 | INFO     | [Q000/001] Retrieving...
+2026-07-05 18:24:55 | INFO     | HybridQdrantRetriever.retrieve: embedding generated in 2.134 s (dim=1024).
+2026-07-05 18:24:55 | INFO     | HybridQdrantRetriever.retrieve: semantic search returned 30 results in 0.022 s.
+2026-07-05 18:24:55 | INFO     | HybridQdrantRetriever.retrieve: BM25 search returned 30 results in 0.023 s.
+2026-07-05 18:24:55 | INFO     | HybridQdrantRetriever.retrieve: RRF fusion completed in 0.000 s (47 unique candidates).
+2026-07-05 18:26:20 | INFO     | HybridQdrantRetriever.retrieve: Cross-Encoder reranked 30 candidates in 84.912 s.
+2026-07-05 18:26:20 | INFO     | HybridQdrantRetriever.retrieve: total retrieval time 87.107 s.
+2026-07-05 18:26:20 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-05 18:26:20 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-05 18:26:20 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-05 18:26:20 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-05 18:26:20 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-05 18:26:20 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-05 18:26:20 | INFO     | [Q000] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=87.12 s
+2026-07-05 18:26:20 | INFO     | Evaluation loop finished in 87.17 s | evaluated=1 | skipped=0 | errors=0
+2026-07-05 18:26:20 | INFO     | ------------------------------------------------------------
+2026-07-05 18:26:20 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-05 18:26:20 | INFO     |   recall@1                       : 1.0000
+2026-07-05 18:26:20 | INFO     |   recall@3                       : 1.0000
+2026-07-05 18:26:20 | INFO     |   recall@5                       : 1.0000
+2026-07-05 18:26:20 | INFO     |   recall@10                      : 1.0000
+2026-07-05 18:26:20 | INFO     |   precision@1                    : 1.0000
+2026-07-05 18:26:20 | INFO     |   precision@3                    : 0.3333
+2026-07-05 18:26:20 | INFO     |   precision@5                    : 0.2000
+2026-07-05 18:26:20 | INFO     |   precision@10                   : 0.1000
+2026-07-05 18:26:20 | INFO     |   mrr@10                         : 1.0000
+2026-07-05 18:26:20 | INFO     |   ndcg@3                         : 1.0000
+2026-07-05 18:26:20 | INFO     |   ndcg@5                         : 1.0000
+2026-07-05 18:26:20 | INFO     |   ndcg@10                        : 1.0000
+2026-07-05 18:26:20 | INFO     |   num_questions_evaluated        : 1
+2026-07-05 18:26:20 | INFO     | ------------------------------------------------------------
+2026-07-05 18:26:20 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-05 18:26:20 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-05 18:26:20 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-05 18:26:20 | INFO     | Pipeline finished for model 'bge_m3' in 103.03 s.
+2026-07-05 18:44:36 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 18:44:36
+2026-07-05 18:44:36 | INFO     | ================================================================================
+2026-07-05 18:44:36 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 18:44:36 | INFO     |   top_k            : 10
+2026-07-05 18:44:36 | INFO     |   top_k_candidates : 30
+2026-07-05 18:44:36 | INFO     |   rerank_top_k     : 30
+2026-07-05 18:44:36 | INFO     |   rrf_k            : 60
+2026-07-05 18:44:36 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 18:44:36 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 18:44:36 | INFO     | ================================================================================
+2026-07-05 18:44:36 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 18:44:36 | INFO     | HybridQdrantRetriever: initialising for model='bge_m3' | collection='reguaz_bge_m3' | top_k_semantic=30 | top_k_bm25=30 | rerank_top_k=30 | final_top_k=10 | rrf_k=60 | reranker_model='BAAI/bge-reranker-v2-m3'
+2026-07-05 18:44:36 | INFO     | HybridQdrantRetriever: loading embedding service for model 'bge_m3' …
+2026-07-05 18:44:36 | INFO     | Loading BGE-M3 model: BAAI/bge-m3
+2026-07-05 18:44:45 | INFO     | HybridQdrantRetriever: embedding service ready.
+2026-07-05 18:44:45 | INFO     | HybridQdrantRetriever: opening Qdrant collection 'reguaz_bge_m3' from 'data/qdrant' …
+2026-07-05 18:44:45 | INFO     | QdrantRetriever: opening collection 'reguaz_bge_m3' from 'data/qdrant'
+2026-07-05 18:44:46 | INFO     | QdrantRetriever: collection 'reguaz_bge_m3' has 3815 vectors.
+2026-07-05 18:44:46 | INFO     | QdrantRetriever: collection config — dimension=1024, distance=Cosine.
+2026-07-05 18:44:46 | INFO     | HybridQdrantRetriever: Qdrant collection ready.
+2026-07-05 18:44:46 | INFO     | HybridQdrantRetriever: building BM25 index from 'data/processed/chunks' …
+2026-07-05 18:44:46 | INFO     | BM25Retriever: loading corpus from 'data\processed\chunks' …
+2026-07-05 18:44:46 | INFO     | BM25Retriever: discovered 96 JSONL file(s).
+2026-07-05 18:44:46 | INFO     | BM25Retriever: indexing 3823 chunks with BM25Okapi …
+2026-07-05 18:44:46 | INFO     | BM25Retriever: index built in 0.41 s  (3823 chunks).
+2026-07-05 18:44:46 | INFO     | HybridQdrantRetriever: BM25 index ready (3823 chunks).
+2026-07-05 18:44:46 | INFO     | HybridQdrantRetriever: loading Cross-Encoder reranker model 'BAAI/bge-reranker-v2-m3' …
+2026-07-05 18:44:46 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device auto ...
+2026-07-05 18:44:52 | INFO     | CrossEncoderReranker: model 'BAAI/bge-reranker-v2-m3' loaded successfully.
+2026-07-05 18:44:52 | INFO     | HybridQdrantRetriever: Cross-Encoder reranker ready.
+2026-07-05 18:44:52 | INFO     | HybridQdrantRetriever: all components initialised for model 'bge_m3'.
+2026-07-05 18:44:52 | INFO     | HybridQdrantRetriever ready in 15.60 s.
+2026-07-05 18:44:52 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 18:44:52 | INFO     | [Q000/001] Retrieving...
+2026-07-05 18:44:54 | INFO     | HybridQdrantRetriever.retrieve: embedding generated in 2.547 s (dim=1024).
+2026-07-05 18:44:54 | INFO     | HybridQdrantRetriever.retrieve: semantic search returned 30 results in 0.021 s.
+2026-07-05 18:44:54 | INFO     | HybridQdrantRetriever.retrieve: BM25 search returned 30 results in 0.025 s.
+2026-07-05 18:44:54 | INFO     | HybridQdrantRetriever.retrieve: RRF fusion completed in 0.000 s (47 unique candidates).
+2026-07-05 18:46:38 | INFO     | HybridQdrantRetriever.retrieve: Cross-Encoder reranked 30 candidates in 103.435 s.
+2026-07-05 18:46:38 | INFO     | HybridQdrantRetriever.retrieve: total retrieval time 106.037 s.
+2026-07-05 18:46:38 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-05 18:46:38 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-05 18:46:38 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-05 18:46:38 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-05 18:46:38 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-05 18:46:38 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-05 18:46:38 | INFO     | [Q000] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=106.04 s
+2026-07-05 18:46:38 | INFO     | Evaluation loop finished in 106.05 s | evaluated=1 | skipped=0 | errors=0
+2026-07-05 18:46:38 | INFO     | ------------------------------------------------------------
+2026-07-05 18:46:38 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-05 18:46:38 | INFO     |   recall@1                       : 1.0000
+2026-07-05 18:46:38 | INFO     |   recall@3                       : 1.0000
+2026-07-05 18:46:38 | INFO     |   recall@5                       : 1.0000
+2026-07-05 18:46:38 | INFO     |   recall@10                      : 1.0000
+2026-07-05 18:46:38 | INFO     |   precision@1                    : 1.0000
+2026-07-05 18:46:38 | INFO     |   precision@3                    : 0.3333
+2026-07-05 18:46:38 | INFO     |   precision@5                    : 0.2000
+2026-07-05 18:46:38 | INFO     |   precision@10                   : 0.1000
+2026-07-05 18:46:38 | INFO     |   mrr@10                         : 1.0000
+2026-07-05 18:46:38 | INFO     |   ndcg@3                         : 1.0000
+2026-07-05 18:46:38 | INFO     |   ndcg@5                         : 1.0000
+2026-07-05 18:46:38 | INFO     |   ndcg@10                        : 1.0000
+2026-07-05 18:46:38 | INFO     |   num_questions_evaluated        : 1
+2026-07-05 18:46:38 | INFO     | ------------------------------------------------------------
+2026-07-05 18:46:38 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-05 18:46:38 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-05 18:46:38 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-05 18:46:38 | INFO     | Pipeline finished for model 'bge_m3' in 122.00 s.
+2026-07-05 19:25:45 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 19:25:45
+2026-07-05 19:25:45 | INFO     | ================================================================================
+2026-07-05 19:25:45 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 19:25:45 | INFO     |   top_k            : 10
+2026-07-05 19:25:45 | INFO     |   top_k_candidates : 30
+2026-07-05 19:25:45 | INFO     |   rerank_top_k     : 30
+2026-07-05 19:25:45 | INFO     |   rrf_k            : 60
+2026-07-05 19:25:45 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 19:25:45 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 19:25:45 | INFO     | ================================================================================
+2026-07-05 19:25:45 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 19:25:45 | INFO     | HybridQdrantRetriever: initialising for model='bge_m3' | collection='reguaz_bge_m3' | top_k_semantic=30 | top_k_bm25=30 | rerank_top_k=30 | final_top_k=10 | rrf_k=60 | reranker_model='BAAI/bge-reranker-v2-m3'
+2026-07-05 19:25:45 | INFO     | HybridQdrantRetriever: loading embedding service for model 'bge_m3' …
+2026-07-05 19:25:45 | INFO     | Loading BGE-M3 model: BAAI/bge-m3
+2026-07-05 19:25:52 | INFO     | HybridQdrantRetriever: embedding service ready.
+2026-07-05 19:25:52 | INFO     | HybridQdrantRetriever: opening Qdrant collection 'reguaz_bge_m3' from 'data/qdrant' …
+2026-07-05 19:25:52 | INFO     | QdrantRetriever: opening collection 'reguaz_bge_m3' from 'data/qdrant'
+2026-07-05 19:25:53 | INFO     | QdrantRetriever: collection 'reguaz_bge_m3' has 3815 vectors.
+2026-07-05 19:25:53 | INFO     | QdrantRetriever: collection config — dimension=1024, distance=Cosine.
+2026-07-05 19:25:53 | INFO     | HybridQdrantRetriever: Qdrant collection ready.
+2026-07-05 19:25:53 | INFO     | HybridQdrantRetriever: building BM25 index from 'data/processed/chunks' …
+2026-07-05 19:25:53 | INFO     | BM25Retriever: loading corpus from 'data\processed\chunks' …
+2026-07-05 19:25:53 | INFO     | BM25Retriever: discovered 96 JSONL file(s).
+2026-07-05 19:25:53 | INFO     | BM25Retriever: indexing 3823 chunks with BM25Okapi …
+2026-07-05 19:25:54 | INFO     | BM25Retriever: index built in 0.37 s  (3823 chunks).
+2026-07-05 19:25:54 | INFO     | HybridQdrantRetriever: BM25 index ready (3823 chunks).
+2026-07-05 19:25:54 | INFO     | HybridQdrantRetriever: loading Cross-Encoder reranker model 'BAAI/bge-reranker-v2-m3' …
+2026-07-05 19:25:54 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device auto ...
+2026-07-05 19:25:59 | INFO     | CrossEncoderReranker: model 'BAAI/bge-reranker-v2-m3' loaded successfully.
+2026-07-05 19:25:59 | INFO     | HybridQdrantRetriever: Cross-Encoder reranker ready.
+2026-07-05 19:25:59 | INFO     | HybridQdrantRetriever: all components initialised for model 'bge_m3'.
+2026-07-05 19:25:59 | INFO     | HybridQdrantRetriever ready in 14.22 s.
+2026-07-05 19:25:59 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 19:25:59 | INFO     | [Q000/001] Retrieving...
+2026-07-05 19:26:01 | INFO     | HybridQdrantRetriever.retrieve: embedding generated in 2.632 s (dim=1024).
+2026-07-05 19:26:01 | INFO     | HybridQdrantRetriever.retrieve: semantic search returned 30 results in 0.037 s.
+2026-07-05 19:26:01 | INFO     | HybridQdrantRetriever.retrieve: BM25 search returned 30 results in 0.048 s.
+2026-07-05 19:26:01 | INFO     | HybridQdrantRetriever.retrieve: RRF fusion completed in 0.000 s (47 unique candidates).
+2026-07-05 19:27:15 | INFO     | HybridQdrantRetriever.retrieve: Cross-Encoder reranked 30 candidates in 73.338 s.
+2026-07-05 19:27:15 | INFO     | HybridQdrantRetriever.retrieve: total retrieval time 76.061 s.
+2026-07-05 19:27:15 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-05 19:27:15 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-05 19:27:15 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-05 19:27:15 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-05 19:27:15 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-05 19:27:15 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-05 19:27:15 | INFO     | [Q000] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=76.06 s
+2026-07-05 19:27:15 | INFO     | Evaluation loop finished in 76.08 s | evaluated=1 | skipped=0 | errors=0
+2026-07-05 19:27:15 | INFO     | ------------------------------------------------------------
+2026-07-05 19:27:15 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-05 19:27:15 | INFO     |   recall@1                       : 1.0000
+2026-07-05 19:27:15 | INFO     |   recall@3                       : 1.0000
+2026-07-05 19:27:15 | INFO     |   recall@5                       : 1.0000
+2026-07-05 19:27:15 | INFO     |   recall@10                      : 1.0000
+2026-07-05 19:27:15 | INFO     |   precision@1                    : 1.0000
+2026-07-05 19:27:15 | INFO     |   precision@3                    : 0.3333
+2026-07-05 19:27:15 | INFO     |   precision@5                    : 0.2000
+2026-07-05 19:27:15 | INFO     |   precision@10                   : 0.1000
+2026-07-05 19:27:15 | INFO     |   mrr@10                         : 1.0000
+2026-07-05 19:27:15 | INFO     |   ndcg@3                         : 1.0000
+2026-07-05 19:27:15 | INFO     |   ndcg@5                         : 1.0000
+2026-07-05 19:27:15 | INFO     |   ndcg@10                        : 1.0000
+2026-07-05 19:27:15 | INFO     |   num_questions_evaluated        : 1
+2026-07-05 19:27:15 | INFO     | ------------------------------------------------------------
+2026-07-05 19:27:15 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-05 19:27:15 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-05 19:27:15 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-05 19:27:15 | INFO     | Pipeline finished for model 'bge_m3' in 90.89 s.
+2026-07-05 22:47:37 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 22:47:37
+2026-07-05 22:47:37 | INFO     | ================================================================================
+2026-07-05 22:47:37 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 22:47:37 | INFO     |   top_k            : 10
+2026-07-05 22:47:37 | INFO     |   top_k_candidates : 30
+2026-07-05 22:47:37 | INFO     |   rerank_top_k     : 30
+2026-07-05 22:47:37 | INFO     |   rrf_k            : 60
+2026-07-05 22:47:37 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 22:47:37 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 22:47:37 | INFO     | ================================================================================
+2026-07-05 22:47:37 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 22:47:37 | INFO     | HybridQdrantRetriever: initialising for model='bge_m3' | collection='reguaz_bge_m3' | top_k_semantic=30 | top_k_bm25=30 | rerank_top_k=30 | final_top_k=10 | rrf_k=60 | reranker_model='BAAI/bge-reranker-v2-m3'
+2026-07-05 22:47:37 | INFO     | HybridQdrantRetriever: loading embedding service for model 'bge_m3' …
+2026-07-05 22:47:37 | INFO     | Loading BGE-M3 model: BAAI/bge-m3
+2026-07-05 22:47:51 | INFO     | HybridQdrantRetriever: embedding service ready.
+2026-07-05 22:47:51 | INFO     | HybridQdrantRetriever: opening Qdrant collection 'reguaz_bge_m3' from 'data/qdrant' …
+2026-07-05 22:47:51 | INFO     | QdrantRetriever: opening collection 'reguaz_bge_m3' from 'data/qdrant'
+2026-07-05 22:47:52 | INFO     | QdrantRetriever: collection 'reguaz_bge_m3' has 3815 vectors.
+2026-07-05 22:47:52 | INFO     | QdrantRetriever: collection config — dimension=1024, distance=Cosine.
+2026-07-05 22:47:52 | INFO     | HybridQdrantRetriever: Qdrant collection ready.
+2026-07-05 22:47:52 | INFO     | HybridQdrantRetriever: building BM25 index from 'data/processed/chunks' …
+2026-07-05 22:47:52 | INFO     | BM25Retriever: loading corpus from 'data\processed\chunks' …
+2026-07-05 22:47:52 | INFO     | BM25Retriever: discovered 96 JSONL file(s).
+2026-07-05 22:47:53 | INFO     | BM25Retriever: indexing 3823 chunks with BM25Okapi …
+2026-07-05 22:47:54 | INFO     | BM25Retriever: index built in 1.39 s  (3823 chunks).
+2026-07-05 22:47:54 | INFO     | HybridQdrantRetriever: BM25 index ready (3823 chunks).
+2026-07-05 22:47:54 | INFO     | HybridQdrantRetriever: loading Cross-Encoder reranker model 'BAAI/bge-reranker-v2-m3' …
+2026-07-05 22:47:54 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device auto ...
+2026-07-05 22:47:54 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device 'cuda' ...
+2026-07-05 22:48:05 | INFO     | CrossEncoderReranker: model 'BAAI/bge-reranker-v2-m3' loaded successfully.
+2026-07-05 22:48:05 | INFO     | HybridQdrantRetriever: Cross-Encoder reranker ready.
+2026-07-05 22:48:05 | INFO     | HybridQdrantRetriever: all components initialised for model 'bge_m3'.
+2026-07-05 22:48:05 | INFO     | HybridQdrantRetriever ready in 28.00 s.
+2026-07-05 22:48:05 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 22:48:05 | INFO     | [Q000/001] Retrieving...
+2026-07-05 22:48:06 | INFO     | HybridQdrantRetriever.retrieve: embedding generated in 0.981 s (dim=1024).
+2026-07-05 22:48:06 | INFO     | HybridQdrantRetriever.retrieve: semantic search returned 30 results in 0.066 s.
+2026-07-05 22:48:06 | INFO     | HybridQdrantRetriever.retrieve: BM25 search returned 30 results in 0.089 s.
+2026-07-05 22:48:06 | INFO     | HybridQdrantRetriever.retrieve: RRF fusion completed in 0.001 s (47 unique candidates).
+2026-07-05 22:50:06 | INFO     | HybridQdrantRetriever.retrieve: Cross-Encoder reranked 30 candidates in 120.015 s.
+2026-07-05 22:50:06 | INFO     | HybridQdrantRetriever.retrieve: total retrieval time 121.153 s.
+2026-07-05 22:50:06 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-05 22:50:06 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-05 22:50:06 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-05 22:50:06 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-05 22:50:06 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-05 22:50:06 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-05 22:50:06 | INFO     | [Q000] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=121.15 s
+2026-07-05 22:50:06 | INFO     | Evaluation loop finished in 121.18 s | evaluated=1 | skipped=0 | errors=0
+2026-07-05 22:50:06 | INFO     | ------------------------------------------------------------
+2026-07-05 22:50:06 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-05 22:50:06 | INFO     |   recall@1                       : 1.0000
+2026-07-05 22:50:06 | INFO     |   recall@3                       : 1.0000
+2026-07-05 22:50:06 | INFO     |   recall@5                       : 1.0000
+2026-07-05 22:50:06 | INFO     |   recall@10                      : 1.0000
+2026-07-05 22:50:06 | INFO     |   precision@1                    : 1.0000
+2026-07-05 22:50:06 | INFO     |   precision@3                    : 0.3333
+2026-07-05 22:50:06 | INFO     |   precision@5                    : 0.2000
+2026-07-05 22:50:06 | INFO     |   precision@10                   : 0.1000
+2026-07-05 22:50:06 | INFO     |   mrr@10                         : 1.0000
+2026-07-05 22:50:06 | INFO     |   ndcg@3                         : 1.0000
+2026-07-05 22:50:06 | INFO     |   ndcg@5                         : 1.0000
+2026-07-05 22:50:06 | INFO     |   ndcg@10                        : 1.0000
+2026-07-05 22:50:06 | INFO     |   num_questions_evaluated        : 1
+2026-07-05 22:50:06 | INFO     | ------------------------------------------------------------
+2026-07-05 22:50:06 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-05 22:50:06 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-05 22:50:06 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-05 22:50:06 | INFO     | Pipeline finished for model 'bge_m3' in 149.41 s.
+2026-07-05 22:53:43 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 22:53:43
+2026-07-05 22:53:43 | INFO     | ================================================================================
+2026-07-05 22:53:43 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 22:53:43 | INFO     |   top_k            : 10
+2026-07-05 22:53:43 | INFO     |   top_k_candidates : 30
+2026-07-05 22:53:43 | INFO     |   rerank_top_k     : 30
+2026-07-05 22:53:43 | INFO     |   rrf_k            : 60
+2026-07-05 22:53:43 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 22:53:43 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 22:53:43 | INFO     | ================================================================================
+2026-07-05 22:53:43 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 22:53:43 | INFO     | HybridQdrantRetriever: initialising for model='bge_m3' | collection='reguaz_bge_m3' | top_k_semantic=30 | top_k_bm25=30 | rerank_top_k=30 | final_top_k=10 | rrf_k=60 | reranker_model='BAAI/bge-reranker-v2-m3'
+2026-07-05 22:53:43 | INFO     | HybridQdrantRetriever: loading embedding service for model 'bge_m3' …
+2026-07-05 22:53:43 | INFO     | Loading BGE-M3 model: BAAI/bge-m3
+2026-07-05 22:53:59 | INFO     | HybridQdrantRetriever: embedding service ready.
+2026-07-05 22:53:59 | INFO     | HybridQdrantRetriever: opening Qdrant collection 'reguaz_bge_m3' from 'data/qdrant' …
+2026-07-05 22:53:59 | INFO     | QdrantRetriever: opening collection 'reguaz_bge_m3' from 'data/qdrant'
+2026-07-05 22:54:00 | INFO     | QdrantRetriever: collection 'reguaz_bge_m3' has 3815 vectors.
+2026-07-05 22:54:00 | INFO     | QdrantRetriever: collection config — dimension=1024, distance=Cosine.
+2026-07-05 22:54:00 | INFO     | HybridQdrantRetriever: Qdrant collection ready.
+2026-07-05 22:54:00 | INFO     | HybridQdrantRetriever: building BM25 index from 'data/processed/chunks' …
+2026-07-05 22:54:00 | INFO     | BM25Retriever: loading corpus from 'data\processed\chunks' …
+2026-07-05 22:54:00 | INFO     | BM25Retriever: discovered 96 JSONL file(s).
+2026-07-05 22:54:00 | INFO     | BM25Retriever: indexing 3823 chunks with BM25Okapi …
+2026-07-05 22:54:01 | INFO     | BM25Retriever: index built in 0.47 s  (3823 chunks).
+2026-07-05 22:54:01 | INFO     | HybridQdrantRetriever: BM25 index ready (3823 chunks).
+2026-07-05 22:54:01 | INFO     | HybridQdrantRetriever: loading Cross-Encoder reranker model 'BAAI/bge-reranker-v2-m3' …
+2026-07-05 22:54:01 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device auto ...
+2026-07-05 22:54:01 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device 'cuda' ...
+2026-07-05 22:54:11 | INFO     | CrossEncoderReranker: model 'BAAI/bge-reranker-v2-m3' loaded successfully.
+2026-07-05 22:54:11 | INFO     | HybridQdrantRetriever: Cross-Encoder reranker ready.
+2026-07-05 22:54:11 | INFO     | HybridQdrantRetriever: all components initialised for model 'bge_m3'.
+2026-07-05 22:54:11 | INFO     | HybridQdrantRetriever ready in 28.60 s.
+2026-07-05 22:54:11 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 22:54:11 | INFO     | [Q000/001] Retrieving...
+2026-07-05 22:54:12 | INFO     | HybridQdrantRetriever.retrieve: embedding generated in 0.811 s (dim=1024).
+2026-07-05 22:54:12 | INFO     | HybridQdrantRetriever.retrieve: semantic search returned 30 results in 0.026 s.
+2026-07-05 22:54:12 | INFO     | HybridQdrantRetriever.retrieve: BM25 search returned 30 results in 0.068 s.
+2026-07-05 22:54:12 | INFO     | HybridQdrantRetriever.retrieve: RRF fusion completed in 0.000 s (47 unique candidates).
+2026-07-05 22:56:13 | INFO     | HybridQdrantRetriever.retrieve: Cross-Encoder reranked 30 candidates in 121.303 s.
+2026-07-05 22:56:13 | INFO     | HybridQdrantRetriever.retrieve: total retrieval time 122.209 s.
+2026-07-05 22:56:13 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-05 22:56:13 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-05 22:56:13 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-05 22:56:13 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-05 22:56:13 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-05 22:56:13 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-05 22:56:13 | INFO     | [Q000] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=122.21 s
+2026-07-05 22:56:13 | INFO     | Evaluation loop finished in 122.22 s | evaluated=1 | skipped=0 | errors=0
+2026-07-05 22:56:13 | INFO     | ------------------------------------------------------------
+2026-07-05 22:56:13 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-05 22:56:13 | INFO     |   recall@1                       : 1.0000
+2026-07-05 22:56:13 | INFO     |   recall@3                       : 1.0000
+2026-07-05 22:56:13 | INFO     |   recall@5                       : 1.0000
+2026-07-05 22:56:13 | INFO     |   recall@10                      : 1.0000
+2026-07-05 22:56:13 | INFO     |   precision@1                    : 1.0000
+2026-07-05 22:56:13 | INFO     |   precision@3                    : 0.3333
+2026-07-05 22:56:13 | INFO     |   precision@5                    : 0.2000
+2026-07-05 22:56:13 | INFO     |   precision@10                   : 0.1000
+2026-07-05 22:56:13 | INFO     |   mrr@10                         : 1.0000
+2026-07-05 22:56:13 | INFO     |   ndcg@3                         : 1.0000
+2026-07-05 22:56:13 | INFO     |   ndcg@5                         : 1.0000
+2026-07-05 22:56:13 | INFO     |   ndcg@10                        : 1.0000
+2026-07-05 22:56:13 | INFO     |   num_questions_evaluated        : 1
+2026-07-05 22:56:13 | INFO     | ------------------------------------------------------------
+2026-07-05 22:56:14 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-05 22:56:14 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-05 22:56:14 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-05 22:56:14 | INFO     | Pipeline finished for model 'bge_m3' in 151.27 s.
+2026-07-05 23:06:57 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 23:06:57
+2026-07-05 23:06:57 | INFO     | ================================================================================
+2026-07-05 23:06:57 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 23:06:57 | INFO     |   top_k            : 10
+2026-07-05 23:06:57 | INFO     |   top_k_candidates : 30
+2026-07-05 23:06:57 | INFO     |   rerank_top_k     : 30
+2026-07-05 23:06:57 | INFO     |   rrf_k            : 60
+2026-07-05 23:06:57 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 23:06:57 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 23:06:57 | INFO     | ================================================================================
+2026-07-05 23:06:57 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 23:06:57 | INFO     | HybridQdrantRetriever: initialising for model='bge_m3' | collection='reguaz_bge_m3' | top_k_semantic=30 | top_k_bm25=30 | rerank_top_k=30 | final_top_k=10 | rrf_k=60 | reranker_model='BAAI/bge-reranker-v2-m3'
+2026-07-05 23:06:57 | INFO     | HybridQdrantRetriever: loading embedding service for model 'bge_m3' …
+2026-07-05 23:06:57 | INFO     | Loading BGE-M3 model: BAAI/bge-m3
+2026-07-05 23:07:10 | INFO     | HybridQdrantRetriever: embedding service ready.
+2026-07-05 23:07:10 | INFO     | HybridQdrantRetriever: opening Qdrant collection 'reguaz_bge_m3' from 'data/qdrant' …
+2026-07-05 23:07:10 | INFO     | QdrantRetriever: opening collection 'reguaz_bge_m3' from 'data/qdrant'
+2026-07-05 23:07:12 | INFO     | QdrantRetriever: collection 'reguaz_bge_m3' has 3815 vectors.
+2026-07-05 23:07:12 | INFO     | QdrantRetriever: collection config — dimension=1024, distance=Cosine.
+2026-07-05 23:07:12 | INFO     | HybridQdrantRetriever: Qdrant collection ready.
+2026-07-05 23:07:12 | INFO     | HybridQdrantRetriever: building BM25 index from 'data/processed/chunks' …
+2026-07-05 23:07:12 | INFO     | BM25Retriever: loading corpus from 'data\processed\chunks' …
+2026-07-05 23:07:12 | INFO     | BM25Retriever: discovered 96 JSONL file(s).
+2026-07-05 23:07:12 | INFO     | BM25Retriever: indexing 3823 chunks with BM25Okapi …
+2026-07-05 23:07:12 | INFO     | BM25Retriever: index built in 0.39 s  (3823 chunks).
+2026-07-05 23:07:12 | INFO     | HybridQdrantRetriever: BM25 index ready (3823 chunks).
+2026-07-05 23:07:12 | INFO     | HybridQdrantRetriever: loading Cross-Encoder reranker model 'BAAI/bge-reranker-v2-m3' …
+2026-07-05 23:07:12 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device auto ...
+2026-07-05 23:07:12 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device 'cuda' ...
+2026-07-05 23:07:22 | INFO     | CrossEncoderReranker: actual model device = cuda:0
+2026-07-05 23:07:22 | INFO     | CrossEncoderReranker: model 'BAAI/bge-reranker-v2-m3' loaded successfully.
+2026-07-05 23:07:22 | INFO     | HybridQdrantRetriever: Cross-Encoder reranker ready.
+2026-07-05 23:07:22 | INFO     | HybridQdrantRetriever: all components initialised for model 'bge_m3'.
+2026-07-05 23:07:22 | INFO     | HybridQdrantRetriever ready in 25.26 s.
+2026-07-05 23:07:22 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 23:07:22 | INFO     | [Q000/001] Retrieving...
+2026-07-05 23:07:22 | INFO     | HybridQdrantRetriever.retrieve: embedding generated in 0.463 s (dim=1024).
+2026-07-05 23:07:22 | INFO     | HybridQdrantRetriever.retrieve: semantic search returned 30 results in 0.020 s.
+2026-07-05 23:07:22 | INFO     | HybridQdrantRetriever.retrieve: BM25 search returned 30 results in 0.021 s.
+2026-07-05 23:07:22 | INFO     | HybridQdrantRetriever.retrieve: RRF fusion completed in 0.000 s (47 unique candidates).
+2026-07-05 23:07:22 | INFO     | CrossEncoderReranker: reranking 30 documents.
+2026-07-05 23:09:43 | INFO     | Pipeline start for model 'bge_m3' at 2026-07-05 23:09:43
+2026-07-05 23:09:43 | INFO     | ================================================================================
+2026-07-05 23:09:43 | INFO     | HYBRID QDRANT EVALUATION  |  model: BGE_M3
+2026-07-05 23:09:43 | INFO     |   top_k            : 10
+2026-07-05 23:09:43 | INFO     |   top_k_candidates : 30
+2026-07-05 23:09:43 | INFO     |   rerank_top_k     : 30
+2026-07-05 23:09:43 | INFO     |   rrf_k            : 60
+2026-07-05 23:09:43 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 23:09:43 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 23:09:43 | INFO     | ================================================================================
+2026-07-05 23:09:43 | INFO     | Initialising HybridQdrantRetriever for model 'bge_m3' …
+2026-07-05 23:09:43 | INFO     | HybridQdrantRetriever: initialising for model='bge_m3' | collection='reguaz_bge_m3' | top_k_semantic=30 | top_k_bm25=30 | rerank_top_k=30 | final_top_k=10 | rrf_k=60 | reranker_model='BAAI/bge-reranker-v2-m3'
+2026-07-05 23:09:43 | INFO     | HybridQdrantRetriever: loading embedding service for model 'bge_m3' …
+2026-07-05 23:09:43 | INFO     | Loading BGE-M3 model: BAAI/bge-m3
+2026-07-05 23:09:57 | INFO     | HybridQdrantRetriever: embedding service ready.
+2026-07-05 23:09:57 | INFO     | HybridQdrantRetriever: opening Qdrant collection 'reguaz_bge_m3' from 'data/qdrant' …
+2026-07-05 23:09:57 | INFO     | QdrantRetriever: opening collection 'reguaz_bge_m3' from 'data/qdrant'
+2026-07-05 23:09:58 | INFO     | QdrantRetriever: collection 'reguaz_bge_m3' has 3815 vectors.
+2026-07-05 23:09:58 | INFO     | QdrantRetriever: collection config — dimension=1024, distance=Cosine.
+2026-07-05 23:09:58 | INFO     | HybridQdrantRetriever: Qdrant collection ready.
+2026-07-05 23:09:58 | INFO     | HybridQdrantRetriever: building BM25 index from 'data/processed/chunks' …
+2026-07-05 23:09:58 | INFO     | BM25Retriever: loading corpus from 'data\processed\chunks' …
+2026-07-05 23:09:58 | INFO     | BM25Retriever: discovered 96 JSONL file(s).
+2026-07-05 23:09:59 | INFO     | BM25Retriever: indexing 3823 chunks with BM25Okapi …
+2026-07-05 23:09:59 | INFO     | BM25Retriever: index built in 0.39 s  (3823 chunks).
+2026-07-05 23:09:59 | INFO     | HybridQdrantRetriever: BM25 index ready (3823 chunks).
+2026-07-05 23:09:59 | INFO     | HybridQdrantRetriever: loading Cross-Encoder reranker model 'BAAI/bge-reranker-v2-m3' …
+2026-07-05 23:09:59 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device auto ...
+2026-07-05 23:09:59 | INFO     | CrossEncoderReranker: loading Cross-Encoder model 'BAAI/bge-reranker-v2-m3' on device 'cuda' ...
+2026-07-05 23:10:11 | INFO     | CrossEncoderReranker: actual model device = cuda:0
+2026-07-05 23:10:11 | INFO     | CrossEncoderReranker: model 'BAAI/bge-reranker-v2-m3' loaded successfully.
+2026-07-05 23:10:11 | INFO     | HybridQdrantRetriever: Cross-Encoder reranker ready.
+2026-07-05 23:10:11 | INFO     | HybridQdrantRetriever: all components initialised for model 'bge_m3'.
+2026-07-05 23:10:11 | INFO     | HybridQdrantRetriever ready in 27.31 s.
+2026-07-05 23:10:11 | INFO     | Starting evaluation over 1 question(s) …
+2026-07-05 23:10:11 | INFO     | [Q000/001] Retrieving...
+2026-07-05 23:10:11 | INFO     | HybridQdrantRetriever.retrieve: embedding generated in 0.679 s (dim=1024).
+2026-07-05 23:10:11 | INFO     | HybridQdrantRetriever.retrieve: semantic search returned 30 results in 0.023 s.
+2026-07-05 23:10:11 | INFO     | HybridQdrantRetriever.retrieve: BM25 search returned 30 results in 0.022 s.
+2026-07-05 23:10:11 | INFO     | HybridQdrantRetriever.retrieve: RRF fusion completed in 0.000 s (47 unique candidates).
+2026-07-05 23:10:11 | INFO     | CrossEncoderReranker: reranking 30 documents.
+2026-07-05 23:12:12 | INFO     | CrossEncoderReranker: predict() finished in 120.103 s.
+2026-07-05 23:12:12 | INFO     | HybridQdrantRetriever.retrieve: Cross-Encoder reranked 30 candidates in 120.103 s.
+2026-07-05 23:12:12 | INFO     | HybridQdrantRetriever.retrieve: total retrieval time 120.827 s.
+2026-07-05 23:12:12 | INFO     | [Q000] Expected: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Retrieved top-10: ['“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6', '“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“İnvestisiya qiymətli kağızlarının qiymətinin sabitləşdirilməsi haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_6_7', 'beaf2f3b-d7c9-4377-8d69-d29758699119_intro_1', '“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_1_8', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1'] | Overlap: NONE
+2026-07-05 23:12:12 | INFO     | [Q000]   Rank 1 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99995 | rrf=0.03252 | sem_rank=1 | bm25_rank=2
+2026-07-05 23:12:12 | INFO     | [Q000]   Rank 2 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin kənar auditorlarına dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99543 | rrf=0.02942 | sem_rank=9 | bm25_rank=7
+2026-07-05 23:12:12 | INFO     | [Q000]   Rank 3 | id=“Qiymətli kağızlar bazarında sui-istifadələrin qarşısının alınması haqqında Qaydalar”ın təsdiq edilməsi barədə_art_5_6 | rerank=0.99359 | rrf=0.02991 | sem_rank=4 | bm25_rank=10
+2026-07-05 23:12:12 | INFO     | [Q000]   Rank 4 | id=“İnvestisiya şirkətinin davamlı kapital tələbləri haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.99171 | rrf=0.02879 | sem_rank=8 | bm25_rank=11
+2026-07-05 23:12:12 | INFO     | [Q000]   Rank 5 | id=“Qiymətli kağızlar bazarında lisenziyalaşdırılan şəxslərin nizamnamə kapitalının minimum miqdarı və onun formalaşdırılması haqqında Qaydalar”ın təsdiq edilməsi barədə_intro_1 | rerank=0.98974 | rrf=0.02944 | sem_rank=10 | bm25_rank=6
+2026-07-05 23:12:12 | INFO     | [Q000] recall@10=1.000 | precision@10=0.100 | mrr@10=1.000 | ndcg@10=1.000 | time=120.83 s
+2026-07-05 23:12:12 | INFO     | Evaluation loop finished in 120.84 s | evaluated=1 | skipped=0 | errors=0
+2026-07-05 23:12:12 | INFO     | ------------------------------------------------------------
+2026-07-05 23:12:12 | INFO     | AGGREGATE METRICS  |  model: BGE_M3
+2026-07-05 23:12:12 | INFO     |   recall@1                       : 1.0000
+2026-07-05 23:12:12 | INFO     |   recall@3                       : 1.0000
+2026-07-05 23:12:12 | INFO     |   recall@5                       : 1.0000
+2026-07-05 23:12:12 | INFO     |   recall@10                      : 1.0000
+2026-07-05 23:12:12 | INFO     |   precision@1                    : 1.0000
+2026-07-05 23:12:12 | INFO     |   precision@3                    : 0.3333
+2026-07-05 23:12:12 | INFO     |   precision@5                    : 0.2000
+2026-07-05 23:12:12 | INFO     |   precision@10                   : 0.1000
+2026-07-05 23:12:12 | INFO     |   mrr@10                         : 1.0000
+2026-07-05 23:12:12 | INFO     |   ndcg@3                         : 1.0000
+2026-07-05 23:12:12 | INFO     |   ndcg@5                         : 1.0000
+2026-07-05 23:12:12 | INFO     |   ndcg@10                        : 1.0000
+2026-07-05 23:12:12 | INFO     |   num_questions_evaluated        : 1
+2026-07-05 23:12:12 | INFO     | ------------------------------------------------------------
+2026-07-05 23:12:12 | INFO     | Saved metrics         → results\hybrid_qdrant_retrieval\bge_m3\metrics.json
+2026-07-05 23:12:12 | INFO     | Saved per_question    → results\hybrid_qdrant_retrieval\bge_m3\per_question.csv
+2026-07-05 23:12:12 | INFO     | Saved retrieval_results → results\hybrid_qdrant_retrieval\bge_m3\retrieval_results.csv
+2026-07-05 23:12:12 | INFO     | Pipeline finished for model 'bge_m3' in 148.19 s.
