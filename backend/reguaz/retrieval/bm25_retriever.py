@@ -24,6 +24,7 @@ import time
 from pathlib import Path
 from typing import Any
 
+# pyrefly: ignore [missing-import]
 from rank_bm25 import BM25Okapi
 
 logger = logging.getLogger(__name__)

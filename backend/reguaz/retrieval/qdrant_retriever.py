@@ -15,7 +15,9 @@ from __future__ import annotations
 import logging
 from typing import Any
 
+# pyrefly: ignore [missing-import]
 from qdrant_client import QdrantClient
+# pyrefly: ignore [missing-import]
 from qdrant_client.http.exceptions import UnexpectedResponse
 
 logger = logging.getLogger(__name__)

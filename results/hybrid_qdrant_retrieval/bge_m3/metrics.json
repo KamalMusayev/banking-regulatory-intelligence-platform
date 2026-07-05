@@ -1,0 +1,15 @@
+{
+  "recall@1": 1.0,
+  "recall@3": 1.0,
+  "recall@5": 1.0,
+  "recall@10": 1.0,
+  "precision@1": 1.0,
+  "precision@3": 0.3333333333333333,
+  "precision@5": 0.2,
+  "precision@10": 0.1,
+  "mrr@10": 1.0,
+  "ndcg@3": 1.0,
+  "ndcg@5": 1.0,
+  "ndcg@10": 1.0,
+  "num_questions_evaluated": 1
+}
