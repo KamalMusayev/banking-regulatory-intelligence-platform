@@ -86,7 +86,7 @@ DEFAULT_QDRANT_DIR = "data/qdrant"
 DEFAULT_RESULTS_DIR = Path("results/hybrid_qdrant_retrieval")
 DEFAULT_TOP_K = 10
 DEFAULT_TOP_K_CANDIDATES = 30
-DEFAULT_RERANK_TOP_K = 30
+DEFAULT_RERANK_TOP_K = 15
 DEFAULT_RRF_K = 60
 
 
@@ -813,8 +813,6 @@ def main() -> None:
     # Load gold dataset once — shared across all models.
     try:
         df = load_gold_dataset(dataset_path, bootstrap_logger)
-        # Temporarily limit evaluation to a single question for profiling/debugging
-        df = df.head(1)
     except (FileNotFoundError, ValueError) as exc:
         bootstrap_logger.error("Cannot load evaluation dataset: %s", exc)
         sys.exit(1)

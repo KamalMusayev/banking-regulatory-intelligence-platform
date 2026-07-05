@@ -184,3 +184,93 @@
 2026-07-05 23:12:12 | INFO     | ================================================================================
 2026-07-05 23:12:12 | INFO     | ALL EVALUATIONS COMPLETE  |  total time: 148.42 s
 2026-07-05 23:12:12 | INFO     | ================================================================================
+2026-07-05 23:24:33 | INFO     | ================================================================================
+2026-07-05 23:24:33 | INFO     | ReguAZ  Hybrid Qdrant Retrieval Evaluation Pipeline
+2026-07-05 23:24:33 | INFO     |   model(s)         : all
+2026-07-05 23:24:33 | INFO     |   top_k            : 10
+2026-07-05 23:24:33 | INFO     |   top_k_candidates : 30
+2026-07-05 23:24:33 | INFO     |   rerank_top_k     : 30
+2026-07-05 23:24:33 | INFO     |   rrf_k            : 60
+2026-07-05 23:24:33 | INFO     |   dataset          : data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-05 23:24:33 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 23:24:33 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 23:24:33 | INFO     |   results_dir      : results/hybrid_qdrant_retrieval
+2026-07-05 23:24:33 | INFO     | ================================================================================
+2026-07-05 23:24:33 | INFO     | Loading gold evaluation dataset from: data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-05 23:24:34 | INFO     | Loaded 121 evaluation question(s).
+2026-07-05 23:26:26 | INFO     | Saved comparison CSV  → results/hybrid_qdrant_retrieval/comparison.csv
+2026-07-05 23:26:26 | INFO     | ================================================================================
+2026-07-05 23:26:26 | INFO     | ALL EVALUATIONS COMPLETE  |  total time: 112.55 s
+2026-07-05 23:26:26 | INFO     | ================================================================================
+2026-07-05 23:53:59 | INFO     | ================================================================================
+2026-07-05 23:53:59 | INFO     | ReguAZ  Hybrid Qdrant Retrieval Evaluation Pipeline
+2026-07-05 23:53:59 | INFO     |   model(s)         : all
+2026-07-05 23:53:59 | INFO     |   top_k            : 10
+2026-07-05 23:53:59 | INFO     |   top_k_candidates : 30
+2026-07-05 23:53:59 | INFO     |   rerank_top_k     : 30
+2026-07-05 23:53:59 | INFO     |   rrf_k            : 60
+2026-07-05 23:53:59 | INFO     |   dataset          : data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-05 23:53:59 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-05 23:53:59 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-05 23:53:59 | INFO     |   results_dir      : results/hybrid_qdrant_retrieval
+2026-07-05 23:53:59 | INFO     | ================================================================================
+2026-07-05 23:53:59 | INFO     | Loading gold evaluation dataset from: data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-05 23:53:59 | INFO     | Loaded 121 evaluation question(s).
+2026-07-05 23:54:49 | INFO     | Saved comparison CSV  → results/hybrid_qdrant_retrieval/comparison.csv
+2026-07-05 23:54:49 | INFO     | ================================================================================
+2026-07-05 23:54:49 | INFO     | ALL EVALUATIONS COMPLETE  |  total time: 49.09 s
+2026-07-05 23:54:49 | INFO     | ================================================================================
+2026-07-06 00:09:53 | INFO     | ================================================================================
+2026-07-06 00:09:53 | INFO     | ReguAZ  Hybrid Qdrant Retrieval Evaluation Pipeline
+2026-07-06 00:09:53 | INFO     |   model(s)         : all
+2026-07-06 00:09:53 | INFO     |   top_k            : 10
+2026-07-06 00:09:53 | INFO     |   top_k_candidates : 30
+2026-07-06 00:09:53 | INFO     |   rerank_top_k     : 30
+2026-07-06 00:09:53 | INFO     |   rrf_k            : 60
+2026-07-06 00:09:53 | INFO     |   dataset          : data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-06 00:09:53 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-06 00:09:53 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-06 00:09:53 | INFO     |   results_dir      : results/hybrid_qdrant_retrieval
+2026-07-06 00:09:53 | INFO     | ================================================================================
+2026-07-06 00:09:53 | INFO     | Loading gold evaluation dataset from: data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-06 00:09:53 | INFO     | Loaded 121 evaluation question(s).
+2026-07-06 00:10:29 | INFO     | Saved comparison CSV  → results/hybrid_qdrant_retrieval/comparison.csv
+2026-07-06 00:10:29 | INFO     | ================================================================================
+2026-07-06 00:10:29 | INFO     | ALL EVALUATIONS COMPLETE  |  total time: 35.74 s
+2026-07-06 00:10:29 | INFO     | ================================================================================
+2026-07-06 00:21:52 | INFO     | ================================================================================
+2026-07-06 00:21:52 | INFO     | ReguAZ  Hybrid Qdrant Retrieval Evaluation Pipeline
+2026-07-06 00:21:52 | INFO     |   model(s)         : all
+2026-07-06 00:21:52 | INFO     |   top_k            : 10
+2026-07-06 00:21:52 | INFO     |   top_k_candidates : 30
+2026-07-06 00:21:52 | INFO     |   rerank_top_k     : 15
+2026-07-06 00:21:52 | INFO     |   rrf_k            : 60
+2026-07-06 00:21:52 | INFO     |   dataset          : data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-06 00:21:52 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-06 00:21:52 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-06 00:21:52 | INFO     |   results_dir      : results/hybrid_qdrant_retrieval
+2026-07-06 00:21:52 | INFO     | ================================================================================
+2026-07-06 00:21:52 | INFO     | Loading gold evaluation dataset from: data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-06 00:21:52 | INFO     | Loaded 121 evaluation question(s).
+2026-07-06 00:22:15 | INFO     | Saved comparison CSV  → results/hybrid_qdrant_retrieval/comparison.csv
+2026-07-06 00:22:15 | INFO     | ================================================================================
+2026-07-06 00:22:15 | INFO     | ALL EVALUATIONS COMPLETE  |  total time: 22.68 s
+2026-07-06 00:22:15 | INFO     | ================================================================================
+2026-07-06 00:33:25 | INFO     | ================================================================================
+2026-07-06 00:33:25 | INFO     | ReguAZ  Hybrid Qdrant Retrieval Evaluation Pipeline
+2026-07-06 00:33:25 | INFO     |   model(s)         : all
+2026-07-06 00:33:25 | INFO     |   top_k            : 10
+2026-07-06 00:33:25 | INFO     |   top_k_candidates : 30
+2026-07-06 00:33:25 | INFO     |   rerank_top_k     : 15
+2026-07-06 00:33:25 | INFO     |   rrf_k            : 60
+2026-07-06 00:33:25 | INFO     |   dataset          : data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-06 00:33:25 | INFO     |   chunks_dir       : data/processed/chunks
+2026-07-06 00:33:25 | INFO     |   qdrant_dir       : data/qdrant
+2026-07-06 00:33:25 | INFO     |   results_dir      : results/hybrid_qdrant_retrieval
+2026-07-06 00:33:25 | INFO     | ================================================================================
+2026-07-06 00:33:25 | INFO     | Loading gold evaluation dataset from: data/evaluation/gold_dataset_for_embedding_excel.xlsx
+2026-07-06 00:33:25 | INFO     | Loaded 121 evaluation question(s).
+2026-07-06 00:55:43 | INFO     | Saved comparison CSV  → results/hybrid_qdrant_retrieval/comparison.csv
+2026-07-06 00:55:43 | INFO     | ================================================================================
+2026-07-06 00:55:43 | INFO     | ALL EVALUATIONS COMPLETE  |  total time: 1337.50 s
+2026-07-06 00:55:43 | INFO     | ================================================================================
