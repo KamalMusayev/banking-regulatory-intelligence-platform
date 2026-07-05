@@ -140,24 +140,25 @@ def compute_metrics(
     dict containing:
         rank_of_first_relevant, recall@1/3/5/10, mrr, hit@1/3/5/10
     """
-    relevant_set = set(relevant_ids)
+    import unicodedata
+    relevant_set = {unicodedata.normalize("NFC", rid) for rid in relevant_ids}
     retrieved_ids = retrieved_ids[:top_k]
 
     # Rank of first relevant result (1-indexed; None if not found in top_k)
     rank_of_first: int | None = None
     for rank, rid in enumerate(retrieved_ids, start=1):
-        if rid in relevant_set:
+        if unicodedata.normalize("NFC", rid) in relevant_set:
             rank_of_first = rank
             break
 
     def recall_at(k: int) -> float:
         if not relevant_set:
             return 0.0
-        hits = sum(1 for rid in retrieved_ids[:k] if rid in relevant_set)
+        hits = sum(1 for rid in retrieved_ids[:k] if unicodedata.normalize("NFC", rid) in relevant_set)
         return hits / len(relevant_set)
 
     def hit_at(k: int) -> int:
-        return int(any(rid in relevant_set for rid in retrieved_ids[:k]))
+        return int(any(unicodedata.normalize("NFC", rid) in relevant_set for rid in retrieved_ids[:k]))
 
     mrr = (1.0 / rank_of_first) if rank_of_first is not None else 0.0
 

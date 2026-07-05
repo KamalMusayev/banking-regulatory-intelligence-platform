@@ -281,7 +281,7 @@ class HybridQdrantRetriever:
             query_embedding: list[float] = raw_embedding
         else:
             query_embedding = [float(v) for v in raw_embedding]
-        logger.debug(
+        logger.info(
             "HybridQdrantRetriever.retrieve: embedding generated in %.3f s (dim=%d).",
             time.perf_counter() - t0,
             len(query_embedding),
@@ -294,7 +294,7 @@ class HybridQdrantRetriever:
             top_k=self._top_k_semantic,
         )
         semantic_ids: list[str] = semantic_results["ids"]
-        logger.debug(
+        logger.info(
             "HybridQdrantRetriever.retrieve: semantic search returned %d results in %.3f s.",
             len(semantic_ids),
             time.perf_counter() - t0,
@@ -307,7 +307,7 @@ class HybridQdrantRetriever:
             top_k=self._top_k_bm25,
         )
         bm25_ids: list[str] = [r["id"] for r in bm25_results]
-        logger.debug(
+        logger.info(
             "HybridQdrantRetriever.retrieve: BM25 search returned %d results in %.3f s.",
             len(bm25_ids),
             time.perf_counter() - t0,
@@ -323,7 +323,7 @@ class HybridQdrantRetriever:
             ranked_lists=[semantic_ids, bm25_ids],
             k=self._rrf_k,
         )
-        logger.debug(
+        logger.info(
             "HybridQdrantRetriever.retrieve: RRF fusion completed in %.3f s "
             "(%d unique candidates).",
             time.perf_counter() - t0,
@@ -340,7 +340,7 @@ class HybridQdrantRetriever:
         ]
 
         rerank_scores = self._reranker.rerank(query, texts_to_rerank)
-        logger.debug(
+        logger.info(
             "HybridQdrantRetriever.retrieve: Cross-Encoder reranked %d candidates in %.3f s.",
             len(fused_candidates),
             time.perf_counter() - t0,
@@ -381,7 +381,7 @@ class HybridQdrantRetriever:
                 }
             )
 
-        logger.debug(
+        logger.info(
             "HybridQdrantRetriever.retrieve: total retrieval time %.3f s.",
             time.perf_counter() - t_total,
         )
