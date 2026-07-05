@@ -48,7 +48,12 @@ class CrossEncoderReranker:
 
         try:
             if device is None:
-                device = "cuda" if torch.cuda.is_available() else "cpu"
+                if torch.backends.mps.is_available():
+                    device = "mps"
+                elif torch.cuda.is_available():
+                    device = "cuda"
+                else:
+                    device = "cpu"
 
             logger.info(
                 "CrossEncoderReranker: loading Cross-Encoder model '%s' on device '%s' ...",
@@ -65,6 +70,17 @@ class CrossEncoderReranker:
             logger.info(
                 "CrossEncoderReranker: actual model device = %s",
                 self._model.model.device,
+            )
+
+            logger.info(
+                "CrossEncoderReranker: torch mps available = %s | cuda available = %s",
+                torch.backends.mps.is_available(),
+                torch.cuda.is_available(),
+            )
+
+            logger.info(
+                "CrossEncoderReranker: max_length = %d",
+                1024,
             )
 
             logger.info(
@@ -112,7 +128,23 @@ class CrossEncoderReranker:
         # Prepare (query, document) pairs for the cross-encoder.
         pairs = [[query, doc] for doc in documents]
 
+        logger.info(
+            "CrossEncoderReranker: %d query-document pairs prepared.",
+            len(pairs),
+        )
+        
         start = time.perf_counter()
+
+        lengths = [len(doc.split()) for doc in documents]
+
+        if lengths:
+            logger.info(
+                "CrossEncoderReranker: document lengths (words) | "
+                "min=%d max=%d avg=%.1f",
+                min(lengths),
+                max(lengths),
+                sum(lengths) / len(lengths),
+            )
 
         # Compute raw scores.
         raw_scores = self._model.predict(
@@ -124,8 +156,10 @@ class CrossEncoderReranker:
         elapsed = time.perf_counter() - start
 
         logger.info(
-            "CrossEncoderReranker: predict() finished in %.3f s.",
+            "CrossEncoderReranker: inference finished in %.3f s "
+            "(%.3f s / document).",
             elapsed,
+            elapsed / len(documents),
         )
 
         # Ensure we return Python float type.
