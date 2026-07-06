@@ -17,10 +17,17 @@ Internal structure
 ------------------
 ``generate(prompt)``
   → ``_load_model()``       (lazy, first-call only)
-  → ``_prepare_inputs()``   (tokenisation / input formatting)
+  → ``_prepare_inputs()``   (tokenisation, returns inputs + input_length)
   → ``_run_inference()``    (backend-specific — isolated)
   → ``_postprocess()``      (decode, clean, extract answer)
   → return answer
+
+Device handling
+---------------
+``device_map`` (an Accelerate feature) is used only for CUDA, where it
+enables multi-GPU sharding via ``device_map="auto"``.  For MPS and CPU
+the model is loaded in the default (CPU) state and then moved with
+``.to(device)`` — the correct cross-platform approach.
 """
 
 from __future__ import annotations
@@ -153,9 +160,9 @@ class LocalInferenceProvider(BaseLLMProvider):
         )
         t0 = time.perf_counter()
 
-        inputs = self._prepare_inputs(prompt)
+        inputs, input_length = self._prepare_inputs(prompt)
         raw_output = self._run_inference(inputs)
-        answer = self._postprocess(raw_output, prompt)
+        answer = self._postprocess(raw_output, input_length)
 
         elapsed = time.perf_counter() - t0
         logger.info(
@@ -210,11 +217,25 @@ class LocalInferenceProvider(BaseLLMProvider):
             self._model_name_str,
             trust_remote_code=True,
         )
-        self._model = AutoModelForCausalLM.from_pretrained(
-            self._model_name_str,
-            trust_remote_code=True,
-            device_map=self._device,
-        )
+
+        # ``device_map`` is an Accelerate feature designed for CUDA
+        # multi-GPU sharding.  It does not support MPS or plain CPU
+        # in the same way.  For CUDA we use ``device_map="auto"`` to
+        # enable automatic sharding; for MPS and CPU we load into the
+        # default (CPU) state and move the model with ``.to(device)``.
+        if self._device == "cuda":
+            self._model = AutoModelForCausalLM.from_pretrained(
+                self._model_name_str,
+                trust_remote_code=True,
+                device_map="auto",
+            )
+        else:
+            self._model = AutoModelForCausalLM.from_pretrained(
+                self._model_name_str,
+                trust_remote_code=True,
+            )
+            self._model = self._model.to(self._device)
+
         self._model.eval()
 
         self._is_loaded = True
@@ -228,9 +249,13 @@ class LocalInferenceProvider(BaseLLMProvider):
             elapsed,
         )
 
-    def _prepare_inputs(self, prompt: str) -> Any:
+    def _prepare_inputs(self, prompt: str) -> tuple[Any, int]:
         """
         Tokenise and format the prompt for the inference backend.
+
+        Returns both the input tensors and the input token count.  The
+        token count is forwarded to ``_postprocess()`` to avoid
+        re-tokenising the prompt a second time.
 
         Parameters
         ----------
@@ -239,17 +264,18 @@ class LocalInferenceProvider(BaseLLMProvider):
 
         Returns
         -------
-        Any
-            Backend-specific input tensors ready for inference.
+        tuple[Any, int]
+            A ``(inputs, input_length)`` pair where ``inputs`` is the
+            dict of input tensors ready for inference and
+            ``input_length`` is the number of prompt tokens.
         """
-        # pyrefly: ignore [missing-import]
-        import torch
-
         inputs = self._tokenizer(
             prompt,
             return_tensors="pt",
             truncation=True,
         )
+
+        input_length: int = inputs["input_ids"].shape[-1]
 
         # Move tensors to the model's device.
         inputs = {
@@ -260,10 +286,10 @@ class LocalInferenceProvider(BaseLLMProvider):
         logger.debug(
             "LocalInferenceProvider._prepare_inputs: "
             "tokenised to %d tokens.",
-            inputs["input_ids"].shape[-1],
+            input_length,
         )
 
-        return inputs
+        return inputs, input_length
 
     def _run_inference(self, inputs: Any) -> Any:
         """
@@ -294,6 +320,7 @@ class LocalInferenceProvider(BaseLLMProvider):
                 top_p=self._top_p,
                 repetition_penalty=self._repetition_penalty,
                 do_sample=self._temperature > 0.0,
+                pad_token_id=self._tokenizer.eos_token_id,
             )
 
         logger.debug(
@@ -304,33 +331,28 @@ class LocalInferenceProvider(BaseLLMProvider):
 
         return output_ids
 
-    def _postprocess(self, raw_output: Any, prompt: str) -> str:
+    def _postprocess(self, raw_output: Any, input_length: int) -> str:
         """
         Decode and clean the raw model output.
 
         Strips the input prompt tokens from the output so that only the
-        newly generated text is returned.
+        newly generated text is returned.  The ``input_length`` is
+        supplied by ``_prepare_inputs()`` to avoid re-tokenising the
+        prompt a second time.
 
         Parameters
         ----------
         raw_output : Any
             Raw token IDs from ``_run_inference()``.
-        prompt : str
-            The original prompt (used to determine the input length for
-            stripping).
+        input_length : int
+            Number of tokens in the input prompt, as returned by
+            ``_prepare_inputs()``.
 
         Returns
         -------
         str
             The cleaned, generated answer text.
         """
-        # Determine how many tokens belonged to the input prompt.
-        input_length = self._tokenizer(
-            prompt,
-            return_tensors="pt",
-            truncation=True,
-        )["input_ids"].shape[-1]
-
         # Decode only the newly generated tokens.
         generated_ids = raw_output[0, input_length:]
         answer = self._tokenizer.decode(

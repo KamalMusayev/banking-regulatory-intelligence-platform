@@ -17,8 +17,14 @@ The system prompt enforces strict constraints:
 * Keep answers concise, factual, and formal.
 * Never expose internal implementation details.
 
-The class is intentionally simple and stateless so that it can be
-extended or replaced easily as prompt engineering requirements evolve.
+Chat-template readiness
+-----------------------
+The internal method ``_build_messages()`` structures the prompt as a
+list of role/content message dicts — the standard input format for
+``tokenizer.apply_chat_template()``.  Today ``build_prompt()`` joins
+these messages into a plain string; in a future migration to chat
+templates, only ``build_prompt()`` needs to change while
+``_build_messages()`` remains untouched.
 """
 
 from __future__ import annotations
@@ -57,8 +63,15 @@ class PromptBuilder:
     assemble a prompt.  The resulting string is passed directly to
     ``BaseLLMProvider.generate()`` without further modification.
 
-    The system prompt is exposed as a class-level constant so that it
-    can be inspected in tests and overridden in subclasses if needed.
+    The system prompt is exposed via the ``system_prompt`` property so
+    that it can be inspected in tests and overridden in subclasses.
+
+    Future migration path
+    ---------------------
+    When the project adopts chat-template-based models, ``build_prompt``
+    can be updated to call ``tokenizer.apply_chat_template(_build_messages(...))``
+    instead of joining to a string.  ``_build_messages`` itself — and
+    therefore the prompt semantics — will remain unchanged.
     """
 
     def __init__(self) -> None:
@@ -84,6 +97,9 @@ class PromptBuilder:
         """
         Build a complete prompt from a user question and retrieved context.
 
+        Internally delegates to ``_build_messages()`` to construct the
+        canonical message list, then formats it as a plain string.
+
         Parameters
         ----------
         question : str
@@ -97,14 +113,14 @@ class PromptBuilder:
         str
             A fully formatted prompt string ready for the LLM provider.
         """
+        messages = self._build_messages(question=question, context=context)
+
+        # Render messages to a plain string.
+        # Future: replace this block with tokenizer.apply_chat_template(messages).
+        user_content = messages[1]["content"]
         prompt = (
             f"{_SYSTEM_PROMPT}\n"
-            f"Kontekst:\n"
-            f"{context}\n"
-            f"\n"
-            f"Sual:\n"
-            f"{question}\n"
-            f"\n"
+            f"{user_content}"
             f"Cavab:\n"
         )
 
@@ -116,3 +132,50 @@ class PromptBuilder:
         )
 
         return prompt
+
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
+
+    def _build_messages(
+        self,
+        question: str,
+        context: str,
+    ) -> list[dict[str, str]]:
+        """
+        Build the canonical message list for this prompt.
+
+        Returns a list of role/content dicts in the format expected by
+        ``tokenizer.apply_chat_template()``.  Today this list is
+        rendered to a plain string by ``build_prompt()``; in a future
+        migration it can be passed directly to the chat-template API.
+
+        Parameters
+        ----------
+        question : str
+            The end-user's question in natural language.
+        context : str
+            The retrieved document context.
+
+        Returns
+        -------
+        list[dict[str, str]]
+            A two-element list::
+
+                [
+                    {"role": "system", "content": <system_prompt>},
+                    {"role": "user",   "content": <context_and_question>},
+                ]
+        """
+        user_content = (
+            f"Kontekst:\n"
+            f"{context}\n"
+            f"\n"
+            f"Sual:\n"
+            f"{question}\n"
+            f"\n"
+        )
+        return [
+            {"role": "system", "content": _SYSTEM_PROMPT},
+            {"role": "user", "content": user_content},
+        ]

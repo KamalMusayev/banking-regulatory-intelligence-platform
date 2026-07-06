@@ -9,23 +9,22 @@ logic.  Its sole responsibilities are:
 
 1. Receive a question and retrieved context.
 2. Delegate prompt construction to ``PromptBuilder``.
-3. Obtain a provider via ``LLMProviderFactory``.
-4. Call ``provider.generate(prompt)``.
-5. Return the final answer.
+3. Call ``provider.generate(prompt)``.
+4. Return the final answer.
 
 Generator does not know which model is used, which inference engine is
 used, whether inference is local or remote, or how deployment is
-performed.
+performed.  Provider creation is the caller's responsibility — Generator
+receives an already-constructed ``BaseLLMProvider`` through its
+constructor (dependency injection).
 """
 
 from __future__ import annotations
 
 import logging
 import time
-from typing import Any
 
 from backend.reguaz.llm.base import BaseLLMProvider
-from backend.reguaz.llm.factory import LLMProviderFactory
 from backend.reguaz.llm.prompt_builder import PromptBuilder
 
 logger = logging.getLogger(__name__)
@@ -37,39 +36,43 @@ class Generator:
 
     This class is the single entry point for obtaining an LLM-generated
     answer from a question and its retrieved context.  All implementation
-    details are delegated to the ``PromptBuilder`` and the
-    ``BaseLLMProvider`` returned by the factory.
+    details are delegated to the injected ``PromptBuilder`` and
+    ``BaseLLMProvider``.
+
+    The provider is constructed externally (via ``LLMProviderFactory`` or
+    any other means) and injected at construction time.  Generator is
+    therefore completely independent from the factory and from any
+    inference technology.
 
     Parameters
     ----------
-    provider_type : str
-        Provider type identifier forwarded to
-        ``LLMProviderFactory.get_provider()``.  Default: ``"local"``.
-    **provider_kwargs : Any
-        Additional keyword arguments forwarded to the provider
-        constructor (e.g. ``model_name``, ``device``,
-        ``max_new_tokens``).
+    provider : BaseLLMProvider
+        A fully constructed LLM provider.  The provider is responsible
+        for all inference; Generator never interacts with it beyond
+        calling ``provider.generate(prompt)``.
+    prompt_builder : PromptBuilder | None
+        Prompt-construction component.  If ``None``, a default
+        ``PromptBuilder`` instance is created automatically.
+
+    Examples
+    --------
+    Typical usage::
+
+        provider = SomeProvider(...)
+        generator = Generator(provider)
+        answer = generator.generate_answer(question, context)
     """
 
     def __init__(
         self,
-        provider_type: str = "local",
-        **provider_kwargs: Any,
+        provider: BaseLLMProvider,
+        prompt_builder: PromptBuilder | None = None,
     ) -> None:
-        logger.info(
-            "Generator: initialising (provider_type='%s').",
-            provider_type,
-        )
-
-        self._prompt_builder = PromptBuilder()
-        self._provider: BaseLLMProvider = LLMProviderFactory.get_provider(
-            provider_type=provider_type,
-            **provider_kwargs,
-        )
+        self._provider = provider
+        self._prompt_builder = prompt_builder if prompt_builder is not None else PromptBuilder()
 
         logger.info(
-            "Generator: ready (provider_type='%s', model='%s').",
-            provider_type,
+            "Generator: initialised (model='%s').",
             self._provider.model_name,
         )
 
@@ -123,7 +126,7 @@ class Generator:
             context=context,
         )
 
-        # Step 2 — Delegate to the provider.
+        # Step 2 — Delegate inference to the provider.
         answer = self._provider.generate(prompt)
 
         elapsed = time.perf_counter() - t0
