@@ -1,0 +1,1247 @@
+2026-07-06 23:15:54 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from 'data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-06 23:15:54 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 1 questions...
+2026-07-06 23:16:01 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q001
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 165, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (7880) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 76, in evaluate
+    result = self.pipeline.generate(str(question))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 93, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 182, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (7880) exceed context window of 4096
+2026-07-06 23:16:01 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-06 23:16:01 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-06 23:16:01 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 0.00%
+2026-07-06 23:16:58 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from 'data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-06 23:16:58 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 1 questions...
+2026-07-06 23:17:21 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-06 23:17:21 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-06 23:17:21 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 100.00%
+2026-07-06 23:23:25 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-06 23:23:25 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 1 questions...
+2026-07-06 23:23:50 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-06 23:23:50 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-06 23:23:50 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 100.00%
+2026-07-07 00:06:01 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-07 00:06:01 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 10 questions...
+2026-07-07 00:06:50 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q002
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 165, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (5071) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 96, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 182, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (5071) exceed context window of 4096
+2026-07-07 00:08:40 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q005
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 165, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (5576) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 96, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 182, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (5576) exceed context window of 4096
+2026-07-07 00:09:17 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q006
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 165, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (4335) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 96, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 182, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (4335) exceed context window of 4096
+2026-07-07 00:10:06 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q007
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 165, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (4571) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 96, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 182, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (4571) exceed context window of 4096
+2026-07-07 00:13:47 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-07 00:13:47 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-07 00:13:47 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 60.00%
+2026-07-07 00:55:16 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-07 00:55:16 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 237 questions...
+2026-07-07 00:55:28 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q001
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (7941) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (7941) exceed context window of 4096
+2026-07-07 00:55:45 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q002
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13715) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13715) exceed context window of 4096
+2026-07-07 00:56:13 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q003
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (11048) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (11048) exceed context window of 4096
+2026-07-07 00:57:21 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q005
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (16080) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (16080) exceed context window of 4096
+2026-07-07 00:57:42 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q006
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13493) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13493) exceed context window of 4096
+2026-07-07 00:58:09 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q007
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (10787) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (10787) exceed context window of 4096
+2026-07-07 00:58:36 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q008
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13564) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13564) exceed context window of 4096
+2026-07-07 00:59:03 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q009
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (12786) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (12786) exceed context window of 4096
+2026-07-07 00:59:25 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q010
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13465) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13465) exceed context window of 4096
+2026-07-07 00:59:54 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q011
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (9698) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (9698) exceed context window of 4096
+2026-07-07 01:00:20 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q012
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (11781) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (11781) exceed context window of 4096
+2026-07-07 01:00:57 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q013
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (12347) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (12347) exceed context window of 4096
+2026-07-07 01:01:33 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q014
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13015) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13015) exceed context window of 4096
+2026-07-07 01:02:10 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q015
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (12419) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (12419) exceed context window of 4096
+2026-07-07 01:02:50 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q016
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (7361) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (7361) exceed context window of 4096
+2026-07-07 01:03:21 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q017
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (6337) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (6337) exceed context window of 4096
+2026-07-07 01:03:48 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q018
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (8529) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (8529) exceed context window of 4096
+2026-07-07 01:04:13 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q019
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (8171) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (8171) exceed context window of 4096
+2026-07-07 01:04:40 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q020
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (8434) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (8434) exceed context window of 4096
+2026-07-07 01:05:11 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q021
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (9705) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (9705) exceed context window of 4096
+2026-07-07 01:05:41 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q022
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (11698) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (11698) exceed context window of 4096
+2026-07-07 01:07:28 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-07 01:07:28 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 20 questions...
+2026-07-07 01:07:37 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q001
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (7941) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (7941) exceed context window of 4096
+2026-07-07 01:07:51 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q002
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13715) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13715) exceed context window of 4096
+2026-07-07 01:08:04 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q003
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (11048) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (11048) exceed context window of 4096
+2026-07-07 01:09:40 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q005
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (16080) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (16080) exceed context window of 4096
+2026-07-07 01:10:08 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q006
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13493) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13493) exceed context window of 4096
+2026-07-07 01:10:37 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q007
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (10787) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (10787) exceed context window of 4096
+2026-07-07 01:10:55 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q008
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13564) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13564) exceed context window of 4096
+2026-07-07 01:11:34 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q009
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (12786) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (12786) exceed context window of 4096
+2026-07-07 01:12:13 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q010
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13465) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13465) exceed context window of 4096
+2026-07-07 01:12:45 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q011
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (9698) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (9698) exceed context window of 4096
+2026-07-07 01:13:20 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q012
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (11781) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (11781) exceed context window of 4096
+2026-07-07 01:13:50 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q013
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (12347) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (12347) exceed context window of 4096
+2026-07-07 01:14:30 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q014
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (13015) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (13015) exceed context window of 4096
+2026-07-07 01:15:05 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q015
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (12419) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (12419) exceed context window of 4096
+2026-07-07 01:15:46 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q016
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (7361) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (7361) exceed context window of 4096
+2026-07-07 01:16:17 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q017
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (6337) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (6337) exceed context window of 4096
+2026-07-07 01:16:44 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q018
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (8529) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (8529) exceed context window of 4096
+2026-07-07 01:17:15 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q019
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (8171) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (8171) exceed context window of 4096
+2026-07-07 01:17:48 | ERROR    | backend.reguaz.evaluation.generation_evaluator | Failed to generate answer for Question ID Q020
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 185, in generate
+    response = self._llm(
+               ^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1969, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1902, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Library/Caches/pypoetry/virtualenvs/reguaz-8WJmiGSF-py3.12/lib/python3.12/site-packages/llama_cpp/llama.py", line 1338, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (8434) exceed context window of 4096
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/evaluation/generation_evaluator.py", line 84, in evaluate
+    result = self.pipeline.generate(question_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/generation_pipeline.py", line 116, in generate
+    answer = self.llm.generate(prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/services/generation/gemma_service.py", line 202, in generate
+    raise RuntimeError(f"Invalid model response: {ve}") from ve
+RuntimeError: Invalid model response: Requested tokens (8434) exceed context window of 4096
+2026-07-07 01:17:48 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-07 01:17:48 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-07 01:17:48 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 5.00%
+2026-07-07 10:53:59 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-07 10:53:59 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 2 questions...
+2026-07-07 10:54:51 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-07 10:54:51 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-07 10:54:51 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 100.00%
