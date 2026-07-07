@@ -19,3 +19,4 @@ __pycache__/
 
 data/chroma/*
 data/qdrant/*
+backend/reguaz/models/
