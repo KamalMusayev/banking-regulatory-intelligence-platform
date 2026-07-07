@@ -1,0 +1,4539 @@
+2026-07-06 23:15:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: initialized with top_k=10.
+2026-07-06 23:15:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: processing question: 'Kredit təşkilatı nədir?...'
+2026-07-06 23:16:01 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: retrieved 10 chunks in 7.443s.
+2026-07-06 23:16:58 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: initialized with top_k=3.
+2026-07-06 23:16:58 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: processing question: 'Kredit təşkilatı nədir?...'
+2026-07-06 23:17:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: retrieved 3 chunks in 7.144s.
+2026-07-06 23:17:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: generation completed in 15.556s.
+2026-07-06 23:23:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=3.
+2026-07-06 23:23:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-06 23:23:35 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 10.286s.
+2026-07-06 23:23:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 15.160s.
+2026-07-06 23:23:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 25.471s.
+2026-07-07 00:06:01 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=3.
+2026-07-07 00:06:01 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-07 00:06:12 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 10.873s.
+2026-07-07 00:06:27 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 15.226s.
+2026-07-07 00:06:27 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 26.128s.
+2026-07-07 00:06:27 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Məqbul və lazımi keyfiyyətlərə malik şəxs" dedikd...'
+2026-07-07 00:06:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 22.909s.
+2026-07-07 00:06:50 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (5071) exceed context window of 4096
+2026-07-07 00:06:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Bank sirrini təşkil edən məlumatların qeyri-qanuni...'
+2026-07-07 00:07:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 24.347s.
+2026-07-07 00:07:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 13.146s.
+2026-07-07 00:07:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 37.500s.
+2026-07-07 00:07:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Azərbaycan Respublikasının Bank Məcəlləsinin layih...'
+2026-07-07 00:07:53 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 25.035s.
+2026-07-07 00:08:07 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 14.140s.
+2026-07-07 00:08:07 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 39.182s.
+2026-07-07 00:08:07 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Milli Bank" ifadəsi hansı fərmanla "Mərkəzi Bank"...'
+2026-07-07 00:08:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 33.126s.
+2026-07-07 00:08:40 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (5576) exceed context window of 4096
+2026-07-07 00:08:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın nümayəndəliyinin açılması üçün təqdi...'
+2026-07-07 00:09:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 36.372s.
+2026-07-07 00:09:17 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (4335) exceed context window of 4096
+2026-07-07 00:09:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın nümayəndəliyi dövlət qeydiyyatına al...'
+2026-07-07 00:10:06 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 49.311s.
+2026-07-07 00:10:06 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (4571) exceed context window of 4096
+2026-07-07 00:10:06 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın yerli nümayəndəliyinə verilən icazəd...'
+2026-07-07 00:10:32 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 25.667s.
+2026-07-07 00:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 23.217s.
+2026-07-07 00:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 48.903s.
+2026-07-07 00:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın yerli filialına lisenziya və ya nüma...'
+2026-07-07 00:12:31 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 96.063s.
+2026-07-07 00:12:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 14.783s.
+2026-07-07 00:12:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 110.866s.
+2026-07-07 00:12:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın törəmə bankı, filialı və ya nümayənd...'
+2026-07-07 00:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 3 chunks in 33.254s.
+2026-07-07 00:13:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 26.901s.
+2026-07-07 00:13:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 60.158s.
+2026-07-07 00:55:16 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=10.
+2026-07-07 00:55:16 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 11.806s.
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2', 'Banklar Haqqında Qanun_ch_I_art_2_6', '5b725bb224d33e2085294c793_art_3_12', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4', '5b725bb224d33e2085294c793_art_8_17', '5b725bb224d33e2085294c793_art_7_16', '5b725bb224d33e2085294c793_art_5_14', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_10', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_III_art_3_62']
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2
+title: Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında
+article: 1
+page_start: 1
+page_end: 1
+chars: 3486
+tokens: 1345
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_I_art_2_6
+title: Banklar Haqqında Qanun
+article: 2
+page_start: 4
+page_end: 5
+chars: 1974
+tokens: 711
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_3_12
+title: 5b725bb224d33e2085294c793
+article: 3
+page_start: 5
+page_end: 6
+chars: 3119
+tokens: 1317
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3
+title: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında
+article: 1
+page_start: 1
+page_end: 2
+chars: 2950
+tokens: 1198
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 1
+page_start: 1
+page_end: 1
+chars: 277
+tokens: 108
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_8_17
+title: 5b725bb224d33e2085294c793
+article: 8
+page_start: 9
+page_end: 10
+chars: 1121
+tokens: 470
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_7_16
+title: 5b725bb224d33e2085294c793
+article: 7
+page_start: 8
+page_end: 9
+chars: 2235
+tokens: 888
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_5_14
+title: 5b725bb224d33e2085294c793
+article: 5
+page_start: 7
+page_end: 7
+chars: 1860
+tokens: 777
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_10
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 1
+page_start: 1
+page_end: 1
+chars: 524
+tokens: 236
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_III_art_3_62
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 3
+page_start: 4
+page_end: 4
+chars: 617
+tokens: 257
+2026-07-07 00:55:28 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (7941) exceed context window of 4096
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Məqbul və lazımi keyfiyyətlərə malik şəxs" dedikd...'
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 16.094s.
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_I_art_1_3_part2', '590-IIQ-Banklar haqqında_ch_I_art_1_3_part2', 'Banklar Haqqında Qanun_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part3', 'Banklar Haqqında Qanun_ch_III_art_22_35_part3', 'Banklar Haqqında Qanun_ch_III_art_30_47_part2', '590-IIQ-Banklar haqqında_ch_III_art_30_47_part2', 'Banklar Haqqında Qanun_ch_I_art_1_3_part3', 'İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_I_art_1_3']
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Banklar Haqqında Qanun_ch_I_art_1_3_part2
+title: Banklar Haqqında Qanun
+article: 1
+page_start: 2
+page_end: 3
+chars: 3920
+tokens: 1590
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_I_art_1_3_part2
+title: 590-IIQ-Banklar haqqında
+article: 1
+page_start: 2
+page_end: 3
+chars: 3934
+tokens: 1597
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_III_art_22_35_part2
+title: Banklar Haqqında Qanun
+article: 22
+page_start: 25
+page_end: 26
+chars: 3980
+tokens: 1650
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_III_art_22_35_part2
+title: 590-IIQ-Banklar haqqında
+article: 22
+page_start: 22
+page_end: 24
+chars: 3990
+tokens: 1648
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_III_art_22_35_part3
+title: 590-IIQ-Banklar haqqında
+article: 22
+page_start: 23
+page_end: 24
+chars: 2776
+tokens: 1141
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Banklar Haqqında Qanun_ch_III_art_22_35_part3
+title: Banklar Haqqında Qanun
+article: 22
+page_start: 26
+page_end: 27
+chars: 2763
+tokens: 1133
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_III_art_30_47_part2
+title: Banklar Haqqında Qanun
+article: 30
+page_start: 34
+page_end: 34
+chars: 1854
+tokens: 796
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_III_art_30_47_part2
+title: 590-IIQ-Banklar haqqında
+article: 30
+page_start: 30
+page_end: 31
+chars: 1867
+tokens: 800
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_I_art_1_3_part3
+title: Banklar Haqqında Qanun
+article: 1
+page_start: 3
+page_end: 4
+chars: 3628
+tokens: 1469
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_I_art_1_3
+title: İstehlakçıların hüquqlarının müdafiəsi haqqında
+article: 1
+page_start: 1
+page_end: 2
+chars: 3348
+tokens: 1317
+2026-07-07 00:55:45 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13715) exceed context window of 4096
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Bank sirrini təşkil edən məlumatların qeyri-qanuni...'
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 28.252s.
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_XI_art_38_175_part6', '590-IIQ-Banklar haqqında_ch_X_art_38_181_part6', 'Banklar Haqqında Qanun_ch_XI_art_38_175_part5', 'Banklar Haqqında Qanun_ch_IV_art_41_60_part2', '590-IIQ-Banklar haqqında_ch_IV_art_41_60_part2', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_1_2', 'Banklar Haqqında Qanun_ch_IV_art_41_60_part1', '590-IIQ-Banklar haqqında_ch_IV_art_41_60_part1', 'Banklar Haqqında Qanun_ch_XI_art_94_138_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_23_27']
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Banklar Haqqında Qanun_ch_XI_art_38_175_part6
+title: Banklar Haqqında Qanun
+article: 38
+page_start: 122
+page_end: 123
+chars: 688
+tokens: 280
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_X_art_38_181_part6
+title: 590-IIQ-Banklar haqqında
+article: 38
+page_start: 108
+page_end: 108
+chars: 1111
+tokens: 464
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_XI_art_38_175_part5
+title: Banklar Haqqında Qanun
+article: 38
+page_start: 122
+page_end: 123
+chars: 3921
+tokens: 1593
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_IV_art_41_60_part2
+title: Banklar Haqqında Qanun
+article: 41
+page_start: 42
+page_end: 43
+chars: 2732
+tokens: 1114
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_IV_art_41_60_part2
+title: 590-IIQ-Banklar haqqında
+article: 41
+page_start: 38
+page_end: 39
+chars: 3306
+tokens: 1355
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_1_2
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 1
+page_start: 1
+page_end: 1
+chars: 1424
+tokens: 492
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_IV_art_41_60_part1
+title: Banklar Haqqında Qanun
+article: 41
+page_start: 41
+page_end: 43
+chars: 3945
+tokens: 1516
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_IV_art_41_60_part1
+title: 590-IIQ-Banklar haqqında
+article: 41
+page_start: 37
+page_end: 38
+chars: 3941
+tokens: 1498
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_XI_art_94_138_part1
+title: Banklar Haqqında Qanun
+article: 94
+page_start: 85
+page_end: 87
+chars: 3968
+tokens: 1813
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_23_27
+title: Əmanətlərin sığortalanması haqqında
+article: 23
+page_start: 8
+page_end: 8
+chars: 825
+tokens: 334
+2026-07-07 00:56:13 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (11048) exceed context window of 4096
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Azərbaycan Respublikasının Bank Məcəlləsinin layih...'
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 20.293s.
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_2_3', 'Banklar Haqqında Qanun_intro_1', 'Banklarda korporativ idarəetmə Standartları_art_1_6', 'Banklarda əməliyyat risklərinin idarə edilməsi Qaydası_art_1_5', '590-IIQ-Banklar haqqında_intro_1', '“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_art_2_7', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_I_art_4_6', 'd6a9834a-d9f7-49f3-abff-14cd901c615d_art_1_5', 'Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində\xa0əmanətlərin (depozitlərin) uçot Qaydaları_art_1_2', '05dc79d9-43f7-4a71-aa62-709a43c03f7d_art_1_2']
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_2_3
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 2
+page_start: 1
+page_end: 1
+chars: 741
+tokens: 240
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_intro_1
+title: Banklar Haqqında Qanun
+article: None
+page_start: 1
+page_end: 1
+chars: 511
+tokens: 201
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklarda korporativ idarəetmə Standartları_art_1_6
+title: Banklarda korporativ idarəetmə Standartları
+article: 1
+page_start: 1
+page_end: 1
+chars: 835
+tokens: 327
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklarda əməliyyat risklərinin idarə edilməsi Qaydası_art_1_5
+title: Banklarda əməliyyat risklərinin idarə edilməsi Qaydası
+article: 1
+page_start: 1
+page_end: 1
+chars: 1011
+tokens: 397
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_intro_1
+title: 590-IIQ-Banklar haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 507
+tokens: 197
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: “Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_art_2_7
+title: “Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında
+article: 2
+page_start: 1
+page_end: 1
+chars: 470
+tokens: 164
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_I_art_4_6
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 4
+page_start: 1
+page_end: 2
+chars: 408
+tokens: 182
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: d6a9834a-d9f7-49f3-abff-14cd901c615d_art_1_5
+title: d6a9834a-d9f7-49f3-abff-14cd901c615d
+article: 1
+page_start: 1
+page_end: 1
+chars: 1012
+tokens: 400
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_art_1_2
+title: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları
+article: 1
+page_start: 1
+page_end: 1
+chars: 936
+tokens: 344
+2026-07-07 00:56:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 05dc79d9-43f7-4a71-aa62-709a43c03f7d_art_1_2
+title: 05dc79d9-43f7-4a71-aa62-709a43c03f7d
+article: 1
+page_start: 1
+page_end: 1
+chars: 834
+tokens: 271
+2026-07-07 00:56:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 23.493s.
+2026-07-07 00:56:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 43.836s.
+2026-07-07 00:56:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Milli Bank" ifadəsi hansı fərmanla "Mərkəzi Bank"...'
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 24.012s.
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part1', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part3', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part2', 'Valyuta tənzimi haqqında_art_2_142', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part3', '1dfb892e-6204-4404-9166-c861f06996fa_art_5_69_part2', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_V_art_2_108_part3', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part6', '8a4d0220-9312-4ef2-88e8-c65b607a186a_art_4_19_part2']
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part1
+title: 402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 1
+page_end: 2
+chars: 3954
+tokens: 1867
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 2
+page_end: 3
+chars: 3904
+tokens: 1690
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part3
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 3
+page_end: 4
+chars: 3919
+tokens: 1747
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 12
+page_end: 13
+chars: 3910
+tokens: 1818
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Valyuta tənzimi haqqında_art_2_142
+title: Valyuta tənzimi haqqında
+article: 2
+page_start: 25
+page_end: 25
+chars: 1897
+tokens: 801
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part3
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 13
+page_end: 14
+chars: 3968
+tokens: 1752
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 1dfb892e-6204-4404-9166-c861f06996fa_art_5_69_part2
+title: 1dfb892e-6204-4404-9166-c861f06996fa
+article: 5
+page_start: 17
+page_end: 18
+chars: 3995
+tokens: 1710
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_V_art_2_108_part3
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 2
+page_start: 8
+page_end: 9
+chars: 3903
+tokens: 1743
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part6
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 15
+page_end: 15
+chars: 3923
+tokens: 1774
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 8a4d0220-9312-4ef2-88e8-c65b607a186a_art_4_19_part2
+title: 8a4d0220-9312-4ef2-88e8-c65b607a186a
+article: 4
+page_start: 6
+page_end: 6
+chars: 1150
+tokens: 526
+2026-07-07 00:57:21 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (16080) exceed context window of 4096
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın nümayəndəliyinin açılması üçün təqdi...'
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 20.896s.
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_11_20_part2', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part2', 'Banklar Haqqında Qanun_ch_II_art_8_13_part2', '590-IIQ-Banklar haqqında_ch_II_art_8_13_part2', 'Banklar Haqqında Qanun_ch_II_art_17_29', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part1', '590-IIQ-Banklar haqqında_ch_II_art_17_29', '590-IIQ-Banklar haqqında_ch_II_art_8_13_part3']
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_11_20_part2
+title: Banklar Haqqında Qanun
+article: 11
+page_start: 15
+page_end: 16
+chars: 2899
+tokens: 1194
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part2
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 13
+page_end: 14
+chars: 2889
+tokens: 1195
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_8_13_part2
+title: Banklar Haqqında Qanun
+article: 8
+page_start: 8
+page_end: 10
+chars: 3991
+tokens: 1624
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_8_13_part2
+title: 590-IIQ-Banklar haqqında
+article: 8
+page_start: 7
+page_end: 8
+chars: 3965
+tokens: 1611
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_17_29
+title: Banklar Haqqında Qanun
+article: 17
+page_start: 22
+page_end: 22
+chars: 1421
+tokens: 590
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part1
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 12
+page_end: 13
+chars: 3966
+tokens: 1607
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_17_29
+title: 590-IIQ-Banklar haqqında
+article: 17
+page_start: 19
+page_end: 20
+chars: 1419
+tokens: 587
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_8_13_part3
+title: 590-IIQ-Banklar haqqında
+article: 8
+page_start: 8
+page_end: 9
+chars: 3958
+tokens: 1614
+2026-07-07 00:57:42 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13493) exceed context window of 4096
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın nümayəndəliyi dövlət qeydiyyatına al...'
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 26.671s.
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_9_17', 'Banklar Haqqında Qanun_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_9_17', '590-IIQ-Banklar haqqında_ch_II_art_14_24_part2', 'Banklar Haqqında Qanun_ch_II_art_18_30', '590-IIQ-Banklar haqqında_ch_II_art_18_30', 'Bank Hesabları Qaydası_art_19_62']
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_9_17
+title: 590-IIQ-Banklar haqqında
+article: 9
+page_start: 9
+page_end: 10
+chars: 3650
+tokens: 1425
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_9_17
+title: Banklar Haqqında Qanun
+article: 9
+page_start: 11
+page_end: 12
+chars: 3657
+tokens: 1419
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_14_24_part2
+title: 590-IIQ-Banklar haqqında
+article: 14
+page_start: 16
+page_end: 17
+chars: 1934
+tokens: 795
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_18_30
+title: Banklar Haqqında Qanun
+article: 18
+page_start: 22
+page_end: 22
+chars: 1504
+tokens: 606
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_18_30
+title: 590-IIQ-Banklar haqqında
+article: 18
+page_start: 20
+page_end: 20
+chars: 1503
+tokens: 608
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Bank Hesabları Qaydası_art_19_62
+title: Bank Hesabları Qaydası
+article: 19
+page_start: 19
+page_end: 20
+chars: 1893
+tokens: 755
+2026-07-07 00:58:09 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (10787) exceed context window of 4096
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın yerli nümayəndəliyinə verilən icazəd...'
+2026-07-07 00:58:35 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 26.478s.
+2026-07-07 00:58:35 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_11_20_part1', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part1', 'Bank Hesabları Qaydası_art_8_17_part1', '64b6f05f-196b-4894-9374-9e5c1c4df7a2_art_8_17_part1', 'Banklar Haqqında Qanun_ch_II_art_16_27_part2', '590-IIQ-Banklar haqqında_ch_II_art_16_27_part2']
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_11_20_part1
+title: Banklar Haqqında Qanun
+article: 11
+page_start: 14
+page_end: 15
+chars: 3979
+tokens: 1620
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part1
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 12
+page_end: 13
+chars: 3966
+tokens: 1607
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Bank Hesabları Qaydası_art_8_17_part1
+title: Bank Hesabları Qaydası
+article: 8
+page_start: 12
+page_end: 14
+chars: 3963
+tokens: 1520
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 64b6f05f-196b-4894-9374-9e5c1c4df7a2_art_8_17_part1
+title: 64b6f05f-196b-4894-9374-9e5c1c4df7a2
+article: 8
+page_start: 4
+page_end: 5
+chars: 3961
+tokens: 1491
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_16_27_part2
+title: Banklar Haqqında Qanun
+article: 16
+page_start: 21
+page_end: 22
+chars: 2464
+tokens: 1070
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_16_27_part2
+title: 590-IIQ-Banklar haqqında
+article: 16
+page_start: 18
+page_end: 19
+chars: 2456
+tokens: 1062
+2026-07-07 00:58:36 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13564) exceed context window of 4096
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın yerli filialına lisenziya və ya nüma...'
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 27.219s.
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_14_24_part1', 'Banklar Haqqında Qanun_ch_II_art_14_24_part2', 'Banklar Haqqında Qanun_ch_II_art_14_24_part1', '590-IIQ-Banklar haqqında_ch_II_art_14_24_part2', 'Banklar Haqqında Qanun_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_9_17', '590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_9_17']
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_14_24_part1
+title: 590-IIQ-Banklar haqqında
+article: 14
+page_start: 16
+page_end: 17
+chars: 3915
+tokens: 1579
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_14_24_part2
+title: Banklar Haqqında Qanun
+article: 14
+page_start: 19
+page_end: 19
+chars: 1929
+tokens: 800
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_14_24_part1
+title: Banklar Haqqında Qanun
+article: 14
+page_start: 18
+page_end: 19
+chars: 3924
+tokens: 1590
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_14_24_part2
+title: 590-IIQ-Banklar haqqında
+article: 14
+page_start: 16
+page_end: 17
+chars: 1934
+tokens: 795
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_9_17
+title: 590-IIQ-Banklar haqqında
+article: 9
+page_start: 9
+page_end: 10
+chars: 3650
+tokens: 1425
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_9_17
+title: Banklar Haqqında Qanun
+article: 9
+page_start: 11
+page_end: 12
+chars: 3657
+tokens: 1419
+2026-07-07 00:59:03 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (12786) exceed context window of 4096
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın törəmə bankı, filialı və ya nümayənd...'
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 22.046s.
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part1', '590-IIQ-Banklar haqqında_ch_II_art_9_17', 'Banklar Haqqında Qanun_ch_II_art_9_17', 'Banklar Haqqında Qanun_ch_V_art_46_67', '590-IIQ-Banklar haqqında_ch_V_art_46_67', 'Bank Hesabları Qaydası_art_19_62']
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part1
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 12
+page_end: 13
+chars: 3966
+tokens: 1607
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_9_17
+title: 590-IIQ-Banklar haqqında
+article: 9
+page_start: 9
+page_end: 10
+chars: 3650
+tokens: 1425
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_9_17
+title: Banklar Haqqında Qanun
+article: 9
+page_start: 11
+page_end: 12
+chars: 3657
+tokens: 1419
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Banklar Haqqında Qanun_ch_V_art_46_67
+title: Banklar Haqqında Qanun
+article: 46
+page_start: 45
+page_end: 46
+chars: 3996
+tokens: 1540
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_V_art_46_67
+title: 590-IIQ-Banklar haqqında
+article: 46
+page_start: 41
+page_end: 42
+chars: 3985
+tokens: 1533
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Bank Hesabları Qaydası_art_19_62
+title: Bank Hesabları Qaydası
+article: 19
+page_start: 19
+page_end: 20
+chars: 1893
+tokens: 755
+2026-07-07 00:59:25 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13465) exceed context window of 4096
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyekti yoxlama haqqında hesabatı neçə iş...'
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 28.898s.
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70', 'Banklarda korporativ idarəetmə Standartları_art_17_29_part2', 'Azərbaycan Respublikası Prezidentinin Fərmanı_art_13_21_part2', 'beaf2f3b-d7c9-4377-8d69-d29758699119_art_3_6', '45937180-250a-4b4a-b8e5-153945adb06d_art_2_6_part1', '«Dövlət qeydiyyatına alınmışdır»_art_8_8', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71', '1dfb892e-6204-4404-9166-c861f06996fa_art_7_13_part3']
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 26
+chars: 1325
+tokens: 560
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklarda korporativ idarəetmə Standartları_art_17_29_part2
+title: Banklarda korporativ idarəetmə Standartları
+article: 17
+page_start: 14
+page_end: 14
+chars: 1133
+tokens: 432
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin Fərmanı_art_13_21_part2
+title: Azərbaycan Respublikası Prezidentinin Fərmanı
+article: 13
+page_start: 10
+page_end: 10
+chars: 1222
+tokens: 472
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: beaf2f3b-d7c9-4377-8d69-d29758699119_art_3_6
+title: beaf2f3b-d7c9-4377-8d69-d29758699119
+article: 3
+page_start: 1
+page_end: 1
+chars: 1808
+tokens: 759
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 45937180-250a-4b4a-b8e5-153945adb06d_art_2_6_part1
+title: 45937180-250a-4b4a-b8e5-153945adb06d
+article: 2
+page_start: 1
+page_end: 2
+chars: 3954
+tokens: 1648
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: «Dövlət qeydiyyatına alınmışdır»_art_8_8
+title: «Dövlət qeydiyyatına alınmışdır»
+article: 8
+page_start: 3
+page_end: 3
+chars: 1283
+tokens: 478
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 27
+chars: 2395
+tokens: 996
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 1dfb892e-6204-4404-9166-c861f06996fa_art_7_13_part3
+title: 1dfb892e-6204-4404-9166-c861f06996fa
+article: 7
+page_start: 6
+page_end: 7
+chars: 2020
+tokens: 868
+2026-07-07 00:59:54 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (9698) exceed context window of 4096
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyekti yoxlama hesabatını müəyyən edilmi...'
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 25.853s.
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_VI_art_22_48_part2', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70', '7fd12f0749b180441d54cd4de_art_2_8_part1', '096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71', '590-IIQ-Banklar haqqında_ch_VIII_art_57_87', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80']
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_VI_art_22_48_part2
+title: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında
+article: 22
+page_start: 27
+page_end: 28
+chars: 3919
+tokens: 1723
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 26
+chars: 1325
+tokens: 560
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_2_8_part1
+title: 7fd12f0749b180441d54cd4de
+article: 2
+page_start: 7
+page_end: 9
+chars: 3945
+tokens: 1531
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26
+title: 096312ee-c41c-4c1f-9edd-baf5f3187758
+article: 8
+page_start: 5
+page_end: 5
+chars: 2572
+tokens: 980
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 25
+page_end: 26
+chars: 2936
+tokens: 1239
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 27
+chars: 2395
+tokens: 996
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_VIII_art_57_87
+title: 590-IIQ-Banklar haqqında
+article: 57
+page_start: 50
+page_end: 50
+chars: 1680
+tokens: 751
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 58
+page_start: 29
+page_end: 30
+chars: 1295
+tokens: 515
+2026-07-07 01:00:20 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (11781) exceed context window of 4096
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyektinin yoxlama hesabatına etirazı old...'
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 36.392s.
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '7fd12f0749b180441d54cd4de_art_2_8_part1', 'Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər_art_5_17_part2', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69', '_Dövlət qeydiyyatına alınmışdır_art_10_14_part5', '45937180-250a-4b4a-b8e5-153945adb06d_art_3_8', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part2', '7fd12f0749b180441d54cd4de_art_4_17', 'Auditor xidməti haqqında_art_8_9']
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_2_8_part1
+title: 7fd12f0749b180441d54cd4de
+article: 2
+page_start: 7
+page_end: 9
+chars: 3945
+tokens: 1531
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər_art_5_17_part2
+title: Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər
+article: 5
+page_start: 18
+page_end: 19
+chars: 3394
+tokens: 1565
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 25
+page_end: 26
+chars: 2936
+tokens: 1239
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: _Dövlət qeydiyyatına alınmışdır_art_10_14_part5
+title: _Dövlət qeydiyyatına alınmışdır
+article: 10
+page_start: 7
+page_end: 8
+chars: 3646
+tokens: 1448
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 45937180-250a-4b4a-b8e5-153945adb06d_art_3_8
+title: 45937180-250a-4b4a-b8e5-153945adb06d
+article: 3
+page_start: 3
+page_end: 3
+chars: 2459
+tokens: 1096
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part2
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 24
+page_end: 24
+chars: 733
+tokens: 306
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_4_17
+title: 7fd12f0749b180441d54cd4de
+article: 4
+page_start: 19
+page_end: 20
+chars: 3420
+tokens: 1280
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Auditor xidməti haqqında_art_8_9
+title: Auditor xidməti haqqında
+article: 8
+page_start: 2
+page_end: 3
+chars: 986
+tokens: 400
+2026-07-07 01:00:57 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (12347) exceed context window of 4096
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Mərkəzi Bank yoxlamanın nəticələri üzrə yekun qəra...'
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 36.196s.
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', 'Banklarda korporativ idarəetmə Standartları_art_17_29_part2', 'Banklar Haqqında Qanun_ch_VIII_81_part4', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80', '590-IIQ-Banklar haqqında_ch_VIII_art_57_82', 'Banklar Haqqında Qanun_ch_VIII_81_part1', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_9', 'Banklar Haqqında Qanun_ch_VIII_art_57_91_part3']
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklarda korporativ idarəetmə Standartları_art_17_29_part2
+title: Banklarda korporativ idarəetmə Standartları
+article: 17
+page_start: 14
+page_end: 14
+chars: 1133
+tokens: 432
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_VIII_81_part4
+title: Banklar Haqqında Qanun
+article: None
+page_start: 57
+page_end: 58
+chars: 3948
+tokens: 1694
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 58
+page_start: 29
+page_end: 30
+chars: 1295
+tokens: 515
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_VIII_art_57_82
+title: 590-IIQ-Banklar haqqında
+article: 57
+page_start: 47
+page_end: 48
+chars: 3863
+tokens: 1610
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_VIII_81_part1
+title: Banklar Haqqında Qanun
+article: None
+page_start: 53
+page_end: 55
+chars: 3991
+tokens: 1673
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 2
+page_end: 3
+chars: 3904
+tokens: 1690
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_9
+title: “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə
+article: 3
+page_start: 3
+page_end: 3
+chars: 1688
+tokens: 696
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Banklar Haqqında Qanun_ch_VIII_art_57_91_part3
+title: Banklar Haqqında Qanun
+article: 57
+page_start: 67
+page_end: 69
+chars: 3039
+tokens: 1236
+2026-07-07 01:01:33 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13015) exceed context window of 4096
+2026-07-07 01:01:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyekti yoxlama haqqında hesabatı hansı h...'
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 36.398s.
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '7fd12f0749b180441d54cd4de_art_2_8_part1', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69', 'Banklar Haqqında Qanun_ch_V_art_46_67', '590-IIQ-Banklar haqqında_ch_V_art_46_67', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_59_82', '096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26', 'Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_art_14_22_part2', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_60_83']
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_2_8_part1
+title: 7fd12f0749b180441d54cd4de
+article: 2
+page_start: 7
+page_end: 9
+chars: 3945
+tokens: 1531
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 25
+page_end: 26
+chars: 2936
+tokens: 1239
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_V_art_46_67
+title: Banklar Haqqında Qanun
+article: 46
+page_start: 45
+page_end: 46
+chars: 3996
+tokens: 1540
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_V_art_46_67
+title: 590-IIQ-Banklar haqqında
+article: 46
+page_start: 41
+page_end: 42
+chars: 3985
+tokens: 1533
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_59_82
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 59
+page_start: 30
+page_end: 30
+chars: 2047
+tokens: 875
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26
+title: 096312ee-c41c-4c1f-9edd-baf5f3187758
+article: 8
+page_start: 5
+page_end: 5
+chars: 2572
+tokens: 980
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_art_14_22_part2
+title: Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında
+article: 14
+page_start: 18
+page_end: 19
+chars: 2122
+tokens: 870
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_60_83
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 60
+page_start: 30
+page_end: 31
+chars: 913
+tokens: 361
+2026-07-07 01:02:10 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (12419) exceed context window of 4096
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici valyutada olan əmanətlər üzrə kompensasiya ...'
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 39.535s.
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_II_art_3_7', 'Əmanətlərin sığortalanması haqqında_intro_1', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_1_2', 'Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2']
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_3_7
+title: Əmanətlərin sığortalanması haqqında
+article: 3
+page_start: 2
+page_end: 2
+chars: 2356
+tokens: 921
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_intro_1
+title: Əmanətlərin sığortalanması haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 315
+tokens: 122
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_1_2
+title: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə
+article: 1
+page_start: 1
+page_end: 1
+chars: 955
+tokens: 419
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4
+title: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə
+article: 3
+page_start: 1
+page_end: 1
+chars: 889
+tokens: 338
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:02:50 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (7361) exceed context window of 4096
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Əmanətlər üzrə hesablanmış faizlər hansı şərtlə ko...'
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 30.670s.
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində\xa0əmanətlərin (depozitlərin) uçot Qaydaları_art_3_7', 'Əmanətlərin sığortalanması haqqında_intro_1', 'Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində\xa0əmanətlərin (depozitlərin) uçot Qaydaları_art_2_3', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4', '“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_19_464']
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_art_3_7
+title: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları
+article: 3
+page_start: 2
+page_end: 2
+chars: 194
+tokens: 77
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_intro_1
+title: Əmanətlərin sığortalanması haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 315
+tokens: 122
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_art_2_3
+title: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları
+article: 2
+page_start: 1
+page_end: 1
+chars: 507
+tokens: 220
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4
+title: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə
+article: 3
+page_start: 1
+page_end: 1
+chars: 889
+tokens: 338
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_19_464
+title: “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə
+article: 19
+page_start: 19
+page_end: 19
+chars: 650
+tokens: 342
+2026-07-07 01:03:21 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (6337) exceed context window of 4096
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Əmanətçilərin Fond və iştirakçı banklarla bağlı ha...'
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 26.973s.
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26', 'Əmanətlərin sığortalanması haqqında_ch_II_art_21_25', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_30_36', 'Əmanətlərin sığortalanması haqqında_ch_II_art_4_8', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_29_35', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_II_art_3_7', 'Əmanətlərin sığortalanması haqqında_ch_II_art_14_18']
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_21_25
+title: Əmanətlərin sığortalanması haqqında
+article: 21
+page_start: 7
+page_end: 8
+chars: 2613
+tokens: 1074
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_30_36
+title: Əmanətlərin sığortalanması haqqında
+article: 30
+page_start: 10
+page_end: 11
+chars: 1419
+tokens: 552
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_4_8
+title: Əmanətlərin sığortalanması haqqında
+article: 4
+page_start: 2
+page_end: 3
+chars: 1149
+tokens: 476
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_29_35
+title: Əmanətlərin sığortalanması haqqında
+article: 29
+page_start: 10
+page_end: 10
+chars: 975
+tokens: 381
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_3_7
+title: Əmanətlərin sığortalanması haqqında
+article: 3
+page_start: 2
+page_end: 2
+chars: 2356
+tokens: 921
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_14_18
+title: Əmanətlərin sığortalanması haqqında
+article: 14
+page_start: 6
+page_end: 6
+chars: 747
+tokens: 315
+2026-07-07 01:03:48 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (8529) exceed context window of 4096
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'İştirakçı bank əmanətlər üzrə öhdəliklərini yerinə...'
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 25.180s.
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_14_18', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_II_art_21_25', 'Əmanətlərin sığortalanması haqqında_ch_II_art_13_17', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26', 'Əmanətlərin sığortalanması haqqında_ch_II_art_3_7', 'Banklar Haqqında Qanun_ch_X_art_62_102', '590-IIQ-Banklar haqqında_ch_X_art_62_107']
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_14_18
+title: Əmanətlərin sığortalanması haqqında
+article: 14
+page_start: 6
+page_end: 6
+chars: 747
+tokens: 315
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_21_25
+title: Əmanətlərin sığortalanması haqqında
+article: 21
+page_start: 7
+page_end: 8
+chars: 2613
+tokens: 1074
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_13_17
+title: Əmanətlərin sığortalanması haqqında
+article: 13
+page_start: 5
+page_end: 6
+chars: 1439
+tokens: 587
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_3_7
+title: Əmanətlərin sığortalanması haqqında
+article: 3
+page_start: 2
+page_end: 2
+chars: 2356
+tokens: 921
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_X_art_62_102
+title: Banklar Haqqında Qanun
+article: 62
+page_start: 72
+page_end: 73
+chars: 1737
+tokens: 717
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_X_art_62_107
+title: 590-IIQ-Banklar haqqında
+article: 62
+page_start: 61
+page_end: 61
+chars: 1735
+tokens: 714
+2026-07-07 01:04:13 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (8171) exceed context window of 4096
+2026-07-07 01:04:14 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Qorunan əmanətçi aldığı kompensasiya ilə əmanəti a...'
+2026-07-07 01:04:39 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 25.964s.
+2026-07-07 01:04:39 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_31_37', 'Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26', 'Əmanətlərin sığortalanması haqqında_intro_1']
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_31_37
+title: Əmanətlərin sığortalanması haqqında
+article: 31
+page_start: 11
+page_end: 11
+chars: 402
+tokens: 173
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 12
+page_end: 12
+chars: 3920
+tokens: 1781
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_intro_1
+title: Əmanətlərin sığortalanması haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 315
+tokens: 122
+2026-07-07 01:04:40 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (8434) exceed context window of 4096
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Fond tərəfindən sığortalanmış əmanətlər üzrə kompe...'
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 31.065s.
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part7', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_3_7', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_II_art_13_17', 'Əmanətlərin sığortalanması haqqında_ch_II_art_4_8', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26']
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part7
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 15
+page_end: 16
+chars: 3777
+tokens: 1724
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_3_7
+title: Əmanətlərin sığortalanması haqqında
+article: 3
+page_start: 2
+page_end: 2
+chars: 2356
+tokens: 921
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_13_17
+title: Əmanətlərin sığortalanması haqqında
+article: 13
+page_start: 5
+page_end: 6
+chars: 1439
+tokens: 587
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_4_8
+title: Əmanətlərin sığortalanması haqqında
+article: 4
+page_start: 2
+page_end: 3
+chars: 1149
+tokens: 476
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:05:11 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (9705) exceed context window of 4096
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Sığorta hadisəsi baş verdiyi gün əmanətçinin banka...'
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 29.825s.
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Əmanətlərin sığortalanması haqqında_ch_II_art_4_8', '590-IIQ-Banklar haqqında_ch_VIII_art_57_96_part1', '_Dövlət qeydiyyatına alınmışdır__art_13_14_part1', '98a6608d0eb4e83b612fde01f_art_3_25_part10']
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_4_8
+title: Əmanətlərin sığortalanması haqqında
+article: 4
+page_start: 2
+page_end: 3
+chars: 1149
+tokens: 476
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_VIII_art_57_96_part1
+title: 590-IIQ-Banklar haqqında
+article: 57
+page_start: 55
+page_end: 56
+chars: 3995
+tokens: 1585
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: _Dövlət qeydiyyatına alınmışdır__art_13_14_part1
+title: _Dövlət qeydiyyatına alınmışdır_
+article: 13
+page_start: 4
+page_end: 5
+chars: 3879
+tokens: 1610
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 98a6608d0eb4e83b612fde01f_art_3_25_part10
+title: 98a6608d0eb4e83b612fde01f
+article: 3
+page_start: 65
+page_end: 68
+chars: 3982
+tokens: 2015
+2026-07-07 01:05:41 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (11698) exceed context window of 4096
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Risk iştahası nədir?...'
+2026-07-07 01:07:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=10.
+2026-07-07 01:07:28 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 8.877s.
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2', 'Banklar Haqqında Qanun_ch_I_art_2_6', '5b725bb224d33e2085294c793_art_3_12', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4', '5b725bb224d33e2085294c793_art_8_17', '5b725bb224d33e2085294c793_art_7_16', '5b725bb224d33e2085294c793_art_5_14', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_10', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_III_art_3_62']
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2
+title: Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında
+article: 1
+page_start: 1
+page_end: 1
+chars: 3486
+tokens: 1345
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_I_art_2_6
+title: Banklar Haqqında Qanun
+article: 2
+page_start: 4
+page_end: 5
+chars: 1974
+tokens: 711
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_3_12
+title: 5b725bb224d33e2085294c793
+article: 3
+page_start: 5
+page_end: 6
+chars: 3119
+tokens: 1317
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3
+title: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında
+article: 1
+page_start: 1
+page_end: 2
+chars: 2950
+tokens: 1198
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 1
+page_start: 1
+page_end: 1
+chars: 277
+tokens: 108
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_8_17
+title: 5b725bb224d33e2085294c793
+article: 8
+page_start: 9
+page_end: 10
+chars: 1121
+tokens: 470
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_7_16
+title: 5b725bb224d33e2085294c793
+article: 7
+page_start: 8
+page_end: 9
+chars: 2235
+tokens: 888
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 5b725bb224d33e2085294c793_art_5_14
+title: 5b725bb224d33e2085294c793
+article: 5
+page_start: 7
+page_end: 7
+chars: 1860
+tokens: 777
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_10
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 1
+page_start: 1
+page_end: 1
+chars: 524
+tokens: 236
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_III_art_3_62
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 3
+page_start: 4
+page_end: 4
+chars: 617
+tokens: 257
+2026-07-07 01:07:37 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (7941) exceed context window of 4096
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Məqbul və lazımi keyfiyyətlərə malik şəxs" dedikd...'
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 13.362s.
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_I_art_1_3_part2', '590-IIQ-Banklar haqqında_ch_I_art_1_3_part2', 'Banklar Haqqında Qanun_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part3', 'Banklar Haqqında Qanun_ch_III_art_22_35_part3', 'Banklar Haqqında Qanun_ch_III_art_30_47_part2', '590-IIQ-Banklar haqqında_ch_III_art_30_47_part2', 'Banklar Haqqında Qanun_ch_I_art_1_3_part3', 'İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_I_art_1_3']
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Banklar Haqqında Qanun_ch_I_art_1_3_part2
+title: Banklar Haqqında Qanun
+article: 1
+page_start: 2
+page_end: 3
+chars: 3920
+tokens: 1590
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_I_art_1_3_part2
+title: 590-IIQ-Banklar haqqında
+article: 1
+page_start: 2
+page_end: 3
+chars: 3934
+tokens: 1597
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_III_art_22_35_part2
+title: Banklar Haqqında Qanun
+article: 22
+page_start: 25
+page_end: 26
+chars: 3980
+tokens: 1650
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_III_art_22_35_part2
+title: 590-IIQ-Banklar haqqında
+article: 22
+page_start: 22
+page_end: 24
+chars: 3990
+tokens: 1648
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_III_art_22_35_part3
+title: 590-IIQ-Banklar haqqında
+article: 22
+page_start: 23
+page_end: 24
+chars: 2776
+tokens: 1141
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Banklar Haqqında Qanun_ch_III_art_22_35_part3
+title: Banklar Haqqında Qanun
+article: 22
+page_start: 26
+page_end: 27
+chars: 2763
+tokens: 1133
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_III_art_30_47_part2
+title: Banklar Haqqında Qanun
+article: 30
+page_start: 34
+page_end: 34
+chars: 1854
+tokens: 796
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_III_art_30_47_part2
+title: 590-IIQ-Banklar haqqında
+article: 30
+page_start: 30
+page_end: 31
+chars: 1867
+tokens: 800
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_I_art_1_3_part3
+title: Banklar Haqqında Qanun
+article: 1
+page_start: 3
+page_end: 4
+chars: 3628
+tokens: 1469
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_I_art_1_3
+title: İstehlakçıların hüquqlarının müdafiəsi haqqında
+article: 1
+page_start: 1
+page_end: 2
+chars: 3348
+tokens: 1317
+2026-07-07 01:07:51 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13715) exceed context window of 4096
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Bank sirrini təşkil edən məlumatların qeyri-qanuni...'
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 13.257s.
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_XI_art_38_175_part6', '590-IIQ-Banklar haqqında_ch_X_art_38_181_part6', 'Banklar Haqqında Qanun_ch_XI_art_38_175_part5', 'Banklar Haqqında Qanun_ch_IV_art_41_60_part2', '590-IIQ-Banklar haqqında_ch_IV_art_41_60_part2', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_1_2', 'Banklar Haqqında Qanun_ch_IV_art_41_60_part1', '590-IIQ-Banklar haqqında_ch_IV_art_41_60_part1', 'Banklar Haqqında Qanun_ch_XI_art_94_138_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_23_27']
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Banklar Haqqında Qanun_ch_XI_art_38_175_part6
+title: Banklar Haqqında Qanun
+article: 38
+page_start: 122
+page_end: 123
+chars: 688
+tokens: 280
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_X_art_38_181_part6
+title: 590-IIQ-Banklar haqqında
+article: 38
+page_start: 108
+page_end: 108
+chars: 1111
+tokens: 464
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_XI_art_38_175_part5
+title: Banklar Haqqında Qanun
+article: 38
+page_start: 122
+page_end: 123
+chars: 3921
+tokens: 1593
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_IV_art_41_60_part2
+title: Banklar Haqqında Qanun
+article: 41
+page_start: 42
+page_end: 43
+chars: 2732
+tokens: 1114
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_IV_art_41_60_part2
+title: 590-IIQ-Banklar haqqında
+article: 41
+page_start: 38
+page_end: 39
+chars: 3306
+tokens: 1355
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_1_2
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 1
+page_start: 1
+page_end: 1
+chars: 1424
+tokens: 492
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_IV_art_41_60_part1
+title: Banklar Haqqında Qanun
+article: 41
+page_start: 41
+page_end: 43
+chars: 3945
+tokens: 1516
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_IV_art_41_60_part1
+title: 590-IIQ-Banklar haqqında
+article: 41
+page_start: 37
+page_end: 38
+chars: 3941
+tokens: 1498
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_XI_art_94_138_part1
+title: Banklar Haqqında Qanun
+article: 94
+page_start: 85
+page_end: 87
+chars: 3968
+tokens: 1813
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_23_27
+title: Əmanətlərin sığortalanması haqqında
+article: 23
+page_start: 8
+page_end: 8
+chars: 825
+tokens: 334
+2026-07-07 01:08:04 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (11048) exceed context window of 4096
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Azərbaycan Respublikasının Bank Məcəlləsinin layih...'
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 13.546s.
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_2_3', 'Banklar Haqqında Qanun_intro_1', 'Banklarda korporativ idarəetmə Standartları_art_1_6', 'Banklarda əməliyyat risklərinin idarə edilməsi Qaydası_art_1_5', '590-IIQ-Banklar haqqında_intro_1', '“Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_art_2_7', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_I_art_4_6', 'd6a9834a-d9f7-49f3-abff-14cd901c615d_art_1_5', 'Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində\xa0əmanətlərin (depozitlərin) uçot Qaydaları_art_1_2', '05dc79d9-43f7-4a71-aa62-709a43c03f7d_art_1_2']
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_2_3
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 2
+page_start: 1
+page_end: 1
+chars: 741
+tokens: 240
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_intro_1
+title: Banklar Haqqında Qanun
+article: None
+page_start: 1
+page_end: 1
+chars: 511
+tokens: 201
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklarda korporativ idarəetmə Standartları_art_1_6
+title: Banklarda korporativ idarəetmə Standartları
+article: 1
+page_start: 1
+page_end: 1
+chars: 835
+tokens: 327
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklarda əməliyyat risklərinin idarə edilməsi Qaydası_art_1_5
+title: Banklarda əməliyyat risklərinin idarə edilməsi Qaydası
+article: 1
+page_start: 1
+page_end: 1
+chars: 1011
+tokens: 397
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_intro_1
+title: 590-IIQ-Banklar haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 507
+tokens: 197
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: “Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında_art_2_7
+title: “Ödəmə qabiliyyətini itirmiş bankların rezolyusiyası və sağlamlaşdırma tədbirləri çərçivəsində qeyri-işlək (toksik) aktivlərin təqdim edilməsi Qaydası”nın təsdiq edilməsi haqqında
+article: 2
+page_start: 1
+page_end: 1
+chars: 470
+tokens: 164
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_I_art_4_6
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 4
+page_start: 1
+page_end: 2
+chars: 408
+tokens: 182
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: d6a9834a-d9f7-49f3-abff-14cd901c615d_art_1_5
+title: d6a9834a-d9f7-49f3-abff-14cd901c615d
+article: 1
+page_start: 1
+page_end: 1
+chars: 1012
+tokens: 400
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_art_1_2
+title: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları
+article: 1
+page_start: 1
+page_end: 1
+chars: 936
+tokens: 344
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 05dc79d9-43f7-4a71-aa62-709a43c03f7d_art_1_2
+title: 05dc79d9-43f7-4a71-aa62-709a43c03f7d
+article: 1
+page_start: 1
+page_end: 1
+chars: 834
+tokens: 271
+2026-07-07 01:08:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 27.752s.
+2026-07-07 01:08:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 41.340s.
+2026-07-07 01:08:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Milli Bank" ifadəsi hansı fərmanla "Mərkəzi Bank"...'
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 53.992s.
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part1', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part3', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part2', 'Valyuta tənzimi haqqında_art_2_142', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part3', '1dfb892e-6204-4404-9166-c861f06996fa_art_5_69_part2', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_V_art_2_108_part3', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part6', '8a4d0220-9312-4ef2-88e8-c65b607a186a_art_4_19_part2']
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part1
+title: 402 _Azərbaycan Respublikasının Milli Bankı haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 1
+page_end: 2
+chars: 3954
+tokens: 1867
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 2
+page_end: 3
+chars: 3904
+tokens: 1690
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part3
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 3
+page_end: 4
+chars: 3919
+tokens: 1747
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 12
+page_end: 13
+chars: 3910
+tokens: 1818
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Valyuta tənzimi haqqında_art_2_142
+title: Valyuta tənzimi haqqında
+article: 2
+page_start: 25
+page_end: 25
+chars: 1897
+tokens: 801
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part3
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 13
+page_end: 14
+chars: 3968
+tokens: 1752
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 1dfb892e-6204-4404-9166-c861f06996fa_art_5_69_part2
+title: 1dfb892e-6204-4404-9166-c861f06996fa
+article: 5
+page_start: 17
+page_end: 18
+chars: 3995
+tokens: 1710
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_V_art_2_108_part3
+title: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+article: 2
+page_start: 8
+page_end: 9
+chars: 3903
+tokens: 1743
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part6
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 15
+page_end: 15
+chars: 3923
+tokens: 1774
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 8a4d0220-9312-4ef2-88e8-c65b607a186a_art_4_19_part2
+title: 8a4d0220-9312-4ef2-88e8-c65b607a186a
+article: 4
+page_start: 6
+page_end: 6
+chars: 1150
+tokens: 526
+2026-07-07 01:09:40 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (16080) exceed context window of 4096
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın nümayəndəliyinin açılması üçün təqdi...'
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 27.965s.
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_11_20_part2', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part2', 'Banklar Haqqında Qanun_ch_II_art_8_13_part2', '590-IIQ-Banklar haqqında_ch_II_art_8_13_part2', 'Banklar Haqqında Qanun_ch_II_art_17_29', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part1', '590-IIQ-Banklar haqqında_ch_II_art_17_29', '590-IIQ-Banklar haqqında_ch_II_art_8_13_part3']
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_11_20_part2
+title: Banklar Haqqında Qanun
+article: 11
+page_start: 15
+page_end: 16
+chars: 2899
+tokens: 1194
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part2
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 13
+page_end: 14
+chars: 2889
+tokens: 1195
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_8_13_part2
+title: Banklar Haqqında Qanun
+article: 8
+page_start: 8
+page_end: 10
+chars: 3991
+tokens: 1624
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_8_13_part2
+title: 590-IIQ-Banklar haqqında
+article: 8
+page_start: 7
+page_end: 8
+chars: 3965
+tokens: 1611
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_17_29
+title: Banklar Haqqında Qanun
+article: 17
+page_start: 22
+page_end: 22
+chars: 1421
+tokens: 590
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part1
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 12
+page_end: 13
+chars: 3966
+tokens: 1607
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_17_29
+title: 590-IIQ-Banklar haqqında
+article: 17
+page_start: 19
+page_end: 20
+chars: 1419
+tokens: 587
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_8_13_part3
+title: 590-IIQ-Banklar haqqında
+article: 8
+page_start: 8
+page_end: 9
+chars: 3958
+tokens: 1614
+2026-07-07 01:10:08 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13493) exceed context window of 4096
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın nümayəndəliyi dövlət qeydiyyatına al...'
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 28.562s.
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_9_17', 'Banklar Haqqında Qanun_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_9_17', '590-IIQ-Banklar haqqında_ch_II_art_14_24_part2', 'Banklar Haqqında Qanun_ch_II_art_18_30', '590-IIQ-Banklar haqqında_ch_II_art_18_30', 'Bank Hesabları Qaydası_art_19_62']
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_9_17
+title: 590-IIQ-Banklar haqqında
+article: 9
+page_start: 9
+page_end: 10
+chars: 3650
+tokens: 1425
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_9_17
+title: Banklar Haqqında Qanun
+article: 9
+page_start: 11
+page_end: 12
+chars: 3657
+tokens: 1419
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_14_24_part2
+title: 590-IIQ-Banklar haqqında
+article: 14
+page_start: 16
+page_end: 17
+chars: 1934
+tokens: 795
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_18_30
+title: Banklar Haqqında Qanun
+article: 18
+page_start: 22
+page_end: 22
+chars: 1504
+tokens: 606
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_18_30
+title: 590-IIQ-Banklar haqqında
+article: 18
+page_start: 20
+page_end: 20
+chars: 1503
+tokens: 608
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Bank Hesabları Qaydası_art_19_62
+title: Bank Hesabları Qaydası
+article: 19
+page_start: 19
+page_end: 20
+chars: 1893
+tokens: 755
+2026-07-07 01:10:37 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (10787) exceed context window of 4096
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın yerli nümayəndəliyinə verilən icazəd...'
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 17.529s.
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_11_20_part1', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part1', 'Bank Hesabları Qaydası_art_8_17_part1', '64b6f05f-196b-4894-9374-9e5c1c4df7a2_art_8_17_part1', 'Banklar Haqqında Qanun_ch_II_art_16_27_part2', '590-IIQ-Banklar haqqında_ch_II_art_16_27_part2']
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_11_20_part1
+title: Banklar Haqqında Qanun
+article: 11
+page_start: 14
+page_end: 15
+chars: 3979
+tokens: 1620
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part1
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 12
+page_end: 13
+chars: 3966
+tokens: 1607
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Bank Hesabları Qaydası_art_8_17_part1
+title: Bank Hesabları Qaydası
+article: 8
+page_start: 12
+page_end: 14
+chars: 3963
+tokens: 1520
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 64b6f05f-196b-4894-9374-9e5c1c4df7a2_art_8_17_part1
+title: 64b6f05f-196b-4894-9374-9e5c1c4df7a2
+article: 8
+page_start: 4
+page_end: 5
+chars: 3961
+tokens: 1491
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_16_27_part2
+title: Banklar Haqqında Qanun
+article: 16
+page_start: 21
+page_end: 22
+chars: 2464
+tokens: 1070
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_16_27_part2
+title: 590-IIQ-Banklar haqqında
+article: 16
+page_start: 18
+page_end: 19
+chars: 2456
+tokens: 1062
+2026-07-07 01:10:55 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13564) exceed context window of 4096
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın yerli filialına lisenziya və ya nüma...'
+2026-07-07 01:11:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 38.517s.
+2026-07-07 01:11:33 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_13_23', '590-IIQ-Banklar haqqında_ch_II_art_14_24_part1', 'Banklar Haqqında Qanun_ch_II_art_14_24_part2', 'Banklar Haqqında Qanun_ch_II_art_14_24_part1', '590-IIQ-Banklar haqqında_ch_II_art_14_24_part2', 'Banklar Haqqında Qanun_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_9_17', '590-IIQ-Banklar haqqında_ch_II_art_12_22', 'Banklar Haqqında Qanun_ch_II_art_9_17']
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_14_24_part1
+title: 590-IIQ-Banklar haqqında
+article: 14
+page_start: 16
+page_end: 17
+chars: 3915
+tokens: 1579
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_14_24_part2
+title: Banklar Haqqında Qanun
+article: 14
+page_start: 19
+page_end: 19
+chars: 1929
+tokens: 800
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_14_24_part1
+title: Banklar Haqqında Qanun
+article: 14
+page_start: 18
+page_end: 19
+chars: 3924
+tokens: 1590
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_14_24_part2
+title: 590-IIQ-Banklar haqqında
+article: 14
+page_start: 16
+page_end: 17
+chars: 1934
+tokens: 795
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_9_17
+title: 590-IIQ-Banklar haqqında
+article: 9
+page_start: 9
+page_end: 10
+chars: 3650
+tokens: 1425
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_9_17
+title: Banklar Haqqında Qanun
+article: 9
+page_start: 11
+page_end: 12
+chars: 3657
+tokens: 1419
+2026-07-07 01:11:34 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (12786) exceed context window of 4096
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici bankın törəmə bankı, filialı və ya nümayənd...'
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 39.141s.
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['590-IIQ-Banklar haqqında_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_13_23', 'Banklar Haqqında Qanun_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_12_22', '590-IIQ-Banklar haqqında_ch_II_art_11_20_part1', '590-IIQ-Banklar haqqında_ch_II_art_9_17', 'Banklar Haqqında Qanun_ch_II_art_9_17', 'Banklar Haqqında Qanun_ch_V_art_46_67', '590-IIQ-Banklar haqqında_ch_V_art_46_67', 'Bank Hesabları Qaydası_art_19_62']
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_13_23
+title: 590-IIQ-Banklar haqqında
+article: 13
+page_start: 15
+page_end: 16
+chars: 2249
+tokens: 857
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_13_23
+title: Banklar Haqqında Qanun
+article: 13
+page_start: 17
+page_end: 18
+chars: 2248
+tokens: 851
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_12_22
+title: Banklar Haqqında Qanun
+article: 12
+page_start: 16
+page_end: 17
+chars: 3444
+tokens: 1442
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_12_22
+title: 590-IIQ-Banklar haqqında
+article: 12
+page_start: 14
+page_end: 15
+chars: 3436
+tokens: 1443
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_11_20_part1
+title: 590-IIQ-Banklar haqqında
+article: 11
+page_start: 12
+page_end: 13
+chars: 3966
+tokens: 1607
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_II_art_9_17
+title: 590-IIQ-Banklar haqqında
+article: 9
+page_start: 9
+page_end: 10
+chars: 3650
+tokens: 1425
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_II_art_9_17
+title: Banklar Haqqında Qanun
+article: 9
+page_start: 11
+page_end: 12
+chars: 3657
+tokens: 1419
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Banklar Haqqında Qanun_ch_V_art_46_67
+title: Banklar Haqqında Qanun
+article: 46
+page_start: 45
+page_end: 46
+chars: 3996
+tokens: 1540
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_V_art_46_67
+title: 590-IIQ-Banklar haqqında
+article: 46
+page_start: 41
+page_end: 42
+chars: 3985
+tokens: 1533
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Bank Hesabları Qaydası_art_19_62
+title: Bank Hesabları Qaydası
+article: 19
+page_start: 19
+page_end: 20
+chars: 1893
+tokens: 755
+2026-07-07 01:12:13 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13465) exceed context window of 4096
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyekti yoxlama haqqında hesabatı neçə iş...'
+2026-07-07 01:12:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 31.151s.
+2026-07-07 01:12:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70', 'Banklarda korporativ idarəetmə Standartları_art_17_29_part2', 'Azərbaycan Respublikası Prezidentinin Fərmanı_art_13_21_part2', 'beaf2f3b-d7c9-4377-8d69-d29758699119_art_3_6', '45937180-250a-4b4a-b8e5-153945adb06d_art_2_6_part1', '«Dövlət qeydiyyatına alınmışdır»_art_8_8', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71', '1dfb892e-6204-4404-9166-c861f06996fa_art_7_13_part3']
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 26
+chars: 1325
+tokens: 560
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklarda korporativ idarəetmə Standartları_art_17_29_part2
+title: Banklarda korporativ idarəetmə Standartları
+article: 17
+page_start: 14
+page_end: 14
+chars: 1133
+tokens: 432
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin Fərmanı_art_13_21_part2
+title: Azərbaycan Respublikası Prezidentinin Fərmanı
+article: 13
+page_start: 10
+page_end: 10
+chars: 1222
+tokens: 472
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: beaf2f3b-d7c9-4377-8d69-d29758699119_art_3_6
+title: beaf2f3b-d7c9-4377-8d69-d29758699119
+article: 3
+page_start: 1
+page_end: 1
+chars: 1808
+tokens: 759
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 45937180-250a-4b4a-b8e5-153945adb06d_art_2_6_part1
+title: 45937180-250a-4b4a-b8e5-153945adb06d
+article: 2
+page_start: 1
+page_end: 2
+chars: 3954
+tokens: 1648
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: «Dövlət qeydiyyatına alınmışdır»_art_8_8
+title: «Dövlət qeydiyyatına alınmışdır»
+article: 8
+page_start: 3
+page_end: 3
+chars: 1283
+tokens: 478
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 27
+chars: 2395
+tokens: 996
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 1dfb892e-6204-4404-9166-c861f06996fa_art_7_13_part3
+title: 1dfb892e-6204-4404-9166-c861f06996fa
+article: 7
+page_start: 6
+page_end: 7
+chars: 2020
+tokens: 868
+2026-07-07 01:12:45 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (9698) exceed context window of 4096
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyekti yoxlama hesabatını müəyyən edilmi...'
+2026-07-07 01:13:19 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 34.202s.
+2026-07-07 01:13:19 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_VI_art_22_48_part2', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70', '7fd12f0749b180441d54cd4de_art_2_8_part1', '096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71', '590-IIQ-Banklar haqqında_ch_VIII_art_57_87', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80']
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_VI_art_22_48_part2
+title: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında
+article: 22
+page_start: 27
+page_end: 28
+chars: 3919
+tokens: 1723
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_70
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 26
+chars: 1325
+tokens: 560
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_2_8_part1
+title: 7fd12f0749b180441d54cd4de
+article: 2
+page_start: 7
+page_end: 9
+chars: 3945
+tokens: 1531
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26
+title: 096312ee-c41c-4c1f-9edd-baf5f3187758
+article: 8
+page_start: 5
+page_end: 5
+chars: 2572
+tokens: 980
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 25
+page_end: 26
+chars: 2936
+tokens: 1239
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_71
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 26
+page_end: 27
+chars: 2395
+tokens: 996
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_VIII_art_57_87
+title: 590-IIQ-Banklar haqqında
+article: 57
+page_start: 50
+page_end: 50
+chars: 1680
+tokens: 751
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 58
+page_start: 29
+page_end: 30
+chars: 1295
+tokens: 515
+2026-07-07 01:13:20 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (11781) exceed context window of 4096
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyektinin yoxlama hesabatına etirazı old...'
+2026-07-07 01:13:49 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 29.759s.
+2026-07-07 01:13:49 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '7fd12f0749b180441d54cd4de_art_2_8_part1', 'Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər_art_5_17_part2', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69', '_Dövlət qeydiyyatına alınmışdır_art_10_14_part5', '45937180-250a-4b4a-b8e5-153945adb06d_art_3_8', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part2', '7fd12f0749b180441d54cd4de_art_4_17', 'Auditor xidməti haqqında_art_8_9']
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_2_8_part1
+title: 7fd12f0749b180441d54cd4de
+article: 2
+page_start: 7
+page_end: 9
+chars: 3945
+tokens: 1531
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər_art_5_17_part2
+title: Öhdəlik daşıyan şəxslərin daxili nəzarət proqramının cavab verməli olduğu minimum Tələblər
+article: 5
+page_start: 18
+page_end: 19
+chars: 3394
+tokens: 1565
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 25
+page_end: 26
+chars: 2936
+tokens: 1239
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: _Dövlət qeydiyyatına alınmışdır_art_10_14_part5
+title: _Dövlət qeydiyyatına alınmışdır
+article: 10
+page_start: 7
+page_end: 8
+chars: 3646
+tokens: 1448
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 45937180-250a-4b4a-b8e5-153945adb06d_art_3_8
+title: 45937180-250a-4b4a-b8e5-153945adb06d
+article: 3
+page_start: 3
+page_end: 3
+chars: 2459
+tokens: 1096
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part2
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 24
+page_end: 24
+chars: 733
+tokens: 306
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_4_17
+title: 7fd12f0749b180441d54cd4de
+article: 4
+page_start: 19
+page_end: 20
+chars: 3420
+tokens: 1280
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Auditor xidməti haqqında_art_8_9
+title: Auditor xidməti haqqında
+article: 8
+page_start: 2
+page_end: 3
+chars: 986
+tokens: 400
+2026-07-07 01:13:50 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (12347) exceed context window of 4096
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Mərkəzi Bank yoxlamanın nəticələri üzrə yekun qəra...'
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 39.435s.
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', 'Banklarda korporativ idarəetmə Standartları_art_17_29_part2', 'Banklar Haqqında Qanun_ch_VIII_81_part4', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80', '590-IIQ-Banklar haqqında_ch_VIII_art_57_82', 'Banklar Haqqında Qanun_ch_VIII_81_part1', '_Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2', '“İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_9', 'Banklar Haqqında Qanun_ch_VIII_art_57_91_part3']
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Banklarda korporativ idarəetmə Standartları_art_17_29_part2
+title: Banklarda korporativ idarəetmə Standartları
+article: 17
+page_start: 14
+page_end: 14
+chars: 1133
+tokens: 432
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Banklar Haqqında Qanun_ch_VIII_81_part4
+title: Banklar Haqqında Qanun
+article: None
+page_start: 57
+page_end: 58
+chars: 3948
+tokens: 1694
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XI_art_58_80
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 58
+page_start: 29
+page_end: 30
+chars: 1295
+tokens: 515
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_VIII_art_57_82
+title: 590-IIQ-Banklar haqqında
+article: 57
+page_start: 47
+page_end: 48
+chars: 3863
+tokens: 1610
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Banklar Haqqında Qanun_ch_VIII_81_part1
+title: Banklar Haqqında Qanun
+article: None
+page_start: 53
+page_end: 55
+chars: 3991
+tokens: 1673
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə_art_4_5_part2
+title: _Banklar haqqında_ Azərbaycan Respublikası Qanununun tətbiq edilməsi barədə
+article: 4
+page_start: 2
+page_end: 3
+chars: 3904
+tokens: 1690
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə_art_3_9
+title: “İpoteka örtüyünün reyestrinin aparılması və sərəncamçı tərəfindən ipoteka örtüyünün yoxlanılmasının nəticələri barədə hesabata dair tələblər haqqında Qaydalar”ın təsdiq edilməsi barədə
+article: 3
+page_start: 3
+page_end: 3
+chars: 1688
+tokens: 696
+2026-07-07 01:14:29 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Banklar Haqqında Qanun_ch_VIII_art_57_91_part3
+title: Banklar Haqqında Qanun
+article: 57
+page_start: 67
+page_end: 69
+chars: 3039
+tokens: 1236
+2026-07-07 01:14:30 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (13015) exceed context window of 4096
+2026-07-07 01:14:30 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Nəzarət subyekti yoxlama haqqında hesabatı hansı h...'
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 35.028s.
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1', '7fd12f0749b180441d54cd4de_art_2_8_part1', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69', 'Banklar Haqqında Qanun_ch_V_art_46_67', '590-IIQ-Banklar haqqında_ch_V_art_46_67', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_59_82', '096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26', 'Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_art_14_22_part2', '802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_60_83']
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_68
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 24
+page_end: 25
+chars: 2774
+tokens: 1170
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_52_66_part1
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 52
+page_start: 23
+page_end: 24
+chars: 3962
+tokens: 1627
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: 7fd12f0749b180441d54cd4de_art_2_8_part1
+title: 7fd12f0749b180441d54cd4de
+article: 2
+page_start: 7
+page_end: 9
+chars: 3945
+tokens: 1531
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_IX_art_53_69
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 53
+page_start: 25
+page_end: 26
+chars: 2936
+tokens: 1239
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Banklar Haqqında Qanun_ch_V_art_46_67
+title: Banklar Haqqında Qanun
+article: 46
+page_start: 45
+page_end: 46
+chars: 3996
+tokens: 1540
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_V_art_46_67
+title: 590-IIQ-Banklar haqqında
+article: 46
+page_start: 41
+page_end: 42
+chars: 3985
+tokens: 1533
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_59_82
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 59
+page_start: 30
+page_end: 30
+chars: 2047
+tokens: 875
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: 096312ee-c41c-4c1f-9edd-baf5f3187758_art_8_26
+title: 096312ee-c41c-4c1f-9edd-baf5f3187758
+article: 8
+page_start: 5
+page_end: 5
+chars: 2572
+tokens: 980
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında_art_14_22_part2
+title: Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında
+article: 14
+page_start: 18
+page_end: 19
+chars: 2122
+tokens: 870
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında_ch_XII_art_60_83
+title: 802-IIQ-Azərbaycan Respublikasının Mərkəzi Bankı haqqında
+article: 60
+page_start: 30
+page_end: 31
+chars: 913
+tokens: 361
+2026-07-07 01:15:05 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (12419) exceed context window of 4096
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Xarici valyutada olan əmanətlər üzrə kompensasiya ...'
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 40.756s.
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_II_art_3_7', 'Əmanətlərin sığortalanması haqqında_intro_1', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_1_2', 'Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2']
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_3_7
+title: Əmanətlərin sığortalanması haqqında
+article: 3
+page_start: 2
+page_end: 2
+chars: 2356
+tokens: 921
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_intro_1
+title: Əmanətlərin sığortalanması haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 315
+tokens: 122
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_1_2
+title: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə
+article: 1
+page_start: 1
+page_end: 1
+chars: 955
+tokens: 419
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4
+title: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə
+article: 3
+page_start: 1
+page_end: 1
+chars: 889
+tokens: 338
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:15:46 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (7361) exceed context window of 4096
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Əmanətlər üzrə hesablanmış faizlər hansı şərtlə ko...'
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 30.959s.
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində\xa0əmanətlərin (depozitlərin) uçot Qaydaları_art_3_7', 'Əmanətlərin sığortalanması haqqında_intro_1', 'Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində\xa0əmanətlərin (depozitlərin) uçot Qaydaları_art_2_3', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4', '“Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_19_464']
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_art_3_7
+title: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları
+article: 3
+page_start: 2
+page_end: 2
+chars: 194
+tokens: 77
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_intro_1
+title: Əmanətlərin sığortalanması haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 315
+tokens: 122
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları_art_2_3
+title: Azərbaycan Respublikasının Mərkəzi Bankı - Azərbaycan Respublikasının Bank sistemində əmanətlərin (depozitlərin) uçot Qaydaları
+article: 2
+page_start: 1
+page_end: 1
+chars: 507
+tokens: 220
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə_art_3_4
+title: Azərbaycan Respublikası Prezidentinin 1999-cu il 14 may tarixli 130 nömrəli Fərmanı ilə təsdiq edilmiş «Azərbaycan Respublikasının fəxri adları haqqında Əsasnamə»də dəyişikliklər edilməsi barədə
+article: 3
+page_start: 1
+page_end: 1
+chars: 889
+tokens: 338
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə_art_19_464
+title: “Azərbaycan Respublikası rezidentlərinin qeyri-rezidentlərlə maliyyə əməliyyatlarına və neytral əməliyyatlara dair hesabatın tərtibi və təqdim edilməsi haqqında Təlimat”ın təsdiq edilməsi barədə
+article: 19
+page_start: 19
+page_end: 19
+chars: 650
+tokens: 342
+2026-07-07 01:16:17 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (6337) exceed context window of 4096
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Əmanətçilərin Fond və iştirakçı banklarla bağlı ha...'
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 26.989s.
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26', 'Əmanətlərin sığortalanması haqqında_ch_II_art_21_25', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_30_36', 'Əmanətlərin sığortalanması haqqında_ch_II_art_4_8', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_29_35', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_II_art_3_7', 'Əmanətlərin sığortalanması haqqında_ch_II_art_14_18']
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_21_25
+title: Əmanətlərin sığortalanması haqqında
+article: 21
+page_start: 7
+page_end: 8
+chars: 2613
+tokens: 1074
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_30_36
+title: Əmanətlərin sığortalanması haqqında
+article: 30
+page_start: 10
+page_end: 11
+chars: 1419
+tokens: 552
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_4_8
+title: Əmanətlərin sığortalanması haqqında
+article: 4
+page_start: 2
+page_end: 3
+chars: 1149
+tokens: 476
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_29_35
+title: Əmanətlərin sığortalanması haqqında
+article: 29
+page_start: 10
+page_end: 10
+chars: 975
+tokens: 381
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_3_7
+title: Əmanətlərin sığortalanması haqqında
+article: 3
+page_start: 2
+page_end: 2
+chars: 2356
+tokens: 921
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_14_18
+title: Əmanətlərin sığortalanması haqqında
+article: 14
+page_start: 6
+page_end: 6
+chars: 747
+tokens: 315
+2026-07-07 01:16:44 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (8529) exceed context window of 4096
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'İştirakçı bank əmanətlər üzrə öhdəliklərini yerinə...'
+2026-07-07 01:17:14 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 30.401s.
+2026-07-07 01:17:14 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_14_18', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_II_art_21_25', 'Əmanətlərin sığortalanması haqqında_ch_II_art_13_17', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26', 'Əmanətlərin sığortalanması haqqında_ch_II_art_3_7', 'Banklar Haqqında Qanun_ch_X_art_62_102', '590-IIQ-Banklar haqqında_ch_X_art_62_107']
+2026-07-07 01:17:14 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_14_18
+title: Əmanətlərin sığortalanması haqqında
+article: 14
+page_start: 6
+page_end: 6
+chars: 747
+tokens: 315
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_21_25
+title: Əmanətlərin sığortalanması haqqında
+article: 21
+page_start: 7
+page_end: 8
+chars: 2613
+tokens: 1074
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_13_17
+title: Əmanətlərin sığortalanması haqqında
+article: 13
+page_start: 5
+page_end: 6
+chars: 1439
+tokens: 587
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_3_7
+title: Əmanətlərin sığortalanması haqqında
+article: 3
+page_start: 2
+page_end: 2
+chars: 2356
+tokens: 921
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Banklar Haqqında Qanun_ch_X_art_62_102
+title: Banklar Haqqında Qanun
+article: 62
+page_start: 72
+page_end: 73
+chars: 1737
+tokens: 717
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: 590-IIQ-Banklar haqqında_ch_X_art_62_107
+title: 590-IIQ-Banklar haqqında
+article: 62
+page_start: 61
+page_end: 61
+chars: 1735
+tokens: 714
+2026-07-07 01:17:15 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (8171) exceed context window of 4096
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Qorunan əmanətçi aldığı kompensasiya ilə əmanəti a...'
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 33.171s.
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Əmanətlərin sığortalanması haqqında_ch_III_art_25_30', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1', 'Əmanətlərin sığortalanması haqqında_ch_III_art_27_32', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_31_37', 'Əmanətlərin sığortalanması haqqında_ch_III_art_26_31', 'Əmanətlərin sığortalanması haqqında_ch_III_art_28_33', 'Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2', 'Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part1', 'Əmanətlərin sığortalanması haqqında_ch_II_art_22_26', 'Əmanətlərin sığortalanması haqqında_intro_1']
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 1
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_25_30
+title: Əmanətlərin sığortalanması haqqında
+article: 25
+page_start: 9
+page_end: 9
+chars: 873
+tokens: 372
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 2
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 1
+page_end: 2
+chars: 3947
+tokens: 1658
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 3
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_27_32
+title: Əmanətlərin sığortalanması haqqında
+article: 27
+page_start: 9
+page_end: 10
+chars: 3167
+tokens: 1288
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 4
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_31_37
+title: Əmanətlərin sığortalanması haqqında
+article: 31
+page_start: 11
+page_end: 11
+chars: 402
+tokens: 173
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 5
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_26_31
+title: Əmanətlərin sığortalanması haqqında
+article: 26
+page_start: 9
+page_end: 9
+chars: 823
+tokens: 340
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 6
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_III_art_28_33
+title: Əmanətlərin sığortalanması haqqında
+article: 28
+page_start: 10
+page_end: 10
+chars: 2242
+tokens: 895
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 7
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_I_art_2_4_part2
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 2
+page_end: 2
+chars: 766
+tokens: 324
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 8
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_IV_art_2_39_part1
+title: Əmanətlərin sığortalanması haqqında
+article: 2
+page_start: 12
+page_end: 12
+chars: 3920
+tokens: 1781
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 9
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_ch_II_art_22_26
+title: Əmanətlərin sığortalanması haqqında
+article: 22
+page_start: 8
+page_end: 8
+chars: 2098
+tokens: 898
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | 
+Chunk 10
+--------
+chunk_id: Əmanətlərin sığortalanması haqqında_intro_1
+title: Əmanətlərin sığortalanması haqqında
+article: None
+page_start: 1
+page_end: 1
+chars: 315
+tokens: 122
+2026-07-07 01:17:48 | ERROR    | backend.reguaz.services.generation.generation_pipeline | LLM generation failed: Invalid model response: Requested tokens (8434) exceed context window of 4096
+2026-07-07 10:53:59 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=10.
+2026-07-07 10:53:59 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 6.341s.
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2', 'Banklar Haqqında Qanun_ch_I_art_2_6', '5b725bb224d33e2085294c793_art_3_12', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4', '5b725bb224d33e2085294c793_art_8_17', '5b725bb224d33e2085294c793_art_7_16', '5b725bb224d33e2085294c793_art_5_14', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_10', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_III_art_3_62']
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 2772 tokens.
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1345
+Current Budget: 1345 / 2772
+Decision: KEPT
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 711
+Current Budget: 2056 / 2772
+Decision: KEPT
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1317
+Current Budget: 2056 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1198
+Current Budget: 2056 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 108
+Current Budget: 2164 / 2772
+Decision: KEPT
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 470
+Current Budget: 2634 / 2772
+Decision: KEPT
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 888
+Current Budget: 2634 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 777
+Current Budget: 2634 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 236
+Current Budget: 2634 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 257
+Current Budget: 2634 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 10
+Kept Chunks: 4
+Skipped Chunks: 6
+Initial Context Tokens: 7307
+Final Context Tokens: 2634
+Remaining Budget: 138
+Reduction: 64.0%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+2026-07-07 10:54:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 15.155s.
+2026-07-07 10:54:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 21.964s.
+2026-07-07 10:54:21 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Məqbul və lazımi keyfiyyətlərə malik şəxs" dedikd...'
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks in 13.089s.
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 10 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_I_art_1_3_part2', '590-IIQ-Banklar haqqında_ch_I_art_1_3_part2', 'Banklar Haqqında Qanun_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part3', 'Banklar Haqqında Qanun_ch_III_art_22_35_part3', 'Banklar Haqqında Qanun_ch_III_art_30_47_part2', '590-IIQ-Banklar haqqında_ch_III_art_30_47_part2', 'Banklar Haqqında Qanun_ch_I_art_1_3_part3', 'İstehlakçıların hüquqlarının müdafiəsi haqqında_ch_I_art_1_3']
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 2772 tokens.
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1590
+Current Budget: 1590 / 2772
+Decision: KEPT
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1597
+Current Budget: 1590 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1650
+Current Budget: 1590 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1648
+Current Budget: 1590 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1141
+Current Budget: 2731 / 2772
+Decision: KEPT
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1133
+Current Budget: 2731 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 796
+Current Budget: 2731 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 800
+Current Budget: 2731 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1469
+Current Budget: 2731 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1317
+Current Budget: 2731 / 2772
+Decision: SKIPPED
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 10
+Kept Chunks: 2
+Skipped Chunks: 8
+Initial Context Tokens: 13141
+Final Context Tokens: 2731
+Remaining Budget: 41
+Reduction: 79.2%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+2026-07-07 10:54:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 16.809s.
+2026-07-07 10:54:51 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 30.143s.

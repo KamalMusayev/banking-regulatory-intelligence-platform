@@ -1,0 +1,220 @@
+2026-07-07 00:55:28 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 19903
+Approximate prompt token count: 7941
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3736, 2084, 3232, 3089, 396, 1235, 2348, 1970, 643, 739]
+2026-07-07 00:55:45 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 33721
+Approximate prompt token count: 13715
+Number of chunks inserted: 10
+Character count contributed by each chunk: [4030, 4046, 4095, 4107, 2893, 2878, 1965, 1984, 3738, 3509]
+2026-07-07 00:56:13 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 27571
+Approximate prompt token count: 11048
+Number of chunks inserted: 10
+Character count contributed by each chunk: [804, 1223, 4037, 2846, 3422, 1573, 4059, 4057, 4082, 949]
+2026-07-07 00:56:34 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 9262
+Approximate prompt token count: 3404
+Number of chunks inserted: 10
+Character count contributed by each chunk: [890, 596, 973, 1150, 594, 741, 553, 1143, 1153, 960]
+2026-07-07 00:57:21 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 36350
+Approximate prompt token count: 16080
+Number of chunks inserted: 10
+Character count contributed by each chunk: [4141, 4056, 4071, 4037, 1999, 4095, 4121, 4025, 4046, 1272]
+2026-07-07 00:57:42 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 33063
+Approximate prompt token count: 13493
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3552, 3558, 3013, 3005, 4103, 4078, 1531, 4082, 1535, 4072]
+2026-07-07 00:58:09 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 27204
+Approximate prompt token count: 10787
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3552, 3558, 3764, 2362, 2365, 3770, 2050, 1614, 1615, 2023]
+2026-07-07 00:58:36 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 33848
+Approximate prompt token count: 13564
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3552, 3558, 2362, 2365, 4093, 4082, 4091, 4101, 2578, 2573]
+2026-07-07 00:59:03 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 32063
+Approximate prompt token count: 12786
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2362, 2365, 4031, 2039, 4038, 2050, 3558, 3764, 3552, 3771]
+2026-07-07 00:59:25 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 34211
+Approximate prompt token count: 13465
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2365, 2362, 3558, 3552, 4082, 3764, 3770, 4109, 4100, 2023]
+2026-07-07 00:59:54 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 23776
+Approximate prompt token count: 9698
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 1470, 1273, 1364, 1939, 4088, 1406, 2544, 2145]
+2026-07-07 01:00:20 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 28694
+Approximate prompt token count: 11781
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 4062, 1470, 4058, 2685, 3085, 2544, 1794, 1445]
+2026-07-07 01:00:57 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 30125
+Approximate prompt token count: 12347
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 4058, 3570, 3085, 3772, 2590, 878, 3535, 1109]
+2026-07-07 01:01:33 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 31550
+Approximate prompt token count: 13015
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 1273, 4052, 1444, 3981, 4095, 4056, 1972, 3156]
+2026-07-07 01:02:10 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 31141
+Approximate prompt token count: 12419
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 4058, 3085, 4109, 4100, 2193, 2685, 2332, 1064]
+2026-07-07 01:02:50 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 18337
+Approximate prompt token count: 7361
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3295, 4071, 947, 2478, 414, 2367, 997, 1237, 1171, 888]
+2026-07-07 01:03:21 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 15707
+Approximate prompt token count: 6337
+Number of chunks inserted: 10
+Character count contributed by each chunk: [947, 3295, 4071, 411, 414, 724, 887, 2367, 1171, 936]
+2026-07-07 01:03:48 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 21092
+Approximate prompt token count: 8529
+Number of chunks inserted: 10
+Character count contributed by each chunk: [997, 2221, 2739, 1547, 1274, 4071, 1099, 3295, 2478, 871]
+2026-07-07 01:04:13 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 20028
+Approximate prompt token count: 8171
+Number of chunks inserted: 10
+Character count contributed by each chunk: [997, 4071, 870, 887, 2739, 1565, 2221, 2478, 1850, 1847]
+2026-07-07 01:04:40 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 20285
+Approximate prompt token count: 8434
+Number of chunks inserted: 10
+Character count contributed by each chunk: [997, 4071, 3295, 526, 947, 2367, 887, 4043, 2221, 415]
+2026-07-07 01:05:11 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 23500
+Approximate prompt token count: 9705
+Number of chunks inserted: 10
+Character count contributed by each chunk: [947, 3295, 3904, 4071, 2478, 2367, 887, 1565, 1274, 2222]
+2026-07-07 01:05:41 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 27800
+Approximate prompt token count: 11698
+Number of chunks inserted: 10
+Character count contributed by each chunk: [947, 3295, 887, 4071, 2221, 2367, 1274, 4113, 4009, 4098]
+2026-07-07 01:07:37 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 19903
+Approximate prompt token count: 7941
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3736, 2084, 3232, 3089, 396, 1235, 2348, 1970, 643, 739]
+2026-07-07 01:07:51 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 33721
+Approximate prompt token count: 13715
+Number of chunks inserted: 10
+Character count contributed by each chunk: [4030, 4046, 4095, 4107, 2893, 2878, 1965, 1984, 3738, 3509]
+2026-07-07 01:08:04 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 27571
+Approximate prompt token count: 11048
+Number of chunks inserted: 10
+Character count contributed by each chunk: [804, 1223, 4037, 2846, 3422, 1573, 4059, 4057, 4082, 949]
+2026-07-07 01:08:18 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 9262
+Approximate prompt token count: 3404
+Number of chunks inserted: 10
+Character count contributed by each chunk: [890, 596, 973, 1150, 594, 741, 553, 1143, 1153, 960]
+2026-07-07 01:09:40 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 36350
+Approximate prompt token count: 16080
+Number of chunks inserted: 10
+Character count contributed by each chunk: [4141, 4056, 4071, 4037, 1999, 4095, 4121, 4025, 4046, 1272]
+2026-07-07 01:10:08 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 33063
+Approximate prompt token count: 13493
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3552, 3558, 3013, 3005, 4103, 4078, 1531, 4082, 1535, 4072]
+2026-07-07 01:10:37 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 27204
+Approximate prompt token count: 10787
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3552, 3558, 3764, 2362, 2365, 3770, 2050, 1614, 1615, 2023]
+2026-07-07 01:10:55 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 33848
+Approximate prompt token count: 13564
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3552, 3558, 2362, 2365, 4093, 4082, 4091, 4101, 2578, 2573]
+2026-07-07 01:11:34 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 32063
+Approximate prompt token count: 12786
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2362, 2365, 4031, 2039, 4038, 2050, 3558, 3764, 3552, 3771]
+2026-07-07 01:12:13 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 34211
+Approximate prompt token count: 13465
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2365, 2362, 3558, 3552, 4082, 3764, 3770, 4109, 4100, 2023]
+2026-07-07 01:12:45 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 23776
+Approximate prompt token count: 9698
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 1470, 1273, 1364, 1939, 4088, 1406, 2544, 2145]
+2026-07-07 01:13:20 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 28694
+Approximate prompt token count: 11781
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 4062, 1470, 4058, 2685, 3085, 2544, 1794, 1445]
+2026-07-07 01:13:50 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 30125
+Approximate prompt token count: 12347
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 4058, 3570, 3085, 3772, 2590, 878, 3535, 1109]
+2026-07-07 01:14:30 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 31550
+Approximate prompt token count: 13015
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 1273, 4052, 1444, 3981, 4095, 4056, 1972, 3156]
+2026-07-07 01:15:05 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 31141
+Approximate prompt token count: 12419
+Number of chunks inserted: 10
+Character count contributed by each chunk: [2923, 4111, 4058, 3085, 4109, 4100, 2193, 2685, 2332, 1064]
+2026-07-07 01:15:46 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 18337
+Approximate prompt token count: 7361
+Number of chunks inserted: 10
+Character count contributed by each chunk: [3295, 4071, 947, 2478, 414, 2367, 997, 1237, 1171, 888]
+2026-07-07 01:16:17 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 15707
+Approximate prompt token count: 6337
+Number of chunks inserted: 10
+Character count contributed by each chunk: [947, 3295, 4071, 411, 414, 724, 887, 2367, 1171, 936]
+2026-07-07 01:16:44 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 21092
+Approximate prompt token count: 8529
+Number of chunks inserted: 10
+Character count contributed by each chunk: [997, 2221, 2739, 1547, 1274, 4071, 1099, 3295, 2478, 871]
+2026-07-07 01:17:15 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 20028
+Approximate prompt token count: 8171
+Number of chunks inserted: 10
+Character count contributed by each chunk: [997, 4071, 870, 887, 2739, 1565, 2221, 2478, 1850, 1847]
+2026-07-07 01:17:48 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 20285
+Approximate prompt token count: 8434
+Number of chunks inserted: 10
+Character count contributed by each chunk: [997, 4071, 3295, 526, 947, 2367, 887, 4043, 2221, 415]
+2026-07-07 10:54:06 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 7840
+Approximate prompt token count: 2946
+Number of chunks inserted: 4
+Character count contributed by each chunk: [3736, 2084, 396, 1235]
+2026-07-07 10:54:34 | INFO     | backend.reguaz.services.generation.prompt_builder | Prompt Diagnostics:
+Total prompt character count: 7343
+Approximate prompt token count: 2923
+Number of chunks inserted: 2
+Character count contributed by each chunk: [4030, 2893]
