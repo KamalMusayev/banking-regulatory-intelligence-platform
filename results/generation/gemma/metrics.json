@@ -1,10 +1,10 @@
 {
-    "total_questions": 2,
-    "successful_generations": 2,
+    "total_questions": 3,
+    "successful_generations": 3,
     "failed_generations": 0,
     "success_rate": 1.0,
-    "average_retrieval_time": 9.714874625000448,
-    "average_prompt_time": 0.01693320799859066,
-    "average_generation_time": 15.982034146500155,
-    "average_total_time": 26.053282521001165
+    "average_retrieval_time": 17.86869533333326,
+    "average_prompt_time": 0.015336277998964457,
+    "average_generation_time": 44.12702559700119,
+    "average_total_time": 62.1724083609976
 }

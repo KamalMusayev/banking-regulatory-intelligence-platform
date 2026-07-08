@@ -1,116 +1,227 @@
-You are an expert legal and regulatory assistant for the ReguAZ platform. Answer the user's question based strictly on the provided context documents. Do not hallucinate or use outside knowledge. If the answer is not contained in the context, state clearly that you do not have enough information to answer.
+You are an expert legal and regulatory assistant for the ReguAZ platform. Answer the user's question strictly based on the provided context documents. Do not use external knowledge or make assumptions. Provide a direct and complete answer to the user's question. Include only information that is relevant and necessary to answer the question. Do not add definitions, explanations, or details about related concepts unless they are required to answer the user's question or explicitly requested. If multiple pieces of information exist in the context, select only the parts that directly address the user's question. If the answer is not contained in the provided context, clearly state that there is not enough information available in the provided documents.
 
 Context:
 
 --- Document 1 ---
 Document: Banklar Haqqında Qanun
 Category: laws
-Chapter: I
-Article: 1
-Pages: 2-3
+Chapter: XI
+Article: 38
+Pages: 122-123
 
 Content:
-1.0.12. İnzibatçı - bankın Müşahidə Şurasının, Audit Komitəsinin və İdarə Heyətinin üzvləri, xarici
-bankın yerli filialının və nümayəndəliyinin rəhbəri, habelə bankın (xarici bankın yerli filialının) baş
-mühasibi (bu vəzifələri icra edən şəxs), daxili audit bölməsinin əməkdaşları, bankın filialının, şöbəsinin
-və nümayəndəliyinin rəhbərləri;[9]
-1.0.13. Banka aidiyyəti olan şəxslər - Azərbaycan Respublikasının Mülki Məcəlləsinin 49-1.1-ci
-maddəsində göstərilən şəxslər, habelə bankın nizamnamə kapitalında iştirak payından asılı olmayaraq
-müqavilə əsasında bankın qərarlarının qəbul edilməsinə mühüm təsir göstərməyə imkan verən paya
-birbaşa və ya dolayı yolla malik olan hər hansı şəxs, bankın Audit Komitəsinin üzvləri, daxili audit
-bölməsinin əməkdaşları, qərarların qəbul edilməsində iştirak edən bankın digər əməkdaşları, bankın baş
-mühasibi (bu vəzifələri icra edən şəxs), həmin şəxslərlə Azərbaycan Respublikasının Mülki
-Məcəlləsinin 49-1.1.3-cü maddəsində nəzərdə tutulmuş qohumluq əlaqələri olan şəxslər, banka aidiyyəti
-şəxs adından hərəkət etməyə hüququ olan şəxslər, Azərbaycan Respublikasının Mülki Məcəlləsinin 49-
-1.1.6-cı və 49-1.1.7-ci maddələrində göstərilən şəxslərin ən azı 20 faiz payla iştirak etdiyi hüquqi şəxslər,
-bazar şərtlərindən əhəmiyyətli dərəcədə fərqlənən və açıq-aşkar iqtisadi əsasları olmayan
+41.5. Bankların mövcud və keçmiş inzibatçıları və digər əməkdaşları, habelə bankın
+səhmdarları bankın idarə edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar
 
 
 
-əməliyyatların aparıldığı şəxslər. Xarici bankın yerli filialının rəhbəri və baş mühasibi (bu vəzifələri icra
-edən şəxs), habelə xarici bankın rezidenti olduğu ölkənin qanunvericiliyinə görə xarici banka aidiyyəti
-olan digər şəxslər xarici bankın yerli filialının aidiyyəti şəxsləri hesab olunurlar;[10]
-Banka aidiyyəti olan şəxs adından hərəkət edən şəxslər - aralarında bağladıqları müqavilə
-əsasında banka aidiyyəti olan şəxs adından hərəkət etməyə hüququ olan şəxs; banka aidiyyatı olan
-şəxsin mühüm təsir göstərə bildiyi hüquqi şəxs; banka aidiyyəti olan şəxsin nümayəndəsi.[11]
-1.0.14. Klirinq - hesablaşmalar sisteminin bir və ya bir neçə iştirakçısının həmin sistemin bir və ya bir
-neçə digər iştirakçısına verdiyi və ya onlardan aldığı ödəniş məbləğləri üzrə yaranan tələblərin və
-öhdəliklərin, onların fərqi olan bir xalis tələb və ya bir xalis öhdəliyə çevrilməsi prosesidir;
-1.0.15. "Yerli" sözü banka, filiala və ya nümayəndəliyə aid edildikdə əsas fəaliyyət yeri Azərbaycan
-Respublikasında olan bank, filial və ya nümayəndəlik başa düşülür;
-1.0.16. "Xarici" sözü banka, filiala və ya nümayəndəliyə aid edildikdə əsas fəaliyyət yeri Azərbaycan
-Respublikasından kənarda olan bank, filial və ya nümayəndəlik başa düşülür;
-1.0.17. "Kredit təşkilatı" - bank, xarici bankın yerli filialı və ya bank olmayan kredit təşkilatdır;
-1.0.18. "Məqbul və lazımi keyfiyyətlərə malik şəxs" - vətəndaş qüsursuzluğuna malik olan, habelə
-ictimai mövqeyinə görə vicdanlı və etimada layiq sayılan və peşəkar keyfiyyətləri, təcrübəsi, işgüzar
-nüfuzu ona bankın mühüm iştirak payının sahibi, inzibatçısı, benefisiar mülkiyyətçisi, müvəqqəti
-inzibatçısı və ləğvedicisi olmaq imkanı verən fiziki şəxsdir;[12]
-1.0.19. "Vətəndaş qüsursuzluğu" dedikdə, benefisiar mülkiyyətçilər, mühüm iştirak payının sahibləri,
-o, hüquqi şəxs olduqda onun icra orqanının rəhbərləri, habelə bankın törəmə strukturlarının rəhbərləri
-üçün qəsdən törədilmiş cinayətə görə məhkumluğun olmaması, müvafiq vəzifəni tutması və ya peşə
-fəaliyyəti ilə məşğul olması üzərində məhkəmə qərarı ilə qoyulmuş qadağanın olmaması; inzibatçı,
-müvəqqəti inzibatçı və ləğvedici üçün məhkumluğunun olmaması, keçmişdə mülkiyyət əleyhinə və
-iqtisadi fəaliyyət sahəsində ağır və xüsusilə ağır cinayətlərə görə cinayət məsuliyyətinə cəlb edilməsi
-faktının olmaması, müvafiq vəzifəni tutması və ya peşə fəaliyyəti ilə məşğul olması üzərində məhkəmə
-qərarı ilə qoyulmuş qadağanın olmaması, məhkəmə qaydasında müflis elan edilməsi, habelə bu Qanunla
-vətəndaş qüsursuzluğu tələb olunan şəxslərin bu maddədə sadalanan tələblərə cavab verməyən ortaq
+onlara məlum olan bank sirrini təşkil edən məlumatların qeyri-qanuni açılmasına görə
+Azərbaycan Respublikasının müvafiq qanunvericiliyi ilə müəyyən edilmiş qaydada mülki,
+inzibati və cinayət məsuliyyəti daşıyırlar.
+[189] 30 iyun 2009-cu il tarixli 856-IIIQD nömrəli Azərbaycan Respublikasının Qanunu
+(“Azərbaycan” qəzeti 24 iyul 2009-cu il, № 160, Azərbaycan Respublikasının Qanunvericilik
+Toplusu, 2009-cu il, № 07, maddə 517) ilə 42-ci maddə yeni redaksiyada verilmişdir.
+Əvvəlki redaksiyada deyilirdi:
 
 ---
 
 --- Document 2 ---
 Document: 590-IIQ-Banklar haqqında
 Category: laws
-Chapter: III
-Article: 22
-Pages: 23-24
+Chapter: X
+Article: 38
+Page: 108
 
 Content:
-vermədikdə;
-22.5.7.iştirak payının əldə edilməsi nəticəsində bankla bağlı olacaq xarici banka və ya
-
-
-
-xarici bank holdinq şirkətinə onların yerləşdiyi ölkədə lazımınca nəzarət edilmədiyinə
-və ya həmin ölkənin nəzarət orqanları qarşılıqlı əməkdaşlıqdan imtina etdiyinə görə
-maliyyə bazarlarına nəzarət orqanının və Mərkəzi Bankın öz nəzarət funksiyalarını həyata
-keçirməsi mümkün olmadıqda.118
-22.6. Mərkəzi Bankın verdiyi icazədə iştirak payının əldə edilməsinin başa çatmalı
-olduğu maksimum müddət göstərilir.
-22.7. Qabaqcadan icazəsi olmadan hər hansı bir şəxs belə iştirak payı əldə edərsə,
-Mərkəzi Bank həmin şəxsə onun bankdakı payının icazəsiz aldığı hissəsini müəyyən
-etdiyi tarixədək ləğv etməsi barədə yazılı göstəriş verir.
-Mühüm iştirak payının əldə edilməsi üçün müəyyən edilmiş maksimum müddətlərə
-riayət edilməzsə, Mərkəzi Bank həmin şəxsə müddət bitdikdən sonra aldığı hissəsini
-müəyyən etdiyi tarixədək ləğv etməsi barədə yazılı göstəriş verir.
-Həmin şəxslərin ləğv olunmalı hissədə səsvermə hüququ səhmdarların ümumi
-yığıncağının iclaslarında nəzərə alınmır.
-22.8. Bankın kapitalında mühüm iştirak payına malik olan hər hansı bir şəxs ona
-məxsus səs hüquqlarını və ya nizamnamə kapitalındakı payını 20 faizdən, 33 faizdən və
-ya 50 faizdən aşağı səviyyəyə endirməzdən əvvəl bu barədə Mərkəzi Banka yazılı
-məlumat verməlidir.
-22.9. Banklar onların kapitalında payların bu Qanunun 22.1-ci və ya 22.8-ci
-maddələrində göstərilmiş kəmiyyətlərdən az və ya çox olmasına səbəb olan hər hansı
-pay əldə edilməsindən və ya ləğv edilməsindən xəbər tutan kimi bu barədə Mərkəzi
-Banka məlumat verməlidirlər. Banklar həmçinin mühüm iştirak paylarına malik olan
-səhmdarlar, onların ünvanları, həmin payların miqdarı haqqında məlumatları ildə iki
-dəfədən az olmayaraq Mərkəzi Banka yazılı şəkildə bildirməlidirlər.
-22.10. Mərkəzi Bank aşağıdakı halları aşkar etdikdə bankın kapitalında mühüm iştirak
-payı olan şəxsin payının özgəninkiləşdirilməsi və ya bank tərəfindən geri alınması
-barədə məhkəməyə ərizə ilə müraciət edir:
-22.10.1. hüquqi şəxsin icra orqanlarının rəhbərlərindən hər hansı biri və ya fiziki şəxs
-məqbul və lazımi keyfiyyətlərə malik olan şəxs olmadıqda;
-22.10.2. bankın maliyyə sağlamlığına və ya onun etibarlı idarə olunmasına təhlükə
-törədə bilən dərəcədə banka təsir göstərildikdə;
-22.10.3. bank və ya xarici bank holdinq şirkətinin bank lisenziyası ləğv edildikdə;
-22.10.4. xarici bank və ya xarici bank holdinq şirkətinin yerləşdiyi ölkədə həmin
-ölkənin bank tənzimləməsi və nəzarəti orqanı tərəfindən onlara lazımınca nəzarət
-həyata keçirilmədikdə və ya onlar bu sahədə Mərkəzi Bank ilə qarşılıqlı əməkdaşlıqdan
-imtina etdikdə.
-22.11. Bu Qanunun 22.10-cu maddəsinə müvafiq Mərkəzi Bankın verdiyi ərizəyə
-məhkəmə ən geci 30 təqvim günü müddətində baxır.
+icra edən konsulluq idarələrinə verilir.
+189 6 iyul 2023-cü il tarixli 935-VIQD nömrəli Azərbaycan Respublikasının Qanunu (Azərbaycan
+Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 31 iyul 2023-cü il, “Azərbaycan”
+qəzeti, 1 avqust 2023-cü il, № 160, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2023-cü il, №
+7, maddə 913) ilə 41.5-ci maddə yeni redaksiyada verilmişdir.
+Əvvəlki redaksiyada deyilirdi:
+41.5. Bankların mövcud və keçmiş inzibatçıları və digər əməkdaşları, habelə bankın səhmdarları
+bankın idarə edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar onlara məlum olan
+bank sirrini təşkil edən məlumatların qeyri-qanuni açılmasına görə Azərbaycan Respublikasının müvafiq
+qanunvericiliyi ilə müəyyən edilmiş qaydada mülki, inzibati və cinayət məsuliyyəti daşıyırlar.
+190 30 iyun 2009-cu il tarixli 856-IIIQD nömrəli Azərbaycan Respublikasının Qanunu (“Azərbaycan”
+qəzeti 24 iyul 2009-cu il, № 160, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2009-cu il, №
+07, maddə 517) ilə 42-ci maddə yeni redaksiyada verilmişdir.
+Əvvəlki redaksiyada deyilirdi:
 
 ---
 
-Question: "Məqbul və lazımi keyfiyyətlərə malik şəxs" dedikdə nə başa düşülür?
+--- Document 3 ---
+Document: Banklar Haqqında Qanun
+Category: laws
+Chapter: XI
+Article: 38
+Pages: 122-123
+
+Content:
+Azərbaycan Respublikasında fəaliyyət göstərən banka müddətli əmanət müqaviləsi
+əsasında pul vəsaiti qoymaqla Azərbaycan Respublikasının ərazisində müvəqqəti və ya daimi
+yaşamaq üçün icazə almış əcnəbilərin və ya vətəndaşlığı olmayan şəxslərin müddətli əmanəti
+barədə məlumatlar müvafiq icra hakimiyyəti orqanına Azərbaycan Respublikasının Miqrasiya
+Məcəlləsi ilə müəyyən edilmiş hallarda verilir.
+Bank müştərilərə hesab açdıqda və ya maliyyə xidmətləri göstərdikdə Azərbaycan
+Respublikasının normativ hüquqi aktlarının, habelə vergi və maliyyə məlumatlarının
+mübadiləsini nəzərdə tutan Azərbaycan Respublikasının tərəfdar çıxdığı beynəlxalq
+müqavilələrin tələblərinə əməl olunmasını təmin etməli və həmin beynəlxalq müqavilələrə
+uyğun olaraq, xarici dövlətlərin hüquqi və fiziki şəxslərinin Azərbaycan Respublikasının
+ərazisində həyata keçirdikləri maliyyə əməliyyatları barədə məlumatları Azərbaycan
+Respublikasının Vergi Məcəlləsinin 76-1-ci maddəsinin tələbləri əsasında həmin xarici
+dövlətlərin səlahiyyətli orqanlarına təqdim etməlidir.
+Bank sirrini təşkil edən məlumatlar Azərbaycan Respublikasının Hesablama Palatasına
+“Hesablama Palatası haqqında” Azərbaycan Respublikasının Qanunu ilə müəyyən edilmiş
+qaydada verilir.
+[184] 18 mart 2025-ci il tarixli 161-VIIQD nömrəli Azərbaycan Respublikasının Qanunu
+(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 8 aprel
+2025-ci il, “Azərbaycan” qəzeti, 9 aprel 2025-ci il, № 68) ilə yeni məzmunda 41.2.10-1-ci
+maddə əlavə edilmişdir.
+[185] 29 noyabr 2024-cü il tarixli 77-VIIQD nömrəli Azərbaycan Respublikasının Qanunu
+(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 7 yanvar
+2025-ci il, “Azərbaycan” qəzeti, 8 yanvar 2025-ci il, № 2, Azərbaycan Respublikasının
+Qanunvericilik Toplusu, 2025-ci il, № 1, maddə 1) ilə 41.2.17-ci maddəsində “arbitraja
+(münsiflər məhkəməsinə)” sözləri “arbitraj məhkəməsinə” sözləri ilə əvəz edilmişdir.
+[186] 5 dekabr 2023-cü il tarixli 1048-VIQD nömrəli Azərbaycan Respublikasının Qanunu
+(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 25 dekabr
+2023-cü il, “Azərbaycan” qəzeti, 26 dekabr 2023-cü il, № 283, Azərbaycan Respublikasının
+Qanunvericilik Toplusu, 2023-cü il, № 12, I kitab, maddə 1621) ilə 41.2.17-ci maddənin
+sonunda nöqtə işarəsi nöqtəli vergül işarəsi ilə əvəz edilmişdir və yeni məzmunda 41.2.18-ci
+maddə əlavə edilmişdir.
+[187] 6 iyul 2023-cü il tarixli 935-VIQD nömrəli Azərbaycan Respublikasının Qanunu
+(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 31 iyul
+2023-cü il, “Azərbaycan” qəzeti, 1 avqust 2023-cü il, № 160, Azərbaycan Respublikasının
+Qanunvericilik Toplusu, 2023-cü il, № 7, maddə 913) ilə 41.3-cü maddə yeni redaksiyada
+verilmişdir.
+Əvvəlki redaksiyada deyilirdi:
+41.3. Hesabların və əmanətlərin sahibləri vəfat etdikdə onların hesabları və əmanətləri
+barəsində arayışlar notariuslara onların icraatında olan vərəsəlik işləri üzrə, habelə müvafiq
+notariat hərəkətlərini icra edən konsulluq idarələrinə verilir.
+[188] 6 iyul 2023-cü il tarixli 935-VIQD nömrəli Azərbaycan Respublikasının Qanunu
+(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 31 iyul
+2023-cü il, “Azərbaycan” qəzeti, 1 avqust 2023-cü il, № 160, Azərbaycan Respublikasının
+Qanunvericilik Toplusu, 2023-cü il, № 7, maddə 913) ilə 41.5-ci maddə yeni redaksiyada
+verilmişdir.
+Əvvəlki redaksiyada deyilirdi:
+41.5. Bankların mövcud və keçmiş inzibatçıları və digər əməkdaşları, habelə bankın
+səhmdarları bankın idarə edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar
+
+
+
+onlara məlum olan bank sirrini təşkil edən məlumatların qeyri-qanuni açılmasına görə
+Azərbaycan Respublikasının müvafiq qanunvericiliyi ilə müəyyən edilmiş qaydada mülki,
+inzibati və cinayət məsuliyyəti daşıyırlar.
+[189] 30 iyun 2009-cu il tarixli 856-IIIQD nömrəli Azərbaycan Respublikasının Qanunu
+
+---
+
+--- Document 4 ---
+Document: Banklar Haqqında Qanun
+Category: laws
+Chapter: IV
+Article: 41
+Pages: 42-43
+
+Content:
+qanuni qüvvəyə minmiş qərarı əsasında – müvafiq dövlət orqanlarına və onların vəzifəli
+şəxslərinə;
+41.2.12. məhkəmənin icraatında olan işlərlə bağlı qanuni qüvvəyə minmiş məhkəmə qərarı
+əsasında – məhkəmələrə;
+
+
+
+41.2.13. müştəri vəfat etdikdə onun hesabları və əmanətləri, habelə bank saxlancında olan
+əmlakı barədə məlumatlar icraatında olan vərəsəlik işləri üzrə – notariuslara, habelə müvafiq
+notariat hərəkətlərini icra edən konsulluq idarələrinə;
+41.2.14. bankın öhdəliklərinin könüllü restrukturizasiyası zamanı bu Qanunda nəzərdə
+tutulmuş qaydada – müvafiq kreditorlara;
+41.2.15. bankın aktiv və (və ya) öhdəliklərinin bu Qanunda nəzərdə tutulan qaydada
+köçürülməsi (ötürülməsi/satılması) zamanı – aktiv və (və ya) öhdəlikləri qəbul edən şəxslərə;
+41.2.16. bankın audit yoxlaması zamanı – kənar auditorlara;
+41.2.17. bankın qanuni maraqlarının qorunması məqsədilə və yalnız bu məqsədlər üçün tələb
+olunduğu həcmdə müştərinin borc öhdəliyi barədə məhkəməyə, hüquq mühafizə orqanlarına,
+banka hüquqi yardım göstərən vəkilə, habelə bankın öz təşəbbüsü, yaxud qanunda və ya
+müqavilədə nəzərdə tutulduqda – arbitraj məhkəməsinə, mediatora, mübahisələrin digər
+alternativ həlli mexanizmini həyata keçirən şəxslərə;[185]
+41.2.18. ödəniş xidmətlərinin göstərilməsi zamanı – digər ödəniş xidməti təchizatçılarına,
+vəsait alana və ödəniş əməliyyatının icrasında iştirak edən digər şəxslərə.[186]
+41.3. Borcalanlar barədə məlumat kredit bürolarına “Kredit büroları haqqında” Azərbaycan
+Respublikasının Qanununda nəzərdə tutulmuş qaydada verilir.[187]
+41.4. Mərkəzi Bank ilə xarici dövlətlərin bank tənzimləməsi və nəzarəti orqanları arasında qarşılıqlı
+əməkdaşlığa dair sazişə uyğun olaraq informasiya mübadiləsinin predmeti müvafiq dövlətin ərazisində
+fəaliyyət göstərən və ya fəaliyyət göstərməyə hazırlaşan subyektlər haqqında informasiyadırsa, belə
+informasiya bank sirrinin açılması hesab edilmir, bir şərtlə ki, bu informasiya üçüncü şəxslərə verilə
+bilməz və yalnız bank nəzarəti məqsədləri üçün istifadə edilir.
+41.5. Bankların mövcud və keçmiş inzibatçıları, digər əməkdaşları, səhmdarları bankın idarə
+edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar onlara məlum olan,
+habelə bu Qanunun 41.2-ci və 41.3-cü maddələrində nəzərdə tutulmuş şəxslər əldə etdikləri
+bank sirrini təşkil edən məlumatların qeyri-qanuni açıqlanmasına görə Azərbaycan
+Respublikasının müvafiq qanunvericiliyi ilə müəyyən edilmiş qaydada mülki, inzibati və cinayət
+məsuliyyəti daşıyırlar.[188]
+41.6. Bank sirrini təşkil edən məlumatlar bank tərəfindən qanunsuz olaraq açıqlandığı halda hüquqları
+pozulmuş müştəri Azərbaycan Respublikasının Mülki Məcəlləsinə müvafiq olaraq bankdan vurulmuş
+zərərin əvəzini ödəməyi tələb edə bilər.
+
+---
+
+--- Document 5 ---
+Document: 590-IIQ-Banklar haqqında
+Category: laws
+Chapter: IV
+Article: 41
+Pages: 38-39
+
+Content:
+funksiyalarının yerinə yetirilməsi ilə bağlı – müvafiq icra hakimiyyəti orqanının müəyyən
+etdiyi orqana (quruma);184
+41.2.10. ixracda hesablaşmalara dövlət nəzarəti ilə bağlı ixrac olunmuş mal (xidmət)
+müqabilində bank hesabına vəsaitin köçürülməsi barədə – gömrük orqanlarına;
+41.2.10-1. Azərbaycan Respublikasının Rəqabət Məcəlləsi ilə müəyyən edilmiş hallarda və
+qaydada – rəqabət orqanına;185
+41.2.11. cinayət işinin istintaqı, müştərinin pul vəsaitinə və bankın saxlancında olan
+əmlakına həbs qoyulması, tələb yönəldilməsi və bunların müsadirə edilməsi ilə əlaqədar
+məhkəmənin qanuni qüvvəyə minmiş qərarı əsasında – müvafiq dövlət orqanlarına və onların
+vəzifəli şəxslərinə;
+41.2.12. məhkəmənin icraatında olan işlərlə bağlı qanuni qüvvəyə minmiş məhkəmə qərarı
+əsasında – məhkəmələrə;
+41.2.13. müştəri vəfat etdikdə onun hesabları və əmanətləri, habelə bank saxlancında olan
+əmlakı barədə məlumatlar icraatında olan vərəsəlik işləri üzrə – notariuslara, habelə müvafiq
+notariat hərəkətlərini icra edən konsulluq idarələrinə;
+41.2.14. bankın öhdəliklərinin könüllü restrukturizasiyası zamanı bu Qanunda nəzərdə
+tutulmuş qaydada – müvafiq kreditorlara;
+41.2.15. bankın aktiv və (və ya) öhdəliklərinin bu Qanunda nəzərdə tutulan qaydada
+köçürülməsi (ötürülməsi/satılması) zamanı – aktiv və (və ya) öhdəlikləri qəbul edən şəxslərə;
+41.2.16. bankın audit yoxlaması zamanı – kənar auditorlara;
+41.2.17. bankın qanuni maraqlarının qorunması məqsədilə və yalnız bu məqsədlər üçün tələb
+olunduğu həcmdə müştərinin borc öhdəliyi barədə məhkəməyə, hüquq mühafizə orqanlarına,
+banka hüquqi yardım göstərən vəkilə, habelə bankın öz təşəbbüsü, yaxud qanunda və ya
+müqavilədə nəzərdə tutulduqda – arbitraj məhkəməsinə, mediatora, mübahisələrin digər
+alternativ həlli mexanizmini həyata keçirən şəxslərə;186
+41.2.18. ödəniş xidmətlərinin göstərilməsi zamanı – digər ödəniş xidməti təchizatçılarına,
+vəsait alana və ödəniş əməliyyatının icrasında iştirak edən digər şəxslərə.187
+41.3. Borcalanlar barədə məlumat kredit bürolarına “Kredit büroları haqqında” Azərbaycan
+Respublikasının Qanununda nəzərdə tutulmuş qaydada verilir.188
+41.4. Mərkəzi Bank ilə xarici dövlətlərin bank tənzimləməsi və nəzarəti orqanları arasında
+qarşılıqlı əməkdaşlığa dair sazişə uyğun olaraq informasiya mübadiləsinin predmeti müvafiq
+dövlətin ərazisində fəaliyyət göstərən və ya fəaliyyət göstərməyə hazırlaşan subyektlər
+haqqında informasiyadırsa, belə informasiya bank sirrinin açılması hesab edilmir, bir şərtlə ki,
+bu informasiya üçüncü şəxslərə verilə bilməz və yalnız bank nəzarəti məqsədləri üçün istifadə
+edilir.
+41.5. Bankların mövcud və keçmiş inzibatçıları, digər əməkdaşları, səhmdarları bankın idarə
+edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar onlara məlum olan, habelə
+bu Qanunun 41.2-ci və 41.3-cü maddələrində nəzərdə tutulmuş şəxslər əldə etdikləri bank sirrini
+
+
+
+təşkil edən məlumatların qeyri-qanuni açıqlanmasına görə Azərbaycan Respublikasının müvafiq
+qanunvericiliyi ilə müəyyən edilmiş qaydada mülki, inzibati və cinayət məsuliyyəti daşıyırlar.189
+41.6. Bank sirrini təşkil edən məlumatlar bank tərəfindən qanunsuz olaraq açıqlandığı halda
+hüquqları pozulmuş müştəri Azərbaycan Respublikasının Mülki Məcəlləsinə müvafiq olaraq
+bankdan vurulmuş zərərin əvəzini ödəməyi tələb edə bilər.
+
+---
+
+Question: Bank sirrini təşkil edən məlumatların qeyri-qanuni açıqlanmasına görə hansı məsuliyyət növləri nəzərdə tutulur?
 
 Answer:
