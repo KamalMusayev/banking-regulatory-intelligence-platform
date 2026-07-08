@@ -22,3 +22,30 @@ data/qdrant/*
 
 backend/reguaz/models/
 backend/reguaz/logs/
+
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Environment
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+!frontend/.env.example
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Coverage
+frontend/coverage/
+
+# Cache
+frontend/.eslintcache
