@@ -28,7 +28,7 @@ def main() -> None:
     # -----------------------------------------------------------------
 
     if output_file.exists():
-        print(f"✓ Model already exists:\n{output_file}")
+        print(f"Model already exists:\n{output_file}")
         return
 
     # -----------------------------------------------------------------
@@ -79,7 +79,7 @@ def main() -> None:
         )
         raise exc
 
-    print("\n✓ Download completed successfully.")
+    print("\nDownload completed successfully.")
     print(f"Model saved to:\n{output_file}")
 
 
