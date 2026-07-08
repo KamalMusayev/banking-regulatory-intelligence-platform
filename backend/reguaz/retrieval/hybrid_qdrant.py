@@ -118,7 +118,7 @@ class HybridQdrantRetriever:
         top_k_semantic: int = 30,
         top_k_bm25: int = 30,
         rerank_top_k: int = 15,
-        final_top_k: int = 10,
+        final_top_k: int = 5,
         rrf_k: int = 60,
         reranker_model: str = "BAAI/bge-reranker-v2-m3",
     ) -> None:
