@@ -67,7 +67,7 @@ RRF_K = 60
 # Evaluation
 # =============================================================================
 
-DEFAULT_EVALUATION_TOP_K = 10
+DEFAULT_EVALUATION_TOP_K = 5
 
 # =============================================================================
 # Logging
@@ -82,7 +82,7 @@ DEFAULT_LOG_LEVEL = "INFO"
 DEFAULT_LLM_TYPE = "gemma"
 
 # Common LLM Parameters
-LLM_CONTEXT_WINDOW = 4096
+LLM_CONTEXT_WINDOW = 8192
 LLM_TEMPERATURE = 0.1
 LLM_MAX_TOKENS = 1024
 LLM_TOP_P = 0.95

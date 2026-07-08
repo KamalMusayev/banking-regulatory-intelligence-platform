@@ -25,7 +25,7 @@ class GenerationPipeline:
         retriever: Any,
         chunk_lookup: dict[str, dict[str, Any]],
         llm: BaseLLM,
-        top_k: int = 10,
+        top_k: int = 5,
     ) -> None:
         """
         Parameters
