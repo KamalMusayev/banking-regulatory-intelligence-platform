@@ -21,3 +21,4 @@ data/chroma/*
 data/qdrant/*
 
 backend/reguaz/models/
+backend/reguaz/logs/
