@@ -3,170 +3,214 @@ You are an expert legal and regulatory assistant for the ReguAZ platform. Answer
 Context:
 
 --- Document 1 ---
-Document: 50c0f6d30754ffa78df0070e8
+Document: Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında
 Category: governance_and_compliance
-Article: 3
-Pages: 3-4
+Article: 1
+Page: 1
 
 Content:
-3. Nəzarət subyektində İT funksiyası və idarə edilməsi
-3.1. Nəzarət subyekti strategiyasından, bazar payından, idarə edilməsindən,
-məqsədlərindən və göstərdiyi xidmətlərdən asılı olaraq İT funksiyasını digər biznes
-xarakterli funksiyalardan müstəqil və ya üçüncü tərəflərin xidmətlərindən istifadə
-edərək yarada bilər.
-3.2. Nəzarət subyektində üçüncü tərəflərin dəstəyi ilə fəaliyyət göstərən İT
-funksiyasına nəzarət edən cavabdeh məsul şəxs müəyyən edilir. Bu məsul şəxs
-texnoloji və rəqəmsal həllərin tətbiqi sahələri üzrə təcrübəyə malik olmalıdır.
-3.3. İTİE-nin əsas məqsədi nəzarət subyektində İT resurslarından düzgün
-istifadə edərək biznesin strateji hədəflərinə çatmasına dəstək göstərməkdən və
-aşağıdakıları təmin etməkdən ibarətdir:
-3.3.1. İT proseslərinin effektiv qurulması və idarə edilməsinin qanunvericiliyə,
-o cümlədən Mərkəzi Bankın normativ xarakterli aktlarına, beynəlxalq standartlara,
-təcrübələrə uyğunluğunun və nəzarətin təmin edilməsi;
-3.3.2. İT proseslərinin davamlılığını təmin etmək üçün zəruri proseslər və
-həllərin tətbiqi istiqamətində işlərin icra edilməsi;
-3.3.3. İT resurslarına edilən investisiyaların, xərclərin səmərəliliyinin ölçülməsi
-üçün qayda və proseslərin hazırlanması;
-3.3.4. İT proseslərində qərarvermə səlahiyyətlərinin düzgün müəyyən
-edilməsinin təmin edilməsi;
-3.3.5. İT proseslərinin təkmillik səviyyəsinin qiymətləndirilməsi üçün müxtəlif
-avtomatlaşdırma sistemlərindən və alətlərdən istifadə edərək bu istiqamətdə təhlil və
-təkmilləşdirilmənin həyata keçirilməsi.
-3.4. İTİE-nin effektiv həyata keçirilməsini təmin etmək məqsədilə İT
-funksiyasına nəzarət və rəhbərlik aşağıdakı şəxslər tərəfindən həyata keçirilə bilər:
-3.4.1. İT funksiyasına nəzarəti (kuratorluğu) həyata keçirən şəxsin İT üzrə
-peşəkar təcrübəyə malik olan icra orqanının bir üzvü olması (icra orqanı kollegial
-olduğu təqdirdə);
-3.4.2. Texnoloji və rəqəmsal həllərin tətbiqi, rəqəmsal məhsulların inkişafı və
-idarəedilməsi sahələrini dərindən bilən, bu sahələrin praktiki tətbiqində və idarə
-edilməsində azı 5 (beş) illik təcrübəyə və azı 3 (üç) illik idarəetmə təcrübəsinə malik
-olan baş informasiya inzibatçısının (nəzarət subyektində mövcud olduğu halda)
-olması.
-3.5. Nəzarət subyektinin İT funksiyasının rəhbərləri 3.4.1-ci yarımbənddə
-nəzərdə tutulan icra orqanının üzvü və 3.4.2-ci yarımbənddə nəzərdə tutulan baş
-informasiya inzibatçısı ilə birlikdə İT rəhbərliyini təşkil edir.
-3.6. Nəzarət subyekti strategiyasından, bazar payından, idarə edilməsindən,
-məqsədlərindən və göstərdiyi xidmətlərdən asılı olaraq qərarların kollegial şəkildə
-verilməsi üçün tərkibi İT funksiyası üzrə rəhbər şəxslərdən, İT mütəxəssislərindən,
-eləcə də digər struktur bölmələrin rəhbər şəxslərindən və (və ya) digər
-əməkdaşlarından ibarət olan İT üzrə kollegial orqan və ya digər səlahiyyətli
-qərarvermə orqanı yarada bilər. İT üzrə kollegial orqan nəzarət subyektinin icra
-orqanının (icra orqanı kollegial olduğu təqdirdə) digər üzvləri də daxil ola bilər. İT üzrə
-kollegial orqanın sədri İT rəhbərliyinə daxil olan şəxslər arasından seçilə bilər. İT üzrə
-
-
-
-kollegial orqana risklərin idarə edilməsi, informasiya təhlükəsizliyi, maliyyə və digər
-strukturların səlahiyyətli əməkdaşları da seçilə bilər.
-3.7. İT üzrə kollegial orqan nəzarət subyektində İT-in yüksək texnoloji
-standartlar səviyyəsində saxlanılmasını təmin etmək məqsədilə İT strategiyasının, İT
-üzrə maliyyələşdirmənin, resursların bölüşdürülməsinin, planlaşdırmasının həyata
-keçirilməsi üçün müvafiq tədbirlər həyata keçirir.
-3.8. İT üzrə kollegial orqan tərəfindən aşağıdakı vəzifələr həyata keçirilir:
-3.8.1. İT strategiyasından irəli gələn işlərin icrasına nəzarət edilməsi;
-3.8.2. icra orqanı və Müşahidə (Direktorlar) Şurasına (olduğu halda) təkliflərin
-verilməsi;
-3.8.3. İT büdcəsinin icrasına nəzarət;
-3.8.4. İT satınalmalarına dair təkliflərin verilməsi;
-3.8.5. İT dəyişikliklərin idarəedilməsi prosesinin izlənilməsi;
-3.8.6. informasiya sistemlərinin dayanıqlılığına nəzarət;
+1. Nizamnamə kapitalında dövlətə məxsus səhmlər olan banklarda və bank olmayan kredit təşkilatlarında (bundan
+sonra kredit təşkilatı) həmin səhmlərin imkan verdiyi dərəcədə ümumi yığıncağın səlahiyyətlərinə aid edilmiş məsələlərin
+həll edilməsində dövlətin adından iştirak etmə hüququ aşağıdakı dövlət orqanlarına həvalə edilsin:
+1.1. Azərbaycan Respublikasının Maliyyə Nazirliyinə:
+1.1.1. kredit təşkilatının Müşahidə Şurasının və Audit Komitəsinin (Təftiş Komissiyasının) üzvlərinin seçilməsi və
+[1]
+onların səlahiyyətlərinə vaxtından əvvəl xitam verilməsi;
+1.1.2. kredit təşkilatının icra orqanlarının yaradılması və onların səlahiyyətlərinə vaxtından əvvəl xitam verilməsi;
+1.1.3. kredit təşkilatının illik hesabatlarının, maliyyə hesabatlarının təsdiq edilməsi, mənfəətinin və zərərinin
+[2]
+bölüşdürülməsi;
+1.1.4. Azərbaycan Respublikası Mülki Məcəlləsinin tələbləri nəzərə alınmaqla, kredit təşkilatının xalis aktivlərinin
+dəyərinin iyirmi beş faizindən artıq məbləğdə olan əqdin (xüsusi əhəmiyyətli əqdin), eləcə də müstəqil auditorun rəyi ilə
+aidiyyəti şəxslə dəyəri kredit təşkilatının aktivlərinin beş faizini və daha çox hissəsini təşkil edən əqdin bağlanması
+[3]
+haqqında qərar qəbul edilməsi;
+1.1.5. kredit təşkilatının reqlamentinin qəbul edilməsi və reqlamentə əlavə və dəyişikliklərin edilməsi;
+1.1.6. kredit təşkilatının faiz dərəcələri, aktivlərin yerləşdirilməsi və kateqoriyaları barəsində siyasətinin, habelə
+bankın ümumi maliyyə, uçot, inzibati və kadr siyasətinin müəyyənləşdirilməsi;
+1.1.7. növbəti və tələb olunduğu hallarda növbədənkənar auditin keçirilməsi barədə qərarın qəbul edilməsi və bu
+məqsədlə kənar auditorun təyin edilməsi;
+1.1.8. kredit təşkilatının büdcəsinin qəbul və təsdiq edilməsi;
+1.1.9. kredit təşkilatının inzibatçılarının işə götürülməsi müddətlərinin və şərtlərinin müəyyənləşdirilməsi;
+1.1.10. Müşahidə Şurası üzvlərinin səlahiyyətləri istisna olmaqla, kredit təşkilatının inzibatçılarının kredit təşkilatı
+adından və kredit təşkilatı hesabına öhdəliklər qəbul etmək səlahiyyətlərinin və həmin səlahiyyətlərin kredit təşkilatının
+digər əməkdaşlarına verilməsi hüququnun hədlərinin müəyyənləşdirilməsi;
+1.1.11. kredit təşkilatı inzibatçılarının kommersiya maraqlarının açıqlaması haqqında qaydaların və həmin qaydalara
+dəyişiklik və əlavələrin qəbul edilməsi;
+1.1.12. kredit təşkilatının səhmlərinin buraxılması müddətlərinin və şərtlərinin müəyyənləşdirilməsi, habelə mühüm
+iştirak payının əldə edilməsinə razılıq verilməsi;
+1.1.13. kredit təşkilatının kənar auditor tərəfindən təsdiqlənmiş və Audit Komitəsi tərəfindən tövsiyə edilmiş illik
+maliyyə hesabatlarının təsdiq edilməsi, habelə xalis mənfəət hesabına ehtiyatların yaradılması və dividendlərin
+ödənilməsi barədə qərarın qəbul edilməsi.
+[4]
+1.2. Azərbaycan Respublikasının İqtisadiyyat Nazirliyinə:
+1.2.1. Azərbaycan Respublikası Maliyyə Nazirliyinin təklifi əsasında kredit təşkilatının Nizamnaməsinin təsdiq
+edilməsi, nizamnamə kapitalının miqdarının müəyyən edilməsi;
+1.2.2. Azərbaycan Respublikası Maliyyə Nazirliyinin təklifi əsasında kredit təşkilatının nümayəndəlik və filiallarının
+yaradılması və ya ləğv edilməsi, tabeliyində olan hüquqi şəxs statuslu qurumların yaradılması, yenidən təşkili və ya ləğv
+edilməsi;
+1.2.3. bu Fərmanla müəyyən edilmiş səlahiyyətlər istisna olmaqla, Azərbaycan Respublikasının Mülki Məcəlləsi ilə
+ümumi yığıncağın səlahiyyətlərinə aid edilmiş digər məsələlərin Azərbaycan Respublikasının Maliyyə Nazirliyi ilə
+razılaşdırmaqla həll edilməsi.
 
 ---
 
 --- Document 2 ---
-Document: 50c0f6d30754ffa78df0070e8
-Category: governance_and_compliance
-Article: 1
-Page: 2
+Document: Banklar Haqqında Qanun
+Category: laws
+Chapter: I
+Article: 2
+Pages: 4-5
 
 Content:
-1. Ümumi müddəalar
-1.1. Bu Təlimat informasiya texnologiyaları (bundan sonra – İT) üzrə
-beynəlxalq peşəkar assosiasiya olan ISACA (Information Systems Audit and Control
-Association) tərəfindən hazırlanmış COBIT 2019 (Control Objectives for İnformation
-and Related Technologies) Standartına və informasiya texnologiyalarının idarə
-edilməsi (bundan sonra - İTİE) üzrə qabaqcıl beynəlxalq təcrübəyə uyğun olaraq
-hazırlanmışdır.
-1.2. Bu Təlimatın əsas məqsədi maliyyə sektorunun səmərəli fəaliyyətini və
-sabitliyini dəstəkləmək üçün banklarda, bank olmayan kredit təşkilatlarında (kredit
-ittifaqları istisna olmaqla), sığortaçılarda, qiymətli kağızlar bazarında
-lisenziyalaşdırılan şəxslərdə, səhmdar investisiya fondları və investisiya fondlarının
-idarəçilərində, poçt rabitəsinin milli operatorunda, ödəniş təşkilatlarında, elektron pul
-təşkilatlarında, ödəniş sistemlərinin operatorlarında, kredit bürolarında, mərkəzi
-depozitarda (bundan sonra – nəzarət subyektləri) İTİE-nin beynəlxalq standartlar
-əsasında formalaşdırılması və təkmilləşdirilməsidir.
+M a d d ə 2 . Bank fəaliyyətinin hüquqi əsasları[18]
+2.1. Azərbaycan Respublikasının bank sistemi maliyyə bazarlarına nəzarət orqanından,
+Azərbaycan Respublikasının Mərkəzi Bankından (bundan sonra mətndə - Mərkəzi Bank) və kredit
+təşkilatlarından ibarətdir.[19]
+2.2. Mərkəzi Bank dövlətin mərkəzi bankıdır və onun fəaliyyəti Azərbaycan Respublikasının
+Konstitusiyası, “Azərbaycan Respublikasının Mərkəzi Bankı haqqında” Azərbaycan Respublikasının
+Qanunu, Azərbaycan Respublikasının Mülki Məcəlləsi, bu Qanun və bunlara müvafiq olaraq qəbul
+edilmiş digər normativ hüquqi aktlar, habelə Azərbaycan Respublikasının tərəfdar çıxdığı beynəlxalq
+müqavilələrlə tənzimlənir.[20]
+2.3. Azərbaycan Respublikasında kredit təşkilatlarının fəaliyyəti Azərbaycan Respublikasının
+Konstitusiyası, bu Qanun, Azərbaycan Respublikasının Mülki Məcəlləsi, “Azərbaycan Respublikasının
+Mərkəzi Bankı haqqında” “Bank olmayan kredit təşkilatları haqqında” və “Kredit ittifaqları haqqında”
+Azərbaycan Respublikası qanunları, Azərbaycan Respublikasının digər normativ hüquqi aktları,
+maliyyə bazarlarına nəzarət orqanının vəMərkəzi Bankın bunlara müvafiq olaraq qəbul edilmiş
+normativ xarakterli aktları, habelə Azərbaycan Respublikasının tərəfdar çıxdığı beynəlxalq
+müqavilələrlə tənzimlənir.[21]
+
+
+
+2.3-1. Ələt azad iqtisadi zonasında bank sahəsində münasibətlər “Ələt azad iqtisadi zonası
+haqqında” Azərbaycan Respublikası Qanununun tələblərinə uyğun olaraq tənzimlənir.[22]
+2.4. Cari bank fəaliyyəti ilə bağlı qərarları qəbul edərkən kredit təşkilatları dövlət hakimiyyəti və
+bələdiyyə orqanlarından asılı deyildir və onlar kredit təşkilatlarının fəaliyyətinə qarışa bilməz. Kredit
+təşkilatları qanunla onların fəaliyyət növlərinə aid edilməyən fəaliyyəti həyata keçirməyə məcbur edilə
+bilməz.
+2.5. Kredit təşkilatlarının və dövlətin müvafiq öhdəlik götürdüyü hallardan başqa, bütün digər
+hallarda kredit təşkilatları dövlətin, dövlət isə kredit təşkilatlarının öhdəlikləri üçün məsuliyyət daşımır.
 
 ---
 
 --- Document 3 ---
-Document: 50c0f6d30754ffa78df0070e8
-Category: governance_and_compliance
-Article: 2
-Pages: 2-3
+Document: 5b725bb224d33e2085294c793
+Category: risk_management
+Article: 3
+Pages: 5-6
 
 Content:
-2. Əsas anlayışlar
-2.1. Bu Təlimatın məqsədləri üçün istifadə olunan anlayışlar aşağıdakı
-mənaları ifadə edir:
-2.1.1. İT funksiyası – nəzarət subyektinin İT üzrə fəaliyyətlərini həyata keçirən
-və idarə edən struktur bölmələr;
-2.1.2. İT resursları – nəzarət subyektinin fəaliyyətini dəstəkləmək və biznes
-məqsədlərinə çatmaq üçün istifadə edilən texnoloji vasitələr və komponentlər;
-2.1.3. İT prosesləri – nəzarət subyektində İT üzrə fəaliyyətlərin idarə olunması
-və təşkilini təmin edən standartlaşdırılmış fəaliyyətlər toplusu;
-2.1.4. İTİE - İT üzrə təşkilati strukturun, resursların və proseslərin nəzarət
-subyektinin məqsəd və ehtiyaclarına uyğun şəkildə idarə olunması.
-2.2. Bu Təlimatda istifadə edilən digər anlayışlar normativ hüquqi aktlarda və
-Azərbaycan Respublikası Mərkəzi Bankının (bundan sonra - Mərkəzi Bank) normativ
-xarakterli aktlarında müəyyən edilmiş mənaları ifadə edir.
+3. “Yaşıl” və “dayanıqlılıqla əlaqəli” kreditlərin idarəetmə çərçivəsi
+3.1. Kredit təşkilatı “yaşıl” və “dayanıqlılıqla əlaqəli” kredit məhsullarının idarə edilməsi
+çərçivəsini formalaşdırır. Bu çərçivənin məqsədi müvafiq kreditin kredit müddəti ərzində yaşıl və (və
+ya) dayanıqlı statusunun qorunub saxlanılmasıdır.
+3.2. Ənənəvi kreditlər üzrə mövcud çərçivəyə əlavə olaraq kredit təşkilatı “yaşıl” və
+“dayanıqlılıqla əlaqəli” kreditlərin təsdiqlənməsi və hesabatlılıq prosedurları, kreditin müntəzəm
+izlənməsi və dövri qiymətləndirilməsi, girovların qiymətləndirilməsi və problemli kreditlərin bərpası,
+habelə müvafiq kreditlərdən formalaşmış kredit portfelinin idarə edilməsi ilə bağlı daxili siyasət və
+qaydaları müəyyən edir.
+3.3. Kredit təşkilatında yeni “yaşıl” və “dayanıqlılıqla əlaqəli” kredit məhsullarının hazırlanması,
+təsdiqi və istifadəsi məsələləri üzrə daxili komitə yaradıla və ya bu məsələlər mövcud təşkilatdaxili
+komitələrdən birinə həvalə edilə bilər. “Yaşıl” və “dayanıqlılıqla əlaqəli” kredit məqsədləri üçün
+yaradılmış və ya müvafiq səlahiyyətlər həvalə edilmiş təşkilatdaxili digər komitənin (bundan sonra –
+Komitə) üzvləri kredit təşkilatının idarəetmə orqanlarının üzvləri, habelə strategiya, risklərin
+idarəedilməsi, hüquqi təminat bölməsi və digər bölmələrinin rəhbər şəxslərindən ibarət olmaqla
+formalaşdırıla bilər.
+3.4. Komitənin vəzifələrinə aşağıdakılar aiddir:
+3.4.1. “yaşıl” və “dayanıqlılıqla əlaqəli” kreditlər üzrə strategiya və siyasət çərçivəsinin
+müəyyənləşdirilməsi;
+3.4.2. “yaşıl” və “dayanıqlılıqla əlaqəli” kreditlərin müəyyən edilməsi (tanınması) meyarlarının
+təsdiq edilməsi;
+3.4.3. “yaşıl” və “dayanıqlılıqla əlaqəli” yeni kredit məhsullarının təsdiq edilməsi;
+3.4.4. “yaşıl” və “dayanıqlılıqla əlaqəli” kredit(lər) üzrə daxili limitlərin (məsələn, kreditin həcmi,
+iqtisadi sektor, coğrafi ərazi) müəyyənləşdirilməsi;
+3.4.5. “yaşıl” imitasiyanın qarşısının alınması ilə bağlı nəzarət mexanizmlərinin qurulmasının
+təmin edilməsi. Bu isə özündə kredit məhsulunun monitorinq prosesinin nəticəsində “qeyri-yaşıl” və
+“qeyri-dayanıqlılıqla əlaqəli” kateqoriyaya keçirilməsi üzrə qərar qəbul edilməsini də ehtiva edir.
+
+
+
+3.5. Kredit təşkilatı “yaşıl” və “dayanıqlılıqla əlaqəli” kreditlər üzrə qiymətləndirmənin aparılması
+məqsədilə ixtisaslaşmış struktur bölmə formalaşdıra bilər. Bu struktur bölmənin heyəti “yaşıl” və
+“dayanıqlılıqla əlaqəli” maliyyə alətləri üzrə lazımi bilik və təcrübəyə malik şəxslərdən təşkil edilir və
+layihələrin “yaşıl” və “dayanıqlılıqla əlaqəli” meyarlara uyğun olub-olmamasına, o cümlədən müştəri
+tərəfindən verilmiş təsdiqləyici sənədlərə rəy bildirir.
+3.6. Kredit təşkilatı “yaşıl” və “dayanıqlılıqla əlaqəli” kredit məhsulunun dizaynı,
+formalaşdırılması və Taksonomiyada əhatə olunan sektorlar və (və ya) kateqoriyalar üzrə
+təsnifləşdirmə çərçivəsi üzrə daxili qaydalar hazırlayır. Bu qaydalar Mərkəzi Bank tərəfindən qəbul
+edilmiş normativ xarakterli aktlar və təlimatlar, habelə “Yaşıl Kredit Prinsipləri” və “Dayanıqlılıqla Əlaqəli
+Kredit Prinsipləri” kimi beynəlxalq standartlar əsasında hazırlanır və mütəmadi olaraq nəzərdən
+keçirilir.
 
 ---
 
 --- Document 4 ---
-Document: 50c0f6d30754ffa78df0070e8
-Category: governance_and_compliance
-Article: 6
-Page: 5
+Document: 933-IIIQ-Bank olmayan kredit təşkilatları haqqında
+Category: laws
+Chapter: I
+Article: 1
+Pages: 1-2
 
 Content:
-6. İTİE üzrə monitorinq, qiymətləndirmə və hesabatlılıq
-6.1. Bu Təlimatın 5.1-ci bəndində müəyyən edilmiş minimal baza prosesləri
-əsasında nəzarət subyektləri İTİE üzrə monitorinq və qiymətləndirmələr aparır,
-müvafiq daxili hesabatlılıq sistemini formalaşdırır.
-6.2. Texnoloji əlçatanlığın təmin edilməsi, bu əlçatanlığın monitorinqi, baş
-vermiş sistem dayanmalarının təsirinin adekvat qiymətləndirilməsi və aradan
-qaldırılması məqsədilə nəzarət subyektləri tərəfindən müvafiq proseslərin qurulması
-və daxili hesabatlılığın təmin edilməsi məqsədəuyğundur.
-Mərkəzi Bankın sədri Taleh Kazımov
+Maddə 1. Əsas anlayışlar
+1.0. Bu Qanunda istifadə olunan anlayışlar aşağıdakı mənaları ifadə edir:
+1.0.1. Bank olmayan kredit təşkilatı (bundan sonra – BOKT) xüsusi razılıq
+(lisenziya) əsasında kreditlərin verilməsi və bu Qanunla nəzərdə tutulmuş digər
+fəaliyyət növlərini həyata keçirən ixtisaslaşmış kredit təşkilatı;
+1.0.2. Birgə borcalanlar qrupu – müqaviləyə əsasən qrupun hər bir üzvünün aldığı
+kreditin qaytarılmasına qarşılıqlı zamin kimi çıxış edən şəxslər;
+1.0.3. Girov əmanəti – kredit müqaviləsinin qüvvədə olduğu müddətdə borcalan
+və ya birgə borcalanlar qrupu tərəfindən kreditin qaytarılmasının təminatı
+formalarından biri kimi BOKT-yə birdəfəlik və ya hissə-hissə ödənilən pul vəsaiti;
+1.0.4. İnzibatçı – idarəetmə orqanlarının, Audit Komitəsinin üzvləri, baş mühasib (bu
+vəzifələri icra edən şəxs), daxili auditor, filialın, o cümlədən xarici BOKT-nin yerli filialının
+rəhbəri;2
+1.0.5. aidiyyəti olan şəxslər – Azərbaycan Respublikasının Mülki Məcəlləsinin 49-1.1-ci
+maddəsində göstərilən şəxslər və inzibatçılar, habelə inzibatçılarla Azərbaycan Respublikası
+Mülki Məcəlləsinin 49-1.1.3-cü maddəsində nəzərdə tutulmuş qohumluq əlaqələri olan şəxslər.
+Xarici BOKT-nin yerli filialının rəhbəri və baş mühasibi (bu vəzifələri icra edən şəxs), habelə
+xarici BOKT-nin rezidenti olduğu ölkənin qanunvericiliyinə görə xarici BOKT-yə aidiyyəti olan
+digər şəxslər xarici BOKT-nin yerli filialının aidiyyəti şəxsləri hesab olunurlar;3
+1.0.6. Maliyyə bazarlarına nəzarət orqanı – maliyyə bazarlarında tənzimləmə və nəzarətin
+həyata keçirilməsi məqsədilə müvafiq icra hakimiyyəti orqanının yaratdığı qurum.4
+1.0.7. Kapital – BOKT-nin balansı üzrə kapital elementlərinin məcmusu olmaqla
+nizamnamə (şərikli) kapitalının (əmlak haqları) və bölüşdürülməmiş mənfəətinin (mənfəətdən
+vergilər və başqa dövlət ödənişləri aparıldıqdan sonra qalan məbləğ), kapital ehtiyatının, qrant və
+ianələrin (müqavilə şərtlərinə əsasən nağd vəsait formasında verilmiş və BOKT-nin
+sərəncamında qalan) cəmi və onlardan tutulmaların fərqi;
+1.0.8. Mühüm iştirak payı – nizamnamə (şərikli) kapitalının və ya səsvermə hüququnun
+10 və ya daha çox faizini təşkil edən, yaxud müqavilə əsasında iştirakçısı olduğu hüquqi şəxsin
+qərarlarının qəbul edilməsinə mühüm təsir göstərməyə imkan verən paya birbaşa və ya dolayı
+yolla sahiblik;
+
+
+
+1.0.9. Vətəndaş qüsursuzluğu – BOKT-nin benefisiar mülkiyyətçilərinin, inzibatçılarının,
+habelə nizamnamə (şərikli) kapitalında mühüm iştirak payının sahiblərinin, həmin sahib hüquqi
+şəxs olduqda onun icra orqanının rəhbərinin, “Cinayət yolu ilə əldə edilmiş əmlakın
+leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında”
+Azərbaycan Respublikası Qanununun 17-ci maddəsinin tələblərinə uyğun olması faktı;
+1.0.10. Maliyyə bazarları sahəsi – maliyyə bazarlarının tənzimlənməsi və nəzarət sahəsi və
+ya Mərkəzi Bank tərəfindən tənzimlənən və nəzarət olunan maliyyə xidmətlərinin göstərildiyi
+fəaliyyət sahələri.5
 
 ---
 
 --- Document 5 ---
-Document: 50c0f6d30754ffa78df0070e8
-Category: governance_and_compliance
-Article: 5
-Page: 5
+Document: AZƏRBAYCAN RESPUBLİKASININ QANUNU
+Category: laws
+Chapter: I
+Article: 1
+Page: 1
 
 Content:
-5. İTİE üzrə minimal baza prosesləri
-5.1. Nəzarət subyektləri İTİE çərçivəsində və COBİT 2019 standartı əsasında
-aşağıdakı minimal baza proseslərini tətbiq edir:
-5.1.1. risklərin idarə edilməsi;
-5.1.2. əlçatanlıq və məhsuldarlığın idarə edilməsi;
-5.1.3. İT dəyişikliklərinin idarə edilməsi;
-5.1.4. İT dəyişikliklərinin qəbulunun və keçidinin idarə edilməsi;
-5.1.5. aktivlərin idarə edilməsi;
-5.1.6. davamlılığın idarə edilməsi;
-5.1.7. performasın və uyğunluğun monitorinqi;
-5.1.8. daxili nəzarət sisteminin idarə edilməsi;
-5.1.9. təchizatçıların idarə edilməsi.
-5.2. Bu Təlimatın 5.1-ci bəndində qeyd olunan proseslərdən əlavə nəzarət
-subyektləri strategiyasına, bazar payına, fəaliyyət xüsusiyyətlərinə və tənzimləmə
-tələblərinə uyğun digər proseslərin də COBİT 2019 standartı əsasında
-qiymətləndirilməsini və təkmilləşdirilməsini nəzərdə tuta bilər.
+1. Kredit ittifaqı mənafe ümumiliyi əsasında könüllü birləşən fiziki şəxslərin və (və
+ya) kiçik sahibkarlıq subyekti olan hüquqi şəxslərin sərbəst pul vəsaitlərini cəmləşdirmək
+yolu ilə özlərinin qarşılıqlı kreditləşdirilməsi üçün yaratdıqları bank olmayan kredit
+təşkilatıdır.
 
 ---
 
-Question: İTİE-nin əsas məqsədi nədir?
+Question: Kredit təşkilatı nədir?
 
 Answer:

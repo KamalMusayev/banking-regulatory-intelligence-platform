@@ -676,3 +676,50 @@
 2026-07-08 14:03:29 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
 2026-07-08 14:03:29 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 4484
 2026-07-08 14:04:04 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 35.3172 seconds.
+2026-07-08 22:14:06 | INFO     | backend.reguaz.services.generation.llm_factory | Instantiating LLM provider: gemma
+2026-07-08 22:14:06 | INFO     | backend.reguaz.services.generation.gemma_service | Loading Gemma model from /Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/models/gemma-4-E4B-it-Q4_K_M.gguf with config: context_window=8192, temperature=0.1, max_tokens=1024, top_p=0.95, top_k=40, repeat_penalty=1.1, seed=42
+2026-07-08 22:14:11 | INFO     | backend.reguaz.services.generation.gemma_service | Gemma model loaded successfully in 5.6699 seconds.
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5123
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6147
+2026-07-08 22:16:19 | INFO     | backend.reguaz.services.generation.llm_factory | Instantiating LLM provider: gemma
+2026-07-08 22:16:19 | INFO     | backend.reguaz.services.generation.gemma_service | Loading Gemma model from /Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/models/gemma-4-E4B-it-Q4_K_M.gguf with config: context_window=8192, temperature=0.1, max_tokens=1024, top_p=0.95, top_k=40, repeat_penalty=1.1, seed=42
+2026-07-08 22:16:22 | INFO     | backend.reguaz.services.generation.gemma_service | Gemma model loaded successfully in 3.3100 seconds.
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5123
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6147
+2026-07-08 22:17:47 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 75.2025 seconds.
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6848
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7872
+2026-07-08 22:18:42 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 39.1926 seconds.
+2026-07-08 22:38:35 | INFO     | backend.reguaz.services.generation.llm_factory | Instantiating LLM provider: gemma
+2026-07-08 22:38:35 | INFO     | backend.reguaz.services.generation.gemma_service | Loading Gemma model from /Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/models/gemma-4-E4B-it-Q4_K_M.gguf with config: context_window=8192, temperature=0.1, max_tokens=1024, top_p=0.95, top_k=40, repeat_penalty=1.1, seed=42
+2026-07-08 22:38:39 | INFO     | backend.reguaz.services.generation.gemma_service | Gemma model loaded successfully in 3.8292 seconds.
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5123
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6147
+2026-07-08 22:40:03 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 75.7199 seconds.
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6848
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7872
+2026-07-08 22:40:58 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 39.3361 seconds.
+2026-07-08 22:44:14 | INFO     | backend.reguaz.services.generation.llm_factory | Instantiating LLM provider: gemma
+2026-07-08 22:44:14 | INFO     | backend.reguaz.services.generation.gemma_service | Loading Gemma model from /Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/models/gemma-4-E4B-it-Q4_K_M.gguf with config: context_window=8192, temperature=0.1, max_tokens=1024, top_p=0.95, top_k=40, repeat_penalty=1.1, seed=42
+2026-07-08 22:44:18 | INFO     | backend.reguaz.services.generation.gemma_service | Gemma model loaded successfully in 3.2335 seconds.
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5123
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6147
+2026-07-08 22:45:41 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 74.8325 seconds.

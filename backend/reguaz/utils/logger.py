@@ -13,7 +13,7 @@ import logging
 import sys
 from pathlib import Path
 
-LOGS_DIR = Path(__file__).resolve().parent.parent / "logs"
+from backend.reguaz.config import LOGS_PATH as LOGS_DIR
 
 LOG_FORMAT = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"

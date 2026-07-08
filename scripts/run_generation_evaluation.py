@@ -32,7 +32,7 @@ def parse_args():
     parser.add_argument(
         "--dataset",
         type=str,
-        default=str(config.DATA_DIR / "evaluation" / "gold_dataset_for_llm_generation.xlsx"),
+        default=str(config.GOLD_DATASET_PATH),
         help="Path to the evaluation dataset."
     )
     parser.add_argument(
@@ -58,7 +58,7 @@ def parse_args():
 def main():
     args = parse_args()
     
-    output_dir = args.output_dir or f"results/generation/{args.model_type}"
+    output_dir = args.output_dir or str(config.RESULTS_PATH / "generation" / args.model_type)
     output_path = Path(PROJECT_ROOT) / output_dir
     output_path.mkdir(parents=True, exist_ok=True)
     
@@ -77,7 +77,7 @@ def main():
     try:
         retriever = HybridQdrantRetriever(
             model_name="bge_m3",
-            qdrant_dir=str(config.QDRANT_DIR),
+            qdrant_dir=str(config.QDRANT_PATH),
             chunks_dir=str(config.CHUNKS_DIR),
             top_k_semantic=config.SEMANTIC_TOP_K,
             top_k_bm25=config.BM25_TOP_K,

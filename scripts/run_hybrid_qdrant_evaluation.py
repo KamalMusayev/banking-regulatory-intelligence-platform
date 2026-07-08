@@ -82,8 +82,8 @@ _METRIC_COLUMNS: list[str] = [
 
 DEFAULT_DATASET_PATH = Path("data/evaluation/gold_dataset_for_embedding_excel.xlsx")
 DEFAULT_CHUNKS_DIR = "data/processed/chunks"
-DEFAULT_QDRANT_DIR = "data/qdrant"
-DEFAULT_RESULTS_DIR = Path("results/hybrid_qdrant_retrieval")
+DEFAULT_QDRANT_DIR = str(config.QDRANT_PATH)
+DEFAULT_RESULTS_DIR = str(config.RESULTS_PATH / "hybrid_qdrant_retrieval")
 DEFAULT_TOP_K = 10
 DEFAULT_TOP_K_CANDIDATES = 30
 DEFAULT_RERANK_TOP_K = 15
@@ -775,7 +775,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--results-dir",
         type=str,
-        default=str(DEFAULT_RESULTS_DIR),
+        default=DEFAULT_RESULTS_DIR,
         help="Root directory where all result files will be saved.",
     )
     return parser.parse_args()
