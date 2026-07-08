@@ -3,225 +3,170 @@ You are an expert legal and regulatory assistant for the ReguAZ platform. Answer
 Context:
 
 --- Document 1 ---
-Document: Banklar Haqqında Qanun
-Category: laws
-Chapter: XI
-Article: 38
-Pages: 122-123
+Document: 50c0f6d30754ffa78df0070e8
+Category: governance_and_compliance
+Article: 3
+Pages: 3-4
 
 Content:
-41.5. Bankların mövcud və keçmiş inzibatçıları və digər əməkdaşları, habelə bankın
-səhmdarları bankın idarə edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar
+3. Nəzarət subyektində İT funksiyası və idarə edilməsi
+3.1. Nəzarət subyekti strategiyasından, bazar payından, idarə edilməsindən,
+məqsədlərindən və göstərdiyi xidmətlərdən asılı olaraq İT funksiyasını digər biznes
+xarakterli funksiyalardan müstəqil və ya üçüncü tərəflərin xidmətlərindən istifadə
+edərək yarada bilər.
+3.2. Nəzarət subyektində üçüncü tərəflərin dəstəyi ilə fəaliyyət göstərən İT
+funksiyasına nəzarət edən cavabdeh məsul şəxs müəyyən edilir. Bu məsul şəxs
+texnoloji və rəqəmsal həllərin tətbiqi sahələri üzrə təcrübəyə malik olmalıdır.
+3.3. İTİE-nin əsas məqsədi nəzarət subyektində İT resurslarından düzgün
+istifadə edərək biznesin strateji hədəflərinə çatmasına dəstək göstərməkdən və
+aşağıdakıları təmin etməkdən ibarətdir:
+3.3.1. İT proseslərinin effektiv qurulması və idarə edilməsinin qanunvericiliyə,
+o cümlədən Mərkəzi Bankın normativ xarakterli aktlarına, beynəlxalq standartlara,
+təcrübələrə uyğunluğunun və nəzarətin təmin edilməsi;
+3.3.2. İT proseslərinin davamlılığını təmin etmək üçün zəruri proseslər və
+həllərin tətbiqi istiqamətində işlərin icra edilməsi;
+3.3.3. İT resurslarına edilən investisiyaların, xərclərin səmərəliliyinin ölçülməsi
+üçün qayda və proseslərin hazırlanması;
+3.3.4. İT proseslərində qərarvermə səlahiyyətlərinin düzgün müəyyən
+edilməsinin təmin edilməsi;
+3.3.5. İT proseslərinin təkmillik səviyyəsinin qiymətləndirilməsi üçün müxtəlif
+avtomatlaşdırma sistemlərindən və alətlərdən istifadə edərək bu istiqamətdə təhlil və
+təkmilləşdirilmənin həyata keçirilməsi.
+3.4. İTİE-nin effektiv həyata keçirilməsini təmin etmək məqsədilə İT
+funksiyasına nəzarət və rəhbərlik aşağıdakı şəxslər tərəfindən həyata keçirilə bilər:
+3.4.1. İT funksiyasına nəzarəti (kuratorluğu) həyata keçirən şəxsin İT üzrə
+peşəkar təcrübəyə malik olan icra orqanının bir üzvü olması (icra orqanı kollegial
+olduğu təqdirdə);
+3.4.2. Texnoloji və rəqəmsal həllərin tətbiqi, rəqəmsal məhsulların inkişafı və
+idarəedilməsi sahələrini dərindən bilən, bu sahələrin praktiki tətbiqində və idarə
+edilməsində azı 5 (beş) illik təcrübəyə və azı 3 (üç) illik idarəetmə təcrübəsinə malik
+olan baş informasiya inzibatçısının (nəzarət subyektində mövcud olduğu halda)
+olması.
+3.5. Nəzarət subyektinin İT funksiyasının rəhbərləri 3.4.1-ci yarımbənddə
+nəzərdə tutulan icra orqanının üzvü və 3.4.2-ci yarımbənddə nəzərdə tutulan baş
+informasiya inzibatçısı ilə birlikdə İT rəhbərliyini təşkil edir.
+3.6. Nəzarət subyekti strategiyasından, bazar payından, idarə edilməsindən,
+məqsədlərindən və göstərdiyi xidmətlərdən asılı olaraq qərarların kollegial şəkildə
+verilməsi üçün tərkibi İT funksiyası üzrə rəhbər şəxslərdən, İT mütəxəssislərindən,
+eləcə də digər struktur bölmələrin rəhbər şəxslərindən və (və ya) digər
+əməkdaşlarından ibarət olan İT üzrə kollegial orqan və ya digər səlahiyyətli
+qərarvermə orqanı yarada bilər. İT üzrə kollegial orqan nəzarət subyektinin icra
+orqanının (icra orqanı kollegial olduğu təqdirdə) digər üzvləri də daxil ola bilər. İT üzrə
+kollegial orqanın sədri İT rəhbərliyinə daxil olan şəxslər arasından seçilə bilər. İT üzrə
 
 
 
-onlara məlum olan bank sirrini təşkil edən məlumatların qeyri-qanuni açılmasına görə
-Azərbaycan Respublikasının müvafiq qanunvericiliyi ilə müəyyən edilmiş qaydada mülki,
-inzibati və cinayət məsuliyyəti daşıyırlar.
-[189] 30 iyun 2009-cu il tarixli 856-IIIQD nömrəli Azərbaycan Respublikasının Qanunu
-(“Azərbaycan” qəzeti 24 iyul 2009-cu il, № 160, Azərbaycan Respublikasının Qanunvericilik
-Toplusu, 2009-cu il, № 07, maddə 517) ilə 42-ci maddə yeni redaksiyada verilmişdir.
-Əvvəlki redaksiyada deyilirdi:
+kollegial orqana risklərin idarə edilməsi, informasiya təhlükəsizliyi, maliyyə və digər
+strukturların səlahiyyətli əməkdaşları da seçilə bilər.
+3.7. İT üzrə kollegial orqan nəzarət subyektində İT-in yüksək texnoloji
+standartlar səviyyəsində saxlanılmasını təmin etmək məqsədilə İT strategiyasının, İT
+üzrə maliyyələşdirmənin, resursların bölüşdürülməsinin, planlaşdırmasının həyata
+keçirilməsi üçün müvafiq tədbirlər həyata keçirir.
+3.8. İT üzrə kollegial orqan tərəfindən aşağıdakı vəzifələr həyata keçirilir:
+3.8.1. İT strategiyasından irəli gələn işlərin icrasına nəzarət edilməsi;
+3.8.2. icra orqanı və Müşahidə (Direktorlar) Şurasına (olduğu halda) təkliflərin
+verilməsi;
+3.8.3. İT büdcəsinin icrasına nəzarət;
+3.8.4. İT satınalmalarına dair təkliflərin verilməsi;
+3.8.5. İT dəyişikliklərin idarəedilməsi prosesinin izlənilməsi;
+3.8.6. informasiya sistemlərinin dayanıqlılığına nəzarət;
 
 ---
 
 --- Document 2 ---
-Document: 590-IIQ-Banklar haqqında
-Category: laws
-Chapter: X
-Article: 38
-Page: 108
+Document: 50c0f6d30754ffa78df0070e8
+Category: governance_and_compliance
+Article: 1
+Page: 2
 
 Content:
-icra edən konsulluq idarələrinə verilir.
-189 6 iyul 2023-cü il tarixli 935-VIQD nömrəli Azərbaycan Respublikasının Qanunu (Azərbaycan
-Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 31 iyul 2023-cü il, “Azərbaycan”
-qəzeti, 1 avqust 2023-cü il, № 160, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2023-cü il, №
-7, maddə 913) ilə 41.5-ci maddə yeni redaksiyada verilmişdir.
-Əvvəlki redaksiyada deyilirdi:
-41.5. Bankların mövcud və keçmiş inzibatçıları və digər əməkdaşları, habelə bankın səhmdarları
-bankın idarə edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar onlara məlum olan
-bank sirrini təşkil edən məlumatların qeyri-qanuni açılmasına görə Azərbaycan Respublikasının müvafiq
-qanunvericiliyi ilə müəyyən edilmiş qaydada mülki, inzibati və cinayət məsuliyyəti daşıyırlar.
-190 30 iyun 2009-cu il tarixli 856-IIIQD nömrəli Azərbaycan Respublikasının Qanunu (“Azərbaycan”
-qəzeti 24 iyul 2009-cu il, № 160, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2009-cu il, №
-07, maddə 517) ilə 42-ci maddə yeni redaksiyada verilmişdir.
-Əvvəlki redaksiyada deyilirdi:
+1. Ümumi müddəalar
+1.1. Bu Təlimat informasiya texnologiyaları (bundan sonra – İT) üzrə
+beynəlxalq peşəkar assosiasiya olan ISACA (Information Systems Audit and Control
+Association) tərəfindən hazırlanmış COBIT 2019 (Control Objectives for İnformation
+and Related Technologies) Standartına və informasiya texnologiyalarının idarə
+edilməsi (bundan sonra - İTİE) üzrə qabaqcıl beynəlxalq təcrübəyə uyğun olaraq
+hazırlanmışdır.
+1.2. Bu Təlimatın əsas məqsədi maliyyə sektorunun səmərəli fəaliyyətini və
+sabitliyini dəstəkləmək üçün banklarda, bank olmayan kredit təşkilatlarında (kredit
+ittifaqları istisna olmaqla), sığortaçılarda, qiymətli kağızlar bazarında
+lisenziyalaşdırılan şəxslərdə, səhmdar investisiya fondları və investisiya fondlarının
+idarəçilərində, poçt rabitəsinin milli operatorunda, ödəniş təşkilatlarında, elektron pul
+təşkilatlarında, ödəniş sistemlərinin operatorlarında, kredit bürolarında, mərkəzi
+depozitarda (bundan sonra – nəzarət subyektləri) İTİE-nin beynəlxalq standartlar
+əsasında formalaşdırılması və təkmilləşdirilməsidir.
 
 ---
 
 --- Document 3 ---
-Document: Banklar Haqqında Qanun
-Category: laws
-Chapter: XI
-Article: 38
-Pages: 122-123
+Document: 50c0f6d30754ffa78df0070e8
+Category: governance_and_compliance
+Article: 2
+Pages: 2-3
 
 Content:
-Azərbaycan Respublikasında fəaliyyət göstərən banka müddətli əmanət müqaviləsi
-əsasında pul vəsaiti qoymaqla Azərbaycan Respublikasının ərazisində müvəqqəti və ya daimi
-yaşamaq üçün icazə almış əcnəbilərin və ya vətəndaşlığı olmayan şəxslərin müddətli əmanəti
-barədə məlumatlar müvafiq icra hakimiyyəti orqanına Azərbaycan Respublikasının Miqrasiya
-Məcəlləsi ilə müəyyən edilmiş hallarda verilir.
-Bank müştərilərə hesab açdıqda və ya maliyyə xidmətləri göstərdikdə Azərbaycan
-Respublikasının normativ hüquqi aktlarının, habelə vergi və maliyyə məlumatlarının
-mübadiləsini nəzərdə tutan Azərbaycan Respublikasının tərəfdar çıxdığı beynəlxalq
-müqavilələrin tələblərinə əməl olunmasını təmin etməli və həmin beynəlxalq müqavilələrə
-uyğun olaraq, xarici dövlətlərin hüquqi və fiziki şəxslərinin Azərbaycan Respublikasının
-ərazisində həyata keçirdikləri maliyyə əməliyyatları barədə məlumatları Azərbaycan
-Respublikasının Vergi Məcəlləsinin 76-1-ci maddəsinin tələbləri əsasında həmin xarici
-dövlətlərin səlahiyyətli orqanlarına təqdim etməlidir.
-Bank sirrini təşkil edən məlumatlar Azərbaycan Respublikasının Hesablama Palatasına
-“Hesablama Palatası haqqında” Azərbaycan Respublikasının Qanunu ilə müəyyən edilmiş
-qaydada verilir.
-[184] 18 mart 2025-ci il tarixli 161-VIIQD nömrəli Azərbaycan Respublikasının Qanunu
-(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 8 aprel
-2025-ci il, “Azərbaycan” qəzeti, 9 aprel 2025-ci il, № 68) ilə yeni məzmunda 41.2.10-1-ci
-maddə əlavə edilmişdir.
-[185] 29 noyabr 2024-cü il tarixli 77-VIIQD nömrəli Azərbaycan Respublikasının Qanunu
-(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 7 yanvar
-2025-ci il, “Azərbaycan” qəzeti, 8 yanvar 2025-ci il, № 2, Azərbaycan Respublikasının
-Qanunvericilik Toplusu, 2025-ci il, № 1, maddə 1) ilə 41.2.17-ci maddəsində “arbitraja
-(münsiflər məhkəməsinə)” sözləri “arbitraj məhkəməsinə” sözləri ilə əvəz edilmişdir.
-[186] 5 dekabr 2023-cü il tarixli 1048-VIQD nömrəli Azərbaycan Respublikasının Qanunu
-(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 25 dekabr
-2023-cü il, “Azərbaycan” qəzeti, 26 dekabr 2023-cü il, № 283, Azərbaycan Respublikasının
-Qanunvericilik Toplusu, 2023-cü il, № 12, I kitab, maddə 1621) ilə 41.2.17-ci maddənin
-sonunda nöqtə işarəsi nöqtəli vergül işarəsi ilə əvəz edilmişdir və yeni məzmunda 41.2.18-ci
-maddə əlavə edilmişdir.
-[187] 6 iyul 2023-cü il tarixli 935-VIQD nömrəli Azərbaycan Respublikasının Qanunu
-(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 31 iyul
-2023-cü il, “Azərbaycan” qəzeti, 1 avqust 2023-cü il, № 160, Azərbaycan Respublikasının
-Qanunvericilik Toplusu, 2023-cü il, № 7, maddə 913) ilə 41.3-cü maddə yeni redaksiyada
-verilmişdir.
-Əvvəlki redaksiyada deyilirdi:
-41.3. Hesabların və əmanətlərin sahibləri vəfat etdikdə onların hesabları və əmanətləri
-barəsində arayışlar notariuslara onların icraatında olan vərəsəlik işləri üzrə, habelə müvafiq
-notariat hərəkətlərini icra edən konsulluq idarələrinə verilir.
-[188] 6 iyul 2023-cü il tarixli 935-VIQD nömrəli Azərbaycan Respublikasının Qanunu
-(Azərbaycan Dövlət İnformasiya Agentliyinin (AZƏRTAC-ın) rəsmi internet saytı, 31 iyul
-2023-cü il, “Azərbaycan” qəzeti, 1 avqust 2023-cü il, № 160, Azərbaycan Respublikasının
-Qanunvericilik Toplusu, 2023-cü il, № 7, maddə 913) ilə 41.5-ci maddə yeni redaksiyada
-verilmişdir.
-Əvvəlki redaksiyada deyilirdi:
-41.5. Bankların mövcud və keçmiş inzibatçıları və digər əməkdaşları, habelə bankın
-səhmdarları bankın idarə edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar
-
-
-
-onlara məlum olan bank sirrini təşkil edən məlumatların qeyri-qanuni açılmasına görə
-Azərbaycan Respublikasının müvafiq qanunvericiliyi ilə müəyyən edilmiş qaydada mülki,
-inzibati və cinayət məsuliyyəti daşıyırlar.
-[189] 30 iyun 2009-cu il tarixli 856-IIIQD nömrəli Azərbaycan Respublikasının Qanunu
+2. Əsas anlayışlar
+2.1. Bu Təlimatın məqsədləri üçün istifadə olunan anlayışlar aşağıdakı
+mənaları ifadə edir:
+2.1.1. İT funksiyası – nəzarət subyektinin İT üzrə fəaliyyətlərini həyata keçirən
+və idarə edən struktur bölmələr;
+2.1.2. İT resursları – nəzarət subyektinin fəaliyyətini dəstəkləmək və biznes
+məqsədlərinə çatmaq üçün istifadə edilən texnoloji vasitələr və komponentlər;
+2.1.3. İT prosesləri – nəzarət subyektində İT üzrə fəaliyyətlərin idarə olunması
+və təşkilini təmin edən standartlaşdırılmış fəaliyyətlər toplusu;
+2.1.4. İTİE - İT üzrə təşkilati strukturun, resursların və proseslərin nəzarət
+subyektinin məqsəd və ehtiyaclarına uyğun şəkildə idarə olunması.
+2.2. Bu Təlimatda istifadə edilən digər anlayışlar normativ hüquqi aktlarda və
+Azərbaycan Respublikası Mərkəzi Bankının (bundan sonra - Mərkəzi Bank) normativ
+xarakterli aktlarında müəyyən edilmiş mənaları ifadə edir.
 
 ---
 
 --- Document 4 ---
-Document: Banklar Haqqında Qanun
-Category: laws
-Chapter: IV
-Article: 41
-Pages: 42-43
+Document: 50c0f6d30754ffa78df0070e8
+Category: governance_and_compliance
+Article: 6
+Page: 5
 
 Content:
-qanuni qüvvəyə minmiş qərarı əsasında – müvafiq dövlət orqanlarına və onların vəzifəli
-şəxslərinə;
-41.2.12. məhkəmənin icraatında olan işlərlə bağlı qanuni qüvvəyə minmiş məhkəmə qərarı
-əsasında – məhkəmələrə;
-
-
-
-41.2.13. müştəri vəfat etdikdə onun hesabları və əmanətləri, habelə bank saxlancında olan
-əmlakı barədə məlumatlar icraatında olan vərəsəlik işləri üzrə – notariuslara, habelə müvafiq
-notariat hərəkətlərini icra edən konsulluq idarələrinə;
-41.2.14. bankın öhdəliklərinin könüllü restrukturizasiyası zamanı bu Qanunda nəzərdə
-tutulmuş qaydada – müvafiq kreditorlara;
-41.2.15. bankın aktiv və (və ya) öhdəliklərinin bu Qanunda nəzərdə tutulan qaydada
-köçürülməsi (ötürülməsi/satılması) zamanı – aktiv və (və ya) öhdəlikləri qəbul edən şəxslərə;
-41.2.16. bankın audit yoxlaması zamanı – kənar auditorlara;
-41.2.17. bankın qanuni maraqlarının qorunması məqsədilə və yalnız bu məqsədlər üçün tələb
-olunduğu həcmdə müştərinin borc öhdəliyi barədə məhkəməyə, hüquq mühafizə orqanlarına,
-banka hüquqi yardım göstərən vəkilə, habelə bankın öz təşəbbüsü, yaxud qanunda və ya
-müqavilədə nəzərdə tutulduqda – arbitraj məhkəməsinə, mediatora, mübahisələrin digər
-alternativ həlli mexanizmini həyata keçirən şəxslərə;[185]
-41.2.18. ödəniş xidmətlərinin göstərilməsi zamanı – digər ödəniş xidməti təchizatçılarına,
-vəsait alana və ödəniş əməliyyatının icrasında iştirak edən digər şəxslərə.[186]
-41.3. Borcalanlar barədə məlumat kredit bürolarına “Kredit büroları haqqında” Azərbaycan
-Respublikasının Qanununda nəzərdə tutulmuş qaydada verilir.[187]
-41.4. Mərkəzi Bank ilə xarici dövlətlərin bank tənzimləməsi və nəzarəti orqanları arasında qarşılıqlı
-əməkdaşlığa dair sazişə uyğun olaraq informasiya mübadiləsinin predmeti müvafiq dövlətin ərazisində
-fəaliyyət göstərən və ya fəaliyyət göstərməyə hazırlaşan subyektlər haqqında informasiyadırsa, belə
-informasiya bank sirrinin açılması hesab edilmir, bir şərtlə ki, bu informasiya üçüncü şəxslərə verilə
-bilməz və yalnız bank nəzarəti məqsədləri üçün istifadə edilir.
-41.5. Bankların mövcud və keçmiş inzibatçıları, digər əməkdaşları, səhmdarları bankın idarə
-edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar onlara məlum olan,
-habelə bu Qanunun 41.2-ci və 41.3-cü maddələrində nəzərdə tutulmuş şəxslər əldə etdikləri
-bank sirrini təşkil edən məlumatların qeyri-qanuni açıqlanmasına görə Azərbaycan
-Respublikasının müvafiq qanunvericiliyi ilə müəyyən edilmiş qaydada mülki, inzibati və cinayət
-məsuliyyəti daşıyırlar.[188]
-41.6. Bank sirrini təşkil edən məlumatlar bank tərəfindən qanunsuz olaraq açıqlandığı halda hüquqları
-pozulmuş müştəri Azərbaycan Respublikasının Mülki Məcəlləsinə müvafiq olaraq bankdan vurulmuş
-zərərin əvəzini ödəməyi tələb edə bilər.
+6. İTİE üzrə monitorinq, qiymətləndirmə və hesabatlılıq
+6.1. Bu Təlimatın 5.1-ci bəndində müəyyən edilmiş minimal baza prosesləri
+əsasında nəzarət subyektləri İTİE üzrə monitorinq və qiymətləndirmələr aparır,
+müvafiq daxili hesabatlılıq sistemini formalaşdırır.
+6.2. Texnoloji əlçatanlığın təmin edilməsi, bu əlçatanlığın monitorinqi, baş
+vermiş sistem dayanmalarının təsirinin adekvat qiymətləndirilməsi və aradan
+qaldırılması məqsədilə nəzarət subyektləri tərəfindən müvafiq proseslərin qurulması
+və daxili hesabatlılığın təmin edilməsi məqsədəuyğundur.
+Mərkəzi Bankın sədri Taleh Kazımov
 
 ---
 
 --- Document 5 ---
-Document: 590-IIQ-Banklar haqqında
-Category: laws
-Chapter: IV
-Article: 41
-Pages: 38-39
+Document: 50c0f6d30754ffa78df0070e8
+Category: governance_and_compliance
+Article: 5
+Page: 5
 
 Content:
-funksiyalarının yerinə yetirilməsi ilə bağlı – müvafiq icra hakimiyyəti orqanının müəyyən
-etdiyi orqana (quruma);184
-41.2.10. ixracda hesablaşmalara dövlət nəzarəti ilə bağlı ixrac olunmuş mal (xidmət)
-müqabilində bank hesabına vəsaitin köçürülməsi barədə – gömrük orqanlarına;
-41.2.10-1. Azərbaycan Respublikasının Rəqabət Məcəlləsi ilə müəyyən edilmiş hallarda və
-qaydada – rəqabət orqanına;185
-41.2.11. cinayət işinin istintaqı, müştərinin pul vəsaitinə və bankın saxlancında olan
-əmlakına həbs qoyulması, tələb yönəldilməsi və bunların müsadirə edilməsi ilə əlaqədar
-məhkəmənin qanuni qüvvəyə minmiş qərarı əsasında – müvafiq dövlət orqanlarına və onların
-vəzifəli şəxslərinə;
-41.2.12. məhkəmənin icraatında olan işlərlə bağlı qanuni qüvvəyə minmiş məhkəmə qərarı
-əsasında – məhkəmələrə;
-41.2.13. müştəri vəfat etdikdə onun hesabları və əmanətləri, habelə bank saxlancında olan
-əmlakı barədə məlumatlar icraatında olan vərəsəlik işləri üzrə – notariuslara, habelə müvafiq
-notariat hərəkətlərini icra edən konsulluq idarələrinə;
-41.2.14. bankın öhdəliklərinin könüllü restrukturizasiyası zamanı bu Qanunda nəzərdə
-tutulmuş qaydada – müvafiq kreditorlara;
-41.2.15. bankın aktiv və (və ya) öhdəliklərinin bu Qanunda nəzərdə tutulan qaydada
-köçürülməsi (ötürülməsi/satılması) zamanı – aktiv və (və ya) öhdəlikləri qəbul edən şəxslərə;
-41.2.16. bankın audit yoxlaması zamanı – kənar auditorlara;
-41.2.17. bankın qanuni maraqlarının qorunması məqsədilə və yalnız bu məqsədlər üçün tələb
-olunduğu həcmdə müştərinin borc öhdəliyi barədə məhkəməyə, hüquq mühafizə orqanlarına,
-banka hüquqi yardım göstərən vəkilə, habelə bankın öz təşəbbüsü, yaxud qanunda və ya
-müqavilədə nəzərdə tutulduqda – arbitraj məhkəməsinə, mediatora, mübahisələrin digər
-alternativ həlli mexanizmini həyata keçirən şəxslərə;186
-41.2.18. ödəniş xidmətlərinin göstərilməsi zamanı – digər ödəniş xidməti təchizatçılarına,
-vəsait alana və ödəniş əməliyyatının icrasında iştirak edən digər şəxslərə.187
-41.3. Borcalanlar barədə məlumat kredit bürolarına “Kredit büroları haqqında” Azərbaycan
-Respublikasının Qanununda nəzərdə tutulmuş qaydada verilir.188
-41.4. Mərkəzi Bank ilə xarici dövlətlərin bank tənzimləməsi və nəzarəti orqanları arasında
-qarşılıqlı əməkdaşlığa dair sazişə uyğun olaraq informasiya mübadiləsinin predmeti müvafiq
-dövlətin ərazisində fəaliyyət göstərən və ya fəaliyyət göstərməyə hazırlaşan subyektlər
-haqqında informasiyadırsa, belə informasiya bank sirrinin açılması hesab edilmir, bir şərtlə ki,
-bu informasiya üçüncü şəxslərə verilə bilməz və yalnız bank nəzarəti məqsədləri üçün istifadə
-edilir.
-41.5. Bankların mövcud və keçmiş inzibatçıları, digər əməkdaşları, səhmdarları bankın idarə
-edilməsi və ya xidməti səlahiyyətlərinin həyata keçirilməsi ilə əlaqədar onlara məlum olan, habelə
-bu Qanunun 41.2-ci və 41.3-cü maddələrində nəzərdə tutulmuş şəxslər əldə etdikləri bank sirrini
-
-
-
-təşkil edən məlumatların qeyri-qanuni açıqlanmasına görə Azərbaycan Respublikasının müvafiq
-qanunvericiliyi ilə müəyyən edilmiş qaydada mülki, inzibati və cinayət məsuliyyəti daşıyırlar.189
-41.6. Bank sirrini təşkil edən məlumatlar bank tərəfindən qanunsuz olaraq açıqlandığı halda
-hüquqları pozulmuş müştəri Azərbaycan Respublikasının Mülki Məcəlləsinə müvafiq olaraq
-bankdan vurulmuş zərərin əvəzini ödəməyi tələb edə bilər.
+5. İTİE üzrə minimal baza prosesləri
+5.1. Nəzarət subyektləri İTİE çərçivəsində və COBİT 2019 standartı əsasında
+aşağıdakı minimal baza proseslərini tətbiq edir:
+5.1.1. risklərin idarə edilməsi;
+5.1.2. əlçatanlıq və məhsuldarlığın idarə edilməsi;
+5.1.3. İT dəyişikliklərinin idarə edilməsi;
+5.1.4. İT dəyişikliklərinin qəbulunun və keçidinin idarə edilməsi;
+5.1.5. aktivlərin idarə edilməsi;
+5.1.6. davamlılığın idarə edilməsi;
+5.1.7. performasın və uyğunluğun monitorinqi;
+5.1.8. daxili nəzarət sisteminin idarə edilməsi;
+5.1.9. təchizatçıların idarə edilməsi.
+5.2. Bu Təlimatın 5.1-ci bəndində qeyd olunan proseslərdən əlavə nəzarət
+subyektləri strategiyasına, bazar payına, fəaliyyət xüsusiyyətlərinə və tənzimləmə
+tələblərinə uyğun digər proseslərin də COBİT 2019 standartı əsasında
+qiymətləndirilməsini və təkmilləşdirilməsini nəzərdə tuta bilər.
 
 ---
 
-Question: Bank sirrini təşkil edən məlumatların qeyri-qanuni açıqlanmasına görə hansı məsuliyyət növləri nəzərdə tutulur?
+Question: İTİE-nin əsas məqsədi nədir?
 
 Answer:

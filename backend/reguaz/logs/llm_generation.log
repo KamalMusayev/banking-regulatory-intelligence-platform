@@ -433,3 +433,246 @@
 2026-07-08 09:17:02 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
 2026-07-08 09:17:02 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6257
 2026-07-08 09:17:26 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 23.7866 seconds.
+2026-07-08 13:24:27 | INFO     | backend.reguaz.services.generation.llm_factory | Instantiating LLM provider: gemma
+2026-07-08 13:24:27 | INFO     | backend.reguaz.services.generation.gemma_service | Loading Gemma model from /Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/backend/reguaz/models/gemma-4-E4B-it-Q4_K_M.gguf with config: context_window=8192, temperature=0.1, max_tokens=1024, top_p=0.95, top_k=40, repeat_penalty=1.1, seed=42
+2026-07-08 13:24:31 | INFO     | backend.reguaz.services.generation.gemma_service | Gemma model loaded successfully in 3.7784 seconds.
+2026-07-08 13:24:44 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:24:44 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:24:44 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5123
+2026-07-08 13:24:44 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:24:44 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6147
+2026-07-08 13:25:55 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 70.6672 seconds.
+2026-07-08 13:26:13 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:26:13 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:26:13 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6848
+2026-07-08 13:26:13 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:26:13 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7872
+2026-07-08 13:26:50 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 37.2792 seconds.
+2026-07-08 13:27:22 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:27:22 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:27:22 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5233
+2026-07-08 13:27:22 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:27:22 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6257
+2026-07-08 13:27:46 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 23.4935 seconds.
+2026-07-08 13:28:06 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:28:06 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:28:06 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 1755
+2026-07-08 13:28:06 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:28:06 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 2779
+2026-07-08 13:28:12 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 6.1533 seconds.
+2026-07-08 13:28:34 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:28:34 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:28:34 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6499
+2026-07-08 13:28:34 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:28:34 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7523
+2026-07-08 13:29:11 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 36.5263 seconds.
+2026-07-08 13:29:33 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:29:33 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:29:33 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5659
+2026-07-08 13:29:33 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:29:33 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6683
+2026-07-08 13:30:00 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 26.9938 seconds.
+2026-07-08 13:30:20 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:30:20 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:30:20 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6453
+2026-07-08 13:30:20 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:30:20 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7477
+2026-07-08 13:30:38 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 17.5691 seconds.
+2026-07-08 13:31:05 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:31:05 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:31:05 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6630
+2026-07-08 13:31:05 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:31:05 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7654
+2026-07-08 13:31:27 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 21.5698 seconds.
+2026-07-08 13:31:53 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:31:53 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:31:53 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6103
+2026-07-08 13:31:53 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:31:53 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7127
+2026-07-08 13:32:21 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 27.0821 seconds.
+2026-07-08 13:32:50 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:32:50 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:32:50 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6638
+2026-07-08 13:32:50 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:32:50 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7662
+2026-07-08 13:33:41 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 50.5540 seconds.
+2026-07-08 13:34:08 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:34:08 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:34:08 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4718
+2026-07-08 13:34:08 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:34:08 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5742
+2026-07-08 13:34:31 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 23.0459 seconds.
+2026-07-08 13:35:02 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:35:02 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:35:02 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 7089
+2026-07-08 13:35:02 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:35:02 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 8113
+2026-07-08 13:35:25 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 22.9333 seconds.
+2026-07-08 13:35:49 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:35:49 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:35:49 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6325
+2026-07-08 13:35:49 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:35:49 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7349
+2026-07-08 13:36:11 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 21.2435 seconds.
+2026-07-08 13:36:40 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:36:40 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:36:40 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5886
+2026-07-08 13:36:40 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:36:40 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6910
+2026-07-08 13:36:59 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 18.4695 seconds.
+2026-07-08 13:37:22 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:37:22 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:37:22 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5974
+2026-07-08 13:37:22 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:37:22 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6998
+2026-07-08 13:37:41 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 18.8523 seconds.
+2026-07-08 13:38:16 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:38:16 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:38:16 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4737
+2026-07-08 13:38:16 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:38:16 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5761
+2026-07-08 13:38:35 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 19.0049 seconds.
+2026-07-08 13:39:10 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:39:10 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:39:10 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 3920
+2026-07-08 13:39:10 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:39:10 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 4944
+2026-07-08 13:39:31 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 20.9839 seconds.
+2026-07-08 13:40:10 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:40:10 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:40:10 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 3800
+2026-07-08 13:40:10 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:40:10 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 4824
+2026-07-08 13:40:47 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 36.8508 seconds.
+2026-07-08 13:41:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:41:32 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:41:32 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4175
+2026-07-08 13:41:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:41:32 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5199
+2026-07-08 13:41:51 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 19.5471 seconds.
+2026-07-08 13:42:51 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:42:51 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:42:51 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4262
+2026-07-08 13:42:51 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:42:51 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5286
+2026-07-08 13:43:03 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 11.4548 seconds.
+2026-07-08 13:43:33 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:43:33 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:43:33 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6360
+2026-07-08 13:43:33 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:43:33 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7384
+2026-07-08 13:44:21 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 47.3753 seconds.
+2026-07-08 13:44:52 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:44:52 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:44:52 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4938
+2026-07-08 13:44:52 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:44:52 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5962
+2026-07-08 13:45:11 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 18.7585 seconds.
+2026-07-08 13:45:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:45:32 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:45:32 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5346
+2026-07-08 13:45:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:45:32 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6370
+2026-07-08 13:46:18 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 45.3359 seconds.
+2026-07-08 13:46:46 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:46:46 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:46:46 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5843
+2026-07-08 13:46:46 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:46:46 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6867
+2026-07-08 13:47:20 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 33.3245 seconds.
+2026-07-08 13:48:02 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:48:02 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:48:02 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5257
+2026-07-08 13:48:02 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:48:02 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6281
+2026-07-08 13:48:30 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 27.6979 seconds.
+2026-07-08 13:48:52 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:48:52 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:48:52 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5773
+2026-07-08 13:48:52 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:48:52 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6797
+2026-07-08 13:49:31 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 38.4944 seconds.
+2026-07-08 13:49:57 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:49:57 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:49:57 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 3677
+2026-07-08 13:49:57 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:49:57 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 4701
+2026-07-08 13:50:14 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 16.7056 seconds.
+2026-07-08 13:50:39 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:50:39 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:50:39 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6440
+2026-07-08 13:50:39 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:50:39 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7464
+2026-07-08 13:51:25 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 45.6717 seconds.
+2026-07-08 13:51:54 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:51:54 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:51:54 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5831
+2026-07-08 13:51:54 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:51:54 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6855
+2026-07-08 13:52:31 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 37.2086 seconds.
+2026-07-08 13:53:05 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:53:05 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:53:05 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5215
+2026-07-08 13:53:05 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:53:05 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6239
+2026-07-08 13:53:23 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 18.3466 seconds.
+2026-07-08 13:54:04 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:54:04 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:54:04 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6333
+2026-07-08 13:54:04 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:54:04 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7357
+2026-07-08 13:54:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 28.3804 seconds.
+2026-07-08 13:54:58 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:54:58 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:54:58 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5231
+2026-07-08 13:54:58 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:54:58 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6255
+2026-07-08 13:55:29 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 30.9691 seconds.
+2026-07-08 13:56:05 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:56:05 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:56:05 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 6263
+2026-07-08 13:56:05 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:56:05 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 7287
+2026-07-08 13:56:29 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 23.9711 seconds.
+2026-07-08 13:57:00 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:57:00 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:57:00 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4862
+2026-07-08 13:57:00 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:57:00 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5886
+2026-07-08 13:58:23 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 82.8202 seconds.
+2026-07-08 13:58:54 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 13:58:54 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 13:58:54 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4326
+2026-07-08 13:58:54 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 13:58:54 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5350
+2026-07-08 13:59:37 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 42.9963 seconds.
+2026-07-08 14:00:12 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 14:00:12 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 14:00:12 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 7111
+2026-07-08 14:00:12 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 14:00:12 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 8135
+2026-07-08 14:00:32 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 20.4950 seconds.
+2026-07-08 14:01:01 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 14:01:01 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 14:01:01 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5814
+2026-07-08 14:01:01 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 14:01:01 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6838
+2026-07-08 14:01:28 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 26.4842 seconds.
+2026-07-08 14:01:51 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 14:01:51 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 14:01:51 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 4374
+2026-07-08 14:01:51 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 14:01:51 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 5398
+2026-07-08 14:02:17 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 25.7536 seconds.
+2026-07-08 14:02:46 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 14:02:46 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 14:02:46 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 5856
+2026-07-08 14:02:46 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 14:02:46 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 6880
+2026-07-08 14:03:07 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 20.5697 seconds.
+2026-07-08 14:03:29 | INFO     | backend.reguaz.services.generation.gemma_service | Generation started
+2026-07-08 14:03:29 | INFO     | backend.reguaz.services.generation.gemma_service | Context window: 8192
+2026-07-08 14:03:29 | INFO     | backend.reguaz.services.generation.gemma_service | Prompt tokens: 3460
+2026-07-08 14:03:29 | INFO     | backend.reguaz.services.generation.gemma_service | Generation tokens: 1024
+2026-07-08 14:03:29 | INFO     | backend.reguaz.services.generation.gemma_service | Requested total: 4484
+2026-07-08 14:04:04 | INFO     | backend.reguaz.services.generation.gemma_service | Generation completed in 35.3172 seconds.
