@@ -8,10 +8,10 @@ from __future__ import annotations
 # pyrefly: ignore [missing-import]
 from fastapi import APIRouter, Depends
 
-from app.core.config import get_settings
-from app.core.dependencies import get_app_state
-from app.core.lifespan import AppState
-from app.schemas.health import HealthResponse
+from backend.app.core.config import get_settings
+from backend.app.core.dependencies import get_app_state
+from backend.app.core.lifespan import AppState
+from backend.app.schemas.health import HealthResponse
 
 router = APIRouter(tags=["status"])
 

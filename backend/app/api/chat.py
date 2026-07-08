@@ -11,9 +11,9 @@ from typing import Any
 # pyrefly: ignore [missing-import]
 from fastapi import APIRouter, Depends
 
-from app.core.dependencies import get_generation_pipeline
-from app.schemas.chat import ChatRequest, ChatResponse
-from app.services.chat_service import ChatService
+from backend.app.core.dependencies import get_generation_pipeline
+from backend.app.schemas.chat import ChatRequest, ChatResponse
+from backend.app.services.chat_service import ChatService
 
 router = APIRouter()
 

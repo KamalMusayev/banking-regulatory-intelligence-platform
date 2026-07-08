@@ -11,9 +11,9 @@ from typing import Any
 # pyrefly: ignore [missing-import]
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 
-from app.core.dependencies import get_document_service
-from app.schemas.document import DocumentMetadataResponse, DocumentPageResponse, DocumentHighlightResponse
-from app.services.document_service import DocumentService
+from backend.app.core.dependencies import get_document_service
+from backend.app.schemas.document import DocumentMetadataResponse, DocumentPageResponse, DocumentHighlightResponse
+from backend.app.services.document_service import DocumentService
 
 router = APIRouter(prefix="/documents", tags=["documents"])
 

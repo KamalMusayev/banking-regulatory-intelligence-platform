@@ -12,7 +12,7 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from app.schemas.document import DocumentMetadataResponse, DocumentPageResponse, ArticleInfo, DocumentHighlightResponse
+from backend.app.schemas.document import DocumentMetadataResponse, DocumentPageResponse, ArticleInfo, DocumentHighlightResponse
 
 logger = logging.getLogger(__name__)
 

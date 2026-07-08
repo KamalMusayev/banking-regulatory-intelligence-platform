@@ -20,11 +20,11 @@ from fastapi.responses import JSONResponse
 # pyrefly: ignore [missing-import]
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
-from app.api.chat import router as chat_router
-from app.api.documents import router as documents_router
-from app.api.health import router as health_router
-from app.core.config import get_settings
-from app.core.lifespan import lifespan
+from backend.app.api.chat import router as chat_router
+from backend.app.api.documents import router as documents_router
+from backend.app.api.health import router as health_router
+from backend.app.core.config import get_settings
+from backend.app.core.lifespan import lifespan
 from backend.reguaz.utils.logger import get_logger
 
 # Initialize project-wide logger for API errors

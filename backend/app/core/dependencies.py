@@ -20,9 +20,11 @@ from __future__ import annotations
 
 from typing import Any
 
+# pyrefly: ignore [missing-import]
 from fastapi import Depends, HTTPException, Request, status
 
-from app.core.lifespan import AppState
+# pyrefly: ignore [missing-import]
+from backend.app.core.lifespan import AppState
 
 
 # ---------------------------------------------------------------------------

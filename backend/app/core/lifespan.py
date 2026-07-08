@@ -33,7 +33,8 @@ from typing import Any, AsyncGenerator
 # pyrefly: ignore [missing-import]
 from fastapi import FastAPI
 
-from app.core.config import get_settings
+from backend.app.core.config import get_settings
+from backend.reguaz import config as reguaz_config
 
 logger = logging.getLogger(__name__)
 
@@ -115,13 +116,17 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     # Step 1 — Chunk lookup
     # Reads every .jsonl file under CHUNKS_DIR into a dict[chunk_id → metadata].
     # Used by the GenerationPipeline and by the GET /chunks/{chunk_id} endpoint.
+    # Paths are resolved to absolute using PROJECT_ROOT from reguaz.config so
+    # startup works regardless of the cwd uvicorn is launched from.
     # ------------------------------------------------------------------
     logger.info("[1/5] Loading Chunk Lookup...")
     try:
         from pathlib import Path
         from backend.reguaz.services.chunks.chunk_reader import ChunkReader
+
+        chunks_abs = reguaz_config.PROJECT_ROOT / settings.CHUNKS_DIR
         chunk_reader = ChunkReader()
-        state.chunk_lookup = chunk_reader.build_lookup(settings.CHUNKS_DIR)
+        state.chunk_lookup = chunk_reader.build_lookup(chunks_abs)
         logger.info("[1/5] Loaded %d chunks into lookup.", len(state.chunk_lookup))
     except Exception as exc:
         logger.error("[1/5] Failed to load chunk lookup: %s", exc)
@@ -133,11 +138,13 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     # ------------------------------------------------------------------
     logger.info("[2/5] Initializing DocumentService...")
     try:
-        from app.services.document_service import DocumentService
-        cleaned_docs_dir = Path(settings.METADATA_DIR).parent / "cleaned_documents"
+        from backend.app.services.document_service import DocumentService
+
+        metadata_abs = reguaz_config.PROJECT_ROOT / settings.METADATA_DIR
+        cleaned_docs_abs = metadata_abs.parent / "cleaned_documents"
         state.document_service = DocumentService(
-            metadata_dir=settings.METADATA_DIR,
-            cleaned_docs_dir=cleaned_docs_dir,
+            metadata_dir=metadata_abs,
+            cleaned_docs_dir=cleaned_docs_abs,
             chunk_lookup=state.chunk_lookup,
         )
         # Populate the document index with metadata dicts
@@ -148,57 +155,78 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
         raise
 
     # ------------------------------------------------------------------
-    # Step 3 — Retriever
-    # Initialises HybridQdrantRetriever:
-    #   - Loads BGE-M3 SentenceTransformer
-    #   - Opens local Qdrant collection
-    #   - Builds BM25Okapi index from all chunk texts
-    #   - Loads BAAI/bge-reranker-v2-m3 CrossEncoder
+    # Step 3 — HybridQdrantRetriever
+    # Loads BGE-M3 SentenceTransformer, opens the Qdrant collection,
+    # builds the BM25Okapi corpus from all chunk texts, and loads the
+    # BAAI/bge-reranker-v2-m3 CrossEncoder — all in the constructor.
     #
-    # Phase 2 implementation:
-    #   from backend.reguaz.retrieval.hybrid_qdrant import HybridQdrantRetriever
-    #   state.retriever = HybridQdrantRetriever(
-    #       model_name=settings.EMBEDDING_MODEL,
-    #       qdrant_dir=settings.QDRANT_DIR,
-    #       chunks_dir=settings.CHUNKS_DIR,
-    #       top_k_semantic=settings.TOP_K_SEMANTIC,
-    #       top_k_bm25=settings.TOP_K_BM25,
-    #       rerank_top_k=settings.RERANK_TOP_K,
-    #       final_top_k=settings.DEFAULT_TOP_K,
-    #       rrf_k=settings.RRF_K,
-    #       reranker_model=settings.RERANKER_MODEL,
-    #   )
+    # Paths are passed as strings; the retriever resolves them internally.
+    # We derive absolute paths from reguaz.config.PROJECT_ROOT so this
+    # works regardless of the cwd uvicorn is launched from.
     # ------------------------------------------------------------------
-    logger.info("[3/5] HybridQdrantRetriever — pending (Phase 2)")
+    logger.info("[3/5] Initializing HybridQdrantRetriever (this may take 30–60 s)...")
+    try:
+        from backend.reguaz.retrieval.hybrid_qdrant import HybridQdrantRetriever
+
+        qdrant_abs = str(reguaz_config.PROJECT_ROOT / settings.QDRANT_DIR)
+        chunks_abs = str(reguaz_config.PROJECT_ROOT / settings.CHUNKS_DIR)
+
+        state.retriever = HybridQdrantRetriever(
+            model_name=settings.EMBEDDING_MODEL,
+            qdrant_dir=qdrant_abs,
+            chunks_dir=chunks_abs,
+            top_k_semantic=settings.TOP_K_SEMANTIC,
+            top_k_bm25=settings.TOP_K_BM25,
+            rerank_top_k=settings.RERANK_TOP_K,
+            final_top_k=settings.DEFAULT_TOP_K,
+            rrf_k=settings.RRF_K,
+            reranker_model=settings.RERANKER_MODEL,
+        )
+        logger.info("[3/5] HybridQdrantRetriever ready.")
+    except Exception as exc:
+        logger.error("[3/5] Failed to initialize HybridQdrantRetriever: %s", exc)
+        raise
 
     # ------------------------------------------------------------------
-    # Step 4 — LLM
-    # Loads the Gemma GGUF model into memory via llama.cpp.
-    #
-    # Phase 2 implementation:
-    #   from backend.reguaz.services.generation.llm_factory import LLMFactory
-    #   state.llm = LLMFactory.create(model_type=settings.LLM_TYPE)
+    # Step 4 — LLM via LLMFactory
+    # LLMFactory.create() pulls model_path and generation parameters
+    # from backend.reguaz.config automatically — no path needed here.
     # ------------------------------------------------------------------
-    logger.info("[4/5] LLM (GemmaService)    — pending (Phase 2)")
+    logger.info("[4/5] Loading LLM via LLMFactory (model_type='%s')...", settings.LLM_TYPE)
+    try:
+        from backend.reguaz.services.generation.llm_factory import LLMFactory
+
+        state.llm = LLMFactory.create(model_type=settings.LLM_TYPE)
+        logger.info("[4/5] LLM loaded.")
+    except Exception as exc:
+        logger.error("[4/5] Failed to load LLM: %s", exc)
+        raise
 
     # ------------------------------------------------------------------
     # Step 5 — GenerationPipeline
-    # Wires retriever + chunk_lookup + llm into a single orchestrator.
-    #
-    # Phase 2 implementation:
-    #   from backend.reguaz.services.generation.generation_pipeline import GenerationPipeline
-    #   state.generation_pipeline = GenerationPipeline(
-    #       retriever=state.retriever,
-    #       chunk_lookup=state.chunk_lookup,
-    #       llm=state.llm,
-    #       top_k=settings.DEFAULT_TOP_K,
-    #   )
-    #   state.is_ready = True
+    # Wires the retriever, chunk_lookup, and LLM into the single
+    # orchestrator that every /chat request calls.
     # ------------------------------------------------------------------
-    logger.info("[5/5] GenerationPipeline    — pending (Phase 2)")
+    logger.info("[5/5] Wiring GenerationPipeline...")
+    try:
+        from backend.reguaz.services.generation.generation_pipeline import GenerationPipeline
+
+        state.generation_pipeline = GenerationPipeline(
+            retriever=state.retriever,
+            chunk_lookup=state.chunk_lookup,
+            llm=state.llm,
+            top_k=settings.DEFAULT_TOP_K,
+        )
+        state.is_ready = True
+        logger.info("[5/5] GenerationPipeline ready.")
+    except Exception as exc:
+        logger.error("[5/5] Failed to wire GenerationPipeline: %s", exc)
+        raise
 
     state.startup_time_s = time.perf_counter() - t_start
-    logger.info("Startup complete in %.3f s (skeleton mode — no models loaded)", state.startup_time_s)
+    logger.info("=" * 60)
+    logger.info("ReguAZ API — Startup complete in %.1f s", state.startup_time_s)
+    logger.info("=" * 60)
 
     # Attach to app.state so dependency functions can read it
     app.state.reguaz = state
@@ -210,9 +238,12 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     logger.info("=" * 60)
     logger.info("ReguAZ API — Shutting down")
 
-    # Phase 2: release llama.cpp model memory
-    # if state.llm is not None and hasattr(state.llm, "close"):
-    #     state.llm.close()
+    # Release llama.cpp model memory if the implementation supports it
+    if state.llm is not None and hasattr(state.llm, "close"):
+        try:
+            state.llm.close()
+        except Exception:
+            pass
 
     state.is_ready = False
     logger.info("ReguAZ API — Shutdown complete")

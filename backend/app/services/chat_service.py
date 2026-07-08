@@ -9,7 +9,7 @@ from __future__ import annotations
 import uuid
 from typing import Any, Dict
 
-from app.schemas.chat import ChatRequest, ChatResponse, SourceDocument, MetricsResponse
+from backend.app.schemas.chat import ChatRequest, ChatResponse, SourceDocument, MetricsResponse
 from backend.reguaz.utils.logger import get_logger
 
 # Initialize project-wide logger for API requests
