@@ -22,7 +22,6 @@ dependencies = [
     "openpyxl>=3.1.5,<4.0.0",
     "rank-bm25>=0.2.2,<0.3.0",
     "qdrant-client>=1.18.0,<2.0.0",
-    "llama-cpp-python>=0.3.33,<0.4.0",
 
     # ==========================
     # Backend API
@@ -35,6 +34,9 @@ dependencies = [
     # Utilities
     # ==========================
     "python-dotenv>=1.1.0,<2.0.0",
+    # Local LLM
+    "llama-cpp-python>=0.3.33,<0.4.0",
+
 ]
 
 [dependency-groups]
