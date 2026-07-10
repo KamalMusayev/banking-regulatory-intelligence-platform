@@ -26,6 +26,10 @@ class PromptBuilder:
     "If multiple pieces of information exist in the context, select only the parts "
     "that directly address the user's question. "
     
+    "CRITICAL: You must cite the source document for every claim or fact in your answer. "
+    "When using information from a document, append a citation like [Document X] at the end of the relevant sentence. "
+    "Never make a claim without attributing it to a specific document. "
+    
     "If the answer is not contained in the provided context, clearly state that "
     "there is not enough information available in the provided documents."
     )
