@@ -8,7 +8,7 @@ Workflow
 --------
 1.  Load  results/ragas/answers_with_contexts.csv   (produced by enrich_generation_results.py)
 2.  Build RAGAS samples  (question / answer / ground_truth / contexts)
-3.  Call  DeepSeek-v4-flash  (via NVIDIA NIM) as the judge LLM
+3.  Call  Llama-3.3-70b  (via NVIDIA NIM) as the judge LLM
 4.  Save  results/ragas/ragas_scores.csv            (per-question scores)
         results/ragas/ragas_metrics.json            (aggregated means)
 
@@ -70,7 +70,7 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help=(
             "NVIDIA NIM model to use as judge LLM. "
-            "Defaults to JUDGE_MODEL env variable or 'deepseek-ai/deepseek-v4-flash'."
+            "Defaults to JUDGE_MODEL env variable or 'meta/llama-3.3-70b-instruct'."
         ),
     )
     parser.add_argument(

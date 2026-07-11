@@ -4,7 +4,7 @@ backend/reguaz/evaluation/ragas_evaluator.py
 RAGAS Evaluation Pipeline for ReguAZ.
 
 Loads the enriched answers CSV (produced by ContextEnricher), builds a
-RAGAS Dataset, runs the configured metrics using DeepSeek-v4-flash as the
+RAGAS Dataset, runs the configured metrics using Llama-3.3-70b as the
 Judge LLM (accessed through the NVIDIA NIM API), and saves results.
 
 Metrics computed
@@ -28,6 +28,7 @@ import os
 import time
 from pathlib import Path
 from typing import Any
+from ragas.run_config import RunConfig
 
 import pandas as pd
 from dotenv import load_dotenv
@@ -53,7 +54,7 @@ logger = get_logger(__name__, "ragas_evaluation.log")
 # Constants
 # ---------------------------------------------------------------------------
 
-_DEFAULT_JUDGE_MODEL = "deepseek-ai/deepseek-v4-flash"
+_DEFAULT_JUDGE_MODEL = "meta/llama-3.3-70b-instruct"
 _NVIDIA_API_BASE = "https://integrate.api.nvidia.com/v1"
 
 
@@ -66,7 +67,7 @@ def _build_judge_llm(
     temperature: float = 0.1,
     max_tokens: int = 4096,
 ) -> LangchainLLMWrapper:
-    """Instantiate the DeepSeek Judge LLM via NVIDIA NIM and wrap it for RAGAS.
+    """Instantiate the Llama Judge LLM via NVIDIA NIM and wrap it for RAGAS.
 
     Parameters
     ----------
@@ -115,7 +116,7 @@ def _build_judge_llm(
         base_url=_NVIDIA_API_BASE,
         temperature=resolved_temperature,
         max_tokens=resolved_max_tokens,
-        extra_body={"chat_template_kwargs": {"thinking": True, "reasoning_effort": "high"}},
+        # extra_body={"chat_template_kwargs": {"thinking": True, "reasoning_effort": "high"}},
     )
 
     logger.info("RagasEvaluator: Judge LLM ready.")
@@ -134,7 +135,7 @@ class RagasEvaluator:
     judge_model : str | None
         NVIDIA NIM model identifier for the Judge LLM.
         Falls back to the ``JUDGE_MODEL`` env variable or the built-in
-        default (``deepseek-ai/deepseek-v4-flash``).
+        default (``meta/llama-3.3-70b-instruct``).
     output_dir : str | Path
         Directory where RAGAS result files will be saved.
         Default: ``results/ragas/``.
@@ -246,7 +247,7 @@ class RagasEvaluator:
         metrics = [
             Faithfulness(),
             AnswerRelevancy(),
-            ContextPrecision(),
+            # ContextPrecision(),
             ContextRecall(),
         ]
 
@@ -258,11 +259,19 @@ class RagasEvaluator:
         eval_embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large")
 
         dataset = Dataset.from_dict(data_dict)
+
+        run_config = RunConfig(
+            max_workers=1,
+            timeout=240,
+            max_retries=3,
+        )
+
         result = evaluate(
             dataset=dataset,
             metrics=metrics,
             llm=self._judge_llm,
             embeddings=eval_embeddings,
+            run_config=run_config,
         )
 
         elapsed = time.perf_counter() - t0
