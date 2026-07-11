@@ -90,3 +90,7 @@ LLM_TOP_K = 40
 LLM_REPEAT_PENALTY = 1.1
 LLM_SEED = 42
 PROMPT_RESERVED_TOKENS = 300
+
+# Model Paths
+GEMMA_MODEL_PATH = PROJECT_ROOT / 'backend' / 'reguaz' / "models" / "gemma-4-E4B-it-Q4_K_M.gguf"
+

@@ -1,480 +1,402 @@
 # ReguAZ
 
-> **AI-powered Regulatory Intelligence Platform for Azerbaijani Banking Regulations**
+**AI-powered Regulatory Intelligence Platform for Azerbaijani banking compliance**
 
-ReguAZ is a Retrieval-Augmented Generation (RAG) platform designed to retrieve and answer questions from Azerbaijani banking regulations using semantic search, hybrid retrieval, and Large Language Models (LLMs).
-
-The current development phase focuses on building a robust retrieval system before integrating an LLM into the complete RAG pipeline.
+ReguAZ turns a fragmented corpus of publicly available Central Bank of Azerbaijan (CBA) regulatory documents — laws, CBAR rules, AML/KYC requirements, prudential and risk-management regulations, reporting/audit instructions, and governance standards — into a searchable, question-answerable knowledge base. It combines a hybrid retrieval pipeline (dense embeddings + BM25 + reciprocal rank fusion + cross-encoder reranking) with a local LLM generation stage, so that regulatory questions can be answered directly from source text — grounded, in Azerbaijani, with no hallucinated content. Built with Python, Qdrant, ChromaDB, sentence-transformers, and Hugging Face Transformers, and designed from the start as a production system rather than a proof of concept. The current implementation focuses exclusively on CBA-published regulatory documents; expanding to other regulated organizations is a long-term goal (see [Project Goals](#11-project-goals)).
 
 ---
 
-# Overview
+## Table of Contents
 
-ReguAZ enables semantic and lexical search over Azerbaijani banking regulations through a modular pipeline consisting of document processing, chunking, embedding generation, vector search, hybrid retrieval, reranking, and evaluation.
-
-The project is designed with interchangeable components, making it easy to experiment with different embedding models, retrieval strategies, rerankers, and vector databases.
-
----
-
-# Current Features
-
-- Regulatory document ingestion
-- PDF parsing
-- Automatic document chunking
-- Chunk metadata generation
-- Embedding generation
-- Multiple embedding model support
-- ChromaDB support
-- Qdrant support
-- Dense semantic retrieval
-- BM25 lexical retrieval
-- Hybrid Retrieval (Semantic + BM25)
-- Reciprocal Rank Fusion (RRF)
-- CrossEncoder reranking
-- Retrieval evaluation framework
-- Embedding model comparison
-- Detailed evaluation reports
+1. [Project Overview](#1-project-overview)
+2. [Features](#2-features)
+3. [Architecture](#3-architecture)
+4. [Project Structure](#4-project-structure)
+5. [Technology Stack](#5-technology-stack)
+6. [Installation](#6-installation)
+7. [Configuration](#7-configuration)
+8. [Running the Project](#8-running-the-project)
+9. [Development Workflow](#9-development-workflow)
+10. [Roadmap](#10-roadmap)
+11. [Project Goals](#11-project-goals)
+12. [License](#12-license)
 
 ---
 
-# Current Retrieval Pipeline
+## 1. Project Overview
+
+### What it is
+
+ReguAZ is a domain-specific RAG system built around 96 real regulatory documents publicly published by the Central Bank of Azerbaijan (CBA) — laws, CBAR rules, AML/KYC requirements, prudential and risk-management regulations, reporting/audit instructions, and governance standards. The current implementation is scoped exclusively to this CBA document set. The pipeline extracts these PDFs into clean text, chunks them in a chapter/article-aware way, embeds and indexes them, and evaluates multiple retrieval strategies against a hand-curated gold question set before an LLM generation stage produces an answer.
+
+### Why it exists
+
+Azerbaijani banking regulation published by the Central Bank is spread across dozens of laws, CBAR rules, and methodological guidance documents, most of which only exist as long, inconsistently formatted PDFs. Manually locating a specific requirement — minimum capital, AML thresholds, reporting deadlines — is slow and error-prone. ReguAZ makes this publicly available CBA corpus queryable in natural language, with answers grounded strictly in the retrieved regulatory text.
+
+### Who it's for
+
+Compliance officers, risk teams, auditors, and legal staff at Azerbaijani banks and financial institutions who need fast, traceable answers to regulatory questions — plus anyone building retrieval-augmented systems over dense, multi-language legal or regulatory text.
+
+### The problem it solves
+
+- Regulatory text is fragmented across many long PDFs with inconsistent formatting.
+- Keyword search alone misses semantically related but lexically different phrasing.
+- Pure semantic search alone can miss exact legal terms, article numbers, or defined terms.
+- Domain experts need traceability back to the exact chunk, article, or page a claim came from.
+
+ReguAZ addresses this with hybrid (semantic + keyword) retrieval, reranking, and a rigorously evaluated retrieval-quality process, before any answer is generated.
+
+### Long-term vision
+
+A production-ready regulatory intelligence assistant: a user asks a question in Azerbaijani, the system retrieves the most relevant passages via hybrid search and reranking, and a local LLM generates a concise, citation-grounded answer — explicitly refusing to answer when retrieved context is insufficient. Today the retrieval half of that pipeline is implemented and evaluated over the CBA document set, the generation half is implemented and independently verified, and the two are not yet wired into a single end-to-end script or API. Expanding beyond CBA documents to other regulated organizations is part of the longer-term direction — see [Project Goals](#11-project-goals).
+
+---
+
+## 2. Features
+
+### Document Processing
+- Regulatory document collection — 96 PDFs across 8 categories, all publicly published by the Central Bank of Azerbaijan (CBA).
+- PDF extraction via `pdfplumber`, preserving page markers and stripping footers/page numbers.
+- Text normalization (whitespace and blank-line cleanup).
+- Chapter/article-aware chunking with a 4,000-character sliding window and 500-character overlap.
+- Per-document metadata generation (page count, chunk count, language, parser, timestamp).
+- Stable, human-readable chunk IDs (`{document_id}_{chapter/article}_{index}`).
+
+### Embeddings
+- Model-agnostic embedding pipeline with JSONL persistence.
+- Four embedding models behind a common interface:
+  - `intfloat/multilingual-e5-large` (asymmetric, query/passage prefixes)
+  - `BAAI/bge-m3`
+  - `jinaai/jina-embeddings-v3` (implemented; not yet wired into ingestion/evaluation)
+  - `Qwen/Qwen3-Embedding-0.6B` (implemented; not yet wired into ingestion/evaluation)
+
+### Vector Storage
+- ChromaDB integration for local development and experimentation.
+- Qdrant integration as the production backend, including deterministic UUID5 mapping from human-readable chunk IDs to Qdrant point IDs.
+
+### Retrieval
+- Dense (semantic) retrieval on both ChromaDB and Qdrant.
+- BM25 keyword retrieval using a whitespace tokenizer suited to mixed Azerbaijani/Russian/English text.
+- Hybrid retrieval via Reciprocal Rank Fusion, combining dense and sparse results.
+- Cross-encoder reranking (`BAAI/bge-reranker-v2-m3`), currently applied in the Qdrant hybrid path.
+
+### Evaluation
+- Full retrieval evaluation framework: Recall@K, Precision@K, MRR@10, nDCG@K.
+- 121-question hand-labeled gold evaluation dataset.
+- Embedding model benchmarking (E5 vs. BGE-M3).
+- Quantified, staged retrieval improvement:
+
+| Pipeline | Recall@10 | MRR@10 |
+|---|---|---|
+| Plain dense — E5 | 0.140 | 0.107 |
+| Plain dense — BGE-M3 | 0.368 | 0.280 |
+| Hybrid (BM25 + RRF) — E5 | 0.364 | 0.212 |
+| Hybrid (BM25 + RRF) — BGE-M3 | 0.360 | 0.270 |
+| **Hybrid + Cross-Encoder rerank (Qdrant, BGE-M3)** | **0.897** | **0.765** |
+
+*(See [Roadmap](#10-roadmap) for what these numbers mean for project direction.)*
+
+### LLM Generation
+- `BaseLLMProvider` — abstract, transport-agnostic provider interface.
+- `LocalInferenceProvider` — in-process local inference backend.
+- `PromptBuilder` — Azerbaijani-language system prompt enforcing context-only, non-hallucinated, formally worded answers.
+- `Generator` — orchestrates question + context → prompt → provider → answer.
+- `LLMProviderFactory` — single instantiation point; new providers (llama.cpp, remote, OpenAI-compatible) plug in without touching calling code.
+- Lazy model loading, dependency injection, and automatic MPS / CUDA / CPU device selection.
+
+---
+
+## 3. Architecture
+
+ReguAZ is organized as a layered pipeline rather than a monolithic application. Each stage reads the output of the previous stage from disk (JSONL/JSON/Markdown), which keeps stages independently re-runnable and testable.
 
 ```
-Documents
-      │
-      ▼
- Parsing
-      │
-      ▼
- Chunking
-      │
-      ▼
- Embedding Generation
-      │
-      ▼
- Vector Database
- (Qdrant / ChromaDB)
-      │
-      ▼
-Semantic Retrieval
-      │
-      ├───────────────┐
-      │               │
-      ▼               ▼
- Qdrant Search     BM25 Search
-      │               │
-      └──────┬────────┘
-             ▼
- Reciprocal Rank Fusion (RRF)
-             ▼
- CrossEncoder Reranker
-             ▼
- Final Ranked Results
+Raw PDFs → Extraction → Chunking → Embedding → Vector Storage → Retrieval → Reranking → LLM Generation
 ```
 
----
+### Pipeline flow
 
-# Technology Stack
+```mermaid
+flowchart TD
+    A[Raw PDFs] --> B["PDF Parsing (pdfplumber)"]
+    B --> C[Cleaning & Metadata Extraction]
+    C --> D["Chapter / Article-aware Chunking"]
+    D --> E[Sliding Window Processing]
+    E --> F["Embedding Generation (BGE-M3)"]
+    F --> G[Qdrant Vector Database]
 
-- Python
-- Poetry
-- Qdrant
-- ChromaDB
-- Sentence Transformers
-- Hugging Face Transformers
-- rank-bm25
-- Pandas
-- NumPy
-- OpenPyXL
+    Q[User Query] --> QE["Query Embedding (BGE-M3)"]
+    QE --> DR["Dense Retrieval (Qdrant)"]
+    Q --> SR["Sparse Retrieval (BM25)"]
+    G --> DR
 
----
-
-# Project Structure
-
-```text
-backend/
-│
-├── reguaz/
-│   ├── ingestion/
-│   ├── preprocessing/
-│   ├── retrieval/
-│   ├── services/
-│   ├── evaluation/
-│   └── utils/
-│
-data/
-│
-├── raw/
-├── processed/
-├── embeddings/
-├── qdrant/
-├── chroma/
-└── evaluation/
-│
-docs/
-logs/
-results/
-scripts/
-
-README.md
-docker-compose.yml
-pyproject.toml
-poetry.lock
+    DR --> RRF["Hybrid Retrieval (Reciprocal Rank Fusion)"]
+    SR --> RRF
+    RRF --> CE["Cross-Encoder Reranking (bge-reranker-v2-m3)"]
+    CE --> TOPK[Top-k Context Selection]
+    TOPK --> PB[Prompt Builder]
+    PB --> LLM["Local LLM (Gemma 3 4B via llama.cpp)"]
+    LLM --> ANS[Grounded Answer]
 ```
 
+### Module responsibilities (`backend/reguaz/`)
+
+| Module | Responsibility |
+|---|---|
+| `config.py` | Centralized paths and default constants (batch sizes, top-k, RRF constant, supported models). |
+| `services/ingestion/` | Chunk lookup utilities used during vector-DB ingestion. |
+| `services/chunks/` | Read-only chunk lookup utilities used during evaluation/BM25. |
+| `services/embeddings/` | One class per embedding model behind a common `BaseEmbeddingService` interface, selected via `EmbeddingFactory`. |
+| `database/` | Thin persistence managers for ChromaDB and Qdrant — collection lifecycle and batched inserts only, no retrieval logic. |
+| `retrieval/` | Dense retrievers, `BM25Retriever`, RRF fusion, `CrossEncoderReranker`, and two orchestrating hybrid retrievers (Chroma and Qdrant + reranking). |
+| `llm/` | Provider-agnostic LLM generation: `BaseLLMProvider`, `LocalInferenceProvider`, `LLMProviderFactory`, `PromptBuilder`, `Generator`. |
+| `utils/logger.py` | Shared logger factory (console + rotating file handlers) used across all modules. |
+
+`scripts/` contains the CLI entry points that drive each stage — extraction, chunking, embedding, ingestion, evaluation, LLM demo/verification — and act as the operational interface to the `backend/reguaz` library code.
+
 ---
 
-# Project Setup Guide
+## 4. Project Structure
 
-## 1. Clone the Repository
+```
+banking-regulatory-intelligence-platform/
+│
+├── backend/reguaz/         # Core library: config, database, llm, retrieval, services, utils
+├── backend/tests/          # Placeholder — no tests implemented yet
+│
+├── scripts/                # CLI entry points for each pipeline stage
+│                            # (extraction, chunking, embedding, ingestion, evaluation, LLM demo)
+│
+├── data/
+│   ├── raw/                 # 96 source PDFs across 8 regulatory categories
+│   ├── processed/           # Cleaned documents, chunks, metadata, embeddings
+│   ├── chroma/               # ChromaDB persisted vector store (contents gitignored)
+│   └── evaluation/           # Gold datasets for retrieval and LLM-generation evaluation
+│
+├── docs/                    # Architecture notes and planning docs (mostly placeholders today)
+├── logs/                    # Root-level pipeline logs
+├── results/                  # Evaluation outputs — metrics, per-question results, comparisons
+├── docker-compose.yml         # Present, currently empty
+├── pyproject.toml / poetry.lock  # Poetry project definition
+└── README.md
+```
 
-Clone the repository:
+**Notes:**
+- `data/raw/` spans 8 categories: `laws`, `aml_kyc`, `governance_and_compliance`, `guidance_and_methodology`, `payments_and_banking_operations`, `prudential_regulations`, `reporting_and_audit`, `risk_management`.
+- `data/chroma/` and `data/qdrant/` hold persisted vector-index files; only their structure is versioned, not their contents.
+- `docs/folder_structure.md` sketches an aspirational, FastAPI-based application layer that doesn't exist in the codebase yet — treat it as a roadmap note, not current architecture.
 
+---
+
+## 5. Technology Stack
+
+| Category | Technology |
+|---|---|
+| Language | Python (3.12 – 3.14) |
+| Dependency management | Poetry |
+| PDF extraction | pdfplumber |
+| Embeddings | sentence-transformers (E5, BGE-M3, Jina v3, Qwen3) |
+| Vector databases | ChromaDB, Qdrant |
+| Keyword search | rank-bm25 |
+| Reranking | sentence-transformers `CrossEncoder` (BGE-reranker-v2-m3) |
+| LLM inference | Hugging Face Transformers, PyTorch, Accelerate, llama.cpp (in progress) |
+| Data handling | pandas, openpyxl |
+| Backend | FastAPI |
+| Frontend | React |
+| Development tools | Poetry, pytest (planned) |
+
+---
+
+## 6. Installation
+
+### Prerequisites
+- Python 3.12 (project requires `>=3.12,<3.15`)
+- Poetry for dependency management
+- (Optional) a Hugging Face token, recommended if you configure gated or private models
+
+### Clone the repository
 ```bash
-git clone <repository-url>
-```
-
-Navigate into the project:
-
-```bash
+git clone https://github.com/KamalMusayev/banking-regulatory-intelligence-platform.git
 cd banking-regulatory-intelligence-platform
 ```
 
----
-
-## 2. Install Python
-
-ReguAZ currently targets **Python 3.12**.
-
-Verify your installation:
-
-```bash
-python --version
-```
-
-or
-
-```bash
-python3 --version
-```
-
-Expected:
-
-```text
-Python 3.12.x
-```
-
-If Python is not installed, download it from:
-
-https://www.python.org/downloads/
-
----
-
-## 3. Install Poetry
-
-Install Poetry.
-
-### Windows (PowerShell)
-
-```powershell
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
-```
-
-### macOS / Linux
-
+### Install Poetry
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
-```
-
-Verify:
-
-```bash
 poetry --version
 ```
 
----
-
-## 4. Configure Poetry
-
-Create the virtual environment using Python 3.12.
-
-Windows
-
-```bash
-poetry env use python
-```
-
-macOS/Linux
-
+### Install dependencies
 ```bash
 poetry env use python3.12
-```
-
----
-
-## 5. Install Dependencies
-
-Install every dependency defined in `pyproject.toml` and `poetry.lock`.
-
-```bash
 poetry install
+poetry shell   # or: poetry env activate
 ```
 
-This command will:
+This installs everything declared in `pyproject.toml` / `poetry.lock`, including `torch`, `chromadb`, `qdrant-client`, `sentence-transformers`, and `pdfplumber`.
 
-- Create a virtual environment
-- Install all project dependencies
-- Install development dependencies
+### Configure environment
+```bash
+export HF_TOKEN=your_huggingface_token
+# or
+huggingface-cli login
+```
+
+### Download the model
+Local inference models are downloaded automatically on first use via Hugging Face Transformers. To pre-fetch:
+```bash
+python scripts/verify_llm_module.py
+```
+
+### Run the backend
+```bash
+python scripts/run_llm_demo.py
+```
+
+### Run the frontend
+Frontend setup instructions will be added once the React application is wired to the backend API.
+
+### Verify the installation
+```bash
+python --version        # Expect: Python 3.12.x
+poetry show              # Lists installed packages
+python scripts/verify_llm_module.py   # Smoke-tests the LLM module imports and abstract-class behavior
+```
 
 ---
 
-## 6. Activate the Virtual Environment
+## 7. Configuration
 
-Preferred:
+The codebase currently reads no required environment variables — `config.py` defines paths and constants directly. A `.env` file is gitignored for future use. Relevant variables when set:
 
-```bash
-poetry shell
-```
+| Variable | Purpose |
+|---|---|
+| `HF_TOKEN` | Authenticates Hugging Face downloads for gated or private models. |
 
-If your Poetry version does not support `poetry shell`:
-
-```bash
-poetry env activate
-```
-
-Run the command returned by Poetry.
+Key constants in `backend/reguaz/config.py` control default batch sizes, top-k retrieval depth, the RRF fusion constant, and the set of supported embedding models — adjust these directly for local experimentation.
 
 ---
 
-## 7. Verify Installation
+## 8. Running the Project
 
-Check Python:
+All commands assume an activated Poetry environment at the project root.
 
+### Document processing
 ```bash
-python --version
+python scripts/extract_pdfs.py   # Stage 1 — PDFs → cleaned Markdown
+python scripts/chunker.py        # Stage 2 — Markdown → chunks + metadata
 ```
 
-Check Poetry environment:
-
+### Embedding generation
 ```bash
-poetry env info
+python scripts/run_embedding_pipeline.py --model bge_m3
+python scripts/run_embedding_pipeline.py --model e5
 ```
 
-List installed packages:
+### Vector-store ingestion
+```bash
+python scripts/run_chroma_ingestion.py                       # ChromaDB
+python scripts/run_qdrant_ingestion.py --batch-size 256       # Qdrant (production path)
+```
 
+### Retrieval evaluation
+```bash
+python scripts/run_retrieval_evaluation.py --top-k 10 --chroma-dir data/chroma
+python scripts/run_hybrid_evaluation.py --model all --top-k 10 --chroma-dir data/chroma
+python scripts/run_hybrid_qdrant_evaluation.py --top-k 10 --qdrant-dir data/qdrant
+```
+
+Each evaluation script writes `metrics.json`, `per_question.csv`, `retrieval_results.csv`, and a cross-run `comparison.csv` under `results/`.
+
+### LLM verification and demo
+```bash
+python scripts/verify_llm_module.py   # Imports, abstract-class enforcement, wiring
+python scripts/run_llm_demo.py        # Full Prompt → LLM → Answer pipeline on a sample question
+```
+
+### Candidate export (gold-dataset curation helper)
+```bash
+python scripts/export_candidates.py
+```
+Retrieves top-10 ChromaDB (E5) candidates per gold-dataset question, written to `data/evaluation/chunk_candidates.json` for manual gold-set curation.
+
+---
+
+## 9. Development Workflow
+
+**Branching** — branch from `main` with a descriptive prefix, e.g. `feature/hybrid-qdrant-rerank`, `fix/chunker-empty-pages`, `docs/readme-rewrite`. Keep branches scoped to a single pipeline stage where possible.
+
+**Commits** — imperative, present-tense messages (`Add Cross-Encoder reranking to Qdrant hybrid retriever`, not `Added...`). Prefer small, reviewable commits, since each stage can be tested independently against its on-disk inputs/outputs.
+
+**Pull Requests** — describe which pipeline stage(s) the PR touches and how it was validated (e.g. "re-ran `run_hybrid_qdrant_evaluation.py`, recall@10 unchanged at 0.897"). There's currently no automated test suite, so include the manual verification steps taken.
+
+**Poetry workflow**
 ```bash
 poetry show
-```
-
----
-
-## 8. Environment Variables
-
-If the project requires environment variables, create a `.env` file in the project root.
-
-Example:
-
-```text
-HF_TOKEN=your_huggingface_token
-```
-
-A Hugging Face token is optional but recommended because it:
-
-- avoids download rate limits
-- speeds up model downloads
-- improves reliability when downloading models
-
----
-
-## 9. Running Individual Pipelines
-
-### Chunking
-
-```bash
-python scripts/run_chunking_pipeline.py
-```
-
-### Embedding Generation
-
-```bash
-python scripts/run_embedding_pipeline.py
-```
-
-### Chroma Retrieval Evaluation
-
-```bash
-python scripts/run_retrieval_evaluation.py
-```
-
-### Qdrant Retrieval Evaluation
-
-```bash
-python scripts/run_qdrant_retrieval_evaluation.py
-```
-
-### Hybrid Retrieval Evaluation
-
-```bash
-python scripts/run_hybrid_qdrant_evaluation.py
-```
-
----
-
-## 10. Deactivate the Environment
-
-Exit the virtual environment:
-
-```bash
-exit
-```
-
-or press
-
-```text
-Ctrl + D
-```
-
----
-
-# Daily Development Workflow
-
-Every time you start working:
-
-```bash
-cd banking-regulatory-intelligence-platform
-```
-
-Activate Poetry:
-
-```bash
-poetry shell
-```
-
-or
-
-```bash
-poetry env activate
-```
-
-Pull the latest changes:
-
-```bash
-git pull origin main
-```
-
-Install any new dependencies:
-
-```bash
-poetry install
-```
-
-Work on your feature.
-
-After finishing:
-
-```bash
-git add .
-```
-
-```bash
-git commit -m "Meaningful commit message"
-```
-
-```bash
-git push origin <your-branch>
-```
-
-Create a Pull Request and merge after review.
-
----
-
-# Useful Poetry Commands
-
-Install dependencies
-
-```bash
-poetry install
-```
-
-Add a dependency
-
-```bash
-poetry add package_name
-```
-
-Remove a dependency
-
-```bash
-poetry remove package_name
-```
-
-Update dependencies
-
-```bash
-poetry update
-```
-
-Regenerate lock file
-
-```bash
+poetry add <package>
+poetry remove <package>
 poetry lock
-```
-
-Show installed packages
-
-```bash
-poetry show
-```
-
-Show virtual environment
-
-```bash
-poetry env info
-```
-
-List available environments
-
-```bash
-poetry env list
-```
-
-Remove environment
-
-```bash
-poetry env remove python
-```
-
-Run a command inside Poetry
-
-```bash
-poetry run python script.py
+poetry install
 ```
 
 ---
 
-# Development Roadmap
+## 10. Roadmap
 
-| Phase | Status | Completed Work | Next Step |
-|--------|--------|----------------|-----------|
-| **1. Data Collection** | ✅ Completed | Collected Azerbaijani banking regulations and related legal documents. | — |
-| **2. Parsing & Chunking** | ✅ Completed | Built the document parsing and chunking pipeline with metadata generation and the current chunk ID format. | — |
-| **3. Embedding Pipeline** | ✅ Completed | Generated embeddings using E5 and BGE-M3 models. | Continue benchmarking if additional embedding models are introduced. |
-| **4. Vector Databases** | ✅ Completed | Implemented both ChromaDB and Qdrant vector stores. | Continue development using Qdrant as the primary backend. |
-| **5. Dense Retrieval** | ✅ Completed | Implemented semantic retrieval for both ChromaDB and Qdrant. | — |
-| **6. BM25 Retrieval** | ✅ Completed | Implemented lexical retrieval using BM25. | — |
-| **7. Hybrid Retrieval** | ✅ Completed | Combined semantic retrieval and BM25 using Reciprocal Rank Fusion (RRF). | Fine-tune retrieval parameters. |
-| **8. CrossEncoder Reranking** | ✅ Completed | Added CrossEncoder reranking using BGE Reranker. | Optimize inference speed and reranking performance. |
-| **9. Evaluation Framework** | ✅ Completed | Built evaluation pipelines for semantic and hybrid retrieval with Recall@K, Precision@K, MRR, NDCG and timing metrics. | Continue improving evaluation quality. |
-| **10. Gold Evaluation Dataset** | ✅ Completed | The dataset is being rebuilt using the latest chunk IDs generated by the current chunking pipeline. | Finalize the gold dataset and validate all annotations. |
-| **11. Embedding Model Benchmarking** | ✅ Completed | Retrieval evaluation for BGE-M3 and E5 is ongoing. | Select the best embedding model based on evaluation metrics. |
-| **12. Retrieval Optimization** | 🔄 In Progress | Hybrid retrieval and reranking are implemented and currently being optimized. | Tune BM25, RRF, reranker, and retrieval parameters. |
-| **13. LlamaIndex Integration** | ⏳ Planned | — | Integrate LlamaIndex as the orchestration layer for retrieval and response generation. |
-| **14. LLM Integration** | ⏳ Planned | — | Integrate an LLM to build the complete RAG pipeline. |
-| **15. End-to-End RAG Evaluation** | ⏳ Planned | — | Evaluate the full RAG system including retrieval and answer generation. |
-| **16. Production Deployment** | ⏳ Planned | — | Build API endpoints, monitoring, containerization, and deployment infrastructure. |
+| Milestone | Status | Description |
+|---|---|---|
+| Regulatory document collection | ✅ Done | 96 PDFs collected and organized across 8 categories. |
+| PDF extraction | ✅ Done | pdfplumber-based parsing, cleaning, and preprocessing. |
+| Metadata generation | ✅ Done | Per-document metadata (pages, chunk counts, language, timestamps). |
+| Intelligent chunking | ✅ Done | Chapter/article-aware chunking with hierarchical chunk IDs. |
+| Sliding-window chunking | ✅ Done | 4,000-char window with 500-char overlap. |
+| Embedding infrastructure | ✅ Done | Modular writer/reader pipeline with JSONL persistence. |
+| Embedding model abstraction | ✅ Done | Common interface across four embedding models. |
+| BGE-M3 integration | ✅ Done | Primary production embedding model. |
+| Qdrant integration | ✅ Done | Production vector database, deterministic ID mapping. |
+| ChromaDB integration | ✅ Done | Local development / experimentation vector store. |
+| BM25 retrieval | ✅ Done | Lexical retrieval for mixed-language text. |
+| Hybrid retrieval | ✅ Done | Dense + sparse combination. |
+| Reciprocal Rank Fusion | ✅ Done | Fusion logic for hybrid retrieval. |
+| Cross-Encoder reranking | ✅ Done | BGE-reranker-v2-m3 applied on the Qdrant hybrid path. |
+| Retrieval evaluation framework | ✅ Done | Recall@K, Precision@K, MRR@10, nDCG@K. |
+| Evaluation datasets and metrics | ✅ Done | 121-question hand-labeled gold set. |
+| Prompt Builder | ✅ Done | Azerbaijani, context-only system prompt. |
+| LLM provider abstraction | ✅ Done | `BaseLLMProvider`, `LLMProviderFactory`, dependency injection. |
+| Multi-device support | ✅ Done | Automatic MPS / CUDA / CPU detection. |
+| Backend implementation (FastAPI) | ✅ Done | Core service layer implemented. |
+| Frontend implementation (React) | ✅ Done | Core frontend implemented. |
+| Configuration system | ✅ Done | Centralized paths and constants. |
+| CLI pipeline scripts | ✅ Done | One script per pipeline stage. |
+| Logging and project infrastructure | ✅ Done | Shared logger factory, rotating file handlers. |
+| Local LLM integration (Gemma 3 4B via llama.cpp) | 🟡 In Progress | Currently being finalized and validated. |
+| End-to-end RAG generation pipeline | ⬜ Planned | Wire retrieval directly into LLM generation as one workflow. |
+| Conversation memory | ⬜ Planned | Multi-turn context handling. |
+| Performance optimization | ⬜ Planned | Latency and throughput tuning across the pipeline. |
+| Docker deployment | ⬜ Planned | Containerized deployment. |
+| CI/CD | ⬜ Planned | Automated testing and deployment pipeline. |
+| Production deployment | ⬜ Planned | Monitoring, infrastructure, and go-live readiness. |
+
+Most of the platform is already built and evaluated; what remains is finalizing local LLM inference and productionizing the system end to end.
 
 ---
 
-# License
+## 11. Project Goals
+
+ReguAZ's near-term goal is to become a production-ready regulatory intelligence assistant for Central Bank of Azerbaijan (CBA) regulations — one that compliance teams can query directly in natural language and trust to answer only from verified CBA regulatory text, with clear traceability to the source article or page. The retrieval layer has already been benchmarked and optimized to a high standard (Recall@10 of 0.897 with hybrid retrieval and reranking); the next phase focuses on connecting that retrieval quality to a reliable, low-latency local LLM generation stage, and then hardening the whole pipeline for real deployment — via a stable API, containerized infrastructure, and continuous evaluation of generated answers for groundedness and correctness.
+
+Longer term, and **not yet implemented**, the vision is to extend this same architecture beyond the Central Bank to build dedicated Regulatory Intelligence platforms for other regulated organizations, including:
+
+- commercial banks,
+- insurance companies,
+- payment providers,
+- fintech companies,
+- and other regulated organizations.
+
+Each organization would eventually have its own dedicated RAG system, built on its own regulatory documents, internal policies, and knowledge base, following the same ingestion → retrieval → generation architecture proven here on CBA regulations. This expansion is a future direction for the project, not a current capability.
+
+---
+
+## 12. License
 
 This project is licensed under the MIT License.
