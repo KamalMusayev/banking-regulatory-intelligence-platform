@@ -62,7 +62,7 @@ class ContextBudgetManager:
         initial_context_tokens = 0
         
         for chunk in chunks:
-            chunk_id = chunk.get("id", "UNKNOWN")
+            chunk_id = chunk.get("chunk_id") or chunk.get("id", "UNKNOWN")
             
             # The exact content being injected into the prompt.
             # We estimate the token count precisely based on the raw text content.

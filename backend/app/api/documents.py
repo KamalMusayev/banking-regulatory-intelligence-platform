@@ -6,7 +6,7 @@ Keep routers extremely thin, delegating all logic to DocumentService.
 """
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, List
 
 # pyrefly: ignore [missing-import]
 from fastapi import APIRouter, Depends, HTTPException, Query, status
@@ -16,6 +16,17 @@ from backend.app.schemas.document import DocumentMetadataResponse, DocumentPageR
 from backend.app.services.document_service import DocumentService
 
 router = APIRouter(prefix="/documents", tags=["documents"])
+
+
+@router.get("", response_model=List[DocumentMetadataResponse], summary="List all indexed regulatory documents")
+def get_all_documents(
+    document_service: DocumentService = Depends(get_document_service),
+) -> List[DocumentMetadataResponse]:
+    """
+    Retrieve all document metadata cards indexed in the system.
+    """
+    return document_service.get_all_documents()
+
 
 
 @router.get("/{document_id}", response_model=DocumentMetadataResponse, summary="Get document metadata catalog card")

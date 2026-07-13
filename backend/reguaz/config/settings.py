@@ -62,8 +62,8 @@ SUPPORTED_EMBEDDING_MODELS = (
 # Retrieval
 # =============================================================================
 DEFAULT_TOP_K = 10
-BM25_TOP_K = 20
-SEMANTIC_TOP_K = 20
+BM25_TOP_K = 15
+SEMANTIC_TOP_K = 15
 RRF_K = 60
 
 # =============================================================================
@@ -84,7 +84,7 @@ DEFAULT_LLM_TYPE = "gemma"
 # Common LLM Parameters
 LLM_CONTEXT_WINDOW = 8192
 LLM_TEMPERATURE = 0.1
-LLM_MAX_TOKENS = 1024
+LLM_MAX_TOKENS = 512
 LLM_TOP_P = 0.95
 LLM_TOP_K = 40
 LLM_REPEAT_PENALTY = 1.1

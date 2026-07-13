@@ -77,6 +77,11 @@ class GenerationPipeline:
             chunk_id = res["id"]
             if chunk_id in self.chunk_lookup:
                 metadata = self.chunk_lookup[chunk_id].copy()
+                # Merge retrieval metrics and scores into source metadata
+                metadata["rerank_score"] = res.get("rerank_score")
+                metadata["rrf_score"] = res.get("rrf_score")
+                metadata["semantic_rank"] = res.get("semantic_rank")
+                metadata["bm25_rank"] = res.get("bm25_rank")
                 hydrated_sources.append(metadata)
             else:
                 logger.warning("Chunk ID '%s' not found in chunk lookup. Skipping.", chunk_id)
@@ -106,7 +111,7 @@ class GenerationPipeline:
         return {
             "question": question,
             "answer": answer.strip(),
-            "sources": hydrated_sources,
+            "sources": filtered_sources,
             "metrics": {
                 "retrieval_time": retrieval_time,
                 "prompt_build_time": prompt_time,

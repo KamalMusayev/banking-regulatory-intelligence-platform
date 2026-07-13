@@ -127,6 +127,17 @@ class DocumentService:
             document_metadata=meta,
         )
 
+    def get_all_documents(self) -> List[DocumentMetadataResponse]:
+        """
+        Retrieve all documents indexed in the system.
+        """
+        results = []
+        for doc_id in self._doc_metadata_map:
+            meta = self.get_document_metadata(doc_id)
+            if meta:
+                results.append(meta)
+        return results
+
     def get_document_page(self, document_id: str, page_number: int) -> Optional[DocumentPageResponse]:
         """
         Extracts content text and finds related articles for a given document page.
