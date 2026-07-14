@@ -3,9 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { 
   Search, 
   FileText, 
-  Database, 
   ShieldCheck, 
-  HelpCircle, 
   BookOpen,
   ArrowRight,
   TrendingUp,

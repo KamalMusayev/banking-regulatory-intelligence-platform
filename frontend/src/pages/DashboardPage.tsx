@@ -4,14 +4,12 @@ import { ChatContainer } from "@/features/chat/components/ChatContainer";
 import { DocumentContainer } from "@/features/document-viewer/components/DocumentContainer";
 import { Sheet, SheetContent } from "@/components/ui/sheet";
 import { useUIStore } from "@/stores/useUIStore";
-import { useChatStore } from "@/stores/useChatStore";
 import { Button } from "@/components/ui/button";
 import { FileText } from "lucide-react";
 
 export const DashboardPage: React.FC = () => {
   const { sidebarOpen, setSidebarOpen, activeDocument, setActiveDocument } = useUIStore();
-  const { messages } = useChatStore();
-  const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth < 1024);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
   // Track screen size reactively
   useEffect(() => {
@@ -28,7 +26,7 @@ export const DashboardPage: React.FC = () => {
 
   return (
     <div className="h-screen w-screen flex bg-background text-foreground overflow-hidden font-sans">
-      
+
       {/* 1. SIDEBAR COLUMN */}
       {/* Desktop view: Sidebar resides in normal flow */}
       <div className="hidden lg:block shrink-0">
@@ -45,7 +43,7 @@ export const DashboardPage: React.FC = () => {
       {/* 2. CHAT PANEL (Main center column) */}
       <div className="flex-1 h-full flex flex-col min-w-0 overflow-hidden relative">
         <ChatContainer />
-        
+
         {/* Mobile floating button to open Document Viewer if a document is selected and viewer is hidden */}
         {activeDocument && isMobile && (
           <div className="absolute right-4 top-20 z-30">

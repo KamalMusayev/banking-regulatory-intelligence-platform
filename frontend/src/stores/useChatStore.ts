@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { ChatMessage, SourceDocument, MetricsResponse } from "../types/api";
+import { SourceDocument, MetricsResponse } from "../types/api";
 
 export interface UIHistoryItem {
   sessionId: string;
@@ -126,10 +126,6 @@ export const useChatStore = create<ChatState>((set) => {
         const nextActiveId = isActiveDeleted 
           ? (nextHistory.length > 0 ? nextHistory[0].sessionId : null) 
           : state.activeSessionId;
-
-        const nextMessages = isActiveDeleted 
-          ? (nextActiveId ? state.messages : []) 
-          : state.messages;
 
         return {
           history: nextHistory,
