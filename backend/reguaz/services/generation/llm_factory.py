@@ -116,7 +116,7 @@ class LLMFactory:
         }
 
         if model_type == "gemma":
-            base_config["model_path"] = config.GEMMA_MODEL_PATH
+            base_config["model_path"] = config.LLM_MODEL_PATH
 
         # Default configs for future models like gemini, openai, claude
         # can be appended here or moved to specialized config builders if needed.

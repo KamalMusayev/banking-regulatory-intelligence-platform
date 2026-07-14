@@ -1270,3 +1270,20 @@ RuntimeError: Invalid model response: Requested tokens (8434) exceed context win
 2026-07-08 14:04:04 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
 2026-07-08 14:04:04 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
 2026-07-08 14:04:04 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 100.00%
+2026-07-08 22:14:11 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-08 22:14:12 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 237 questions...
+2026-07-08 22:16:22 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-08 22:16:22 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 2 questions...
+2026-07-08 22:18:42 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-08 22:18:42 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-08 22:18:42 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 100.00%
+2026-07-08 22:38:39 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-08 22:38:39 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 2 questions...
+2026-07-08 22:40:58 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-08 22:40:58 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-08 22:40:58 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 100.00%
+2026-07-08 22:44:18 | INFO     | backend.reguaz.evaluation.generation_evaluator | Loading dataset from '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/data/evaluation/gold_dataset_for_llm_generation.xlsx'
+2026-07-08 22:44:18 | INFO     | backend.reguaz.evaluation.generation_evaluator | Starting evaluation over 1 questions...
+2026-07-08 22:45:41 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved generated answers to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/answers.csv'
+2026-07-08 22:45:41 | INFO     | backend.reguaz.evaluation.generation_evaluator | Saved basic metrics to '/Users/samil/Desktop/ITSkillsSprintProjects/banking-regulatory-intelligence-platform/results/generation/gemma/metrics.json'
+2026-07-08 22:45:41 | INFO     | backend.reguaz.evaluation.generation_evaluator | Evaluation completed. Success rate: 100.00%

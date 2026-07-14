@@ -18,7 +18,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from qdrant_client import QdrantClient
 
-from backend.reguaz.config import QDRANT_DIR
+from backend.reguaz.config import QDRANT_PATH
 from backend.reguaz.utils.logger import get_logger
 
 logger = get_logger(__name__, "inspect_qdrant.log")
@@ -60,9 +60,9 @@ def main() -> None:
     """Main execution function."""
     args = parse_args()
 
-    logger.info("Connecting to Qdrant at %s", QDRANT_DIR)
+    logger.info("Connecting to Qdrant at %s", QDRANT_PATH)
     try:
-        client = QdrantClient(path=str(QDRANT_DIR))
+        client = QdrantClient(path=str(QDRANT_PATH))
     except Exception as exc:
         logger.error("Failed to initialize QdrantClient: %s", exc)
         sys.exit(1)

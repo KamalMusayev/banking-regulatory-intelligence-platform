@@ -6,7 +6,9 @@ import {
   Sparkles, 
   Loader2, 
   ArrowRight,
-  Info
+  Info,
+  ChevronDown,
+  BookOpen
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -16,6 +18,73 @@ import { useChatStore } from "@/stores/useChatStore";
 import { useUIStore } from "@/stores/useUIStore";
 import { useChat } from "@/hooks/useChat";
 import { MarkdownRenderer } from "./MarkdownRenderer";
+
+const MessageSources: React.FC<{ sources?: any[] }> = ({ sources }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const { setSelectedCitation, setActiveDocument } = useUIStore();
+
+  if (!sources || sources.length === 0) return null;
+
+  const handleSourceClick = (source: any) => {
+    setSelectedCitation({
+      citationId: source.citation,
+      chunkId: source.chunk_id,
+      documentId: source.document_id || "",
+    });
+    setActiveDocument({
+      documentId: source.document_id || "",
+      activePage: source.page || 1,
+      highlightText: source.chunk_preview,
+    });
+  };
+
+  return (
+    <div className="mt-3 pt-2 border-t border-border/40">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center gap-1 text-[11px] font-semibold text-gold-600 dark:text-gold-400 hover:text-gold-700 dark:hover:text-gold-300 transition-colors focus:outline-none cursor-pointer"
+      >
+        <BookOpen className="h-3 w-3" />
+        <span>Mənbələr ({sources.length})</span>
+        <ChevronDown className={`h-3 w-3 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
+      </button>
+
+      {isOpen && (
+        <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 animate-in fade-in slide-in-from-top-1 duration-200">
+          {sources.map((source, idx) => (
+            <div
+              key={idx}
+              onClick={() => handleSourceClick(source)}
+              className="p-2.5 border rounded-xl bg-card hover:bg-secondary/40 transition-all cursor-pointer text-left hover:border-gold-300 group relative shadow-sm"
+            >
+              <div className="flex justify-between items-start gap-1">
+                <span className="text-[10px] bg-gold-100 text-gold-800 dark:bg-gold-950/40 dark:text-gold-300 font-bold px-1.5 py-0.5 rounded leading-none">
+                  [{source.citation}]
+                </span>
+                {source.rerank_score !== undefined && source.rerank_score !== null && (
+                  <span className="text-[9px] text-muted-foreground font-mono bg-secondary px-1 py-0.5 rounded">
+                    Score: {source.rerank_score.toFixed(3)}
+                  </span>
+                )}
+              </div>
+              <h4 className="text-[11px] font-bold text-foreground mt-1.5 line-clamp-1 group-hover:text-gold-600 transition-colors">
+                {source.document_name}
+              </h4>
+              <p className="text-[10px] text-muted-foreground mt-0.5 font-light">
+                {source.chapter && `${source.chapter} • `}
+                {source.article && `${source.article}`}
+                {source.page && ` • Səhifə ${source.page}`}
+              </p>
+              <p className="text-[10px] text-muted-foreground/80 mt-1.5 line-clamp-2 italic font-light border-l border-gold-400/30 pl-1.5">
+                "{source.chunk_preview}"
+              </p>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
 
 export const ChatContainer: React.FC = () => {
   const { messages, isGenerating, activeSessionId } = useChatStore();
@@ -145,7 +214,10 @@ export const ChatContainer: React.FC = () => {
                           <span className="text-xs text-muted-foreground font-light">Araşdırılır...</span>
                         </div>
                       ) : (
-                        <MarkdownRenderer content={message.content} sources={message.sources} />
+                        <>
+                          <MarkdownRenderer content={message.content} sources={message.sources} />
+                          {!message.isStreaming && <MessageSources sources={message.sources} />}
+                        </>
                       )}
 
                       {/* Display Metrics metadata */}

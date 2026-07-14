@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { SidebarContainer } from "@/features/sidebar/components/SidebarContainer";
 import { ChatContainer } from "@/features/chat/components/ChatContainer";
 import { DocumentContainer } from "@/features/document-viewer/components/DocumentContainer";
@@ -11,15 +11,15 @@ import { FileText } from "lucide-react";
 export const DashboardPage: React.FC = () => {
   const { sidebarOpen, setSidebarOpen, activeDocument, setActiveDocument } = useUIStore();
   const { messages } = useChatStore();
+  const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth < 1024);
 
-  // On mount, auto-adjust sidebar for smaller screens
+  // Track screen size reactively
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 1024) {
-        setSidebarOpen(false);
-      } else {
-        setSidebarOpen(true);
-      }
+      const mobile = window.innerWidth < 1024;
+      setIsMobile(mobile);
+      // Auto-adjust sidebar visibility
+      setSidebarOpen(!mobile);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -36,7 +36,7 @@ export const DashboardPage: React.FC = () => {
       </div>
 
       {/* Mobile/Tablet view: Sidebar inside a collapsible Sheet drawer */}
-      <Sheet open={sidebarOpen} onOpenChange={setSidebarOpen}>
+      <Sheet open={sidebarOpen && isMobile} onOpenChange={setSidebarOpen}>
         <SheetContent side="left" className="p-0 w-64 border-r bg-card">
           <SidebarContainer />
         </SheetContent>
@@ -47,8 +47,8 @@ export const DashboardPage: React.FC = () => {
         <ChatContainer />
         
         {/* Mobile floating button to open Document Viewer if a document is selected and viewer is hidden */}
-        {activeDocument && (
-          <div className="absolute right-4 top-20 lg:hidden z-30">
+        {activeDocument && isMobile && (
+          <div className="absolute right-4 top-20 z-30">
             <Button
               size="sm"
               onClick={() => setActiveDocument({ ...activeDocument })}
@@ -62,25 +62,24 @@ export const DashboardPage: React.FC = () => {
       </div>
 
       {/* 3. DOCUMENT VIEWER COLUMN */}
-      {/* Desktop view: Side-by-side panel */}
-      {activeDocument && (
-        <div className="hidden lg:block w-[450px] xl:w-[500px] shrink-0 h-full">
+      {/* Desktop view: Inline side-by-side panel — NO overlay/blur */}
+      {activeDocument && !isMobile && (
+        <div className="w-[450px] xl:w-[500px] shrink-0 h-full">
           <DocumentContainer />
         </div>
       )}
 
-      {/* Mobile/Tablet view: Document Viewer slides over as a drawer (overlay/full-screen) */}
-      <Sheet 
-        open={!!activeDocument} 
+      {/* Mobile/Tablet view: Document Viewer slides in as a drawer */}
+      {/* Only opens on mobile so the blur overlay never affects desktop */}
+      <Sheet
+        open={!!activeDocument && isMobile}
         onOpenChange={(open) => {
-          if (!open) {
-            setActiveDocument(null);
-          }
+          if (!open) setActiveDocument(null);
         }}
       >
-        <SheetContent 
-          side="right" 
-          className="p-0 w-full sm:max-w-lg md:max-w-xl lg:hidden border-l bg-card"
+        <SheetContent
+          side="right"
+          className="p-0 w-full sm:max-w-lg md:max-w-xl border-l bg-card"
         >
           <DocumentContainer />
         </SheetContent>

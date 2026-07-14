@@ -49,6 +49,21 @@ export const DocumentContainer: React.FC = () => {
     }
   }, [activeDocument?.zoomLevel]);
 
+  // When a citation is clicked, switch to content tab and scroll to the highlighted text after render
+  useEffect(() => {
+    if (activeDocument?.highlightText) {
+      setActiveTab("content");
+      // Defer scroll until after React renders the highlight mark
+      const timer = setTimeout(() => {
+        const el = document.getElementById("reguaz-highlight");
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [activeDocument?.highlightText, activeDocument?.documentId, activeDocument?.activePage, pageQuery.data]);
+
   if (!activeDocument || !activeDocument.documentId) {
     return (
       <div className="h-full flex flex-col items-center justify-center text-center p-6 bg-card border-l">
@@ -95,14 +110,14 @@ export const DocumentContainer: React.FC = () => {
 
     const highlightText = activeDocument.highlightText;
 
+    // Priority 1: In-document search query highlight (yellow)
     if (searchQuery.trim().length >= 2) {
-      // Search term match highlight
       const queryEscaped = searchQuery.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
       const regex = new RegExp(`(${queryEscaped})`, 'gi');
       const parts = content.split(regex);
       
       return (
-        <p className="whitespace-pre-wrap leading-relaxed font-light break-words text-left">
+        <p className="whitespace-pre-wrap leading-relaxed font-light break-words text-left text-xs">
           {parts.map((part, i) => 
             regex.test(part) ? (
               <mark key={i} className="bg-yellow-200 dark:bg-yellow-800 text-foreground px-0.5 rounded font-medium">
@@ -114,36 +129,44 @@ export const DocumentContainer: React.FC = () => {
       );
     }
 
-    if (highlightText) {
-      const cleanHighlight = highlightText.trim().replace(/\s+/g, ' ');
-      
-      // Let's do a robust search inside page content ignoring multiple white spaces
-      const normalizedContent = content.replace(/\s+/g, ' ');
-      const matchIndexNormalized = normalizedContent.indexOf(cleanHighlight);
-
-      if (matchIndexNormalized !== -1) {
-        // Find approximate position in original text
-        // Or if we do exact check:
-        const exactIndex = content.indexOf(highlightText);
-        if (exactIndex !== -1) {
-          const before = content.substring(0, exactIndex);
-          const match = content.substring(exactIndex, exactIndex + highlightText.length);
-          const after = content.substring(exactIndex + highlightText.length);
-          
+    // Priority 2: Citation chunk highlight (gold) — whitespace/newline agnostic regex match
+    if (highlightText && highlightText.trim().length > 0) {
+      try {
+        // Escape all special regex characters in the highlight text
+        const escaped = highlightText.trim().replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        // Replace any whitespace sequence in the pattern with [\s\n\r]+ to handle any formatting differences
+        const flexiblePattern = escaped.replace(/\s+/g, '[\\s\\n\\r]+');
+        const highlightRegex = new RegExp(`(${flexiblePattern})`, 'i');
+        
+        const parts = content.split(highlightRegex);
+        if (parts.length > 1) {
+          // Scroll the highlighted chunk into view after render
           return (
-            <p className="whitespace-pre-wrap leading-relaxed font-light break-words text-left">
-              {before}
-              <mark className="bg-gold-100 dark:bg-gold-950/60 dark:text-gold-300 text-foreground border-b-2 border-gold-500 font-semibold py-0.5 px-0.5 rounded transition-all duration-300">
-                {match}
-              </mark>
-              {after}
+            <p className="whitespace-pre-wrap leading-relaxed font-light break-words text-left text-xs">
+              {parts.map((part, i) => {
+                // Test if this part matches the highlight pattern
+                if (i % 2 === 1) {
+                  return (
+                    <mark
+                      key={i}
+                      id="reguaz-highlight"
+                      className="bg-gold-100 dark:bg-gold-950/60 dark:text-gold-200 text-navy-950 border-b-2 border-gold-500 font-semibold py-0.5 px-0.5 rounded-sm transition-all duration-300 scroll-mt-4"
+                    >
+                      {part}
+                    </mark>
+                  );
+                }
+                return part;
+              })}
             </p>
           );
         }
+      } catch (e) {
+        console.warn("Highlight regex failed:", e);
       }
     }
 
-    return <p className="whitespace-pre-wrap leading-relaxed font-light break-words text-left">{content}</p>;
+    return <p className="whitespace-pre-wrap leading-relaxed font-light break-words text-left text-xs">{content}</p>;
   };
 
   return (
