@@ -131,7 +131,7 @@ export const apiService = {
     return session;
   },
 
-  deleteHistory: async (sessionId: string): Promise<boolean> => {
+  deleteHistory: async (_sessionId: string): Promise<boolean> => {
     await new Promise(r => setTimeout(r, 100));
     return true;
   }

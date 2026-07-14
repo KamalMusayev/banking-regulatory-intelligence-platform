@@ -4,14 +4,12 @@ import { ChatContainer } from "@/features/chat/components/ChatContainer";
 import { DocumentContainer } from "@/features/document-viewer/components/DocumentContainer";
 import { Sheet, SheetContent } from "@/components/ui/sheet";
 import { useUIStore } from "@/stores/useUIStore";
-import { useChatStore } from "@/stores/useChatStore";
 import { Button } from "@/components/ui/button";
 import { FileText } from "lucide-react";
 
 export const DashboardPage: React.FC = () => {
   const { sidebarOpen, setSidebarOpen, activeDocument, setActiveDocument } = useUIStore();
-  const { messages } = useChatStore();
-  const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth < 1024);
+
 
   // Track screen size reactively
   useEffect(() => {
