@@ -125,6 +125,9 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
         from backend.reguaz.services.chunks.chunk_reader import ChunkReader
 
         chunks_abs = reguaz_config.PROJECT_ROOT / settings.CHUNKS_DIR
+        if not chunks_abs.exists():
+            chunks_abs = reguaz_config.PROJECT_ROOT.parent / settings.CHUNKS_DIR
+
         chunk_reader = ChunkReader()
         state.chunk_lookup = chunk_reader.build_lookup(chunks_abs)
         logger.info("[1/5] Loaded %d chunks into lookup.", len(state.chunk_lookup))
@@ -141,6 +144,9 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
         from backend.app.services.document_service import DocumentService
 
         metadata_abs = reguaz_config.PROJECT_ROOT / settings.METADATA_DIR
+        if not metadata_abs.exists():
+            metadata_abs = reguaz_config.PROJECT_ROOT.parent / settings.METADATA_DIR
+
         cleaned_docs_abs = metadata_abs.parent / "cleaned_documents"
         state.document_service = DocumentService(
             metadata_dir=metadata_abs,
@@ -168,8 +174,21 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     try:
         from backend.reguaz.retrieval.hybrid_qdrant import HybridQdrantRetriever
 
-        qdrant_abs = str(reguaz_config.PROJECT_ROOT / settings.QDRANT_DIR)
-        chunks_abs = str(reguaz_config.PROJECT_ROOT / settings.CHUNKS_DIR)
+        qdrant_abs_path = reguaz_config.PROJECT_ROOT / settings.QDRANT_DIR
+        if not qdrant_abs_path.exists():
+            # If settings.QDRANT_DIR is e.g. "qdrant_data", it might not exist under parent
+            if (reguaz_config.PROJECT_ROOT.parent / settings.QDRANT_DIR).exists():
+                qdrant_abs_path = reguaz_config.PROJECT_ROOT.parent / settings.QDRANT_DIR
+            else:
+                # Default to fallback to data/qdrant under repo root
+                qdrant_abs_path = reguaz_config.PROJECT_ROOT.parent / "data/qdrant"
+
+        qdrant_abs = str(qdrant_abs_path)
+
+        chunks_abs_path = reguaz_config.PROJECT_ROOT / settings.CHUNKS_DIR
+        if not chunks_abs_path.exists():
+            chunks_abs_path = reguaz_config.PROJECT_ROOT.parent / settings.CHUNKS_DIR
+        chunks_abs = str(chunks_abs_path)
 
         state.retriever = HybridQdrantRetriever(
             model_name=settings.EMBEDDING_MODEL,

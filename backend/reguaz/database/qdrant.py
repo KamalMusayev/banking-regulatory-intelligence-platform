@@ -18,11 +18,12 @@ from qdrant_client import QdrantClient
 from qdrant_client.http.exceptions import UnexpectedResponse
 from qdrant_client.models import Distance, PointStruct, VectorParams
 
+from backend.reguaz import config as reguaz_config
 from backend.reguaz.utils.logger import get_logger
 
 logger = get_logger(__name__, "qdrant_ingestion.log")
 
-DEFAULT_DB_PATH = Path("data/qdrant")
+DEFAULT_DB_PATH = reguaz_config.QDRANT_PATH
 
 # Qdrant only accepts unsigned 64-bit integers or UUID strings as point
 # ids. Caller-supplied ids (e.g. "law_001") are deterministically mapped

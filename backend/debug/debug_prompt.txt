@@ -1,0 +1,203 @@
+You are an expert legal and regulatory assistant for the ReguAZ platform. Answer the user's question strictly using only the provided regulatory documents. Do not use external knowledge, assumptions, or information not explicitly present in the provided context. Your answer must be accurate, focused, and complete. Provide enough detail for a banking compliance professional while avoiding unrelated explanations. When answering:- Start directly with the answer.- Include all relevant conditions, cases, requirements, or exceptions available in the context.- Use bullet points when multiple cases or requirements exist.- Do not include unrelated background information.IMPORTANT CITATION RULES:Citations are used by the application to open the referenced source document. Therefore, citation format MUST be followed exactly.After every factual statement taken from a source, add ONLY a numeric citation in this exact format: [1], [2], [3].The number inside brackets represents the document index provided in the context.STRICTLY FORBIDDEN:- Do NOT write 'Document 1', 'Document 2', etc.- Do NOT write '[Document 1]'.- Do NOT write article numbers, clause numbers, section numbers, or page numbers inside citation brackets.- Do NOT use citations like [4.3.2], [2.4.2], [Article 5], or similar formats.Examples of correct citation:Audit olunan bankın inzibatçısı olduqda özünü yoxlama təhlükəsi yaranır [1].Examples of incorrect citation:Audit olunan bankın inzibatçısı olduqda özünü yoxlama təhlükəsi yaranır [Document 1].Audit olunan bankın inzibatçısı olduqda özünü yoxlama təhlükəsi yaranır [4.3.2].Do not provide chain-of-thought, reasoning, analysis, or internal explanations. Output only the final answer in Azerbaijani.Do not mention retrieval, context documents, or the generation process.If the answer cannot be found in the provided context, clearly state that the information is not available.
+
+Context:
+
+--- Document 1 ---
+Document: Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında
+Category: aml_kyc
+Article: 1
+Pages: 1-2
+
+Content:
+Maddə 1. Əsas anlayışlar
+1.1. Bu Qanunun məqsədləri üçün istifadə olunmuş anlayışlar aşağıdakı mənaları ifadə edir:
+1.1.1. cinayət yolu ilə əldə edilmiş əmlak – Azərbaycan Respublikasının Cinayət
+Məcəlləsində təsbit edilmiş cinayətlərin törədilməsi nəticəsində birbaşa və ya dolayı yolla əldə
+olunmuş hər hansı pul vəsaitləri, daşınar və ya daşınmaz, maddi və ya qeyri-maddi əmlak
+nemətləri, o cümlədən virtual aktivlər və əmlaka mülkiyyət hüquqlarını və maraqlarını təsdiq
+edən hüquqi alətlər və sənədlər;
+1.1.2. cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılması – Azərbaycan Respublikası
+Cinayət Məcəlləsinin 193-1-ci maddəsində nəzərdə tutulmuş cinayət;
+1.1.3. terrorçuluğun maliyyələşdirilməsi – Azərbaycan Respublikası Cinayət Məcəlləsinin
+214-1-ci maddəsində nəzərdə tutulmuş cinayət;
+1.1.4. predikativ cinayət – Azərbaycan Respublikası Cinayət Məcəlləsinin 193-1-ci
+maddəsində nəzərdə tutulmuş cinayətin predmeti ola bilən əmlakın əldə edilməsi ilə
+nəticələnən istənilən cinayət;
+1.1.5. monitorinq – mənbəyi məlum olan məlumatlar və sənədlər əsasında maliyyə
+monitorinqi orqanı tərəfindən həyata keçirilən araşdırma tədbirləri;
+1.1.6. maliyyə monitorinqi orqanı – cinayət yolu ilə əldə edilmiş əmlakın
+leqallaşdırılmasının və terrorçuluğun maliyyələşdirilməsinin qarşısının alınması sahəsində vahid
+tənzimləməni və nəzarəti həyata keçirən, fəaliyyəti əlaqələndirən, habelə bu sahədə dövlət
+siyasətinin formalaşmasında iştirak edən müvafiq icra hakimiyyəti orqanının müəyyən etdiyi
+orqan (qurum);
+1.1.7. öhdəlik daşıyan şəxslər – cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasının və
+terrorçuluğun maliyyələşdirilməsinin qarşısını almaq məqsədilə bu Qanunda nəzərdə tutulmuş
+
+
+
+tədbirləri həyata keçirmək öhdəliyi olan maliyyə institutları, eləcə də qeyri-maliyyə institutları
+və peşə sahibləri;
+1.1.8. maliyyə institutları – kredit təşkilatları, həyatın yığım sığortası fəaliyyəti ilə məşğul
+olan yerli və xarici sığortaçılar, təkrarsığortaçılar və sığorta vasitəçiləri, investisiya şirkətləri,
+investisiya fondları, bu fondların idarəçiləri, xarici investisiya fondlarının nümayəndəlikləri,
+mərkəzi depozitar, poçt rabitəsinin milli operatoru, lombardlar, maliyyə lizinqi xidmətləri
+göstərən şəxslər, ödəniş təşkilatları (müstəsna olaraq ödəniş əməliyyatının aparılması üçün
+vasitəçilik xidməti və (və ya) hesab üzrə məlumat xidməti göstərən ödəniş təşkilatları istisna
+olmaqla) və elektron pul təşkilatları, virtual aktiv xidməti təminatçıları və valyuta mübadiləsi
+fəaliyyətinə lisenziya almış şəxslər;[1]
+1.1.9. qeyri-maliyyə institutları və peşə sahibləri – rieltorlar, vəkillər, notariuslar, hüquq,
+mühasibat və vergi məsləhəti xidmətləri göstərən müstəqil şəxslər, belə xarici hüquqi şəxslərin
+Azərbaycan Respublikasındakı filial və ya nümayəndəlikləri;
+1.1.10. rieltor – daşınmaz əmlakın alqı-satqısı üzrə vasitəçilik xidmətləri göstərən fiziki və
+ya hüquqi şəxs;
+1.1.11. virtual aktiv – ödəniş və ya investisiya məqsədilə mübadilə vasitəsi kimi çıxış edən
+və virtual aktivlər dövriyyəsi sistemində mövcud olan dəyərin rəqəmsal ifadəsidir. Milli və xarici
+valyutanın, qiymətli kağızların, habelə törəmə maliyyə alətlərinin rəqəmsal qarşılığı virtual aktiv
+hesab edilmir;
+1.1.12. virtual aktiv xidməti təminatçıları – virtual aktivlərin valyuta sərvətləri, milli valyuta
+və digər virtual aktivlərlə mübadiləsi, virtual aktivin saxlanılması üçün istifadə edilən virtual
+aktiv hesabından və ya cüzdanından virtual aktivin digər virtual aktiv hesabına və ya cüzdanına
+köçürülməsi və ya köçürmənin təşkil edilməsi, virtual aktivlərlə və ya virtual aktivlərə nəzarət
+etmək imkanı verən alətlərlə əməliyyatların aparılmasının (əqdlərin bağlanmasının) və ya
+onların saxlanılmasının təşkil edilməsi, virtual aktivlərin alışı, satışı, mübadiləsi, ilkin
+yerləşdirilməsi və ya saxlanılması ilə əlaqədar maliyyə xidmətlərinin göstərilməsi və ya
+göstərilməsində iştirak edilməsi fəaliyyətlərini müstəqil sahibkarlıq fəaliyyəti kimi həyata
+keçirən şəxslər;
+
+---
+
+--- Document 2 ---
+Document: Məcəllə
+Category: aml_kyc
+Article: 1
+Pages: 1-2
+
+Content:
+Maddə 1. Əsas anlayışlar
+1.1. Bu Qanunun məqsədləri üçün istifadə olunmuş anlayışlar aşağıdakı mənaları ifadə edir:
+1.1.1. cinayət yolu ilə əldə edilmiş əmlak – Azərbaycan Respublikasının Cinayət
+Məcəlləsində təsbit edilmiş cinayətlərin törədilməsi nəticəsində birbaşa və ya dolayı yolla əldə
+olunmuş hər hansı pul vəsaitləri, daşınar və ya daşınmaz, maddi və ya qeyri-maddi əmlak
+nemətləri, o cümlədən virtual aktivlər və əmlaka mülkiyyət hüquqlarını və maraqlarını təsdiq
+edən hüquqi alətlər və sənədlər;
+1.1.2. cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılması – Azərbaycan Respublikası
+Cinayət Məcəlləsinin 193-1-ci maddəsində nəzərdə tutulmuş cinayət;
+1.1.3. terrorçuluğun maliyyələşdirilməsi – Azərbaycan Respublikası Cinayət Məcəlləsinin
+214-1-ci maddəsində nəzərdə tutulmuş cinayət;
+1.1.4. predikativ cinayət – Azərbaycan Respublikası Cinayət Məcəlləsinin 193-1-ci
+maddəsində nəzərdə tutulmuş cinayətin predmeti ola bilən əmlakın əldə edilməsi ilə
+nəticələnən istənilən cinayət;
+1.1.5. monitorinq – mənbəyi məlum olan məlumatlar və sənədlər əsasında maliyyə
+monitorinqi orqanı tərəfindən həyata keçirilən araşdırma tədbirləri;
+1.1.6. maliyyə monitorinqi orqanı – cinayət yolu ilə əldə edilmiş əmlakın
+leqallaşdırılmasının və terrorçuluğun maliyyələşdirilməsinin qarşısının alınması sahəsində vahid
+tənzimləməni və nəzarəti həyata keçirən, fəaliyyəti əlaqələndirən, habelə bu sahədə dövlət
+siyasətinin formalaşmasında iştirak edən müvafiq icra hakimiyyəti orqanının müəyyən etdiyi
+orqan (qurum);
+1.1.7. öhdəlik daşıyan şəxslər – cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasının və
+terrorçuluğun maliyyələşdirilməsinin qarşısını almaq məqsədilə bu Qanunda nəzərdə tutulmuş
+
+
+
+tədbirləri həyata keçirmək öhdəliyi olan maliyyə institutları, eləcə də qeyri-maliyyə institutları
+və peşə sahibləri;
+1.1.8. maliyyə institutları – kredit təşkilatları, həyatın yığım sığortası fəaliyyəti ilə məşğul
+olan yerli və xarici sığortaçılar, təkrarsığortaçılar və sığorta vasitəçiləri, investisiya şirkətləri,
+investisiya fondları, bu fondların idarəçiləri, xarici investisiya fondlarının nümayəndəlikləri,
+mərkəzi depozitar, poçt rabitəsinin milli operatoru, lombardlar, maliyyə lizinqi xidmətləri
+göstərən şəxslər, ödəniş təşkilatları (müstəsna olaraq ödəniş əməliyyatının aparılması üçün
+vasitəçilik xidməti və (və ya) hesab üzrə məlumat xidməti göstərən ödəniş təşkilatları istisna
+olmaqla) və elektron pul təşkilatları, virtual aktiv xidməti təminatçıları və valyuta mübadiləsi
+fəaliyyətinə lisenziya almış şəxslər;[1]
+1.1.9. qeyri-maliyyə institutları və peşə sahibləri – rieltorlar, vəkillər, notariuslar, hüquq,
+mühasibat və vergi məsləhəti xidmətləri göstərən müstəqil şəxslər, belə xarici hüquqi şəxslərin
+Azərbaycan Respublikasındakı filial və ya nümayəndəlikləri;
+1.1.10. rieltor – daşınmaz əmlakın alqı-satqısı üzrə vasitəçilik xidmətləri göstərən fiziki və
+ya hüquqi şəxs;
+1.1.11. virtual aktiv – ödəniş və ya investisiya məqsədilə mübadilə vasitəsi kimi çıxış edən
+və virtual aktivlər dövriyyəsi sistemində mövcud olan dəyərin rəqəmsal ifadəsidir. Milli və xarici
+valyutanın, qiymətli kağızların, habelə törəmə maliyyə alətlərinin rəqəmsal qarşılığı virtual aktiv
+hesab edilmir;
+1.1.12. virtual aktiv xidməti təminatçıları – virtual aktivlərin valyuta sərvətləri, milli valyuta
+və digər virtual aktivlərlə mübadiləsi, virtual aktivin saxlanılması üçün istifadə edilən virtual
+aktiv hesabından və ya cüzdanından virtual aktivin digər virtual aktiv hesabına və ya cüzdanına
+köçürülməsi və ya köçürmənin təşkil edilməsi, virtual aktivlərlə və ya virtual aktivlərə nəzarət
+etmək imkanı verən alətlərlə əməliyyatların aparılmasının (əqdlərin bağlanmasının) və ya
+onların saxlanılmasının təşkil edilməsi, virtual aktivlərin alışı, satışı, mübadiləsi, ilkin
+yerləşdirilməsi və ya saxlanılması ilə əlaqədar maliyyə xidmətlərinin göstərilməsi və ya
+göstərilməsində iştirak edilməsi fəaliyyətlərini müstəqil sahibkarlıq fəaliyyəti kimi həyata
+keçirən şəxslər;
+
+---
+
+--- Document 3 ---
+Document: Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında
+Category: aml_kyc
+Page: 1
+
+Content:
+Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun
+maliyyələşdirilməsinə qarşı mübarizə haqqında
+AZƏRBAYCAN RESPUBLİKASININ QANUNU
+Bu Qanun Azərbaycan Respublikası Konstitusiyasının 94-cü maddəsinin I hissəsinin 15-ci
+və 20-ci bəndlərinə uyğun olaraq, cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasının və
+terrorçuluğun maliyyələşdirilməsinin aşkar edilməsi, qarşısının alınması və ölkənin iqtisadi
+sistemindən qeyri-qanuni məqsədlər üçün istifadə olunma imkanlarını istisna edən şəraitin
+yaradılması, bu istiqamətdə Azərbaycan Respublikasının tərəfdar çıxdığı beynəlxalq
+müqavilələrdən irəli gələn öhdəliklərin yerinə yetirilməsi, habelə dövlətin və cəmiyyətin
+maraqlarının qorunması məqsədilə effektiv ölkədaxili və beynəlxalq əməkdaşlığın həyata
+keçirilməsi ilə bağlı münasibətləri tənzimləyir.
+1-ci fəsil
+ÜMUMİ MÜDDƏALAR
+
+---
+
+--- Document 4 ---
+Document: Məcəllə
+Category: aml_kyc
+Page: 1
+
+Content:
+Cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasına və terrorçuluğun
+maliyyələşdirilməsinə qarşı mübarizə haqqında
+AZƏRBAYCAN RESPUBLİKASININ QANUNU
+Bu Qanun Azərbaycan Respublikası Konstitusiyasının 94-cü maddəsinin I hissəsinin 15-ci
+və 20-ci bəndlərinə uyğun olaraq, cinayət yolu ilə əldə edilmiş əmlakın leqallaşdırılmasının və
+terrorçuluğun maliyyələşdirilməsinin aşkar edilməsi, qarşısının alınması və ölkənin iqtisadi
+sistemindən qeyri-qanuni məqsədlər üçün istifadə olunma imkanlarını istisna edən şəraitin
+yaradılması, bu istiqamətdə Azərbaycan Respublikasının tərəfdar çıxdığı beynəlxalq
+müqavilələrdən irəli gələn öhdəliklərin yerinə yetirilməsi, habelə dövlətin və cəmiyyətin
+maraqlarının qorunması məqsədilə effektiv ölkədaxili və beynəlxalq əməkdaşlığın həyata
+keçirilməsi ilə bağlı münasibətləri tənzimləyir.
+1-ci fəsil
+ÜMUMİ MÜDDƏALAR
+
+---
+
+--- Document 5 ---
+Document: Valyuta tənzimi haqqında
+Category: aml_kyc
+Article: 14
+Page: 13
+
+Content:
+Maddə 14-1. Cinayət yolu ilə əldə edilmiş pul vəsaitlərinin və ya digər əmlakın
+[86]
+leqallaşdırılmasının və terrorçuluğun maliyyələşdirilməsinin qarşısının alınması
+14-1.1. Azərbaycan Respublikasının müvafiq icra hakimiyyəti orqanı valyuta sərvətlərinin və milli valyutanın
+Azərbaycan Respublikasına gətirilməsi və ya Azərbaycan Respublikasından çıxarılması zamanı cinayət yolu ilə əldə
+edilmiş pul vəsaitlərinin və ya digər əmlakın leqallaşdırılmasının və terrorçuluğun maliyyələşdirilməsinin izlərini
+aşkar etdikdə, cinayətin izlərinin qorunması və götürülməsi üçün tədbirlər görməli, əldə olunmuş məlumat və
+sənədləri aidiyyəti üzrə cinayət təqibini həyata keçirən orqana göndərməli, habelə bu barədə məlumat və sənədləri
+[87]
+maliyyə monitorinqi orqanına təqdim etməlidir.
+14-1.2. Valyuta mübadiləsi fəaliyyətinə lisenziya almış şəxslər “Cinayət yolu ilə əldə edilmiş pul vəsaitlərinin və ya
+digər əmlakın leqallaşdırılmasına və terrorçuluğun maliyyələşdirilməsinə qarşı mübarizə haqqında” və “Hədəfli
+[88]
+maliyyə sanksiyaları haqqında” Azərbaycan Respublikasının qanunlarından irəli gələn tələblərə əməl etməlidirlər.
+
+---
+
+Question: Cinayət yolu ilə əldə edilmiş əmlak nədir?
+
+Answer:

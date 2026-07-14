@@ -19,6 +19,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 # pyrefly: ignore [missing-import]
 from starlette.exceptions import HTTPException as StarletteHTTPException
+import sys
+from pathlib import Path
+
+# Add backend's parent directory to sys.path to allow backend package imports
+_backend_parent = str(Path(__file__).resolve().parent.parent.parent)
+if _backend_parent not in sys.path:
+    sys.path.insert(0, _backend_parent)
 
 from backend.app.api.chat import router as chat_router
 from backend.app.api.documents import router as documents_router
