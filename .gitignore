@@ -20,7 +20,12 @@ __pycache__/
 data/chroma/*
 data/qdrant/*
 
+backend/reguaz/models/.env
 backend/reguaz/models/
+data/qdrant/
+data/evaluation/*.xlsx
+results/
+logs/
 backend/reguaz/logs/
 
 

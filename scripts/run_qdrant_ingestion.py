@@ -35,7 +35,7 @@ from backend.reguaz.config import (
     DEFAULT_BATCH_SIZE,
     DEFAULT_COLLECTION_PREFIX,
     EMBEDDINGS_DIR,
-    QDRANT_DIR,
+    QDRANT_PATH,
 )
 from backend.reguaz.database.qdrant import QdrantDBManager
 from backend.reguaz.services.chunks.chunk_reader import ChunkReader
@@ -122,7 +122,7 @@ def parse_args() -> argparse.Namespace:
         "--qdrant-dir",
         type=str,
         default=None,
-        help=f"Local Qdrant storage directory (default: {QDRANT_DIR}).",
+        help=f"Local Qdrant storage directory (default: {QDRANT_PATH}).",
     )
     parser.add_argument(
         "--batch-size",
@@ -149,7 +149,7 @@ def build_settings(args: argparse.Namespace) -> IngestionSettings:
     """
     embeddings_dir = Path(args.embeddings_dir or EMBEDDINGS_DIR)
     chunks_dir = Path(args.chunks_dir or CHUNKS_DIR)
-    qdrant_dir = Path(args.qdrant_dir or QDRANT_DIR)
+    qdrant_dir = Path(args.qdrant_dir or QDRANT_PATH)
     batch_size = args.batch_size or DEFAULT_BATCH_SIZE
 
     collection_name = f"{DEFAULT_COLLECTION_PREFIX}_{EMBEDDING_MODEL}"

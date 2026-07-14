@@ -6406,3 +6406,235 @@ Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
 Skipped Chunk IDs: []
 2026-07-08 14:04:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 35.318s.
 2026-07-08 14:04:04 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 57.150s.
+2026-07-08 22:14:11 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=5.
+2026-07-08 22:14:12 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-08 22:14:19 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks in 7.600s.
+2026-07-08 22:14:19 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks. Chunk IDs: ['Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2', 'Banklar Haqqında Qanun_ch_I_art_2_6', '5b725bb224d33e2085294c793_art_3_12', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4']
+2026-07-08 22:14:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 6868 tokens.
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1345
+Current Budget: 1345 / 6868
+Decision: KEPT
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 711
+Current Budget: 2056 / 6868
+Decision: KEPT
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1317
+Current Budget: 3373 / 6868
+Decision: KEPT
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1198
+Current Budget: 4571 / 6868
+Decision: KEPT
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 108
+Current Budget: 4679 / 6868
+Decision: KEPT
+2026-07-08 22:14:20 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 5
+Kept Chunks: 5
+Skipped Chunks: 0
+Initial Context Tokens: 4679
+Final Context Tokens: 4679
+Remaining Budget: 2189
+Reduction: 0.0%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: []
+2026-07-08 22:16:22 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=5.
+2026-07-08 22:16:22 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-08 22:16:31 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks in 9.200s.
+2026-07-08 22:16:31 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks. Chunk IDs: ['Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2', 'Banklar Haqqında Qanun_ch_I_art_2_6', '5b725bb224d33e2085294c793_art_3_12', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4']
+2026-07-08 22:16:31 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 6868 tokens.
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1345
+Current Budget: 1345 / 6868
+Decision: KEPT
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 711
+Current Budget: 2056 / 6868
+Decision: KEPT
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1317
+Current Budget: 3373 / 6868
+Decision: KEPT
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1198
+Current Budget: 4571 / 6868
+Decision: KEPT
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 108
+Current Budget: 4679 / 6868
+Decision: KEPT
+2026-07-08 22:16:32 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 5
+Kept Chunks: 5
+Skipped Chunks: 0
+Initial Context Tokens: 4679
+Final Context Tokens: 4679
+Remaining Budget: 2189
+Reduction: 0.0%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: []
+2026-07-08 22:17:47 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 75.204s.
+2026-07-08 22:17:47 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 84.582s.
+2026-07-08 22:17:47 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: built 5 retrieved_context objects for source attribution.
+2026-07-08 22:17:47 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Məqbul və lazımi keyfiyyətlərə malik şəxs" dedikd...'
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks in 15.880s.
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_I_art_1_3_part2', '590-IIQ-Banklar haqqında_ch_I_art_1_3_part2', 'Banklar Haqqında Qanun_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part3']
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 6868 tokens.
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1590
+Current Budget: 1590 / 6868
+Decision: KEPT
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1597
+Current Budget: 3187 / 6868
+Decision: KEPT
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1650
+Current Budget: 4837 / 6868
+Decision: KEPT
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1648
+Current Budget: 6485 / 6868
+Decision: KEPT
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1141
+Current Budget: 6485 / 6868
+Decision: SKIPPED
+2026-07-08 22:18:03 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 5
+Kept Chunks: 4
+Skipped Chunks: 1
+Initial Context Tokens: 7626
+Final Context Tokens: 6485
+Remaining Budget: 383
+Reduction: 15.0%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: ['UNKNOWN']
+2026-07-08 22:18:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 39.194s.
+2026-07-08 22:18:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 55.283s.
+2026-07-08 22:18:42 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline: built 5 retrieved_context objects for source attribution.
+2026-07-08 22:38:39 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=5.
+2026-07-08 22:38:39 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks in 8.569s.
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks. Chunk IDs: ['Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2', 'Banklar Haqqında Qanun_ch_I_art_2_6', '5b725bb224d33e2085294c793_art_3_12', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4']
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 6868 tokens.
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1345
+Current Budget: 1345 / 6868
+Decision: KEPT
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 711
+Current Budget: 2056 / 6868
+Decision: KEPT
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1317
+Current Budget: 3373 / 6868
+Decision: KEPT
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1198
+Current Budget: 4571 / 6868
+Decision: KEPT
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 108
+Current Budget: 4679 / 6868
+Decision: KEPT
+2026-07-08 22:38:48 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 5
+Kept Chunks: 5
+Skipped Chunks: 0
+Initial Context Tokens: 4679
+Final Context Tokens: 4679
+Remaining Budget: 2189
+Reduction: 0.0%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: []
+2026-07-08 22:40:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 75.721s.
+2026-07-08 22:40:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 84.460s.
+2026-07-08 22:40:03 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: '"Məqbul və lazımi keyfiyyətlərə malik şəxs" dedikd...'
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks in 15.288s.
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks. Chunk IDs: ['Banklar Haqqında Qanun_ch_I_art_1_3_part2', '590-IIQ-Banklar haqqında_ch_I_art_1_3_part2', 'Banklar Haqqında Qanun_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part2', '590-IIQ-Banklar haqqında_ch_III_art_22_35_part3']
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 6868 tokens.
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1590
+Current Budget: 1590 / 6868
+Decision: KEPT
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1597
+Current Budget: 3187 / 6868
+Decision: KEPT
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1650
+Current Budget: 4837 / 6868
+Decision: KEPT
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1648
+Current Budget: 6485 / 6868
+Decision: KEPT
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1141
+Current Budget: 6485 / 6868
+Decision: SKIPPED
+2026-07-08 22:40:19 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 5
+Kept Chunks: 4
+Skipped Chunks: 1
+Initial Context Tokens: 7626
+Final Context Tokens: 6485
+Remaining Budget: 383
+Reduction: 15.0%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: ['UNKNOWN']
+2026-07-08 22:40:58 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 39.337s.
+2026-07-08 22:40:58 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 54.743s.
+2026-07-08 22:44:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | GenerationPipeline initialized with top_k=5.
+2026-07-08 22:44:18 | INFO     | backend.reguaz.services.generation.generation_pipeline | Processing question: 'Kredit təşkilatı nədir?...'
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks in 8.475s.
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.generation_pipeline | Retrieved 5 chunks. Chunk IDs: ['Nizamnamə kapitalında dövlətə məxsus səhmlər olan bankların və bank olmayan kredit təşkilatlarının idarə edilməsində dövlətin iştirakı qaydası haqqında_art_1_2', 'Banklar Haqqında Qanun_ch_I_art_2_6', '5b725bb224d33e2085294c793_art_3_12', '933-IIIQ-Bank olmayan kredit təşkilatları haqqında_ch_I_art_1_3', 'AZƏRBAYCAN RESPUBLİKASININ QANUNU_ch_I_art_1_4']
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager initialized filter with budget: 6868 tokens.
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1345
+Current Budget: 1345 / 6868
+Decision: KEPT
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 711
+Current Budget: 2056 / 6868
+Decision: KEPT
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1317
+Current Budget: 3373 / 6868
+Decision: KEPT
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 1198
+Current Budget: 4571 / 6868
+Decision: KEPT
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.context_budget_manager | Chunk UNKNOWN
+Tokens: 108
+Current Budget: 4679 / 6868
+Decision: KEPT
+2026-07-08 22:44:26 | INFO     | backend.reguaz.services.generation.context_budget_manager | ContextBudgetManager Final Summary
+----------------------------------
+Initial Chunks: 5
+Kept Chunks: 5
+Skipped Chunks: 0
+Initial Context Tokens: 4679
+Final Context Tokens: 4679
+Remaining Budget: 2189
+Reduction: 0.0%
+
+Kept Chunk IDs: ['UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN', 'UNKNOWN']
+Skipped Chunk IDs: []
+2026-07-08 22:45:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | Generation completed in 74.834s.
+2026-07-08 22:45:41 | INFO     | backend.reguaz.services.generation.generation_pipeline | Total pipeline time: 83.440s.

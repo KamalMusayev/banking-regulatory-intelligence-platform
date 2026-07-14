@@ -57,7 +57,7 @@ QUERY_PREFIX: dict[str, str] = {
 
 DEFAULT_DATASET_PATH = Path("data/evaluation/gold_dataset_for_embedding_excel.xlsx")
 DEFAULT_CHROMA_DIR = "data/chroma"
-DEFAULT_RESULTS_DIR = Path("results")
+DEFAULT_RESULTS_DIR = str(config.RESULTS_PATH)
 
 
 # ---------------------------------------------------------------------------
@@ -404,7 +404,7 @@ def main() -> None:
     parser.add_argument(
         "--results-dir",
         type=str,
-        default=str(DEFAULT_RESULTS_DIR),
+        default=DEFAULT_RESULTS_DIR,
         help=f"Directory where result CSV files will be saved (default: {DEFAULT_RESULTS_DIR}).",
     )
     args = parser.parse_args()
