@@ -12,27 +12,24 @@ import {
   Tag,
   Calendar,
   Layers,
-  CheckCircle,
-  HelpCircle,
-  ChevronDown
+  CheckCircle
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { useUIStore } from "@/stores/useUIStore";
-import { useGetDocuments, useGetDocumentMetadata, useGetDocumentPage } from "@/hooks/useDocuments";
+import { useGetDocumentMetadata, useGetDocumentPage } from "@/hooks/useDocuments";
 import { toast } from "sonner";
 
 export const DocumentContainer: React.FC = () => {
-  const { activeDocument, setActiveDocument, selectedCitation, setSelectedCitation } = useUIStore();
+  const { activeDocument, setActiveDocument, setSelectedCitation } = useUIStore();
   
   const [searchQuery, setSearchQuery] = useState("");
   const [zoomLevel, setZoomLevel] = useState(100);
   const [activeTab, setActiveTab] = useState<"content" | "metadata">("content");
 
-  const documentsQuery = useGetDocuments();
+
   const metadataQuery = useGetDocumentMetadata(activeDocument?.documentId || null);
   const pageQuery = useGetDocumentPage(
     activeDocument?.documentId || null, 

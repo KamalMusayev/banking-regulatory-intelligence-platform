@@ -9,16 +9,13 @@ import {
   Info
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
-import { Skeleton } from "@/components/ui/skeleton";
 import { useChatStore } from "@/stores/useChatStore";
 import { useUIStore } from "@/stores/useUIStore";
 import { useChat } from "@/hooks/useChat";
 import { MarkdownRenderer } from "./MarkdownRenderer";
 
 export const ChatContainer: React.FC = () => {
-  const { messages, isGenerating, activeSessionId } = useChatStore();
+  const { messages, isGenerating } = useChatStore();
   const { sidebarOpen, toggleSidebar } = useUIStore();
   const { sendMessage } = useChat();
   const [inputValue, setInputValue] = useState("");

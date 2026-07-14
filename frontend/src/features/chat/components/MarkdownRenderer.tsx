@@ -2,7 +2,6 @@ import React from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useUIStore } from "@/stores/useUIStore";
-import { useChatStore } from "@/stores/useChatStore";
 
 interface MarkdownRendererProps {
   content: string;
@@ -11,7 +10,6 @@ interface MarkdownRendererProps {
 
 export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, sources }) => {
   const { setSelectedCitation, setActiveDocument } = useUIStore();
-  const { activeSessionId } = useChatStore();
 
   const handleCitationClick = (citationNumber: number) => {
     if (!sources) return;
@@ -66,11 +64,14 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, sou
       if (typeof child === "string") {
         return renderTextWithCitations(child);
       }
-      if (React.isValidElement(child) && child.props.children) {
-        return React.cloneElement(child, {
-          ...child.props,
-          children: injectCitations(child.props.children),
-        });
+      if (React.isValidElement(child)) {
+        const element = child as React.ReactElement<{ children?: React.ReactNode }>;
+        if (element.props && element.props.children) {
+          return React.cloneElement(element, {
+            ...element.props,
+            children: injectCitations(element.props.children),
+          });
+        }
       }
       return child;
     });
