@@ -33,7 +33,7 @@ export const useAuthStore = create<AuthState>((set) => {
       
       const mockUser: User = {
         id: "usr-1",
-        name: "Elşən Məmmədov",
+        name: "Shamil Aliyev",
         email: email,
       };
 
