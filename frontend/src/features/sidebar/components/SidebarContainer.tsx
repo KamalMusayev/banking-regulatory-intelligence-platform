@@ -260,12 +260,12 @@ export const SidebarContainer: React.FC = () => {
             <div className="flex items-center gap-2 truncate">
               <Avatar className="h-8 w-8">
                 <AvatarFallback className="bg-navy-900 text-white dark:bg-gold-500 dark:text-navy-950 font-bold">
-                  {user?.name?.slice(0, 2).toUpperCase() || "EM"}
+                  {user?.name?.slice(0, 2).toUpperCase() || "SA"}
                 </AvatarFallback>
               </Avatar>
               <div className="text-left truncate">
-                <p className="text-xs font-bold truncate">{user?.name || "Elşən Məmmədov"}</p>
-                <p className="text-[10px] text-muted-foreground truncate">{user?.email || "elshan@cbar.az"}</p>
+                <p className="text-xs font-bold truncate">{user?.name || "Shamil Aliyev"}</p>
+                <p className="text-[10px] text-muted-foreground truncate">{user?.email || "shamil@cbar.az"}</p>
               </div>
             </div>
             <button
@@ -280,7 +280,7 @@ export const SidebarContainer: React.FC = () => {
           <div className="flex flex-col items-center">
             <Avatar className="h-8 w-8 mb-2">
               <AvatarFallback className="bg-navy-900 text-white dark:bg-gold-500 dark:text-navy-950 font-bold">
-                {user?.name?.slice(0, 2).toUpperCase() || "EM"}
+                {user?.name?.slice(0, 2).toUpperCase() || "SA"}
               </AvatarFallback>
             </Avatar>
             <button
