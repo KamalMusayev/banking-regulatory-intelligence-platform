@@ -345,39 +345,35 @@ poetry install
 
 | Milestone | Status | Description |
 |---|---|---|
-| Regulatory document collection | ✅ Done | 96 PDFs collected and organized across 8 categories. |
-| PDF extraction | ✅ Done | pdfplumber-based parsing, cleaning, and preprocessing. |
-| Metadata generation | ✅ Done | Per-document metadata (pages, chunk counts, language, timestamps). |
-| Intelligent chunking | ✅ Done | Chapter/article-aware chunking with hierarchical chunk IDs. |
-| Sliding-window chunking | ✅ Done | 4,000-char window with 500-char overlap. |
-| Embedding infrastructure | ✅ Done | Modular writer/reader pipeline with JSONL persistence. |
-| Embedding model abstraction | ✅ Done | Common interface across four embedding models. |
-| BGE-M3 integration | ✅ Done | Primary production embedding model. |
-| Qdrant integration | ✅ Done | Production vector database, deterministic ID mapping. |
-| ChromaDB integration | ✅ Done | Local development / experimentation vector store. |
-| BM25 retrieval | ✅ Done | Lexical retrieval for mixed-language text. |
-| Hybrid retrieval | ✅ Done | Dense + sparse combination. |
-| Reciprocal Rank Fusion | ✅ Done | Fusion logic for hybrid retrieval. |
-| Cross-Encoder reranking | ✅ Done | BGE-reranker-v2-m3 applied on the Qdrant hybrid path. |
-| Retrieval evaluation framework | ✅ Done | Recall@K, Precision@K, MRR@10, nDCG@K. |
-| Evaluation datasets and metrics | ✅ Done | 121-question hand-labeled gold set. |
-| Prompt Builder | ✅ Done | Azerbaijani, context-only system prompt. |
-| LLM provider abstraction | ✅ Done | `BaseLLMProvider`, `LLMProviderFactory`, dependency injection. |
-| Multi-device support | ✅ Done | Automatic MPS / CUDA / CPU detection. |
-| Backend implementation (FastAPI) | ✅ Done | Core service layer implemented. |
-| Frontend implementation (React) | ✅ Done | Core frontend implemented. |
-| Configuration system | ✅ Done | Centralized paths and constants. |
-| CLI pipeline scripts | ✅ Done | One script per pipeline stage. |
-| Logging and project infrastructure | ✅ Done | Shared logger factory, rotating file handlers. |
-| Local LLM integration (Gemma 3 4B via llama.cpp) | 🟡 In Progress | Currently being finalized and validated. |
-| End-to-end RAG generation pipeline | ⬜ Planned | Wire retrieval directly into LLM generation as one workflow. |
-| Conversation memory | ⬜ Planned | Multi-turn context handling. |
-| Performance optimization | ⬜ Planned | Latency and throughput tuning across the pipeline. |
-| Docker deployment | ⬜ Planned | Containerized deployment. |
-| CI/CD | ⬜ Planned | Automated testing and deployment pipeline. |
-| Production deployment | ⬜ Planned | Monitoring, infrastructure, and go-live readiness. |
+| Regulatory document collection | ✅ Complete | 96 Central Bank regulatory PDFs collected and organized across 8 categories. |
+| PDF extraction | ✅ Complete | Reliable document parsing, cleaning, and preprocessing using `pdfplumber`. |
+| Metadata generation | ✅ Complete | Automatic document metadata generation, including page information and source tracking. |
+| Intelligent chunking | ✅ Complete | Chapter/article-aware chunking with hierarchical chunk identifiers. |
+| Sliding-window chunking | ✅ Complete | Overlapping chunk strategy for improved retrieval coverage. |
+| Embedding infrastructure | ✅ Complete | Modular embedding pipeline with JSONL persistence and reusable components. |
+| Embedding model abstraction | ✅ Complete | Unified interface supporting multiple embedding models. |
+| BGE-M3 integration | ✅ Complete | Selected as the production embedding model after comparative evaluation. |
+| Qdrant integration | ✅ Complete | Production vector database with deterministic chunk-to-point mapping. |
+| ChromaDB integration | ✅ Complete | Local development and experimentation backend. |
+| BM25 retrieval | ✅ Complete | Sparse lexical retrieval for keyword-based matching. |
+| Hybrid retrieval | ✅ Complete | Dense (Qdrant) and sparse (BM25) retrieval combined into a unified search pipeline. |
+| Reciprocal Rank Fusion (RRF) | ✅ Complete | Rank fusion strategy for combining dense and sparse retrieval results. |
+| Cross-Encoder reranking | ✅ Complete | `bge-reranker-v2-m3` integrated for relevance-based reranking. |
+| Retrieval evaluation framework | ✅ Complete | Automated evaluation using Recall@K, Precision@K, MRR@10, and nDCG@K. |
+| Gold evaluation dataset | ✅ Complete | 121 manually curated question-answer pairs for benchmarking retrieval quality. |
+| Prompt Builder | ✅ Complete | Grounded Azerbaijani system prompt ensuring context-aware answer generation. |
+| LLM provider abstraction | ✅ Complete | Provider architecture with dependency injection and factory pattern. |
+| Multi-device support | ✅ Complete | Automatic execution on CUDA, Apple MPS, or CPU depending on available hardware. |
+| Local LLM integration | ✅ Complete | Gemma 3 4B integrated through `llama.cpp` for fully local inference. |
+| End-to-end RAG pipeline | ✅ Complete | Complete workflow from user query to grounded answer generation, including retrieval, reranking, prompt construction, and local LLM inference. |
+| Conversation memory | ✅ Complete | Session-based conversation history maintained throughout an active chat session. |
+| FastAPI backend | ✅ Complete | Production-ready REST API exposing the complete RAG pipeline. |
+| React frontend | ✅ Complete | Interactive web interface for chat, citations, and document exploration. |
+| Configuration system | ✅ Complete | Centralized configuration management using environment variables and shared settings. |
+| CLI pipeline scripts | ✅ Complete | Dedicated scripts for ingestion, chunking, embedding, indexing, evaluation, and inference workflows. |
+| Logging infrastructure | ✅ Complete | Centralized logging with structured output for debugging and monitoring. |
+| Docker containerization | ✅ Complete | Backend and supporting services fully containerized for local/on-premise deployment. |
 
-Most of the platform is already built and evaluated; what remains is finalizing local LLM inference and productionizing the system end to end.
 
 ---
 
